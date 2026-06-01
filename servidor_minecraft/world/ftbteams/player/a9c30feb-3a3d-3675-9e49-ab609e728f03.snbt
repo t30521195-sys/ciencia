@@ -1,0 +1,17 @@
+{
+	id: "a9c30feb-3a3d-3675-9e49-ab609e728f03"
+	type: "player"
+	player_name: "Anghel956"
+	ranks: {
+		a9c30feb-3a3d-3675-9e49-ab609e728f03: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Anghel956"
+		"ftbteams:description": ""
+		"ftbteams:color": "#CCFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
