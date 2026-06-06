@@ -1,0 +1,17 @@
+{
+	id: "c18ad33c-b77b-30ec-9aa6-68e3cd55f8a0"
+	type: "player"
+	player_name: "elbbtick2142"
+	ranks: {
+		c18ad33c-b77b-30ec-9aa6-68e3cd55f8a0: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "elbbtick2142"
+		"ftbteams:description": ""
+		"ftbteams:color": "#85FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
