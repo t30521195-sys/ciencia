@@ -3,19 +3,19 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "minecraft:overworld", x: 785, y: 65, z: -1487, time: 1780618890199L, xRot: 0.0f, yRot: 117.78763f }
+	last_seen: { dim: "tcrcore:sanctum", x: 80, y: 73, z: -139, time: 1781317383861L, xRot: 31.407484f, yRot: 180.0f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "minecraft:overworld", x: -5655, y: 33, z: -1912, time: 1780603803728L }
-		{ dim: "minecraft:overworld", x: -5657, y: 35, z: -1909, time: 1780604019978L }
-		{ dim: "minecraft:overworld", x: -5649, y: 33, z: -1914, time: 1780604078401L }
-		{ dim: "minecraft:overworld", x: -5645, y: 33, z: -1902, time: 1780604110017L }
-		{ dim: "minecraft:overworld", x: -3510, y: 77, z: -1942, time: 1780607908666L }
-		{ dim: "minecraft:overworld", x: -4579, y: 65, z: -307, time: 1780613495845L }
-		{ dim: "minecraft:overworld", x: -4583, y: 65, z: -296, time: 1780615654728L }
-		{ dim: "minecraft:overworld", x: -4574, y: 64, z: -277, time: 1780615756779L }
-		{ dim: "cataclysm_dimension:cataclysm_pharaohs_bane", x: 66, y: 139, z: 1, time: 1780616955947L }
 		{ dim: "minecraft:overworld", x: -4420, y: 74, z: -3529, time: 1780617242383L }
+		{ dim: "minecraft:overworld", x: 811, y: 63, z: -1469, time: 1781308631407L }
+		{ dim: "minecraft:overworld", x: 172, y: 268, z: -6035, time: 1781309951551L }
+		{ dim: "minecraft:overworld", x: 800, y: 63, z: -1488, time: 1781310070836L }
+		{ dim: "minecraft:overworld", x: -3881, y: 79, z: -1467, time: 1781310610490L }
+		{ dim: "minecraft:overworld", x: -3874, y: 74, z: -1468, time: 1781310747815L }
+		{ dim: "minecraft:overworld", x: -3883, y: 78, z: -1466, time: 1781310957699L }
+		{ dim: "minecraft:overworld", x: -3432, y: 52, z: -2871, time: 1781313472416L }
+		{ dim: "cataclysm_dimension:cataclysm_abyssal_depths", x: 10, y: 84, z: -21, time: 1781313897950L }
+		{ dim: "minecraft:overworld", x: 235, y: 35, z: -549, time: 1781314201915L }
 	]
 	homes: { }
 	kit_use_times: { }

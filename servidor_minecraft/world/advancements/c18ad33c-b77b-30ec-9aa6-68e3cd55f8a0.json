@@ -132,9 +132,15 @@
     "criteria": {
       "cooked_mutton": "2026-06-01 19:27:02 +0000",
       "baked_potato": "2026-06-01 05:39:39 +0000",
+      "cooked_cod": "2026-06-13 01:13:16 +0000",
+      "pumpkin_pie": "2026-06-13 01:14:16 +0000",
       "bread": "2026-06-01 02:12:17 +0000",
+      "golden_apple": "2026-06-13 00:12:08 +0000",
+      "golden_carrot": "2026-06-13 00:13:05 +0000",
       "cooked_chicken": "2026-06-01 19:28:11 +0000",
-      "mushroom_stew": "2026-06-05 00:07:29 +0000"
+      "mushroom_stew": "2026-06-05 00:07:29 +0000",
+      "cooked_salmon": "2026-06-13 00:24:44 +0000",
+      "carrot": "2026-06-13 02:00:49 +0000"
     },
     "done": false
   },
@@ -605,6 +611,36 @@
   "alexsmobs:alexsmobs/seagull_steal": {
     "criteria": {
       "ex": "2026-06-04 23:53:35 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_umvuthi": {
+    "criteria": {
+      "barako": "2026-06-13 00:41:38 +0000"
+    },
+    "done": true
+  },
+  "ba_bt:battletowers/kill_ocean_golem": {
+    "criteria": {
+      "Kill Golem": "2026-06-13 01:16:51 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2026-06-13 01:24:51 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_frosted_prison": {
+    "criteria": {
+      "prison": "2026-06-13 02:02:53 +0000"
+    },
+    "done": true
+  },
+  "tcrcore:unlock_magic_and_boss": {
+    "criteria": {
+      "unlock_magic_and_boss": "2026-06-13 01:57:40 +0000"
     },
     "done": true
   },
