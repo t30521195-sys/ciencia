@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"cib:ak105\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"AUTO\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AmmoId:\"cib:545x39\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 8
+                        }
+                    ],
+                    "name": "tacz:ammo"
+                }
+            ]
+        }
+    ]
+}

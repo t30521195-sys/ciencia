@@ -1,0 +1,3 @@
+#A list of messages that if contained in a message will be stopped.
+messages = ["Thank you for downloading Bunker Down! Make sure to set your spawn point at one of the beds, and get ready for underground living", "Thank you for downloading Bunker Down!", "Make sure to set your spawn point at one of the beds, and get ready for underground living", "If you need help with Orva Alarms Press \"P\" (if not changed)"]
+

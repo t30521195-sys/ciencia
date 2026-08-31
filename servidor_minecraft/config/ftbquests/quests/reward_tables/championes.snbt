@@ -1,0 +1,10 @@
+{
+	id: "50E6EEF3BB99D9DB"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:brown_mushroom", random_bonus: 3 }
+		{ item: "minecraft:red_mushroom", random_bonus: 3 }
+	]
+	title: "{ftbquests.loot_table.5829609498269571547.title}"
+}

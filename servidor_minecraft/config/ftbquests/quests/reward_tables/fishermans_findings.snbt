@@ -1,0 +1,47 @@
+{
+	icon: "aquaculture:tackle_box"
+	id: "222F775519C81215"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{ count: 16, item: "aquaculture:spruce_fish_mount", weight: 0.1f }
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "aquaculture:worm"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.15f
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:iron_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:gold_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.15f
+		}
+		{ item: "aquaculture:worm_farm", weight: 0.1f }
+		{ item: "aquaculture:double_hook", weight: 0.1f }
+		{ item: "aquaculture:note_hook", weight: 0.05f }
+		{ count: 2, item: "aquaculture:iron_hook", random_bonus: 1, weight: 0.15f }
+		{ count: 8, item: "aquaculture:fishing_line", weight: 0.1f }
+	]
+	title: "{ftbquests.loot_table.2463318728583418389.title}"
+	use_title: true
+}

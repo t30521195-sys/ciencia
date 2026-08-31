@@ -1,0 +1,21 @@
+{
+	icon: "quark:jungle_chest"
+	id: "5F37E7ED74727BF3"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{ item: "immersive_aircraft:engine", weight: 0.02f }
+		{ item: "immersive_aircraft:nether_engine", weight: 0.02f }
+		{ item: "immersive_aircraft:gyroscope", weight: 0.085f }
+		{ item: "immersive_aircraft:industrial_gears", weight: 0.085f }
+		{ item: "immersive_aircraft:hull_reinforcement", weight: 0.085f }
+		{ item: "immersive_aircraft:improved_landing_gear", weight: 0.085f }
+		{ item: "immersive_aircraft:sturdy_pipes", weight: 0.085f }
+		{ item: "immersive_aircraft:steel_boiler", weight: 0.085f }
+		{ count: 2, item: "immersive_aircraft:hull", weight: 0.15f }
+		{ count: 2, item: "immersive_aircraft:sail", weight: 0.15f }
+		{ count: 2, item: "immersive_aircraft:propeller", weight: 0.15f }
+	]
+	title: "{ftbquests.loot_table.6861207564369165299.title}"
+	use_title: true
+}

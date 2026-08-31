@@ -1,0 +1,108 @@
+{
+	icon: "moa_decor_science:libros"
+	id: "3533844859EE723A"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Efficiency  III"
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "Protection II"
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:smite"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Smite III"
+			weight: 1.4f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Mending"
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "bulletarmorenchant:bullet_proof"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "Bullet prove II"
+			weight: 0.9f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Fortune I"
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Looting I"
+			weight: 0.5f
+		}
+	]
+	title: "{ftbquests.loot_table.3833553154103734842.title}"
+	use_title: true
+}

@@ -1,0 +1,105 @@
+[20:04:26] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[20:04:26] [INIT] Loaded plugins:
+[20:04:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:04:26] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
+[20:04:26] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[20:04:26] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[20:04:26] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[20:04:28] [INFO] Loaded script server_scripts:BulletSound.js in 0.017 s
+[20:04:28] [INFO] Loaded script server_scripts:kubejs-armor-replace.js in 0.002 s
+[20:04:28] [INFO] TacZScriptLibrary.js#1: Loaded Java class 'com.tacz.guns.resource.modifier.custom.SilenceModifier'
+[20:04:28] [INFO] TacZScriptLibrary.js#2: Loaded Java class 'com.tacz.guns.api.entity.IGunOperator'
+[20:04:28] [INFO] Loaded script server_scripts:TacZScriptLibrary.js in 0.002 s
+[20:04:28] [INFO] Loaded script server_scripts:tags.js in 0.007 s
+[20:04:28] [INFO] Loaded 4/4 KubeJS server scripts in 0.046 s with 0 errors and 0 warnings
+[20:04:28] [INFO] Scripts loaded
+[20:04:28] [INFO] Initializing recipe event...
+[20:04:33] [INFO] [minecraft:item] Found 2085 tags, added 279 objects, removed 1 objects
+[20:04:39] [INFO] Processing recipes...
+[20:04:39] [WARN] Failed to parse recipe 'rainbowreef:milk_bottle_clownfish_cupcake[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:cloggrum_great_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:froststeel_hammer[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/lime_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:cloggrum_club[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/light_gray_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:cooked_chevon_chop[minecraft:smelting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:cloggrum_dagger[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:tortoise_egg_crate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/cyan_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'marbledsarsenal:riot_shield[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/purple_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'skys_overworld_netherite:largeshardcraft[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:forgotten_dagger_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'rainbowreef:milk_bottle_goby_gummy[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:cloggrum_gloves[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:forgotten_hammer_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'supplementaries:twigs/clean_flowered_paper_lanterns[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/orange_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:cloggrum_quarterstaff[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:forgotten_quarterstaff_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/white_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:utherium_hammer[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:froststeel_spear[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'jeffs_cursed_walking_structures:m_4_a_1_skin_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:cooked_chevon_chop_from_smoking[minecraft:smoking]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:froststeel_club[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:utherium_great_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:froststeel_dagger[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/yellow_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:forgotten_great_sword_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:utherium_great_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:utherium_club[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/pink_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:froststeel_gloves[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:froststeel_great_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'marbledsarsenal:heavy_riot_shield[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'jeffs_cursed_walking_structures:m_4_sopmodii_skin_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/light_blue_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'worldofwonder:stem_boat_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/brown_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'jeffs_cursed_walking_structures:l_96_a_2_skin_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:froststeel_quarterstaff[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:utherium_gloves[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'rainbowreef:milk_bottle_buttered_butterflyfish[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:forgotten_spear_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'minecraft:soul_campfire[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/green_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:cloggrum_spear[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:cooked_chevon_chop_from_campfire_cooking[minecraft:campfire_cooking]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/gray_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'unusual_delight:cookdeathegg[minecraft:smelting]'! Falling back to vanilla: Ingredient 'ingredient' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/magenta_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:cloggrum_hammer[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:utherium_dagger[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/red_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:froststeel_great_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:utherium_quarterstaff[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:forgotten_club_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/black_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'butcher:neoforgeguiderecipe[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:utherium_spear[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:forgotten_great_axe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'extra_compat:cloggrum_great_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'unusual_delight:cookdeathegggiant[minecraft:smelting]'! Falling back to vanilla: Ingredient 'ingredient' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'minecraft:campfire[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [WARN] Failed to parse recipe 'autumnity:wallpapers/blue_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:04:39] [INFO] Found 15735 recipes in 275.0 ms
+[20:04:39] [INFO] kubejs-armor-replace.js#5: [ArmorReplace] Iniciando reemplazo global de armaduras...
+[20:04:40] [INFO] kubejs-armor-replace.js#25: [ArmorReplace] ¡Todos los outputs de recetas de armaduras han sido reemplazados!
+[20:04:40] [INFO] Posted recipe events in 842.0 ms
+[20:04:40] [WARN] Error parsing recipe unusual_delight:spuldango[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"unusual_delight:soul"},{"item":"unusual_delight:frost_sugar"},{"item":"farmersdelight:rice"}],"result":{"item":"unusual_delight:soul_roll","count":3}}: Unknown item 'unusual_delight:frost_sugar'
+[20:04:40] [WARN] Error parsing recipe unusual_delight:tsandrecp[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"iceandfire:deathworm_tounge"},{"item":"unusual_delight:candied_slime"},{"item":"minecraft:bread"},{"item":"minecraft:bread"}],"result":{"item":"unusual_delight:tongue_sandwich","count":2}}: Unknown item 'iceandfire:deathworm_tounge'
+[20:04:40] [WARN] Error parsing recipe alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]: {"group":"barbecue_stick","type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersdelight:tomato"},{"item":"farmersdelight:onion"},{"item":"amfd:singular_cooked_moose_rib"},{"item":"minecraft:cooked_chicken"},{"item":"minecraft:stick"},{"item":"minecraft:stick"}],"result":{"item":"farmersdelight:barbecue_stick","count":2}}: Unknown item 'amfd:singular_cooked_moose_rib'
+[20:04:40] [WARN] Error parsing recipe unusual_delight:talonpowrecp[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"iceandfire:hippogryph_talon"},{"item":"minecraft:bowl"},{"item":"minecraft:bowl"},{"item":"minecraft:bowl"}],"result":{"item":"unusual_delight:talon_powder","count":3}}: Unknown item 'iceandfire:hippogryph_talon'
+[20:04:40] [WARN] Error parsing recipe unusual_delight:nemomuf[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"unusual_delight:pumpkin_mousse_bowl"},{"item":"unusual_delight:sugar_cube"},{"item":"minecraft:wheat"},{"item":"minecraft:wheat"},{"item":"iceandfire:cyclops_eye"}],"result":{"item":"unusual_delight:nemo_muffin","count":1}}: Unknown item 'iceandfire:cyclops_eye'
+[20:04:40] [WARN] Error parsing recipe unusual_delight:dragonirecp[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"iceandfire:dragon_ice"},{"item":"iceandfire:dragon_ice"},{"item":"minecraft:snowball"},{"item":"minecraft:bowl"}],"result":{"item":"unusual_delight:dragon_ice_cream","count":1}}: Unknown item 'iceandfire:dragon_ice'
+[20:04:40] [WARN] Error parsing recipe unusual_delight:deathwormhatch[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"unusual_delight:rotten_ham"},{"item":"iceandfire:deathworm_egg_giant"}],"result":{"item":"unusual_delight:deathworm_baby","count":1}}: Unknown item 'iceandfire:deathworm_egg_giant'
+[20:04:40] [WARN] Error parsing recipe unusual_delight:fiddlecorecp[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"alexscaves:fiddlehead"},{"item":"alexscaves:fiddlehead"},{"item":"alexscaves:fiddlehead"}],"result":{"item":"unusual_delight:fiddlehead_cookie","count":3}}: Unknown item 'alexscaves:fiddlehead'
+[20:04:40] [WARN] Error parsing recipe unusual_delight:dryberry_2[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:sugar"},{"item":"minecraft:sweet_berry_bush"},{"item":"minecraft:sweet_berry_bush"}],"result":{"item":"unusual_delight:dried_berry","count":2}}: Unknown item 'minecraft:sweet_berry_bush'
+[20:04:40] [WARN] Error parsing recipe unusual_delight:amcityrecp[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"unusual_delight:amber_cookie"},{"item":"alexscaves:amber_curiosity"},{"item":"unusual_delight:amber_cookie"}],"result":{"item":"unusual_delight:ambercookiocity","count":2}}: Unknown item 'alexscaves:amber_curiosity'
+[20:04:40] [WARN] Error parsing recipe unusual_delight:lightningdoughrecp[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"unusual_delight:chorus_honey_bottle"},{"item":"minecraft:wheat"},{"item":"minecraft:wheat"},{"item":"iceandfire:lightning_dragon_blood"},{"item":"unusual_delight:magic_butter"}],"result":{"item":"unusual_delight:lightning_sourdough","count":2}}: Unknown item 'iceandfire:lightning_dragon_blood'
+[20:04:40] [WARN] Error parsing recipe unusual_delight:bonemarrowrecp[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"alexscaves:heavy_bone"},{"item":"alexscaves:heavy_bone"}],"result":{"item":"unusual_delight:bone_marrow","count":3}}: Unknown item 'alexscaves:heavy_bone'
+[20:04:40] [WARN] Error parsing recipe unusual_delight:ambercookierecp[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:wheat"},{"item":"alexscaves:amber"},{"item":"minecraft:wheat"}],"result":{"item":"unusual_delight:amber_cookie","count":8}}: Unknown item 'alexscaves:amber'
+[20:04:40] [WARN] Error parsing recipe unusual_delight:scalecrecp[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"iceandfire:shiny_scales"}],"result":{"item":"unusual_delight:scale_chip","count":1}}: Unknown item 'iceandfire:shiny_scales'
+[20:04:40] [INFO] Added 0 recipes, removed 0 recipes, modified 14 recipes, with 14 failed recipes in 168.3 ms
+[20:04:50] [INFO] Server resource reload complete!

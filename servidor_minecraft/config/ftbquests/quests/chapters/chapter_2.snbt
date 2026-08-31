@@ -1,0 +1,962 @@
+{
+	autofocus_id: "619E1D4FF9A5C7C0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2"
+	group: "463CB09C632FE18F"
+	icon: "create:cuckoo_clock"
+	id: "0B7CBFCA41017135"
+	images: [
+		{
+			click: "#06BFACFC334A53DB"
+			dependency: "049A2DEE2DAC5353"
+			height: 0.5d
+			hover: ["ftbquests.chapter.chapter_2.image.hovertext1"]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.35d
+			y: -0.37d
+		}
+		{
+			click: "#27900E4479E6E12D"
+			dependency: "049A2DEE2DAC5353"
+			height: 0.5d
+			hover: ["ftbquests.chapter.chapter_2.image.hovertext2"]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.9047619047619193d
+			y: 1.6785714285714306d
+		}
+		{
+			click: "#5338AB36F37EA112"
+			dependency: "0A35E9AB36150502"
+			height: 0.5d
+			hover: ["ftbquests.chapter.chapter_2.image.hovertext3"]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.7285714285714278d
+			y: 3.528571428571425d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["432A74E7950B90FD"]
+			description: [
+				"{ftbquests.chapter.chapter_2.quest7034091897327306688.description1}"
+				""
+				"{ftbquests.chapter.chapter_2.quest7034091897327306688.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "moa_decor_science:libroytintero"
+			id: "619E1D4FF9A5C7C0"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.chapter_2.quest7034091897327306688.subtitle}"
+			tasks: [{
+				id: "662C027847A5B00F"
+				title: "{ftbquests.chapter.chapter_2.quest7034091897327306688.task.7362262206465290255.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_2.quest7034091897327306688.title}"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["049A2DEE2DAC5353"]
+			dependency_requirement: "one_started"
+			description: ["{ftbquests.chapter.chapter_2.quest735751035700970754.description1}"]
+			hide_until_deps_complete: true
+			icon: "create:brown_toolbox"
+			id: "0A35E9AB36150502"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "7F244A5DC79DF397"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 3
+					id: "704050D8A546BBFA"
+					item: "marbledsapi:raw_steel"
+					random_bonus: 5
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_2.quest735751035700970754.subtitle}"
+			tasks: [
+				{
+					id: "4A5726C89AACC614"
+					item: "tacz:gun_smith_table"
+					type: "item"
+				}
+				{
+					id: "23A7F3D71E57D5D1"
+					item: "marbledsapi:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "3EA80B1922C2D96E"
+					item: {
+						Count: 1
+						id: "tacz:workbench_a"
+						tag: {
+							BlockId: "tacz:ammo_workbench"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_2.quest735751035700970754.title}"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["049A2DEE2DAC5353"]
+			dependency_requirement: "one_started"
+			description: ["{ftbquests.chapter.chapter_2.quest2045958066350151006.description1}"]
+			hide_until_deps_complete: true
+			icon: "butcher:villagerbrain"
+			id: "1C64B4057A25555E"
+			min_required_tasks: 2
+			rewards: [{
+				id: "071DE99D1257D9EB"
+				type: "xp"
+				xp: 9
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.chapter_2.quest2045958066350151006.subtitle}"
+			tasks: [
+				{
+					id: "5355F6D917C00179"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "1F22C5717D20A938"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "43229569F8BA3E67"
+					item: "create:water_wheel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_2.quest2045958066350151006.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A35E9AB36150502"]
+			description: [
+				"{ftbquests.chapter.chapter_2.quest2632661506631785914.description1}"
+				""
+				"{ftbquests.chapter.chapter_2.quest2632661506631785914.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "tacz:gun_smith_table"
+			id: "248917B11CA1DDBA"
+			rewards: [
+				{
+					id: "189E2BE6B633B1FD"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FF38E5A2B1B3307"
+					table_id: 3833553154103734842L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38A3551ABA0C0A65"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.chapter_2.quest2632661506631785914.subtitle}"
+			tasks: [{
+				icon: "create:filter"
+				id: "4EE30F6B1F46ACE4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:start_gun"
+					}
+				}
+				title: "{ftbquests.chapter.chapter_2.quest2632661506631785914.task.5684404107432340708.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_2.quest2632661506631785914.title}"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1C64B4057A25555E"]
+			description: [
+				"{ftbquests.chapter.chapter_2.quest278546123432803354.description1}"
+				""
+				"{ftbquests.chapter.chapter_2.quest278546123432803354.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "create:millstone"
+			id: "03DD983934C63C1A"
+			optional: true
+			rewards: [
+				{
+					id: "251FBD1722F73411"
+					type: "xp"
+					xp: 12
+				}
+				{
+					count: 2
+					id: "7AD62122B75B69AC"
+					item: "harmfulsmoke:tobacco_seeds"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 2
+					id: "23F3B0D54BC478EA"
+					item: "cure:fox_weed"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.chapter_2.quest278546123432803354.subtitle}"
+			tasks: [
+				{
+					id: "0CF184D925819839"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "4F84CB0355EFF0D9"
+					item: "supplementaries:flax"
+					type: "item"
+				}
+				{
+					id: "20C1E74C4C4898BC"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "3A097B90CD2B54DF"
+					item: "canned_goods:empty_can"
+					type: "item"
+				}
+				{
+					id: "5AC073A4807AE9AD"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_2.quest278546123432803354.title}"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["049A2DEE2DAC5353"]
+			dependency_requirement: "one_started"
+			description: [
+				"{ftbquests.chapter.chapter_2.quest3808425147378910404.description1}"
+				""
+				"{ftbquests.chapter.chapter_2.quest3808425147378910404.description2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "butcher:skinning_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "34DA3E7E5F2F44C4"
+			optional: true
+			rewards: [{
+				id: "656C6D29E12E1998"
+				type: "xp"
+				xp: 6
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.chapter_2.quest3808425147378910404.subtitle}"
+			tasks: [{
+				icon: "create:filter"
+				id: "0A81778FE3235B23"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:quest_kitchen"
+					}
+				}
+				title: "{ftbquests.chapter.chapter_2.quest3808425147378910404.task.757017672249727779.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_2.quest3808425147378910404.title}"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["619E1D4FF9A5C7C0"]
+			description: ["{ftbquests.chapter.chapter_2.quest331628023556887379.description1}"]
+			hide_until_deps_complete: true
+			icon: "minecraft:raw_copper"
+			id: "049A2DEE2DAC5353"
+			min_required_tasks: 2
+			rewards: [
+				{
+					id: "110158110F9766D9"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Government"
+							pages: [
+								"{\"translate\":\"mykey.book.folleto_danado.page1\"}"
+								"{\"translate\":\"mykey.book.folleto_danado.page2\"}"
+								"{\"translate\":\"mykey.book.folleto_danado.page3\"}"
+								"{\"translate\":\"mykey.book.folleto_danado.page4\"}"
+								"{\"translate\":\"mykey.book.folleto_danado.page5\"}"
+							]
+							resolved: 1b
+							title: "Damaged Leaflet"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C7FBDCDB2869319"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_2.quest331628023556887379.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "779C6860A648CE5B"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "66AC2881B791530B"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "4BE17CF0A2463DA9"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_2.quest331628023556887379.title}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C64B4057A25555E"]
+			dependency_requirement: "all_started"
+			description: [
+				"{ftbquests.chapter.chapter_2.quest8206211048335988320.description1}"
+				""
+				"{ftbquests.chapter.chapter_2.quest8206211048335988320.description2}"
+				""
+				"{ftbquests.chapter.chapter_2.quest8206211048335988320.description3}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "harmfulsmoke:lighter"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "71E2517857F3D660"
+			min_required_tasks: 3
+			optional: true
+			rewards: [
+				{
+					id: "2C51A6C228298F4D"
+					type: "xp"
+					xp: 9
+				}
+				{
+					count: 3
+					id: "2BCA45C6A18680B7"
+					item: "harmfulsmoke:tobacco_seeds"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "730B3D605D8236E7"
+					item: "radioactive:mushrooms"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.chapter_2.quest8206211048335988320.subtitle}"
+			tasks: [
+				{
+					id: "441A433A58341C59"
+					item: {
+						Count: 1
+						id: "harmfulsmoke:lighter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "476E31B9546AB8C9"
+					item: "harmfulsmoke:cigarette"
+					type: "item"
+				}
+				{
+					id: "2D39A9534DF81778"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 8
+							}
+						}
+						id: "harmfulsmoke:pack_of_cigarettes"
+						tag: {
+							Inventory: {
+								Items: [ ]
+								Size: 8
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "681981D1E596DFB8"
+					item: "harmfulsmoke:cigar"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_2.quest8206211048335988320.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A35E9AB36150502"]
+			description: ["{ftbquests.chapter.chapter_2.quest6083003586477824043.description1}"]
+			hide_until_deps_complete: true
+			icon: "create:mechanical_press"
+			id: "546B2B886370182B"
+			rewards: [{
+				id: "7BB5E272FA9ED24C"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "14202519262DF33D"
+					item: "marbledsapi:steel_sheet"
+					type: "item"
+				}
+				{
+					id: "661E2BE40EA22C84"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "324A49CE3E3CDCD0"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create:water_wheel"
+								}
+								{
+									Count: 1b
+									id: "create:large_water_wheel"
+								}
+								{
+									Count: 1b
+									id: "create:hand_crank"
+								}
+								{
+									Count: 1b
+									id: "create_connected:crank_wheel"
+								}
+								{
+									Count: 1b
+									id: "create_connected:large_crank_wheel"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_2.quest6083003586477824043.task.3623790000329252048.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_2.quest6083003586477824043.title}"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["546B2B886370182B"]
+			description: ["{ftbquests.chapter.chapter_2.quest468822800968106253.description1}"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "marbledsarsenal:crowbar"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "068197DA824EC10D"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "4C4737B8C47ADD71"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4210D0450B821E66"
+					table_id: 139851417505779397L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.chapter_2.quest468822800968106253.subtitle}"
+			tasks: [
+				{
+					id: "2D5FC8A329475AD7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "marbledsarsenal:police_baton"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:machete"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:stop_sign"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:katana"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:tanto"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:baseball_bat"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:steel_baseball_bat"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:bone_saw"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:sledgehammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:pipe_wrench"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:tomahawk"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:modern_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:fire_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:crowbar"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:barbed_baseball_bat"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "artisan_of_zombie_weapons:blade_pipe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "artisan_of_zombie_weapons:spear_pipe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "artisan_of_zombie_weapons:explosive_pipe"
+								}
+								{
+									Count: 1b
+									id: "artisan_of_zombie_weapons:rough_glaive"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "artisan_of_zombie_weapons:scythe_lacerator"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "artisan_of_zombie_weapons:manual_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "artisan_of_zombie_weapons:barbarian_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "artisan_of_zombie_weapons:baseball_mace"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "artisan_of_zombie_weapons:advanced_machete"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "artisan_of_zombie_weapons:katana"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "artisan_of_zombie_weapons:chained_baseball_mace"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "artisan_of_zombie_weapons:pan_baseball_mace"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_2.quest468822800968106253.task.3269552457592036055.title}"
+					type: "item"
+				}
+				{
+					id: "0514F868981A90BE"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							Damage: 0
+							MeleeWeaponId: "lrtactical:dagger"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1A3F86C9A294C014"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "AUTO"
+							GunId: "cib:batons"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7B0B3FF40DC9783A"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							Damage: 0
+							MeleeWeaponId: "lrtactical:baseball_bat"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34CBF6E41333E0FE"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							Damage: 0
+							MeleeWeaponId: "lrtactical:karambit"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "78C194221E938860"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "gwg:lebel_bayonet"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CD1EA49BF8B7A1A"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "gwg:nahkampfmesser"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_2.quest468822800968106253.title}"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["049A2DEE2DAC5353"]
+			description: ["{ftbquests.chapter.chapter_2.quest1413112021725397794.description1}"]
+			icon: "createtaczauto:large_gunpowder_pile"
+			id: "139C61E592C6C322"
+			optional: true
+			rewards: [
+				{
+					id: "2BD969592C06673D"
+					type: "xp"
+					xp: 9
+				}
+				{
+					count: 7
+					id: "5A9AEBBCE29A07C3"
+					item: "minecraft:gunpowder"
+					random_bonus: 5
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_2.quest1413112021725397794.subtitle}"
+			tasks: [
+				{
+					id: "1FA26CC32482B552"
+					item: "psg:saltpetre"
+					type: "item"
+				}
+				{
+					id: "5A07891DC3AC02FF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/sulfur"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_2.quest1413112021725397794.task.6487304549180375807.title}"
+					type: "item"
+				}
+				{
+					id: "30490EF9B78C36A8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:coals"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_2.quest1413112021725397794.task.3479328652809483944.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_2.quest1413112021725397794.title}"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A35E9AB36150502"]
+			description: ["{ftbquests.chapter.chapter_2.quest8397221820189942903.description1}"]
+			icon: "item_scrapper:scrapper_block"
+			id: "7488ECC14C94A477"
+			optional: true
+			rewards: [
+				{
+					id: "6D9CE1F5CF5C0ECA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75C380A83A269164"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "565092C4819CB646"
+					item: "item_scrapper:scrapper_block"
+					type: "item"
+				}
+				{
+					id: "4DB3E6C32C2EB5D2"
+					item: {
+						Count: 1
+						id: "item_scrapper:scrapping_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_2.quest8397221820189942903.title}"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["546B2B886370182B"]
+			description: ["{ftbquests.chapter.chapter_2.quest7821659642045557139.description1}"]
+			id: "6C8C1E00E6226993"
+			optional: true
+			rewards: [{
+				id: "5472C273DA619AFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "none"
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.chapter_2.quest7821659642045557139.subtitle}"
+			tasks: [{
+				id: "4E607AD7E7CC006A"
+				item: {
+					Count: 1
+					id: "radioactive:industrial_tongs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_2.quest7821659642045557139.title}"
+			x: -1.75d
+			y: 3.75d
+		}
+	]
+	title: "{ftbquests.chapter.chapter_2.title}"
+}

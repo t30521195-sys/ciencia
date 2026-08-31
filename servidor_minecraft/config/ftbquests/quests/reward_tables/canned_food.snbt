@@ -1,0 +1,16 @@
+{
+	icon: "refurbished_furniture:gray_kitchen_drawer"
+	id: "564BE898C6B0B36E"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ count: 2, item: "canned_goods:canned_mushrooms", random_bonus: 6, weight: 2.5f }
+		{ count: 2, item: "canned_goods:canned_chicken", random_bonus: 6 }
+		{ count: 2, item: "canned_goods:canned_beetroot_soup", random_bonus: 6, weight: 2.0f }
+		{ count: 2, item: "canned_goods:canned_cooked_salmon", random_bonus: 6 }
+		{ count: 2, item: "canned_goods:canned_golden_carrot", random_bonus: 6 }
+		{ count: 2, item: "canned_goods:canned_food", random_bonus: 6, weight: 2.5f }
+	]
+	title: "{ftbquests.loot_table.6218319453381243758.title}"
+	use_title: true
+}

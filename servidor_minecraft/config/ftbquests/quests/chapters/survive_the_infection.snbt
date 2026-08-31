@@ -1,0 +1,1701 @@
+{
+	autofocus_id: "23BAC37CA20672C8"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "survive_the_infection"
+	group: "036BBCCF3C38F186"
+	icon: "spore:living_core"
+	id: "0B076E810E550497"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4BBA71C5A9E0301D"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest2367004816246452629.description1}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest2367004816246452629.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "spore:sieger_spawnegg"
+			id: "20D94A56E6023195"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest2367004816246452629.subtitle}"
+			tasks: [{
+				id: "5C3EB6D3B7EA6A51"
+				title: "{ftbquests.chapter.survive_the_infection.quest2367004816246452629.task.6646951120485378641.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest2367004816246452629.title}"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"13A3AE0F877C2A9F"
+				"405585B71B8FBCCD"
+				"71F7722F62A8BECD"
+			]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest2390535563172222954.description1}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest2390535563172222954.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "212CE36DD9D197EA"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31C97FF6BA181006"
+				table_id: 1113851638369946352L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest2390535563172222954.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "6DF258CCA9077072"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "spore:mutated_heart"
+							}
+							{
+								Count: 1b
+								id: "spore:mutated_fiber"
+							}
+							{
+								Count: 1b
+								id: "spore:armor_fragment"
+							}
+							{
+								Count: 1b
+								id: "spore:claw_fragment"
+							}
+							{
+								Count: 1b
+								id: "spore:cerebrum"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.survive_the_infection.quest2390535563172222954.task.7922492330530533490.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest2390535563172222954.title}"
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["20D94A56E6023195"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest1415166089645271711.description1}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest1415166089645271711.description2}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest1415166089645271711.description3}"
+				"{ftbquests.chapter.survive_the_infection.quest1415166089645271711.description4}"
+				"{ftbquests.chapter.survive_the_infection.quest1415166089645271711.description5}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest1415166089645271711.description6}"
+			]
+			hide_until_deps_complete: true
+			id: "13A3AE0F877C2A9F"
+			rewards: [{
+				id: "364FC9B83195F252"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest1415166089645271711.subtitle}"
+			tasks: [{
+				id: "63ADF5FB181F61FF"
+				item: {
+					Count: 1
+					id: "spore:zoaholic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest1415166089645271711.title}"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["20D94A56E6023195"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest3822925354653447485.description1}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest3822925354653447485.description2}"
+				"{ftbquests.chapter.survive_the_infection.quest3822925354653447485.description3}"
+				"{ftbquests.chapter.survive_the_infection.quest3822925354653447485.description4}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest3822925354653447485.description5}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "spore:cdu"
+				tag: { }
+			}
+			id: "350DC25AF6F3F53D"
+			rewards: [
+				{
+					id: "3A0EA44D7A72AFAC"
+					item: "spore:ice_canister"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0D7F53D21ECD29AA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest3822925354653447485.subtitle}"
+			tasks: [
+				{
+					id: "2EC61FCD345D046C"
+					item: {
+						Count: 1
+						id: "spore:cdu"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4B1D9597DAD91E18"
+					item: "spore:ice_canister"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.survive_the_infection.quest3822925354653447485.title}"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23BAC37CA20672C8"]
+			description: ["{ftbquests.chapter.survive_the_infection.quest4273313749963041718.description1}"]
+			hide_until_deps_complete: true
+			icon: "cure:fox_weed"
+			id: "3B4DDC36F056EBB6"
+			rewards: [{
+				id: "1F63B9DFF57F7503"
+				item: "cure:syringe"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest4273313749963041718.subtitle}"
+			tasks: [
+				{
+					id: "2CF1FA704AA1B13E"
+					item: "cure:fox_weed"
+					type: "item"
+				}
+				{
+					id: "0A701CF815EC7B28"
+					item: "cure:fox_weed_paste"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.survive_the_infection.quest4273313749963041718.title}"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B4DDC36F056EBB6"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest8502311786595474511.description1}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest8502311786595474511.description2}"
+			]
+			hide_details_until_startable: false
+			id: "75FE4785D1A3DC4F"
+			rewards: [
+				{
+					id: "0D385A66E4E799A4"
+					item: "cure:syringe"
+					type: "item"
+				}
+				{
+					id: "6213531D8E73F1D8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest8502311786595474511.subtitle}"
+			tasks: [{
+				id: "3FA7822282C4BB57"
+				item: "cure:vaccine"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest8502311786595474511.title}"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23BAC37CA20672C8"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest5532904498203459905.description1}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest5532904498203459905.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:zombie_head"
+			id: "4CC8D35397940141"
+			rewards: [{
+				id: "2EFD092AAC6D55D8"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest5532904498203459905.subtitle}"
+			tasks: [{
+				id: "4B17E85268479DF9"
+				title: "{ftbquests.chapter.survive_the_infection.quest5532904498203459905.task.5411048917943426553.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest5532904498203459905.title}"
+			x: 0.8928571428571601d
+			y: -1.867857142857146d
+		}
+		{
+			dependencies: ["4BBA71C5A9E0301D"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest2574585077057352392.description1}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest2574585077057352392.description2}"
+			]
+			hide_details_until_startable: false
+			hide_until_deps_complete: true
+			icon: "spore:vigil_spawnegg"
+			id: "23BAC37CA20672C8"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest2574585077057352392.subtitle}"
+			tasks: [{
+				id: "0128037D181A7015"
+				title: "{ftbquests.chapter.survive_the_infection.quest2574585077057352392.task.83320428916535317.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest2574585077057352392.title}"
+			x: 1.9928571428571602d
+			y: -2.767857142857146d
+		}
+		{
+			dependencies: ["3B4DDC36F056EBB6"]
+			dependency_requirement: "one_started"
+			description: ["{ftbquests.chapter.survive_the_infection.quest7752535246694699981.description1}"]
+			hide_until_deps_visible: true
+			icon: "create:millstone"
+			id: "6B9689BB6FEED3CD"
+			optional: true
+			rewards: [{
+				id: "399D343EE4DE4822"
+				type: "xp"
+				xp: 12
+			}]
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest7752535246694699981.subtitle}"
+			tasks: [
+				{
+					id: "27527E2F11A87973"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "0CC7D47A984584E4"
+					item: "cure:fox_weed_paste"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.survive_the_infection.quest7752535246694699981.title}"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20D94A56E6023195"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest5313044704822774287.description1}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest5313044704822774287.description2}"
+				"{ftbquests.chapter.survive_the_infection.quest5313044704822774287.description3}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest5313044704822774287.description4}"
+			]
+			hide_until_deps_complete: true
+			id: "49BBBA0262BB4A0F"
+			rewards: [
+				{
+					id: "639BD3353698DC12"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C5787185A8A2627"
+					table_id: 4486004537455507795L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest5313044704822774287.subtitle}"
+			tasks: [{
+				id: "0F7CFF2E1C46A789"
+				item: {
+					Count: 1
+					id: "spore:incubator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest5313044704822774287.title}"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["20D94A56E6023195"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest4635758412935707853.description1}"
+				"{ftbquests.chapter.survive_the_infection.quest4635758412935707853.description2}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest4635758412935707853.description3}"
+			]
+			hide_until_deps_complete: true
+			id: "405585B71B8FBCCD"
+			rewards: [
+				{
+					id: "64F497BD6AD0FA4A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A60A366AC0CAF99"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest4635758412935707853.subtitle}"
+			tasks: [{
+				id: "1453277CC2C2697D"
+				item: "spore:scanner"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest4635758412935707853.title}"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["20D94A56E6023195"]
+			description: ["{ftbquests.chapter.survive_the_infection.quest3495381274863329666.description1}"]
+			hide_until_deps_complete: true
+			id: "308216C00AC7E182"
+			rewards: [
+				{
+					id: "75D46F13E99F832F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C0437AE050C419E"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest3495381274863329666.subtitle}"
+			tasks: [{
+				id: "74F5745AA146D521"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:spore_debuff_masks"
+					}
+				}
+				title: "{ftbquests.chapter.survive_the_infection.quest3495381274863329666.task.8427770210295403809.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest3495381274863329666.title}"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["20D94A56E6023195"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest8497488123009565610.description1}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest8497488123009565610.description2}"
+				"{ftbquests.chapter.survive_the_infection.quest8497488123009565610.description3}"
+			]
+			hide_until_deps_complete: true
+			id: "75ED246D1F1603AA"
+			rewards: [
+				{
+					id: "6918FDA8CCD20652"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "387D1228B7931B5E"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest8497488123009565610.subtitle}"
+			tasks: [{
+				id: "4A0B9A29EB196313"
+				item: "spore:container"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest8497488123009565610.title}"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4BBA71C5A9E0301D"]
+			hide_until_deps_complete: true
+			icon: "minecraft:clock"
+			id: "1B2BE4A03B1D9373"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F0C197B914AF9F8"
+				table_id: 3340497817625991817L
+				type: "choice"
+			}]
+			tasks: [{
+				icon: "minecraft:clock"
+				id: "68A5B2B967B42406"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.survive_the_infection.quest1957909839860306803.task.7540629660480316422.title}"
+				type: "stat"
+				value: 42000
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest1957909839860306803.title}"
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1B2BE4A03B1D9373"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marbledsarsenal:fire_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7E76ECCC46261BEE"
+			rewards: [
+				{
+					id: "38C98B9983965B2F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EFC587D0AE7B467"
+					table_id: 139851417505779397L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:clock"
+					tag: {
+						"quark:clock_calculated": 1b
+					}
+				}
+				id: "3601A563472C4DBA"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.survive_the_infection.quest9112731258125163502.task.3891573398839250362.title}"
+				type: "stat"
+				value: 294000
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest9112731258125163502.title}"
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7E76ECCC46261BEE"]
+			hide_until_deps_complete: true
+			icon: "sereneseasons:calendar"
+			id: "1347F99B44933A20"
+			rewards: [
+				{
+					id: "2F9D3486F503EC17"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "344179DB4E28CA88"
+					table_id: 139851417505779397L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3112266EA26DF8EC"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:clock"
+					tag: {
+						"quark:clock_calculated": 1b
+					}
+				}
+				id: "54282FCF35F5F762"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.survive_the_infection.quest1389353455332833824.task.6064149465264420706.title}"
+				type: "stat"
+				value: 1176000
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest1389353455332833824.title}"
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1347F99B44933A20"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "tacz:ak47"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "659A8AD5FCE72806"
+			rewards: [
+				{
+					id: "6167AB9D79EEA5A4"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AA058A15CA118EB"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3092B1E361F02401"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+				{
+					id: "69BF20D6A8156E56"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "radioactive:anti_radiation"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:clock"
+					tag: {
+						"quark:clock_calculated": 1b
+					}
+				}
+				id: "647A37F10536BE5B"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.survive_the_infection.quest7321316795919837190.task.7240160859265613403.title}"
+				type: "stat"
+				value: 4200000
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest7321316795919837190.title}"
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["659A8AD5FCE72806"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 75
+					GunFireMode: "AUTO"
+					GunId: "tacz:m249"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "4FE7585CE3E1470D"
+			rewards: [
+				{
+					id: "3FD0523FCDBFB01B"
+					type: "xp_levels"
+					xp_levels: 9
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BAB17FD1BCFC652"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E8F64EF85B65BD8"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+				{
+					id: "56D913BE0A3EC2D6"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "radioactive:anti_radiation"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:clock"
+					tag: {
+						"quark:clock_calculated": 1b
+					}
+				}
+				id: "0AD5F8385F68BD7B"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.survive_the_infection.quest5757667804599895821.task.780803031421205883.title}"
+				type: "stat"
+				value: 8400000
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest5757667804599895821.title}"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4FE7585CE3E1470D"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 160
+					GunFireMode: "AUTO"
+					GunId: "emxarms:emx_sf7b"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "70D94DDCAAAC8653"
+			rewards: [
+				{
+					id: "43D597F760CF6E08"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "258AF7D9808437FC"
+					table_id: 4490392531640542596L
+					type: "random"
+				}
+				{
+					id: "7268EA076F024551"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "radioactive:anti_radiation"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:clock"
+					tag: {
+						"quark:clock_calculated": 1b
+					}
+				}
+				id: "58778B646F6783CC"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.survive_the_infection.quest8131616212345718355.task.6374717061048271820.title}"
+				type: "stat"
+				value: 12600000
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest8131616212345718355.title}"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["70D94DDCAAAC8653"]
+			hide_until_deps_complete: true
+			icon: "butcher:witherskeletoncorpse"
+			id: "47CC856E38FB6A25"
+			rewards: [
+				{
+					id: "47FA506656B059FB"
+					type: "xp"
+					xp: 9999
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D451179E66A46F3"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "528B153B8A3D1755"
+					table_id: 4490392531640542596L
+					type: "random"
+				}
+				{
+					id: "4D18D9A2B61519DA"
+					item: "radioactive:uranium_test_item"
+					type: "item"
+				}
+				{
+					id: "0614CAD8F3224700"
+					item: "biohazardchanges:birthday_button"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:clock"
+					tag: {
+						"quark:clock_calculated": 1b
+					}
+				}
+				id: "3FA7F2B08CE494D3"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.survive_the_infection.quest5173656780390754853.task.4586901585592095955.title}"
+				type: "stat"
+				value: 15330000
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest5173656780390754853.title}"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["75FE4785D1A3DC4F"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest6699764071578998413.description1}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest6699764071578998413.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "butcher:zombiecorpse"
+			id: "5CFA57ED1D64168D"
+			rewards: [
+				{
+					id: "4CBC6DE4C90A004B"
+					type: "xp"
+					xp: 135
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C67A15E5A07D9FC"
+					table_id: 2169985305494019696L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest6699764071578998413.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "1AD766ED5CA5E1FD"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3317DDCB8FB2B6D3"
+					item: "minecraft:rabbit_stew"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "78FBF12C1005AEC3"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5FEF93CD0F8E9968"
+					item: "minecraft:mushroom_stew"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7876D3E536F601FA"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6BB87EBDE5D71E23"
+					item: {
+						Count: 1
+						id: "minecraft:glow_berries"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3D861A835914138B"
+					item: "minecraft:chorus_flower"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "77E2B6480A42672B"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2046F2ABA4A5024C"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4D4E431C3FF99C0D"
+					item: "minecraft:glistering_melon_slice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "79199368522762D3"
+					item: "cure:fox_weed_paste"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0606FA4BA18C3E17"
+					item: "butcher:zombiecorpse"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3310C6C2076EFDE8"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "470DA3B517C2F757"
+					item: "minecraft:beetroot_soup"
+					type: "item"
+				}
+				{
+					id: "7B4A91121DFCD049"
+					item: "butcher:infectedblood_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.survive_the_infection.quest6699764071578998413.title}"
+			x: 2.0d
+			y: 0.525d
+		}
+		{
+			dependencies: ["5CFA57ED1D64168D"]
+			description: ["{ftbquests.chapter.survive_the_infection.quest8292452584759019329.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					CustomPotionColor: 1686852
+					CustomPotionEffects: [
+						{
+							Ambient: 0
+							Amplifier: 0
+							CurativeItems: [{
+								Count: 1
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 42000
+							Id: 39
+							ShowIcon: 1
+							ShowParticles: 1
+						}
+						{
+							Amplifier: 1
+							Duration: 200
+							Id: 10
+						}
+						{
+							Amplifier: 1
+							Duration: 1
+							Id: 6
+						}
+						{
+							Amplifier: 19
+							Duration: 1
+							Id: 23
+						}
+						{
+							Amplifier: 2
+							Duration: 200
+							Id: 22
+						}
+					]
+					display: {
+						Name: "{\"text\":\"Suero Inmunológico\",\"bold\":true,\"italic\":true}"
+					}
+				}
+			}
+			id: "7314B5B0C754C741"
+			rewards: [
+				{
+					id: "31E568D5686594C5"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F9AAAFB8545F5A5"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest8292452584759019329.subtitle}"
+			tasks: [
+				{
+					id: "334769BFD4F5A897"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "0EBB02A3584787C9"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "2BE31359E0E9CD00"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "64CBCB37AEFC859A"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "4AC6B8ADEFB7A692"
+					item: "minecraft:rabbit_stew"
+					type: "item"
+				}
+				{
+					id: "6090CDF8204399FE"
+					item: "minecraft:beetroot_soup"
+					type: "item"
+				}
+				{
+					id: "1EA3C30AAB5A3160"
+					item: {
+						Count: 1
+						id: "minecraft:golden_carrot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1CA564A599615A32"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "39D86A90762149EA"
+					item: {
+						Count: 1
+						id: "minecraft:glistering_melon_slice"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7C73DB2F39CB127D"
+					item: "butcher:infectedblood_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.survive_the_infection.quest8292452584759019329.title}"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20D94A56E6023195"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest8212157993377644237.description1}"
+				"{ftbquests.chapter.survive_the_infection.quest8212157993377644237.description2}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest8212157993377644237.description3}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest8212157993377644237.description4}"
+			]
+			hide_until_deps_complete: true
+			id: "71F7722F62A8BECD"
+			rewards: [{
+				id: "42FC86791308F30F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest8212157993377644237.subtitle}"
+			tasks: [{
+				id: "408ADA1D4CDAA9F8"
+				item: "spore:surgery_table"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest8212157993377644237.title}"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			description: ["{ftbquests.chapter.survive_the_infection.quest6394126797061860458.description1}"]
+			id: "58BC8071C3ADAC6A"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "61514A260B0C55EA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19EDDDC8C5C08D27"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "565E21EDEB8AB37E"
+				item: {
+					Count: 1
+					id: "spore:pci"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest6394126797061860458.title}"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest1100630592218788203.description1}"
+				"{ftbquests.chapter.survive_the_infection.quest1100630592218788203.description2}"
+				""
+				"{ftbquests.chapter.survive_the_infection.quest1100630592218788203.description3}"
+			]
+			id: "0F4639B13620F16B"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "062AEBDF6E10A6B8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24F2D3E79850C3CD"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+			]
+			shape: "none"
+			subtitle: "{ftbquests.chapter.survive_the_infection.quest1100630592218788203.subtitle}"
+			tasks: [{
+				id: "65E9727BA6DE9C39"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"undermod:capability_item_life_leech": {
+							power: 1
+						}
+					}
+					id: "spore:reaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest1100630592218788203.title}"
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["20D94A56E6023195"]
+			description: ["{ftbquests.chapter.survive_the_infection.quest4599852976179109851.description1}"]
+			hide_until_deps_complete: true
+			id: "3FD5F5E9282DDFDB"
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "750280796D2F0BDD"
+				item: "spore:cabinet"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest4599852976179109851.title}"
+			x: 1.1918367346938865d
+			y: -4.558673469387756d
+		}
+		{
+			dependencies: ["47CC856E38FB6A25"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "lrtactical:melee"
+				tag: {
+					MeleeWeaponId: "cs2_wt:skeleton"
+				}
+			}
+			id: "365E43B83CC8F788"
+			rewards: [
+				{
+					id: "0D964CC314D0D7DF"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					exclude_from_claim_all: true
+					id: "016BD34C38860EEF"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09FE0673CB5367AA"
+					table_id: 2569441142384244234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:clock"
+					tag: {
+						"quark:clock_calculated": 1b
+					}
+				}
+				id: "5509D6E447151C0E"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.survive_the_infection.quest3917643184431757192.task.6127665043947723790.title}"
+				type: "stat"
+				value: 16800000
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest3917643184431757192.title}"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["365E43B83CC8F788"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "emxarms:emx_mk951l"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "2B0C089448965435"
+			rewards: [
+				{
+					id: "130AAB38CC05FEE9"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79C99C8D54D97AD7"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04ACDD97FFD1E64C"
+					table_id: 4490392531640542596L
+					type: "random"
+				}
+				{
+					id: "3A99A1C6021DA4E8"
+					item: "radioactive:radioactive_test_item"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:clock"
+					tag: {
+						"quark:clock_calculated": 1b
+					}
+				}
+				id: "14133809B1645444"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.survive_the_infection.quest3101863676317422645.task.1446561519598064708.title}"
+				type: "stat"
+				value: 21000000
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest3101863676317422645.title}"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B0C089448965435"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "suffuse:saddam_golden_ak"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "33C481E434F34075"
+			rewards: [
+				{
+					id: "1730E3042A56B417"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75AF3AF829949AEA"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BDF840025E4420D"
+					table_id: 8453280897702031425L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68BADFAD69342E39"
+					table_id: 8685283136233001284L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:clock"
+					tag: {
+						"quark:clock_calculated": 1b
+					}
+				}
+				id: "17B36131471B8CFC"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.survive_the_infection.quest3730249208510496885.task.1707815547977829628.title}"
+				type: "stat"
+				value: 25200000
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest3730249208510496885.title}"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DC9AA529A6908CE"]
+			hide_until_deps_complete: true
+			icon: "butcher:withercorpse"
+			id: "18EFEFB6D62262AC"
+			rewards: [
+				{
+					id: "11A1C73C2F33786A"
+					type: "xp"
+					xp: 99999
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E53A8EB302BD4C8"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04CAE99BA1AB4878"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EC5C9A822FF5193"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7173CB55A8A48E3E"
+					table_id: 4490392531640542596L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "138FDCF4B28EBEC4"
+					table_id: 4490392531640542596L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28D2D28A29A6B523"
+					table_id: 2569441142384244234L
+					type: "random"
+				}
+				{
+					id: "428C92E037AA4920"
+					item: "radioactive:mushrooms"
+					type: "item"
+				}
+				{
+					id: "7C1092F129F5277D"
+					item: "biohazardchanges:birthday_button"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:clock"
+					tag: {
+						"quark:clock_calculated": 1b
+					}
+				}
+				id: "7C25A4802DEFF17A"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.survive_the_infection.quest1796918344899781292.task.8945737105274827130.title}"
+				type: "stat"
+				value: 30660000
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest1796918344899781292.title}"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33C481E434F34075"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 60
+					GunFireMode: "AUTO"
+					GunId: "cib:origin12db"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "0DC9AA529A6908CE"
+			rewards: [
+				{
+					id: "785F455BD2455E12"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44D5E0C7B12DC973"
+					table_id: 886270737047987855L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CEC84F51B6AC82E"
+					table_id: 886270737047987855L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55E4D127BBFD78B7"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DC906BA31D9992F"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E672A201B4FF21A"
+					table_id: 8453280897702031425L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EA3559AD61225C6"
+					table_id: 8453280897702031425L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:clock"
+					tag: {
+						"quark:clock_calculated": 1b
+					}
+				}
+				id: "421D06BE48FDF967"
+				stat: "minecraft:play_time"
+				title: "{ftbquests.chapter.survive_the_infection.quest993512464566520014.task.4763971395166009703.title}"
+				type: "stat"
+				value: 29400000
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest993512464566520014.title}"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["603F30D06B4489E5"]
+			description: ["{ftbquests.chapter.survive_the_infection.quest4478239906481989281.description1}"]
+			hide_until_deps_complete: true
+			id: "3E25E777DCD666A1"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0BC5B0529697A1F7"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+				{
+					id: "1BD11DBCA87706A4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "15642700E8B5D7C1"
+				item: "spore:gastric_reagent"
+				type: "item"
+			}]
+			x: 2.492857142857197d
+			y: -8.321428571428577d
+		}
+		{
+			dependencies: ["603F30D06B4489E5"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest1272661274652376142.description1}"
+				"{ftbquests.chapter.survive_the_infection.quest1272661274652376142.description2}"
+				"{ftbquests.chapter.survive_the_infection.quest1272661274652376142.description3}"
+			]
+			hide_until_deps_complete: true
+			id: "11A966AFBB0CFC4E"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44A1EBA513020B81"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+				{
+					id: "4862FC27E2445F7F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "632E0085CD4B7276"
+				item: "spore:corrosive_reagent"
+				type: "item"
+			}]
+			x: 1.992857142857197d
+			y: -9.821428571428577d
+		}
+		{
+			dependencies: ["212CE36DD9D197EA"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest6935315622884837861.description1}"
+				"{ftbquests.chapter.survive_the_infection.quest6935315622884837861.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "603F30D06B4489E5"
+			optional: true
+			shape: "pentagon"
+			tasks: [{
+				id: "5F0DEFE645368143"
+				item: "spore:symbiotic_reagent"
+				type: "item"
+			}]
+			x: 1.992857142857197d
+			y: -9.071428571428577d
+		}
+		{
+			dependencies: ["603F30D06B4489E5"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest6060884957900506467.description1}"
+				"{ftbquests.chapter.survive_the_infection.quest6060884957900506467.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "541C96C1DC2B0563"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "684709C70F8060CC"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+				{
+					id: "649A4268F791B4CC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "17BDCE90327FB9C5"
+				item: "spore:voracious_reagent"
+				type: "item"
+			}]
+			x: 1.242857142857197d
+			y: -9.271428571428576d
+		}
+		{
+			dependencies: ["603F30D06B4489E5"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest4360652768377555243.description1}"
+				"{ftbquests.chapter.survive_the_infection.quest4360652768377555243.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "3C842696CFF7C92B"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57689C684B6762DA"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+				{
+					id: "382C34600BDABF0B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "780CB486156C86EE"
+				item: "spore:serrated_reagent"
+				type: "item"
+			}]
+			x: 1.492857142857197d
+			y: -8.321428571428577d
+		}
+		{
+			dependencies: ["603F30D06B4489E5"]
+			description: [
+				"{ftbquests.chapter.survive_the_infection.quest945731684513557167.description1}"
+				"{ftbquests.chapter.survive_the_infection.quest945731684513557167.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "0D1FE9F4D4432AAF"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C2BF8530F272806"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+				{
+					id: "3A8D1E728057CA8E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "57FCF312A62BE868"
+				item: "spore:cryogenic_reagent"
+				type: "item"
+			}]
+			x: 2.742857142857197d
+			y: -9.271428571428576d
+		}
+		{
+			description: ["{ftbquests.chapter.survive_the_infection.quest4473572424394584486.description1}"]
+			id: "3E15526B0105B1A6"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "4FFD0DA7CF43F1E9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C069F7410B210A6"
+					table_id: 8685283136233001284L
+					type: "random"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "3438FF4EE7959157"
+				item: {
+					Count: 1
+					id: "spore:syringe_gun"
+					tag: {
+						Damage: 0
+						data: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.survive_the_infection.quest4473572424394584486.title}"
+			x: 2.0d
+			y: -6.5d
+		}
+	]
+	title: "{ftbquests.chapter.survive_the_infection.title}"
+}

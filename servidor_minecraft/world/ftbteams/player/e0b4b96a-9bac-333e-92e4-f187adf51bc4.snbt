@@ -1,0 +1,17 @@
+{
+	id: "e0b4b96a-9bac-333e-92e4-f187adf51bc4"
+	type: "player"
+	player_name: "angelk47"
+	ranks: {
+		e0b4b96a-9bac-333e-92e4-f187adf51bc4: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "angelk47"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59ABFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,17 @@
+{
+	id: "8068d241-e94a-3625-9ffd-d42bae009de4"
+	type: "player"
+	player_name: "bruss23"
+	ranks: {
+		8068d241-e94a-3625-9ffd-d42bae009de4: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "bruss23"
+		"ftbteams:description": ""
+		"ftbteams:color": "#5966FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

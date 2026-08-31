@@ -1,0 +1,21 @@
+{
+  "tacz:modern_kinetic_gun": [
+    {
+      "explosionPower": 0.0,
+      "explosionChance": 0.0,
+      "requiredHits": 5.0,
+      "requiredNbt": "{GunId:\"cibs:ak24_texas\"}",
+      "useDurabilityMultiplier": true,
+      "roundingType": "STANDARD",
+      "lootable": {
+        "amountForMaxReturn": 1,
+        "autoGenerateFromRecipe": true,
+        "recipeId": "cibs:ak24_texas",
+        "returnAmount": {
+          "min": 25.0,
+          "max": 35.0
+        }
+      }
+    }
+  ]
+}

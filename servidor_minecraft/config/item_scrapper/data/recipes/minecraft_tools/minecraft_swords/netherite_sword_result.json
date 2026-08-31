@@ -1,0 +1,22 @@
+{
+  "minecraft:netherite_sword": [
+    {
+      "explosionPower": 0.0,
+      "requiredHits": 6.0,
+      "explosionChance": 0.0,
+      "useDurabilityMultiplier": true,
+      "lootable": {
+        "amountForMaxReturn": 1,
+        "autoGenerateFromRecipe": true,
+        "recipeIds": [
+          "minecraft:diamond_sword",
+          "minecraft:netherite_ingot"
+        ],
+        "returnAmount": {
+          "min": 25.0,
+          "max": 35.0
+        }
+      }
+    }
+  ]
+}

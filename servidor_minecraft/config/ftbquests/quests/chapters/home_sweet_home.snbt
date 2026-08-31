@@ -1,0 +1,406 @@
+{
+	autofocus_id: "178C777C156FC130"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "home_sweet_home"
+	group: "036BBCCF3C38F186"
+	icon: "refurbished_furniture:purple_sofa"
+	id: "57627256FC9A155C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4BBA71C5A9E0301D"]
+			description: [
+				"{ftbquests.chapter.home_sweet_home.quest4255067403241451219.description1}"
+				"{ftbquests.chapter.home_sweet_home.quest4255067403241451219.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "3B0D0942498CEED3"
+			rewards: [{
+				count: 3
+				id: "107D4A2BC9B7C7DA"
+				item: "moa_decor_science:gemadeciencia"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.home_sweet_home.quest4255067403241451219.subtitle}"
+			tasks: [{
+				id: "41F5298808522162"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sleep_tight:hammocks"
+					}
+				}
+				title: "{ftbquests.chapter.home_sweet_home.quest4255067403241451219.task.4752750645991317858.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.home_sweet_home.quest4255067403241451219.title}"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B0D0942498CEED3"]
+			description: [
+				"{ftbquests.chapter.home_sweet_home.quest1151351913545598369.description1}"
+				"{ftbquests.chapter.home_sweet_home.quest1151351913545598369.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "0FFA6C771A5A05A1"
+			rewards: [
+				{
+					count: 2
+					id: "069D9BAE09A3EE8F"
+					item: "moa_decor_science:gemadeciencia"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66A85FED4BE8F383"
+					table_id: 6218319453381243758L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25056011D8EDBFF1"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.home_sweet_home.quest1151351913545598369.subtitle}"
+			tasks: [{
+				id: "313CA71194214E2A"
+				item: "sleep_tight:night_bag"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.home_sweet_home.quest1151351913545598369.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B0D0942498CEED3"]
+			description: ["{ftbquests.chapter.home_sweet_home.quest1367438962605490445.description1}"]
+			hide_until_deps_complete: true
+			id: "12FA1E7DD221010D"
+			rewards: [
+				{
+					id: "1898063218A2C2C9"
+					item: "moa_decor_science:libros"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48BECA8D454B6554"
+					table_id: 3833553154103734842L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.home_sweet_home.quest1367438962605490445.subtitle}"
+			tasks: [{
+				id: "563D3164812F03B6"
+				item: "sleep_tight:dreamer_essence"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.home_sweet_home.quest1367438962605490445.title}"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F45D380E9989024"]
+			description: [
+				"{ftbquests.chapter.home_sweet_home.quest7803166023556097423.description1}"
+				"{ftbquests.chapter.home_sweet_home.quest7803166023556097423.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "chipped:carpenters_table"
+			id: "6C4A6A27CD75658F"
+			rewards: [
+				{
+					id: "1D0D86F1EE857F00"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "707248938A25D8C1"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.home_sweet_home.quest7803166023556097423.subtitle}"
+			tasks: [
+				{
+					id: "26CAC130DD2445B7"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "65A8AEE6F71C9B96"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "6BB69A4F22DA839E"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "40A5F8B1773BEB3F"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "177250AE7F03E1F9"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "6F37CB77BF8A6925"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "700CC7FBFA813BE4"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.home_sweet_home.quest7803166023556097423.title}"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F45D380E9989024"]
+			description: [
+				"{ftbquests.chapter.home_sweet_home.quest8886193322329313660.description1}"
+				"{ftbquests.chapter.home_sweet_home.quest8886193322329313660.description2}"
+				"{ftbquests.chapter.home_sweet_home.quest8886193322329313660.description3}"
+			]
+			hide_until_deps_complete: true
+			icon: "refurbished_furniture:workbench"
+			id: "7B5219BEDEE3117C"
+			rewards: [
+				{
+					id: "5A94C86887073761"
+					item: "moa_decor_science:gemadeciencia"
+					random_bonus: 23
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "343338728FCFE689"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.home_sweet_home.quest8886193322329313660.subtitle}"
+			tasks: [
+				{
+					id: "0152D27C0745F308"
+					item: "refurbished_furniture:light_electricity_generator"
+					type: "item"
+				}
+				{
+					id: "1D66EAEB8500923F"
+					item: "refurbished_furniture:workbench"
+					type: "item"
+				}
+				{
+					id: "75833059AD3851CB"
+					item: "refurbished_furniture:wrench"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.home_sweet_home.quest8886193322329313660.title}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4BBA71C5A9E0301D"]
+			description: [
+				"{ftbquests.chapter.home_sweet_home.quest5712204253017706532.description1}"
+				"{ftbquests.chapter.home_sweet_home.quest5712204253017706532.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "refurbished_furniture:television"
+			id: "4F45D380E9989024"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.home_sweet_home.quest5712204253017706532.subtitle}"
+			tasks: [{
+				id: "2C5E8E1618F31F07"
+				title: "{ftbquests.chapter.home_sweet_home.quest5712204253017706532.task.3197149011038641927.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.home_sweet_home.quest5712204253017706532.title}"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CE8072D97CC5F1B"]
+			description: ["{ftbquests.chapter.home_sweet_home.quest7481389034744040233.description1}"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "refurbished_furniture:light_electricity_generator"
+			id: "67D33BB0626BCB29"
+			min_required_tasks: 1
+			subtitle: "{ftbquests.chapter.home_sweet_home.quest7481389034744040233.subtitle}"
+			tasks: [
+				{
+					id: "2D35663B4F8C781A"
+					title: "{ftbquests.chapter.home_sweet_home.quest7481389034744040233.task.3257622310396131354.title}"
+					type: "checkmark"
+				}
+				{
+					consume_items: true
+					count: 4L
+					icon: "minecraft:copper_block"
+					id: "1CB993720A126A34"
+					item: "minecraft:copper_block"
+					title: "{ftbquests.chapter.home_sweet_home.quest7481389034744040233.task.2069847621757987380.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.home_sweet_home.quest7481389034744040233.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67D33BB0626BCB29"]
+			description: [""]
+			hide_until_deps_complete: true
+			icon: "moa_decor_science:libro"
+			id: "2809BD67DB167282"
+			rewards: [{
+				id: "2DF9F71A3EA3059B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.home_sweet_home.quest2885045290062475906.subtitle}"
+			tasks: [{
+				id: "64B21DEAF774FD5E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minetraps:quicksand"
+							}
+							{
+								Count: 1b
+								id: "minetraps:toxic_mine"
+							}
+							{
+								Count: 1b
+								id: "minetraps:explosive_mine"
+							}
+							{
+								Count: 1b
+								id: "minetraps:chest_bomb"
+							}
+							{
+								Count: 1b
+								id: "minetraps:bear_trap"
+							}
+							{
+								Count: 1b
+								id: "minetraps:barbed_wire_fence"
+							}
+							{
+								Count: 1b
+								id: "minetraps:razor_wire"
+							}
+							{
+								Count: 1b
+								id: "minetraps:barbed_wire"
+							}
+							{
+								Count: 1b
+								id: "minetraps:obstacle"
+							}
+							{
+								Count: 1b
+								id: "minetraps:nail_trap"
+							}
+							{
+								Count: 1b
+								id: "minetraps:toxic_nail_trap"
+							}
+							{
+								Count: 1b
+								id: "minetraps:spikes"
+							}
+							{
+								Count: 1b
+								id: "minetraps:spikes_toxic"
+							}
+							{
+								Count: 1b
+								id: "minetraps:pitfall_trap"
+							}
+							{
+								Count: 1b
+								id: "minetraps:ghost_block"
+							}
+							{
+								Count: 1b
+								id: "minetraps:troll_block"
+							}
+							{
+								Count: 1b
+								id: "minetraps:nails"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.home_sweet_home.quest2885045290062475906.task.7255894844658482526.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.home_sweet_home.quest2885045290062475906.title}"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CE8072D97CC5F1B"]
+			description: ["{ftbquests.chapter.home_sweet_home.quest4838074699082064297.description1}"]
+			hide_until_deps_complete: true
+			icon: "infinitybuttons:red_safe_emergency_button"
+			id: "43244B4E3B9761A9"
+			rewards: [{
+				id: "22C77CC05F9CCD1F"
+				type: "xp"
+				xp: 8
+			}]
+			subtitle: "{ftbquests.chapter.home_sweet_home.quest4838074699082064297.subtitle}"
+			tasks: [{
+				id: "750B6648321C6715"
+				title: "{ftbquests.chapter.home_sweet_home.quest4838074699082064297.task.8433947187445786389.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.home_sweet_home.quest4838074699082064297.title}"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CE8072D97CC5F1B"]
+			description: ["{ftbquests.chapter.home_sweet_home.quest8505788002852507463.description1}"]
+			hide_until_deps_complete: true
+			icon: "quark:acacia_chest"
+			id: "760AA11F7CCD8F47"
+			subtitle: "{ftbquests.chapter.home_sweet_home.quest8505788002852507463.subtitle}"
+			tasks: [{
+				id: "0D29ED458A3A6C29"
+				title: "{ftbquests.chapter.home_sweet_home.quest8505788002852507463.task.948550079465810985.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.home_sweet_home.quest8505788002852507463.title}"
+			x: -2.5d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.home_sweet_home.title}"
+}

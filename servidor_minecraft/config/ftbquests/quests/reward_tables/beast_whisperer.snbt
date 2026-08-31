@@ -1,0 +1,18 @@
+{
+	icon: "minecraft:hay_block"
+	id: "634DCF9016127704"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ count: 3, item: "minecraft:name_tag", weight: 0.15f }
+		{ count: 2, item: "minecraft:lead", weight: 0.1f }
+		{ count: 8, item: "farmersdelight:horse_feed", weight: 0.1f }
+		{ count: 8, item: "farmersdelight:dog_food", weight: 0.1f }
+		{ item: "minecraft:saddle", weight: 0.2f }
+		{ item: "minecraft:leather_horse_armor", weight: 0.15f }
+		{ item: "minecraft:golden_horse_armor", weight: 0.1f }
+		{ item: "minecraft:iron_horse_armor", weight: 0.1f }
+	]
+	title: "{ftbquests.loot_table.7155603600714135300.title}"
+	use_title: true
+}

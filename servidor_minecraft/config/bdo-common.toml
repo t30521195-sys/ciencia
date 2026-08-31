@@ -1,0 +1,6 @@
+
+#General settings
+[general]
+	#Test config value
+	iron_doo_break_flag = false
+

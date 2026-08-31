@@ -1,0 +1,46 @@
+{
+  "armorSetName": "ironvanillaarmor",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "biohazardchanges:iron_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "biohazardchanges:iron_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "biohazardchanges:iron_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "biohazardchanges:iron_boots",
+    "mustBeEmpty": false
+  },
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "When wearing the full iron set,",
+    "you become much heavier and tougher,",
+    "moving slower but taking more hits."
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 240,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 240,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

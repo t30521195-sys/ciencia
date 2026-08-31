@@ -1,0 +1,26 @@
+{
+  "radiationThreshold": 1200,
+  "tickRate": 40,
+  "stackEffectsFromLowerLevels": false,
+  "executeCommands": [],
+  "radiationDamage": 0.0,
+  "radiationAttributeModification": [
+    {
+      "name": "minecraft:generic.movement_speed",
+      "operation": "multiply_total",
+      "value": -0.50,
+      "persistent": true
+    }
+  ],
+  "radiationEffects": [
+    {
+      "name": "radioactive:impending_death",
+      "amplifier": 0,
+      "duration": 200,
+      "is_ambient": true,
+      "show_particles": false,
+      "apply_once": true,
+      "chance": 1.0
+    }
+  ]
+}

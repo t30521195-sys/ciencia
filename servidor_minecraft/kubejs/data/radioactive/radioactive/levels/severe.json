@@ -1,0 +1,20 @@
+{
+  "radiationThreshold": 500,
+  "tickRate": 20,
+  "stackEffectsFromLowerLevels": true,
+  "radiationDamage": {
+    "base": 1.0,
+    "scaling_per_tick": 0.15,
+    "max_damage": 4.0
+  },
+  "radiationEffects": [
+    {
+      "name": "radioactive:radiation_poisoning",
+      "amplifier": 0,
+      "duration": 220,
+      "apply_once": true,
+      "chance": 1.0
+    }
+  ]
+}
+

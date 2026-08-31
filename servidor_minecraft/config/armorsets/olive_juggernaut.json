@@ -1,0 +1,85 @@
+{
+  "armorSetName": "olive_juggernaut",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "marbledsarsenal:olive_juggernaut_armor_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "marbledsarsenal:olive_juggernaut_armor_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "marbledsarsenal:olive_juggernaut_armor_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "marbledsarsenal:olive_juggernaut_armor_boots",
+    "mustBeEmpty": false
+  },
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "When you get the complete Olive Juggernaut set,",
+    "you get great stamina,",
+    "strength and vision in lava."
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "generic.knockback_resistance",
+      "value": 4.0,
+      "modifierUUID": "d5a7dc88-9405-4398-b1e5-250b4c6dd218",
+      "description": "+4 Knockback Resistance",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 240,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 240,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 240,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "quark:resilience",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 240,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "alexsmobs:lava_vision",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 240,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

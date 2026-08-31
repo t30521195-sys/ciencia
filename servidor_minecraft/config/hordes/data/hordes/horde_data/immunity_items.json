@@ -1,0 +1,14 @@
+[
+    {
+        "item": "minecraft:enchanted_golden_apple",
+        "duration": 150
+    },
+    {
+        "item": "cure:vaccine",
+        "duration": 90
+    },
+    {
+        "item": "canned_goods:canned_enchanted_apples",
+        "duration": 300
+    }
+]

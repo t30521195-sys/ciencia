@@ -1,0 +1,652 @@
+{
+	autofocus_id: "22F97E76C79C3DD7"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_a_village"
+	group: "463CB09C632FE18F"
+	icon: "mca:blueprint"
+	id: "65B26CDD3CE65CD7"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1ECF6C42132DD49D"]
+			description: [
+				"{ftbquests.chapter.create_a_village.quest2520184515110649303.description1}"
+				""
+				"{ftbquests.chapter.create_a_village.quest2520184515110649303.description2}"
+			]
+			hide_until_deps_visible: true
+			icon: "mca:blueprint"
+			id: "22F97E76C79C3DD7"
+			rewards: [{
+				id: "2E5851A7CDCA3FDE"
+				item: "mca:book_blueprint"
+				title: "{ftbquests.chapter.create_a_village.quest2520184515110649303.reward.3339508904849194974.title}"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7C27A5A4A7AF6B61"
+					item: "mca:blueprint"
+					type: "item"
+				}
+				{
+					id: "5C8C6DADA1363497"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:doors"
+						}
+					}
+					title: "{ftbquests.chapter.create_a_village.quest2520184515110649303.task.6668825740730315927.title}"
+					type: "item"
+				}
+				{
+					id: "38CE3AC874D1686C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+					title: "{ftbquests.chapter.create_a_village.quest2520184515110649303.task.4093273743954110572.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_a_village.quest2520184515110649303.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22F97E76C79C3DD7"]
+			description: ["{ftbquests.chapter.create_a_village.quest6631349522696885925.description1}"]
+			hide_until_deps_complete: true
+			id: "5C074941A9CDD6A5"
+			rewards: [
+				{
+					id: "22548020010B63FF"
+					item: "mca:book_infection"
+					type: "item"
+				}
+				{
+					id: "3DE959A0A8BB98C9"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "31FA27EF765DC557"
+				item: "cure:vaccine"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest6631349522696885925.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C074941A9CDD6A5"]
+			icon: "mca:cross_headstone"
+			id: "310C404D28948D47"
+			rewards: [
+				{
+					id: "179A6FF8D5B7187D"
+					item: "mca:book_death"
+					type: "item"
+				}
+				{
+					id: "028C2F7D45120472"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "505E02B1EB025A58"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tumbas"
+					}
+				}
+				title: "{ftbquests.chapter.create_a_village.quest3534270507716480327.task.5791069134020303448.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest3534270507716480327.title}"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310C404D28948D47"]
+			description: ["{ftbquests.chapter.create_a_village.quest8240045310094511329.description1}"]
+			hide_until_deps_complete: true
+			id: "725A858D494E8CE1"
+			rewards: [{
+				id: "2E79470BB661ECDB"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.create_a_village.quest8240045310094511329.subtitle}"
+			tasks: [{
+				entity: "mca:grim_reaper"
+				icon: {
+					Count: 1
+					id: "mca:scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2765F56CB31350AA"
+				title: "{ftbquests.chapter.create_a_village.quest8240045310094511329.task.2838944987336626346.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest8240045310094511329.title}"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["725A858D494E8CE1"]
+			description: ["{ftbquests.chapter.create_a_village.quest1502589401930174337.description1}"]
+			hide_until_deps_complete: true
+			id: "14DA451999508F81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15DCED4F0137428E"
+				table_id: 4066870063239717633L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "3953F4F9819CADB7"
+				item: {
+					Count: 1
+					id: "mca:staff_of_life"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest1502589401930174337.title}"
+			x: 1.5d
+			y: 4.7845238095238045d
+		}
+		{
+			dependencies: ["6CA2653BC641B27B"]
+			description: ["{ftbquests.chapter.create_a_village.quest581381018946287977.description1}"]
+			hide_until_deps_complete: true
+			id: "08117AF4D972B969"
+			rewards: [
+				{
+					id: "1A2EBD80882862AB"
+					item: "mca:civil_registry"
+					type: "item"
+				}
+				{
+					id: "664C7D075B99291E"
+					type: "xp"
+					xp: 12
+				}
+			]
+			size: 0.6d
+			tasks: [{
+				id: "0A8A2E08DC8C6063"
+				item: "mca:bouquet"
+				title: "{ftbquests.chapter.create_a_village.quest581381018946287977.task.759470102760153187.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest581381018946287977.title}"
+			x: 0.6d
+			y: -2.1d
+		}
+		{
+			dependencies: ["6CA2653BC641B27B"]
+			description: ["{ftbquests.chapter.create_a_village.quest41439283041693772.description1}"]
+			hide_until_deps_complete: true
+			id: "009338CEF172704C"
+			rewards: [
+				{
+					id: "03DE22E617FBFF2F"
+					item: "mca:family_tree"
+					type: "item"
+				}
+				{
+					id: "134786F57B500396"
+					type: "xp"
+					xp: 24
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24E321F017212BA6"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			tasks: [{
+				id: "13C957A607FA0F58"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:engagement_rings"
+					}
+				}
+				title: "{ftbquests.chapter.create_a_village.quest41439283041693772.task.1425767127649488728.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest41439283041693772.title}"
+			x: 1.2d
+			y: -2.4d
+		}
+		{
+			dependencies: ["6CA2653BC641B27B"]
+			description: ["{ftbquests.chapter.create_a_village.quest8010393846111354892.description1}"]
+			hide_until_deps_complete: true
+			icon: "mca:wedding_ring"
+			id: "6F2AA2C31C71400C"
+			rewards: [
+				{
+					id: "5B3CC73EDC6EE1A2"
+					item: "mca:book_family"
+					type: "item"
+				}
+				{
+					id: "63601260042A9D8B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44EAC3652A006B06"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "483806BBD202BCF4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:weading_rings"
+						}
+					}
+					title: "{ftbquests.chapter.create_a_village.quest8010393846111354892.task.5203916773178653940.title}"
+					type: "item"
+				}
+				{
+					id: "2232970199F12969"
+					item: {
+						Count: 1
+						id: "mca:villager_tracker"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4DCF669BB213F2D7"
+					item: "mca:whistle"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_a_village.quest8010393846111354892.title}"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22F97E76C79C3DD7"]
+			description: ["{ftbquests.chapter.create_a_village.quest7827930409727013499.description1}"]
+			icon: "mca:book_romance"
+			id: "6CA2653BC641B27B"
+			rewards: [{
+				id: "3C3B511BDD591CA4"
+				item: "mca:book_romance"
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "63356F0CAF211F21"
+				title: "{ftbquests.chapter.create_a_village.quest7827930409727013499.task.7148742083789004577.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest7827930409727013499.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F2AA2C31C71400C"]
+			dependency_requirement: "one_started"
+			id: "67F9C47FE6814891"
+			rewards: [
+				{
+					id: "3D331CEBAA49E4BC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "6CA52D209CC044EB"
+					item: {
+						Count: 1
+						id: "supplementaries:confetti_popper"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "404A19A4FE4A8A5A"
+					item: "mca:red_oak_crib"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 1.2d
+			tasks: [{
+				advancement: "mca:baby"
+				criterion: ""
+				id: "1DF58AF98B44EB20"
+				title: "{ftbquests.chapter.create_a_village.quest7492235508714653841.task.2158784400782060320.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest7492235508714653841.title}"
+			x: 1.5d
+			y: -3.5999999999999996d
+		}
+		{
+			dependencies: ["6CA2653BC641B27B"]
+			id: "6465C359756583E5"
+			invisible: true
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2382B3619510CCD2"
+				table_id: 8453280897702031425L
+				type: "random"
+			}]
+			size: 0.45d
+			tasks: [{
+				advancement: "mca:best_friend"
+				criterion: ""
+				id: "0B574CEC3EA899AE"
+				title: "{ftbquests.chapter.create_a_village.quest7234403165429662693.task.817206434938263982.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest7234403165429662693.title}"
+			x: 0.22499999999999998d
+			y: -1.575d
+		}
+		{
+			dependencies: ["22F97E76C79C3DD7"]
+			hide_until_deps_complete: true
+			icon: "mca:divorce_papers"
+			id: "7BD294039E2CA28E"
+			rewards: [
+				{
+					id: "50B0C47880844560"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2484D0B14EF25FB9"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+			]
+			size: 0.6d
+			tasks: [{
+				advancement: "mca:merchant"
+				criterion: ""
+				id: "440B10BE92301D5A"
+				title: "{ftbquests.chapter.create_a_village.quest8922356555033911950.task.4903031030005374298.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest8922356555033911950.title}"
+			x: 2.4d
+			y: -0.8999999999999999d
+		}
+		{
+			dependencies: ["7BD294039E2CA28E"]
+			icon: "mca:book_family"
+			id: "6183FC516A986326"
+			rewards: [
+				{
+					id: "7224DA27F137ADE8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C515DFEDCFF9C15"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				advancement: "mca:noble"
+				criterion: ""
+				id: "26D328C30999803C"
+				title: "{ftbquests.chapter.create_a_village.quest7026737270239028006.task.2797624611671998524.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest7026737270239028006.title}"
+			x: 3.2d
+			y: -1.2d
+		}
+		{
+			dependencies: ["6183FC516A986326"]
+			hide_until_deps_complete: true
+			icon: "mca:civil_registry"
+			id: "14C23ECC74CBBFD3"
+			rewards: [
+				{
+					id: "1731F450E87661CC"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65CE16723010D254"
+					table_id: 2169985305494019696L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "mca:mayor"
+				criterion: ""
+				id: "7DB5E48FD32FE9F8"
+				title: "{ftbquests.chapter.create_a_village.quest1495827074094186451.task.9058397531900209656.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest1495827074094186451.title}"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14C23ECC74CBBFD3"]
+			hide_until_deps_complete: true
+			icon: "mca:villager_editor"
+			id: "7A444EFB312AEF4E"
+			rewards: [
+				{
+					id: "16643D91193398E1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44CC4D6C5AAFAB10"
+					table_id: 2569441142384244234L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				advancement: "mca:monarch"
+				criterion: ""
+				id: "0334296B21EF7298"
+				title: "{ftbquests.chapter.create_a_village.quest8810253611812187982.task.230855021010317976.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest8810253611812187982.title}"
+			x: 3.5999999999999996d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67F9C47FE6814891"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3CFFC84DB41B397A"
+			optional: true
+			rewards: [
+				{
+					id: "7E8D97A66A7FB66E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F5BF2FD4B630B57"
+					table_id: 3340497817625991817L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "mca:grow_child"
+				criterion: ""
+				id: "1F12EB4F0B76E6EF"
+				title: "{ftbquests.chapter.create_a_village.quest4395451997396613498.task.2239110689483843311.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest4395451997396613498.title}"
+			x: 1.0d
+			y: -4.800000000000001d
+		}
+		{
+			dependencies: ["3CFFC84DB41B397A"]
+			hide_until_deps_complete: true
+			id: "7CC4C0DFED5F30F6"
+			optional: true
+			rewards: [
+				{
+					id: "5417F60FA28D27A3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7978659A4885D42E"
+					table_id: 4490392531640542596L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "mca:grow_adult"
+				criterion: ""
+				id: "2717AACFFEDB1679"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest8990522824131031286.title}"
+			x: 2.0d
+			y: -5.800000000000001d
+		}
+		{
+			dependencies: ["7CC4C0DFED5F30F6"]
+			hide_until_deps_complete: true
+			id: "2B3D5AF9EEAC1944"
+			optional: true
+			rewards: [
+				{
+					id: "32A76EDFE1D9C7F8"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BFCE1F9402E6314"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				advancement: "mca:grandparent"
+				criterion: ""
+				id: "5654958ABDE46C46"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.create_a_village.quest3115746546707863876.title}"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6CA2653BC641B27B"]
+			description: [
+				"{ftbquests.chapter.create_a_village.quest2725544582407647591.description1}"
+				""
+				"{ftbquests.chapter.create_a_village.quest2725544582407647591.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "camerapture:camera"
+				tag: {
+					active: 0b
+				}
+			}
+			id: "25D3145B6DE5F167"
+			rewards: [{
+				id: "646992CDA67B6A9F"
+				type: "xp"
+				xp: 99
+			}]
+			shape: "hexagon"
+			size: 0.6d
+			tasks: [
+				{
+					id: "323A6AEBC6317B1E"
+					item: {
+						Count: 1
+						id: "camerapture:camera"
+						tag: {
+							active: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52379FB945D397F9"
+					item: "camerapture:album"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_a_village.quest2725544582407647591.title}"
+			x: 0.6d
+			y: -1.1d
+		}
+	]
+	title: "{ftbquests.chapter.create_a_village.title}"
+}

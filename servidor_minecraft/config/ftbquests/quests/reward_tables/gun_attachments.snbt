@@ -1,0 +1,71 @@
+{
+	icon: "dyairdrop:safe"
+	id: "4BA7C10E85E1C6BE"
+	loot_size: 2
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_uh1"
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_lpvo_1_6"
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silencer_ursus"
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:extended_mag_3"
+				}
+			}
+			only_one: true
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:ammo_mod_hp"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:ammo_box"
+				tag: {
+					Level: 1
+				}
+			}
+			only_one: true
+			weight: 2.0f
+		}
+	]
+	title: "{ftbquests.loot_table.5451538142075143870.title}"
+	use_title: true
+}

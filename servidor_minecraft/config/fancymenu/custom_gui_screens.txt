@@ -1,0 +1,23 @@
+type = custom_gui_screens
+
+overridden_screens {
+}
+
+custom_gui {
+  identifier = dz.voidcube.start_screen
+  title = 
+  allow_esc = false
+  transparent_world_background = false
+  transparent_world_background_overlay = false
+  pause_game = false
+}
+
+custom_gui {
+  identifier = dz.voidcube.fullscreen_news
+  title = 
+  allow_esc = true
+  transparent_world_background = false
+  transparent_world_background_overlay = false
+  pause_game = false
+}
+

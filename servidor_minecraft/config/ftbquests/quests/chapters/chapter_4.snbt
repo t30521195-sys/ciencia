@@ -1,0 +1,1535 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_4"
+	group: "463CB09C632FE18F"
+	icon: "create:flywheel"
+	id: "77D8BBCEBCFED69E"
+	images: [
+		{
+			click: "#2A847ECBCB3DA249"
+			dependency: "55B4FAF8448B98D6"
+			height: 0.5d
+			hover: ["ftbquests.chapter.chapter_4.image.hovertext1"]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0535714285714235d
+			y: -2.0178571428571352d
+		}
+		{
+			click: "#27900E4479E6E12D"
+			dependency: "55B4FAF8448B98D6"
+			height: 1.2d
+			hover: [
+				"ftbquests.chapter.chapter_4.image.hovertext2"
+				"ftbquests.chapter.chapter_4.image.hovertext3"
+			]
+			image: "forge:textures/gui/experimental_warning.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.9107142857142776d
+			y: -0.9107142857142847d
+		}
+		{
+			click: "#5DE109B68E1F9E39"
+			dependency: "55B4FAF8448B98D6"
+			height: 0.5d
+			hover: [
+				"ftbquests.chapter.chapter_4.image.hovertext4"
+				"ftbquests.chapter.chapter_4.image.hovertext5"
+			]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.124999999999993d
+			y: 0.4821428571428541d
+		}
+		{
+			click: "#382CFFB91B4DD9B7"
+			dependency: "55B4FAF8448B98D6"
+			height: 0.5d
+			hover: [
+				"ftbquests.chapter.chapter_4.image.hovertext6"
+				"ftbquests.chapter.chapter_4.image.hovertext7"
+			]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.517857142857139d
+			y: 0.0892857142857153d
+		}
+		{
+			click: "#3C521FE228207AAC"
+			dependency: "55B4FAF8448B98D6"
+			height: 0.5d
+			hover: [
+				"ftbquests.chapter.chapter_4.image.hovertext8"
+				"ftbquests.chapter.chapter_4.image.hovertext9"
+			]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.482142857142854d
+			y: -0.4107142857142847d
+		}
+		{
+			click: "#5F3A70554B9CFE86"
+			dependency: "55B4FAF8448B98D6"
+			height: 0.5d
+			hover: ["ftbquests.chapter.chapter_4.image.hovertext10"]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5879464285714207d
+			y: -0.5d
+		}
+		{
+			click: "#0B076E810E550497"
+			dependency: "55B4FAF8448B98D6"
+			height: 0.5d
+			hover: ["ftbquests.chapter.chapter_4.image.hovertext11"]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.0714285714285623d
+			y: -1.9821428571428612d
+		}
+		{
+			click: "#7EF73164ED27F213"
+			dependency: "53637994C93E3BD6"
+			height: 0.65d
+			hover: [
+				"ftbquests.chapter.chapter_4.image.hovertext12"
+				"ftbquests.chapter.chapter_4.image.hovertext13"
+			]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.65d
+			x: -1.1732142857142733d
+			y: 3.797619047619044d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5DA102E5156D1266"
+				"224DB1B570064E90"
+				"366059FF1E038CC0"
+			]
+			description: [
+				"{ftbquests.chapter.chapter_4.quest6175836933240625366.description1}"
+				"{ftbquests.chapter.chapter_4.quest6175836933240625366.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "item_scrapper:scrapper_block"
+			id: "55B4FAF8448B98D6"
+			shape: "rsquare"
+			tasks: [{
+				id: "67E6A4FFD52643EB"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_4.quest6175836933240625366.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55B4FAF8448B98D6"]
+			description: ["{ftbquests.chapter.chapter_4.quest8191206704447316607.description1}"]
+			hide_until_deps_complete: true
+			icon: "radioactive:radaway_advanced"
+			id: "71AD03194C61627F"
+			rewards: [
+				{
+					id: "69E30676BBF8C665"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "63A0DA08FFBFDF30"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "radioactive:anti_radiation"
+								lvl: 2s
+							}]
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.chapter_4.quest8191206704447316607.subtitle}"
+			tasks: [
+				{
+					id: "2CB1192CAF39868B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "radioactive:upgrade_3"
+								}
+								{
+									Count: 1b
+									id: "radioactive:upgrade_2"
+								}
+								{
+									Count: 1b
+									id: "radioactive:upgrade_1"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_4.quest8191206704447316607.task.3220382888255653515.title}"
+					type: "item"
+				}
+				{
+					id: "121882FCEE0F8063"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "radioactive:geiger_counter"
+									tag: {
+										last_reading: 0.0f
+										last_shielding: 0.0f
+									}
+								}
+								{
+									Count: 1b
+									id: "radioactive:industrial_tongs"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_4.quest8191206704447316607.task.1303936114961121379.title}"
+					type: "item"
+				}
+				{
+					id: "591287C893B1BE7D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "radioactive:decontaminator"
+								}
+								{
+									Count: 1b
+									id: "radioactive:radiation_absorber_tier_1"
+								}
+								{
+									Count: 1b
+									id: "radioactive:radiation_absorber_tier_2"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_4.quest8191206704447316607.task.6418341714497486461.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_4.quest8191206704447316607.title}"
+			x: -0.7374999999999972d
+			y: -1.5660714285714263d
+		}
+		{
+			dependencies: ["55B4FAF8448B98D6"]
+			description: [
+				"{ftbquests.chapter.chapter_4.quest3926875445099496081.description1}"
+				""
+				"{ftbquests.chapter.chapter_4.quest3926875445099496081.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:quartz"
+			id: "367F10696E5C0291"
+			min_required_tasks: 2
+			rewards: [{
+				id: "586E33640012EABE"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "7871761E503FDD89"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "5984AEE02535C930"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_4.quest3926875445099496081.title}"
+			x: 1.8910714285714292d
+			y: -0.18035714285714022d
+		}
+		{
+			dependencies: ["55B4FAF8448B98D6"]
+			description: ["{ftbquests.chapter.chapter_4.quest8019693593242219646.description1}"]
+			hide_until_deps_complete: true
+			id: "6F4BACD538ADB47E"
+			min_required_tasks: 2
+			rewards: [
+				{
+					id: "5FD8336DF92B5C54"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63CD97AC18B5C1F3"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.chapter_4.quest8019693593242219646.subtitle}"
+			tasks: [
+				{
+					id: "19F9E292D5C470D3"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E3E7E8D41C2ABEA"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "706ED45A7875C91C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:smite"
+								lvl: 5
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6957090BCA42F475"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33973221F6D59276"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 4
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E7418F1A5755B17"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30CDA18395068EB2"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64CDD55753CC1BD1"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 5
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "064A3F7FC737B7EB"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DC3D6FDF874E1D3"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "bulletarmorenchant:bullet_proof"
+								lvl: 4
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement of heavy plates\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40823E3091E77E2B"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "butcher:butcherenchantment"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41239AD178C5A549"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "backpacked:looted"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_4.quest8019693593242219646.title}"
+			x: -2.0d
+			y: -0.16160714285715017d
+		}
+		{
+			dependencies: ["55B4FAF8448B98D6"]
+			description: [
+				"{ftbquests.chapter.chapter_4.quest8124741812337063780.description1}"
+				"{ftbquests.chapter.chapter_4.quest8124741812337063780.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "refinedstorage:quartz_enriched_iron_block"
+			id: "70C0E1A1B01D3764"
+			shape: "octagon"
+			tasks: [{
+				id: "3120DAFA96462F46"
+				title: "{ftbquests.chapter.chapter_4.quest8124741812337063780.task.3540070076911071046.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_4.quest8124741812337063780.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55B4FAF8448B98D6"]
+			description: ["{ftbquests.chapter.chapter_4.quest6008780007780793302.description1}"]
+			hide_until_deps_complete: true
+			icon: "chipped:iron_bowl_soul_lantern"
+			id: "53637994C93E3BD6"
+			rewards: [
+				{
+					id: "73656F74BBAF0D75"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "693E5477F87D846F"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.chapter_4.quest6008780007780793302.subtitle}"
+			tasks: [{
+				id: "63E5FE41A521A4AD"
+				item: "unusual_delight:soul"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_4.quest6008780007780793302.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53637994C93E3BD6"]
+			description: [
+				"{ftbquests.chapter.chapter_4.quest8499822286331208001.description1}"
+				""
+				"{ftbquests.chapter.chapter_4.quest8499822286331208001.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "75F56F55DEB86141"
+			rewards: [
+				{
+					id: "2C1A85464B35CF91"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E72EB9595BE95A1"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "72CE119C77998C62"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_4.quest8499822286331208001.title}"
+			x: -0.8d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75F56F55DEB86141"]
+			description: ["{ftbquests.chapter.chapter_4.quest5112379082511404912.description1}"]
+			hide_until_deps_complete: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "46F2D1B0623ACF70"
+			rewards: [
+				{
+					id: "45E7C2111595D561"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72FA4D7011D839BF"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					id: "0EE6A9889E9C8AE4"
+					item: "dyairdrop:flaregun3"
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [
+				{
+					count: 3L
+					id: "0B0057A1B67B0B45"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "26717E53EAB91472"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_4.quest5112379082511404912.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["46F2D1B0623ACF70"]
+			description: [
+				"{ftbquests.chapter.chapter_4.quest5055063018342692767.description1}"
+				""
+				"{ftbquests.chapter.chapter_4.quest5055063018342692767.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:nether_star"
+			id: "462731084587B79F"
+			rewards: [
+				{
+					id: "0852B5F84364698F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7ADCB70D83D290E7"
+					table_id: 2569441142384244234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "534AC4A362CA3227"
+					table_id: 8685283136233001284L
+					type: "random"
+				}
+				{
+					id: "24594112E67DBF53"
+					item: "dyairdrop:flaregun5"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "{ftbquests.chapter.chapter_4.quest5055063018342692767.subtitle}"
+			tasks: [{
+				id: "235FAFABD3B42F66"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_4.quest5055063018342692767.title}"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["70C0E1A1B01D3764"]
+			description: [
+				"{ftbquests.chapter.chapter_4.quest7910865342584344373.description1}"
+				""
+				"{ftbquests.chapter.chapter_4.quest7910865342584344373.description2}"
+			]
+			icon: "minecraft:carved_pumpkin"
+			id: "6DC90A1D92B04F35"
+			rewards: [
+				{
+					id: "0E87F02FC28C899C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "245618C10301D705"
+					item: {
+						Count: 1
+						id: "minecraft:name_tag"
+						tag: {
+							display: {
+								Name: "{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_green\",\"text\":\"Emet\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4756AC30BC132096"
+					table_id: 3340497817625991817L
+					type: "random"
+				}
+				{
+					id: "0E298AE328227C84"
+					item: "dyairdrop:flaregun4"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				advancement: "minecraft:adventure/summon_iron_golem"
+				criterion: ""
+				id: "5CBE93973D89131C"
+				title: "{ftbquests.chapter.chapter_4.quest7910865342584344373.task.6682941174846133020.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.chapter_4.quest7910865342584344373.title}"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["55B4FAF8448B98D6"]
+			description: [
+				"{ftbquests.chapter.chapter_4.quest1531196130757797880.description1}"
+				""
+				"{ftbquests.chapter.chapter_4.quest1531196130757797880.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "spore:gas_mask"
+			id: "153FE6C4AF4567F8"
+			rewards: [{
+				id: "4B3F7C905B7BB729"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "6DD0A5C73AD64F75"
+					item: {
+						Count: 1
+						id: "spore:cdu"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "398A7199FDA4C294"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "spore:container"
+								}
+								{
+									Count: 1b
+									id: "spore:cabinet"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_4.quest1531196130757797880.task.4146251313147331220.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_4.quest1531196130757797880.title}"
+			x: 0.73d
+			y: -1.56d
+		}
+		{
+			dependencies: ["6F4BACD538ADB47E"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "create:clipboard"
+			id: "446EE26856BA7F69"
+			min_required_tasks: 5
+			optional: true
+			rewards: [
+				{
+					id: "72109789C3F9C050"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AB8C949A6EDFD41"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DCB90E82F38F588"
+					table_id: 5742857155502503669L
+					type: "choice"
+				}
+				{
+					id: "44537BF363023F9C"
+					item: "dyairdrop:flaregun3"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.chapter_4.quest4931127579776810857.subtitle}"
+			tasks: [
+				{
+					id: "0E381B020B220292"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F340AB7C32D3D0C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 3
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3149514B81F9DEFE"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03D6DFAE4B2AD86F"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CB905B3D71CE492"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C0F885F1CF1510A"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "045972732D1385AA"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:smite"
+								lvl: 5
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A804CA9D16D42A3"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AF26996538C750F"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17F7ABD1494F8D75"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:thorns"
+								lvl: 3
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "439D998E1BE03D4E"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [
+								{
+									id: "minecraft:aqua_affinity"
+									lvl: 1
+								}
+								{
+									id: "minecraft:respiration"
+									lvl: 3
+								}
+							]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E98507F594FE3F4"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:depth_strider"
+								lvl: 3
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "299184A993355D48"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 4
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4858AEBD1A32789E"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A5C7465D1FEA323"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 5
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3ADA1649EA150084"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "lure"
+								lvl: 3
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31B66A40C59461F7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:luck_of_the_sea"
+								lvl: 3
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52A54461CB3024D0"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "create:potato_recovery"
+								lvl: 3
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B5C3DA4642429C5"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "butcher:butcherenchantment"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "082924E14DE6F165"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "backpacked:imbued_hide"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FE9E3D87E38E4F2"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "backpacked:looted"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55BF7A412A9C1E60"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "backpacked:funnelling"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E4C3B8110A723BE"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "bulletarmorenchant:bullet_proof"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement of light plates\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F3485FB77E44806"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "bulletarmorenchant:bullet_proof"
+								lvl: 2
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement of plates\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56994C3EB3E177AB"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "bulletarmorenchant:bullet_proof"
+								lvl: 3
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement of reinforced plates\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11543CE8A45111FB"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "bulletarmorenchant:bullet_proof"
+								lvl: 4
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement of heavy plates\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_4.quest4931127579776810857.title}"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71AD03194C61627F"]
+			description: ["{ftbquests.chapter.chapter_4.quest1245248270400172145.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "lrarmor:armored_chemical_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "114802B44E5F3071"
+			optional: true
+			rewards: [
+				{
+					id: "3184D682E553F6A5"
+					type: "xp"
+					xp: 88
+				}
+				{
+					id: "75D80FC5A7F72161"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "radioactive:anti_radiation"
+								lvl: 3
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1B566AAF03793A05"
+					item: {
+						Count: 1
+						id: "lrarmor:armored_chemical_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58E0AED0DCB989C2"
+					item: {
+						Count: 1
+						id: "lrarmor:armored_chemical_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35DC4C56F05FD8F2"
+					item: {
+						Count: 1
+						id: "lrarmor:armored_chemical_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C652743BD454011"
+					item: {
+						Count: 1
+						id: "lrarmor:armored_chemical_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A066130BA30B94B"
+					item: { Count: 4, id: "radioactive:upgrade_1" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_4.quest1245248270400172145.title}"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["367F10696E5C0291"]
+			description: [
+				"{ftbquests.chapter.chapter_4.quest4289502443045375515.description1}"
+				""
+			]
+			hide_until_deps_complete: true
+			icon: "skys_overworld_netherite:ancient_debris_shard"
+			id: "3B875FBEC4E3CE1B"
+			optional: true
+			rewards: [
+				{
+					id: "37C36C3DC034930D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 4
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement schemes\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "694B362F8480E3A8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28DBE61B0A8D7DF3"
+					table_id: 2169985305494019696L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.chapter_4.quest4289502443045375515.subtitle}"
+			tasks: [
+				{
+					id: "12A8F4347BE35EBE"
+					item: "skys_overworld_netherite:ancient_debris_shard"
+					type: "item"
+				}
+				{
+					id: "58E41747CC488C3A"
+					item: "skys_overworld_netherite:large_ancient_shard"
+					type: "item"
+				}
+				{
+					id: "5B7D01F9AC58E3CD"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_4.quest4289502443045375515.title}"
+			x: 1.3928571428571388d
+			y: 0.4821428571428541d
+		}
+		{
+			dependencies: ["367F10696E5C0291"]
+			description: ["{ftbquests.chapter.chapter_4.quest1699926170619974640.description1}"]
+			hide_until_deps_complete: true
+			icon: "undead_revamp2:bostroxingot"
+			id: "179759D8783193F0"
+			optional: true
+			rewards: [
+				{
+					id: "7B476232E228EC52"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "477D42C6795AF735"
+					table_id: 2169985305494019696L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 0.8d
+			subtitle: "{ftbquests.chapter.chapter_4.quest1699926170619974640.subtitle}"
+			tasks: [
+				{
+					count: 5L
+					id: "61EE142F0E118E91"
+					item: "undead_revamp2:rawbostrox"
+					type: "item"
+				}
+				{
+					id: "18A579B0F79CECAE"
+					item: "undead_revamp2:bostroxingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_4.quest1699926170619974640.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53637994C93E3BD6"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "unusual_delight:warding_soul"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "46E5D15636F686A7"
+			rewards: [
+				{
+					id: "7C5EC3E9F4A310B0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A5AC1BCCB2E149A"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34B9B7CEF138AF10"
+					table_id: 8453280897702031425L
+					type: "random"
+				}
+				{
+					id: "2BB27FD560313EE3"
+					item: "dyairdrop:flaregun2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "3FB84E40F2C51794"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4B3D425F0642ADB8"
+					item: {
+						Count: 1
+						id: "unusual_delight:warding_soul"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_4.quest5108719520541214375.title}"
+			x: -1.0d
+			y: 2.5d
+		}
+	]
+	title: "{ftbquests.chapter.chapter_4.title}"
+}

@@ -1,0 +1,19 @@
+{
+  "minecraft:leather_boots": [
+    {
+      "explosionPower": 0.0,
+      "requiredHits": 0.8,
+      "explosionChance": 0.0,
+      "useDurabilityMultiplier": true,
+      "lootable": {
+        "amountForMaxReturn": 1,
+        "autoGenerateFromRecipe": true,
+        "recipeId": "minecraft:leather_boots",
+        "returnAmount": {
+          "min": 25.0,
+          "max": 35.0
+        }
+      }
+    }
+  ]
+}

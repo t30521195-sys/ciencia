@@ -1,0 +1,254 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial2"
+	group: "3F9C023240F7E22E"
+	icon: "supplementaries:globe_sepia"
+	id: "4BBA71C5A9E0301D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.tutorial2.quest2557436099955102631.description1}"]
+			icon: "lootr:trophy"
+			id: "237DD695419593A7"
+			shape: "rsquare"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.tutorial2.quest2557436099955102631.subtitle}"
+			tasks: [{
+				id: "73B2A4037EB74AD9"
+				title: "{ftbquests.chapter.tutorial2.quest2557436099955102631.task.8336906195134008025.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial2.quest2557436099955102631.title}"
+			x: 1.5500000000000043d
+			y: -2.517857142857146d
+		}
+		{
+			dependencies: ["237DD695419593A7"]
+			description: ["{ftbquests.chapter.tutorial2.quest8444987087024001018.description1}"]
+			hide_until_deps_complete: true
+			icon: "butcher:frog_heart"
+			id: "75329F031ED38FFA"
+			rewards: [
+				{
+					id: "060D5EF3BB274307"
+					item: "canned_goods:canned_mushrooms"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "22D307E0056BB3D3"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "parcool:parcool_guide"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.tutorial2.quest8444987087024001018.subtitle}"
+			tasks: [{
+				id: "660DDB0E05EE7986"
+				title: "{ftbquests.chapter.tutorial2.quest8444987087024001018.task.7353774619841427846.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial2.quest8444987087024001018.title}"
+			x: 1.5142857142857196d
+			y: -0.5535714285714306d
+		}
+		{
+			dependencies: ["75329F031ED38FFA"]
+			description: ["{ftbquests.chapter.tutorial2.quest2185479075235004081.description1}"]
+			icon: "butcher:bloodsplatter_1"
+			id: "1E5461A3C76E7EB1"
+			rewards: [{
+				count: 3
+				id: "11A6AC4E3EA35997"
+				item: "majruszsdifficulty:bandage"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.tutorial2.quest2185479075235004081.subtitle}"
+			tasks: [{
+				id: "245349870E601288"
+				title: "{ftbquests.chapter.tutorial2.quest2185479075235004081.task.2617516652842979976.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial2.quest2185479075235004081.title}"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75329F031ED38FFA"]
+			description: [
+				"{ftbquests.chapter.tutorial2.quest2380014665441489515.description1}"
+				""
+				"{ftbquests.chapter.tutorial2.quest2380014665441489515.description2}"
+			]
+			icon: "spore:inf_vind_spawnegg"
+			id: "210782BA75DC326B"
+			rewards: [{
+				id: "6728D6D8F3D6DE39"
+				item: "cure:vaccine"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.tutorial2.quest2380014665441489515.subtitle}"
+			tasks: [{
+				id: "5E2440CC8056F578"
+				title: "{ftbquests.chapter.tutorial2.quest2380014665441489515.task.6783618185797498232.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial2.quest2380014665441489515.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75329F031ED38FFA"]
+			description: ["{ftbquests.chapter.tutorial2.quest1796998071579093872.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "sanitydim:garland"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "18F03839A688AB70"
+			rewards: [{
+				id: "103E83FD53176DD0"
+				item: {
+					Count: 1
+					id: "sanitydim:garland"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.tutorial2.quest1796998071579093872.subtitle}"
+			tasks: [{
+				id: "60D884E7639A62B3"
+				title: "{ftbquests.chapter.tutorial2.quest1796998071579093872.task.6978473751953957555.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial2.quest1796998071579093872.title}"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["237DD695419593A7"]
+			description: [
+				"{ftbquests.chapter.tutorial2.quest299446755312893037.description1}"
+				""
+				"{ftbquests.chapter.tutorial2.quest299446755312893037.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "0427D93CC7917C6D"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.tutorial2.quest299446755312893037.subtitle}"
+			tasks: [{
+				id: "774D98FA2FD9F035"
+				title: "{ftbquests.chapter.tutorial2.quest299446755312893037.task.8596695464032202805.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial2.quest299446755312893037.title}"
+			x: 2.4785714285714135d
+			y: -1.1964285714285694d
+		}
+		{
+			dependencies: ["237DD695419593A7"]
+			description: [
+				"{ftbquests.chapter.tutorial2.quest1696862534431129904.description1}"
+				""
+				"{ftbquests.chapter.tutorial2.quest1696862534431129904.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:red_bed"
+			id: "178C777C156FC130"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.tutorial2.quest1696862534431129904.subtitle}"
+			tasks: [{
+				id: "76F326C9258BD2BC"
+				title: "{ftbquests.chapter.tutorial2.quest1696862534431129904.task.8571237161176388284.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial2.quest1696862534431129904.title}"
+			x: 0.6d
+			y: -1.2d
+		}
+		{
+			dependencies: ["18F03839A688AB70"]
+			description: [
+				"{ftbquests.chapter.tutorial2.quest5810615459108728772.description1}"
+				"{ftbquests.chapter.tutorial2.quest5810615459108728772.description2}"
+				"{ftbquests.chapter.tutorial2.quest5810615459108728772.description3}"
+				"{ftbquests.chapter.tutorial2.quest5810615459108728772.description4}"
+				"{ftbquests.chapter.tutorial2.quest5810615459108728772.description5}"
+				"{ftbquests.chapter.tutorial2.quest5810615459108728772.description6}"
+				"{ftbquests.chapter.tutorial2.quest5810615459108728772.description7}"
+				"{ftbquests.chapter.tutorial2.quest5810615459108728772.description8}"
+				""
+				"{ftbquests.chapter.tutorial2.quest5810615459108728772.description9}"
+				"{ftbquests.chapter.tutorial2.quest5810615459108728772.description10}"
+				"{ftbquests.chapter.tutorial2.quest5810615459108728772.description11}"
+			]
+			icon: "createdeco:decal_down"
+			id: "50A373F95E91AFC4"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.tutorial2.quest5810615459108728772.subtitle}"
+			tasks: [{
+				id: "326F7DFEE1BBEA64"
+				title: "{ftbquests.chapter.tutorial2.quest5810615459108728772.task.3634261957973633636.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial2.quest5810615459108728772.title}"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18F03839A688AB70"]
+			description: [
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description1}"
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description2}"
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description3}"
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description4}"
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description5}"
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description6}"
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description7}"
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description8}"
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description9}"
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description10}"
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description11}"
+				""
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description12}"
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description13}"
+				"{ftbquests.chapter.tutorial2.quest512800093124984364.description14}"
+			]
+			icon: "createdeco:decal_up"
+			id: "071DD4F7BF807E2C"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.tutorial2.quest512800093124984364.subtitle}"
+			tasks: [{
+				id: "405E9B52DD735922"
+				title: "{ftbquests.chapter.tutorial2.quest512800093124984364.task.4638315446443137314.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial2.quest512800093124984364.title}"
+			x: 1.0d
+			y: 2.0d
+		}
+	]
+	title: "{ftbquests.chapter.tutorial2.title}"
+}

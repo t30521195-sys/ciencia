@@ -1,0 +1,1079 @@
+{
+	autofocus_id: "41538F2E1135B089"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "travel_the_world"
+	group: "7644CAC7FDF62246"
+	icon: "immersive_aircraft:biplane"
+	id: "7A2337F42EA413D7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1C64B4057A25555E"]
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest3587962602149419984.description1}"
+				""
+				"{ftbquests.chapter.travel_the_world.quest3587962602149419984.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "immersive_aircraft:biplane"
+			id: "31CB00FA10809BD0"
+			rewards: [{
+				id: "4A41651A59E78F47"
+				type: "xp"
+				xp: 2
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.travel_the_world.quest3587962602149419984.subtitle}"
+			tasks: [{
+				id: "4AFF5DDF1805D0F5"
+				title: "{ftbquests.chapter.travel_the_world.quest3587962602149419984.task.5404141290630009077.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.travel_the_world.quest3587962602149419984.title}"
+			x: 2.45d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31CB00FA10809BD0"]
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest7660745077156288098.description1}"
+				"{ftbquests.chapter.travel_the_world.quest7660745077156288098.description2}"
+			]
+			icon: "immersive_aircraft:engine"
+			id: "6A506F0F2EB91662"
+			min_required_tasks: 2
+			rewards: [
+				{
+					id: "5CE7680A77DABD8F"
+					type: "xp"
+					xp: 12
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31F739DF01BFF78F"
+					table_id: 6861207564369165299L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3B58B5F504FCB42E"
+					item: "immersive_aircraft:hull"
+					type: "item"
+				}
+				{
+					id: "1B2070680F9BB186"
+					item: "immersive_aircraft:sail"
+					type: "item"
+				}
+				{
+					id: "5E648B4F14B654D5"
+					item: "immersive_aircraft:engine"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.travel_the_world.quest7660745077156288098.title}"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6A506F0F2EB91662"
+				"7CEE3E41F680FC17"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest496162592000367713.description1}"
+				""
+				"{ftbquests.chapter.travel_the_world.quest496162592000367713.description2}"
+			]
+			icon: "immersive_aircraft:industrial_gears"
+			id: "06E2B93FA704DC61"
+			min_required_tasks: 2
+			rewards: [
+				{
+					id: "74CFE6ABFA4FADC6"
+					type: "xp"
+					xp: 12
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62822685FF0D7D7B"
+					table_id: 6861207564369165299L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.travel_the_world.quest496162592000367713.subtitle}"
+			tasks: [
+				{
+					id: "30B847A19CFD5D35"
+					item: "immersive_aircraft:industrial_gears"
+					type: "item"
+				}
+				{
+					id: "50ABA789EE732A48"
+					item: "immersive_aircraft:warship"
+					type: "item"
+				}
+				{
+					id: "3CC7142AA3285B19"
+					item: "man_of_many_planes:economy_plane"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.travel_the_world.quest496162592000367713.title}"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A506F0F2EB91662"]
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest6390833446933553944.description1}"
+				""
+				"{ftbquests.chapter.travel_the_world.quest6390833446933553944.description2}"
+			]
+			icon: "immersive_aircraft:airship"
+			id: "58B0CD28EF28E318"
+			rewards: [
+				{
+					id: "4FD0A88EB34B4AEB"
+					type: "xp"
+					xp: 18
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67C58BAE04481A5B"
+					table_id: 6861207564369165299L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.travel_the_world.quest6390833446933553944.subtitle}"
+			tasks: [{
+				id: "4B79619CB494C29F"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.travel_the_world.quest6390833446933553944.title}"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CE8072D97CC5F1B"]
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest9124846890924261831.description1}"
+				""
+				"{ftbquests.chapter.travel_the_world.quest9124846890924261831.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "boatload:oak_furnace_boat"
+			id: "7EA1F7E6DB5E41C7"
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.travel_the_world.quest9124846890924261831.subtitle}"
+			tasks: [{
+				id: "04085195CB74EC83"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "boatload:furnace_boats"
+					}
+				}
+				title: "{ftbquests.chapter.travel_the_world.quest9124846890924261831.task.290571879770811523.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.travel_the_world.quest9124846890924261831.title}"
+			x: -5.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C64B4057A25555E"]
+			description: ["{ftbquests.chapter.travel_the_world.quest2790564351883245271.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "create_kart:kart_red"
+				tag: {
+					KartColor: "red"
+				}
+			}
+			id: "26BA137E34DE76D7"
+			rewards: [{
+				id: "43B7C312A13548D9"
+				type: "xp"
+				xp: 2
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.travel_the_world.quest2790564351883245271.subtitle}"
+			tasks: [{
+				id: "72A965DB3CECA1C3"
+				title: "{ftbquests.chapter.travel_the_world.quest2790564351883245271.task.8262246983682269635.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.travel_the_world.quest2790564351883245271.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A506F0F2EB91662"]
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest451490330492923720.description1}"
+				""
+				"{ftbquests.chapter.travel_the_world.quest451490330492923720.description2}"
+			]
+			icon: "immersive_aircraft:propeller"
+			id: "06440410408DEF48"
+			rewards: [
+				{
+					id: "59306F24FD5137F3"
+					type: "xp"
+					xp: 18
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E8243829D37CDDB"
+					table_id: 6861207564369165299L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.travel_the_world.quest451490330492923720.subtitle}"
+			tasks: [
+				{
+					id: "1874EF4B9AEA9A73"
+					item: "immersive_aircraft:propeller"
+					type: "item"
+				}
+				{
+					id: "222B3CB4707A217A"
+					item: "immersive_aircraft:biplane"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.travel_the_world.quest451490330492923720.title}"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6FE4A67E8EBABD74"]
+			description: ["{ftbquests.chapter.travel_the_world.quest682693091332918496.description1}"]
+			id: "097969BFDF830CE0"
+			rewards: [
+				{
+					id: "63A19F3060177808"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0839C24827E8F20E"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BEDD6068B5E4586"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				id: "2B26B8C45305C245"
+				item: "create_kart:kart_red"
+				type: "item"
+			}]
+			x: -7.549516567451064E-15d
+			y: 5.221428571428573d
+		}
+		{
+			dependencies: ["063A3494562516AC"]
+			id: "6FE4A67E8EBABD74"
+			rewards: [{
+				id: "31C34376473B68C6"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "7A3B7934CBD3166D"
+				item: "create_kart:kart_motor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.114285714285726d
+		}
+		{
+			dependencies: ["26BA137E34DE76D7"]
+			id: "08715614AFFDDF78"
+			rewards: [{
+				id: "4B2912F33FC0D8CA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "65A98E57FB8EAF74"
+				item: "create_kart:roue"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["432A74E7950B90FD"]
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest3824761493983304219.description1}"
+				"{ftbquests.chapter.travel_the_world.quest3824761493983304219.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "3514485077779A1B"
+			rewards: [{
+				id: "3853DA2E7E7934D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.travel_the_world.quest3824761493983304219.subtitle}"
+			tasks: [{
+				id: "2A01EE0E1147E431"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_wood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.travel_the_world.quest3824761493983304219.title}"
+			x: -2.071428571428605d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08715614AFFDDF78"]
+			id: "2583C49EAAC77D28"
+			rewards: [{
+				id: "1C93E345FA8DE5F7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4278016731DE03D3"
+				item: "create_kart:chassie"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2583C49EAAC77D28"]
+			id: "07DF5F83A6A3B799"
+			rewards: [{
+				id: "1AF3F400E0943D6A"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7DA28DDE5F93AC8C"
+				item: "create_kart:parchoque"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.614285714285726d
+		}
+		{
+			dependencies: ["07DF5F83A6A3B799"]
+			id: "30B5C9268BA94543"
+			rewards: [{
+				id: "6F9F5A8ED9497DB7"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6514D53295DDA580"
+				item: "create_kart:siege"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.114285714285726d
+		}
+		{
+			dependencies: ["30B5C9268BA94543"]
+			id: "063A3494562516AC"
+			rewards: [{
+				id: "1E505871BED52902"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 4L
+				id: "2A7F2B332998539A"
+				item: "create_kart:echapement"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.614285714285726d
+		}
+		{
+			dependencies: ["41538F2E1135B089"]
+			id: "0C9633897C2DA19D"
+			rewards: [
+				{
+					id: "68F36BD573781833"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08EC742B79D05000"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3627A4F157EF00BD"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.1d
+			y: 2.4d
+		}
+		{
+			dependencies: ["3514485077779A1B"]
+			id: "41538F2E1135B089"
+			rewards: [
+				{
+					id: "58D770D1CE10BB20"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47FB0FB0EDA482D7"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6E2A11AE84E23AB3"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.1d
+			y: 1.4d
+		}
+		{
+			dependencies: ["0C9633897C2DA19D"]
+			id: "5F66DFBBF254FC53"
+			rewards: [
+				{
+					id: "69E08835835F2783"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C348E49146EE230"
+					table_id: 2169985305494019696L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B5C5EDADFCF6EA5"
+					table_id: 8685283136233001284L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6EB9CFD8BB2F4DD8"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.1d
+			y: 3.4d
+		}
+		{
+			dependencies: ["5F66DFBBF254FC53"]
+			id: "1613E6CDB9E27C39"
+			rewards: [
+				{
+					id: "02776B5BA94DA6AF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FFFD4BA8EDE29DE"
+					table_id: 2169985305494019696L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "167095637FA448DC"
+					table_id: 8453280897702031425L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C25FBCA116A1257"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "46F7942632B59E1D"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_netherite"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.1d
+			y: 4.4d
+		}
+		{
+			dependencies: ["41538F2E1135B089"]
+			id: "5CE057ABC155198B"
+			rewards: [{
+				id: "431233A4938878FB"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "1B1DF359262A1F6D"
+				item: "vc_gliders:copper_upgrade"
+				type: "item"
+			}]
+			x: -1.6000000000000285d
+			y: 1.9d
+		}
+		{
+			dependencies: ["5F66DFBBF254FC53"]
+			id: "4AD80E18AD29034E"
+			rewards: [{
+				id: "12172FDA61A25625"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "5A7F0F6A28E0FDAC"
+				item: "vc_gliders:nether_upgrade"
+				type: "item"
+			}]
+			x: -1.6d
+			y: 3.9d
+		}
+		{
+			dependencies: ["7EA1F7E6DB5E41C7"]
+			description: [""]
+			id: "263DB6D1DC19C5A9"
+			rewards: [{
+				id: "24C459D4FA2DF668"
+				item: {
+					Count: 1
+					id: "minecraft:name_tag"
+					tag: {
+						display: {
+							Name: "{\"bold\":true,\"italic\":true,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_aqua\",\"text\":\"TITANIC\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				id: "716E65AD3C5643E2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "boatload:large_boats"
+					}
+				}
+				title: "{ftbquests.chapter.travel_the_world.quest2755559559477708201.task.8173582168440062946.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.travel_the_world.quest2755559559477708201.title}"
+			x: -5.1999999999999575d
+			y: 1.2928571428571445d
+		}
+		{
+			dependencies: ["58B0CD28EF28E318"]
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest9002201158189644823.description1}"
+				""
+				"{ftbquests.chapter.travel_the_world.quest9002201158189644823.description2}"
+			]
+			id: "7CEE3E41F680FC17"
+			rewards: [
+				{
+					id: "46E045D6E1A8A270"
+					type: "xp"
+					xp: 24
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BFDA5CDA61CA11D"
+					table_id: 6861207564369165299L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.travel_the_world.quest9002201158189644823.subtitle}"
+			tasks: [{
+				id: "6570DA8A632EE484"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.travel_the_world.quest9002201158189644823.title}"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06440410408DEF48"]
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest5111689215847292299.description1}"
+				""
+				"{ftbquests.chapter.travel_the_world.quest5111689215847292299.description2}"
+			]
+			id: "46F05E4248C5DD8B"
+			rewards: [
+				{
+					id: "3F8BD6D0F24BCE19"
+					type: "xp"
+					xp: 24
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50146D5C98512209"
+					table_id: 6861207564369165299L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.travel_the_world.quest5111689215847292299.subtitle}"
+			tasks: [{
+				id: "5B897EFD512A21C8"
+				item: "man_of_many_planes:scarlet_biplane"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.travel_the_world.quest5111689215847292299.title}"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06E2B93FA704DC61"]
+			dependency_requirement: "one_started"
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest6702864055041900553.description1}"
+				""
+				"{ftbquests.chapter.travel_the_world.quest6702864055041900553.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "immersive_machinery:tunnel_digger"
+				tag: { }
+			}
+			id: "5D055B584281C009"
+			rewards: [
+				{
+					id: "3270714160CB5DE7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 64
+					id: "6ECA8046CDA61B5A"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.travel_the_world.quest6702864055041900553.subtitle}"
+			tasks: [
+				{
+					id: "02E9BABB994305DD"
+					item: "immersive_machinery:iron_drill"
+					type: "item"
+				}
+				{
+					id: "7219FF45BE838B0C"
+					item: {
+						Count: 1
+						id: "immersive_machinery:tunnel_digger"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.travel_the_world.quest6702864055041900553.title}"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5D055B584281C009"]
+			id: "0CB90FE1A5391E2E"
+			rewards: [
+				{
+					id: "010929EA488652A7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D3E6D9FD7902580"
+					table_id: 2169985305494019696L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.travel_the_world.quest916781460960648750.subtitle}"
+			tasks: [{
+				id: "62ACD79E23541F0F"
+				item: {
+					Count: 1
+					id: "immersive_machinery:netherite_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.travel_the_world.quest916781460960648750.title}"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"46F05E4248C5DD8B"
+				"5D055B584281C009"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest3075103335157843120.description1}"
+				""
+				"{ftbquests.chapter.travel_the_world.quest3075103335157843120.description2}"
+			]
+			id: "2AACF630D3B3C4B0"
+			rewards: [
+				{
+					id: "26A9E0B9AC567BF0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D06E54E9B7206B3"
+					table_id: 2169985305494019696L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.travel_the_world.quest3075103335157843120.subtitle}"
+			tasks: [{
+				id: "6A5DAE51A100EAD6"
+				item: "immersive_machinery:copperfin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.travel_the_world.quest3075103335157843120.title}"
+			x: 3.285714285714292d
+			y: 3.7321428571428683d
+		}
+		{
+			dependencies: ["06E2B93FA704DC61"]
+			dependency_requirement: "one_started"
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest5500764494507112010.description1}"
+				""
+				"{ftbquests.chapter.travel_the_world.quest5500764494507112010.description2}"
+			]
+			id: "4C56A429D82D764A"
+			rewards: [
+				{
+					id: "7F919E9FD81D024F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62D6559E4D7D4428"
+					table_id: 6861207564369165299L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.travel_the_world.quest5500764494507112010.subtitle}"
+			tasks: [{
+				id: "3555B9D19E93E3F1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "immersive_aircraft:enhanced_propeller"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:bomb_bay"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:industrial_gears"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:improved_landing_gear"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:sturdy_pipes"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:gyroscope"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:heavy_crossbow"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:telescope"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:rotary_cannon"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:steel_boiler"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:hull_reinforcement"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:eco_engine"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:nether_engine"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.travel_the_world.quest5500764494507112010.task.3843182166990382065.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.travel_the_world.quest5500764494507112010.title}"
+			x: 1.6785714285714377d
+			y: 3.8035714285714306d
+		}
+		{
+			dependencies: ["1CE8072D97CC5F1B"]
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest1495989635909831773.description1}"
+				"{ftbquests.chapter.travel_the_world.quest1495989635909831773.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "14C2D2A5D4124C5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "458F38AFA6DCE868"
+				table_id: 7155603600714135300L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.travel_the_world.quest1495989635909831773.subtitle}"
+			tasks: [
+				{
+					id: "0E08F9C65533EFC2"
+					item: "astikorcarts:animal_cart"
+					type: "item"
+				}
+				{
+					id: "58C62804D3ECC9CC"
+					item: "astikorcarts:supply_cart"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.travel_the_world.quest1495989635909831773.title}"
+			x: -6.500000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CE8072D97CC5F1B"]
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest4777221310215307360.description1}"
+				""
+				"{ftbquests.chapter.travel_the_world.quest4777221310215307360.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:horse_feed"
+			id: "424C197888CF4060"
+			rewards: [
+				{
+					id: "16B60EA89EE9AEE3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "304F42A22F4AEF18"
+					table_id: 7155603600714135300L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.travel_the_world.quest4777221310215307360.subtitle}"
+			tasks: [
+				{
+					id: "0EFE778CE7AFC0E6"
+					item: "horseexpert:monocle"
+					type: "item"
+				}
+				{
+					id: "3C6FEE3D67699965"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:sugar"
+								}
+								{
+									Count: 1b
+									id: "minecraft:wheat"
+								}
+								{
+									Count: 1b
+									id: "minecraft:apple"
+								}
+								{
+									Count: 1b
+									id: "minecraft:golden_carrot"
+								}
+								{
+									Count: 1b
+									id: "minecraft:bread"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.travel_the_world.quest4777221310215307360.task.4354961312185948517.title}"
+					type: "item"
+				}
+				{
+					id: "40545A54E2AA77E0"
+					item: "minecraft:golden_apple"
+					title: "{ftbquests.chapter.travel_the_world.quest4777221310215307360.task.4635429237097658336.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.travel_the_world.quest4777221310215307360.title}"
+			x: -3.4642857142857153d
+			y: 0.0d
+		}
+		{
+			dependencies: ["424C197888CF4060"]
+			description: [
+				"{ftbquests.chapter.travel_the_world.quest2298804897734764027.description1}"
+				"{ftbquests.chapter.travel_the_world.quest2298804897734764027.description2}"
+				"{ftbquests.chapter.travel_the_world.quest2298804897734764027.description3}"
+			]
+			icon: "minecraft:saddle"
+			id: "1FE6FEDFF968A5FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C14DFCB7BECBD95"
+				table_id: 7155603600714135300L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.travel_the_world.quest2298804897734764027.subtitle}"
+			tasks: [
+				{
+					id: "634BFDCEDDAEE178"
+					item: {
+						Count: 1
+						id: "minecraft:lead"
+						tag: {
+							PreventLeadDrop: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B09146D2A1C86E1"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.travel_the_world.quest2298804897734764027.title}"
+			x: -3.5d
+			y: 1.1607142857142847d
+		}
+		{
+			dependencies: ["1FE6FEDFF968A5FB"]
+			hide_until_deps_complete: true
+			id: "55F941F3A36460F8"
+			rewards: [
+				{
+					id: "36EA06A7EB3B1737"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D8300F89DC51B58"
+					table_id: 7155603600714135300L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5C24A9F1008564DF"
+				item: "netherite_horse_armor:netherite_horse_armor"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.travel_the_world.quest6195055277098950904.title}"
+			x: -3.5d
+			y: 2.232142857142854d
+		}
+	]
+	title: "{ftbquests.chapter.travel_the_world.title}"
+}

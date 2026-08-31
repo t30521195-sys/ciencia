@@ -1,0 +1,105 @@
+#  Main header!
+#  Line 2
+
+[songs]
+	[[songs.AbandonedWarehouse]]
+		triggers = [ "structure-deepslatebunker", "height-no_sky" ]
+		volume = 0.6
+	[[songs.AbandonedWarehouse]]
+		triggers = [ "structure-nuclearreactor", "height-no_sky" ]
+		volume = 0.6
+	[[songs.AbandonedWarehouse]]
+		triggers = [ "structure-warehouseofdoom", "height-no_sky" ]
+		volume = 0.6
+	[[songs.AbandonedWarehouse]]
+		triggers = [ "structure-underground_bunker", "height-no_sky" ]
+		volume = 0.6
+	[songs.TheEscapePlan]
+		triggers = [ "biome-snowy", "height-above_sea", "time-day" ]
+		volume = 0.4
+	[songs.Track4]
+		triggers = [ "mob-hordes", "time-night" ]
+	[songs.desertambience1]
+		play_once = 2
+		triggers = [ "biome-desert", "height-above_sea_transition", "time-day" ]
+		volume = 0.8
+
+[triggers]
+	[[triggers.biome]]
+		biome_temperature = 0.05
+		fade_in = 100
+		fade_out = 100
+		identifier = "snowy"
+		temperature_greater_than = false
+	[[triggers.biome]]
+		biome_temperature = 2.0
+		fade_in = 100
+		fade_out = 100
+		identifier = "desert"
+		ticks_between_audio = 100
+	[[triggers.height]]
+		check_above_level = true
+		check_for_sky = false
+		fade_in = 100
+		fade_out = 50
+		identifier = "above_sea_transition"
+		level = 58
+		ticks_between_audio = 100
+	[[triggers.height]]
+		check_above_level = true
+		check_for_sky = false
+		fade_in = 100
+		fade_out = 50
+		identifier = "above_sea"
+		level = 58
+	[[triggers.height]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "no_sky"
+		level = 55
+		not = true
+	[[triggers.mob]]
+		detection_range = 24
+		fade_in = 100
+		fade_out = 100
+		horde_targeting_percentage = 75.0
+		identifier = "hordes"
+		min_entities = 4
+		resource_name = [ "MOB" ]
+	[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "underground_bunker"
+		resource_name = [ "underground_bunkers:underground_bunker" ]
+	[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "warehouseofdoom"
+		resource_name = [ "jeffs_cursed_walking_structures:warehouseofdoom" ]
+	[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "nuclearreactor"
+		resource_name = [ "jeffs_cursed_walking_structures:nuclearreactor" ]
+	[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "deepslatebunker"
+		resource_name = [ "jeffs_cursed_walking_structures:deepslatebunker" ]
+	[[triggers.time]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "day"
+		time_bundle = "day"
+	[[triggers.time]]
+		identifier = "night"
+		time_bundle = "night"
+	[triggers.universal]
+		active_cooldown = "0"
+		fade_in = "0"
+		fade_out = "0"
+		persistence = "0"
+		ticks_before_active = "0"
+		ticks_before_audio = "0"
+		ticks_between_audio = "0"
+

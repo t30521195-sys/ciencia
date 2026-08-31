@@ -1,0 +1,20 @@
+{
+  "biohazardchanges:leather_ushanka": [
+    {
+      "explosionPower": 0.0,
+      "explosionChance": 0.0,
+      "requiredHits": 3.0,
+      "useDurabilityMultiplier": true,
+      "roundingType": "STANDARD",
+      "lootable": {
+        "amountForMaxReturn": 1,
+        "autoGenerateFromRecipe": true,
+        "recipeId": "crafttweaker:leather_ushanka",
+        "returnAmount": {
+          "min": 25.0,
+          "max": 35.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "armorSetName": "leathervanillaarmor",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "biohazardchanges:leather_ushanka",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "biohazardchanges:leather_jacket",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "biohazardchanges:leather_pants",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "biohazardchanges:leather_boots",
+    "mustBeEmpty": false
+  },
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Wrapped in hides,",
+    "you are protected against the cold,",
+    "and also very comfortable, regenerating faster."
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cofh_core:cold_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 240,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "farmersdelight:comfort",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 240,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

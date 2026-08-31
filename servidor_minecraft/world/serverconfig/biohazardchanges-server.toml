@@ -1,0 +1,510 @@
+
+#Console locator: energy economy, search bounds and diagnostics.
+#Per-target duration/cost/radius are defined by datapack (see docs/locator-targets.md);
+#the multipliers here scale whatever those definitions ask for.
+[locator]
+	#FE the console itself burns per tick while a scan runs, on top of the target's antenna draw.
+	#Range: 0 ~ 100000
+	consoleSustainCostPerTick = 10
+	#Consecutive fully-stalled ticks before a search gives up and reports failure:
+	#a startup the antenna is not funding, or a scan that cannot pay its sustain cost
+	#after its progress bar has decayed back to zero.
+	#Range: 20 ~ 72000
+	startupStallLimitTicks = 200
+	#Hard cap on the chunk radius handed to the chunk generator.
+	#A miss scans every chunk in the square, so this bounds how long a failed search can pin a worker thread.
+	#Range: 1 ~ 4000
+	maxChunkRadius = 400
+	#Threads in the locator's search pool. 0 = half the available processors (minimum 1).
+	#Read once when the server starts, so a change needs a restart.
+	#Range: 0 ~ 64
+	workerThreads = 0
+	#Scales every target's one-off startup cost in FE. Applied at datapack load — needs a /reload.
+	#Range: 0.0 ~ 100.0
+	startCostMultiplier = 1.0
+	#Scales every target's per-tick antenna draw. Applied at datapack load — needs a /reload.
+	#Range: 0.0 ~ 100.0
+	sustainCostMultiplier = 1.0
+	#Scales every target's scan duration. Lower is faster. Applied at datapack load — needs a /reload.
+	#Range: 0.01 ~ 100.0
+	durationMultiplier = 1.0
+	#Scales every target's default search radius in blocks. Applied at datapack load — needs a /reload.
+	#Range: 0.01 ~ 100.0
+	radiusMultiplier = 1.0
+	#Answer from already-recorded structure visits when one matches, instead of always running a
+	#generator search. Disabling makes results slower but ignores what players have already found.
+	useExplorationPool = true
+	#Permission level required for /locator.
+	#Range: 0 ~ 4
+	commandPermissionLevel = 2
+	#Log every search request, result and cancellation. Verbose — for diagnosing locator issues only.
+	debugLogging = false
+
+#Console block: energy buffer and how it finds its antenna.
+[console]
+	#FE buffer of the console.
+	#Range: > 1
+	energyCapacity = 100000
+	#Max FE/tick in or out of the console.
+	#Range: > 1
+	energyTransferRate = 200
+	#Block radius searched for an antenna. The scan is a cube, so cost grows with the cube of this value.
+	#Range: 1 ~ 128
+	antennaLinkRadius = 32
+	#Ticks between antenna rescans once the cached link is lost.
+	#Range: 1 ~ 1200
+	antennaRescanIntervalTicks = 40
+	#Ticks the console keeps pretending the antenna link is good after it drops.
+	#Stops a lag spike or a momentary brownout from cancelling a running search.
+	#Range: 0 ~ 1200
+	linkGracePeriodTicks = 40
+
+#Card encoder: the buffer it writes clearances out of.
+#Per-clearance duration and FE costs live in code, on the Clearance enum itself,
+#so one clearance stays one self-contained unit of tuning.
+[card_encoder]
+	#FE buffer of the card encoder. The encoder has no antenna: it pays both the
+	#start cost and the per-tick upkeep out of this, which is what keeps the card
+	#system independent of the satellite hardware.
+	#Range: > 1
+	energyCapacity = 50000
+	#Max FE/tick in or out of the encoder. Must comfortably exceed the largest
+	#encodeSustainCost or a write can never keep up with its own upkeep.
+	#Range: > 1
+	energyTransferRate = 200
+
+#Antenna block.
+[antenna]
+	#FE buffer of the antenna.
+	#Range: > 1
+	energyCapacity = 100000
+	#Max FE/tick in or out of the antenna.
+	#Range: > 1
+	energyTransferRate = 500
+	#Require the antenna's top segment to see the sky. Disable to allow fully buried bases.
+	requireSkyAccess = true
+
+#Bullet deflection off shields (requires TaC:Z).
+#Chances are relative weights sampled per impact; cones are in degrees.
+[ballistics]
+	#Master switch. When false, shields take gunfire with vanilla behaviour and nothing is deflected.
+	enabled = true
+	#Spawn a real bullet entity along the deflection vector. Disable for visuals only.
+	spawnDeflectedBullets = true
+	#Base speed of a deflected bullet, before the profile's speed multiplier.
+	#Range: 0.0 ~ 100.0
+	deflectedBulletBaseSpeed = 4.0
+	#Random scatter applied to the deflection vector.
+	#Range: 0.0 ~ 2.0
+	deflectedBulletSpread = 0.15
+	#Default distance the shield plane sits in front of the player. Shields may override this.
+	#Range: 0.0 ~ 3.0
+	shieldForwardOffset = 0.6
+	#Default spark spawn offset along the outgoing direction.
+	#Range: 0.0 ~ 3.0
+	particleFrontOffset = 0.25
+	#Default spall/smoke spawn offset behind the shield.
+	#Range: 0.0 ~ 3.0
+	particleBackOffset = 0.25
+	#Upper bound on the push a blocked hit can apply to the blocking player.
+	#Range: 0.0 ~ 5.0
+	maxPlayerKnockback = 0.2
+	#How quickly knockback approaches maxPlayerKnockback as incoming damage rises.
+	#Range: 0.001 ~ 5.0
+	knockbackResponse = 0.05
+	#Global scale on the blunt damage that leaks through a successful block. 0 disables it.
+	#Range: 0.0 ~ 10.0
+	bluntDamageMultiplier = 1.0
+	#Global scale on shield durability consumed per blocked hit. 0 makes blocking free.
+	#Range: 0.0 ~ 10.0
+	durabilityMultiplier = 1.0
+	#Degrade a shield's profile as it wears out: deflect chance falls, spall rises, cones widen.
+	#Disable to make a shield perform identically at 1 durability as at full.
+	durabilityScaling = true
+
+	#Riot shield: biased to deflect, ricochet rare.
+	[ballistics.riot_shield]
+		#Relative weight of a clean deflect.
+		#Range: 0.0 ~ 1.0
+		deflectChance = 0.6
+		#Relative weight of a grazing ricochet.
+		#Range: 0.0 ~ 1.0
+		ricochetChance = 0.05
+		#Relative weight of spalling. Whatever is left over penetrates.
+		#Range: 0.0 ~ 1.0
+		spallChance = 0.35
+		#Range: 0.0 ~ 180.0
+		deflectConeDegrees = 18.0
+		#Range: 0.0 ~ 180.0
+		ricochetConeDegrees = 50.0
+		#Range: 0.0 ~ 180.0
+		spallConeDegrees = 35.0
+		#Fragments emitted on a spall.
+		#Range: 0 ~ 256
+		spallCount = 10
+		#Lower bound on outgoing speed as a fraction of the base speed.
+		#Range: 0.0 ~ 5.0
+		minSpeedMultiplier = 0.55
+		#Upper bound on outgoing speed as a fraction of the base speed.
+		#Range: 0.0 ~ 5.0
+		maxSpeedMultiplier = 0.9
+		#Fraction of incoming damage that still lands as blunt trauma, per outcome.
+		#Range: 0.0 ~ 1.0
+		bluntFractionDeflect = 0.06
+		#Range: 0.0 ~ 1.0
+		bluntFractionRicochet = 0.1
+		#Range: 0.0 ~ 1.0
+		bluntFractionSpall = 0.22
+		#Knockback applied per point of incoming damage.
+		#Range: 0.0 ~ 10.0
+		knockbackPerDamage = 0.03
+		#Durability consumed per point of incoming damage.
+		#Range: 0.0 ~ 100.0
+		durabilityPerDamage = 0.4
+		#How far in front of the player this shield's plane sits.
+		#Range: 0.0 ~ 3.0
+		shieldForwardOffset = 0.7
+		#Range: 0.0 ~ 3.0
+		particleFrontOffset = 0.3
+		#Range: 0.0 ~ 3.0
+		particleBackOffset = 0.3
+
+	#Wedge shield: high deflection, minimal spall, tighter cones.
+	[ballistics.wedge_shield]
+		#Relative weight of a clean deflect.
+		#Range: 0.0 ~ 1.0
+		deflectChance = 0.7
+		#Relative weight of a grazing ricochet.
+		#Range: 0.0 ~ 1.0
+		ricochetChance = 0.25
+		#Relative weight of spalling. Whatever is left over penetrates.
+		#Range: 0.0 ~ 1.0
+		spallChance = 0.05
+		#Range: 0.0 ~ 180.0
+		deflectConeDegrees = 12.0
+		#Range: 0.0 ~ 180.0
+		ricochetConeDegrees = 28.0
+		#Range: 0.0 ~ 180.0
+		spallConeDegrees = 25.0
+		#Fragments emitted on a spall.
+		#Range: 0 ~ 256
+		spallCount = 6
+		#Lower bound on outgoing speed as a fraction of the base speed.
+		#Range: 0.0 ~ 5.0
+		minSpeedMultiplier = 0.6
+		#Upper bound on outgoing speed as a fraction of the base speed.
+		#Range: 0.0 ~ 5.0
+		maxSpeedMultiplier = 0.95
+		#Fraction of incoming damage that still lands as blunt trauma, per outcome.
+		#Range: 0.0 ~ 1.0
+		bluntFractionDeflect = 0.03
+		#Range: 0.0 ~ 1.0
+		bluntFractionRicochet = 0.08
+		#Range: 0.0 ~ 1.0
+		bluntFractionSpall = 0.12
+		#Knockback applied per point of incoming damage.
+		#Range: 0.0 ~ 10.0
+		knockbackPerDamage = 0.025
+		#Durability consumed per point of incoming damage.
+		#Range: 0.0 ~ 100.0
+		durabilityPerDamage = 0.35
+		#How far in front of the player this shield's plane sits.
+		#Range: 0.0 ~ 3.0
+		shieldForwardOffset = 0.6
+		#Range: 0.0 ~ 3.0
+		particleFrontOffset = 0.35
+		#Range: 0.0 ~ 3.0
+		particleBackOffset = 0.3
+
+	#Fallback profile for any other shield, including vanilla's.
+	[ballistics.vanilla_shield]
+		#Relative weight of a clean deflect.
+		#Range: 0.0 ~ 1.0
+		deflectChance = 0.35
+		#Relative weight of a grazing ricochet.
+		#Range: 0.0 ~ 1.0
+		ricochetChance = 0.45
+		#Relative weight of spalling. Whatever is left over penetrates.
+		#Range: 0.0 ~ 1.0
+		spallChance = 0.2
+		#Range: 0.0 ~ 180.0
+		deflectConeDegrees = 22.0
+		#Range: 0.0 ~ 180.0
+		ricochetConeDegrees = 38.0
+		#Range: 0.0 ~ 180.0
+		spallConeDegrees = 32.0
+		#Fragments emitted on a spall.
+		#Range: 0 ~ 256
+		spallCount = 8
+		#Lower bound on outgoing speed as a fraction of the base speed.
+		#Range: 0.0 ~ 5.0
+		minSpeedMultiplier = 0.5
+		#Upper bound on outgoing speed as a fraction of the base speed.
+		#Range: 0.0 ~ 5.0
+		maxSpeedMultiplier = 0.85
+		#Fraction of incoming damage that still lands as blunt trauma, per outcome.
+		#Range: 0.0 ~ 1.0
+		bluntFractionDeflect = 0.1
+		#Range: 0.0 ~ 1.0
+		bluntFractionRicochet = 0.12
+		#Range: 0.0 ~ 1.0
+		bluntFractionSpall = 0.2
+		#Knockback applied per point of incoming damage.
+		#Range: 0.0 ~ 10.0
+		knockbackPerDamage = 0.02
+		#Durability consumed per point of incoming damage.
+		#Range: 0.0 ~ 100.0
+		durabilityPerDamage = 0.5
+		#How far in front of the player this shield's plane sits.
+		#Range: 0.0 ~ 3.0
+		shieldForwardOffset = 0.6
+		#Range: 0.0 ~ 3.0
+		particleFrontOffset = 0.25
+		#Range: 0.0 ~ 3.0
+		particleBackOffset = 0.25
+
+	#Wedge shield geometry and handling penalty (its impact profile is in wedge_shield above).
+	[ballistics.wedge_geometry]
+		#Half-angle of the V. Smaller is a sharper wedge that sheds shots more aggressively.
+		#Range: 0.0 ~ 89.0
+		halfAngleDegrees = 35.0
+		#Apply Slowness while the wedge shield is held.
+		slownessEnabled = true
+		#Slowness amplifier when the other hand is empty. 0 = Slowness I.
+		#Range: 0 ~ 9
+		slownessAmplifierOneHanded = 0
+		#Slowness amplifier when the other hand is occupied.
+		#Range: 0 ~ 9
+		slownessAmplifierTwoHanded = 1
+
+#Riot shield bash (attack while blocking).
+[shield_bash]
+	#When false, attacking while blocking with a riot shield behaves normally.
+	enabled = true
+	#Damage dealt to each entity caught in the bash. 0 = knockback only, which is the historical behaviour.
+	#Range: 0.0 ~ 100.0
+	damage = 0.0
+	#Knockback strength applied to hit entities.
+	#Range: 0.0 ~ 10.0
+	knockback = 0.5
+	#How far in front of the player the bash reaches, in blocks.
+	#Range: 0.0 ~ 16.0
+	range = 2.5
+	#How wide the bash box is inflated, in blocks.
+	#Range: 0.0 ~ 16.0
+	width = 1.5
+	#Item cooldown applied after a bash.
+	#Range: 0 ~ 12000
+	cooldownTicks = 40
+	#Durability consumed per bash.
+	#Range: 0 ~ 1000
+	durabilityCost = 2
+	#Slowness applied to entities caught in the bash. 0 disables it.
+	#Range: 0 ~ 12000
+	slownessTicks = 60
+	#Let the wedge shield ignore axe/shield-disabling attacks.
+	wedgeIgnoresShieldDisable = true
+
+#Blast door travel times, in ticks for a full open or close (20 ticks = 1 second).
+[blast_doors]
+	#Range: 1 ~ 24000
+	slidingDoorTicks = 220
+	#Range: 1 ~ 24000
+	liftingDoorTicks = 320
+	#Range: 1 ~ 24000
+	swingingDoorTicks = 600
+	#Emit the dust puffs a door makes as it starts opening and finishes closing.
+	#These are spawned server-side and broadcast, so this setting is not a per-player choice.
+	spawnParticles = true
+	#Let closing doors crush what they cannot shove out of the way.
+	#Off leaves the older, gentler behaviour: doors push, and anything still inside the
+	#doorway when they land merely suffocates. Crush damage ignores armour and shields.
+	crushing = true
+	#Damage per push step to something the closing leaf failed to move — pinned against
+	#a wall, another door, or anything else solid. A door pushes about fifteen times per close.
+	#Range: 0.0 ~ 1000.0
+	crushDamagePerStep = 4.0
+	#One-off damage to anything still standing in the leaf cells at the moment the door lands.
+	#Range: 0.0 ~ 1000.0
+	crushDamageOnClose = 12.0
+	#How much of a step's push an entity must actually travel to count as shoved clear.
+	#Anything slower than this is treated as pinned and crushed. 1.0 crushes anything that
+	#loses even a sliver of a push; 0.0 crushes nothing short of a total standstill.
+	#Range: 0.0 ~ 1.0
+	crushPinnedFraction = 0.35
+
+#Med deck.
+[med_deck]
+	#Cooldown after use.
+	#Range: 0 ~ 72000
+	cooldownTicks = 600
+	#Duration of the Regeneration and Resistance granted on use.
+	#Range: 0 ~ 72000
+	effectTicks = 300
+
+#Structure exploration tracking, which feeds the locator's explored/unexplored filter.
+[exploration]
+	#Record which locator-target structures players have entered and looted.
+	#Disabling stops all tracking; the locator then treats everything as unexplored.
+	enabled = true
+	#Ticks between per-player structure-presence checks. 1 matches the original behaviour;
+	#raising it to 20 cuts the cost roughly twentyfold at the price of a one-second detection delay.
+	#Range: 1 ~ 200
+	checkIntervalTicks = 1
+
+#Wither Reincarnated compatibility. Ignored unless that mod is installed.
+#Its own config/witherreincarnated/common.toml already covers health, per-attack damage,
+#cooldowns and a global switch for the charge attack, so none of that is repeated here.
+#This section is only for the one thing that file cannot express: what the boss does
+#when it would drop into its final, melee-heavy phase.
+[wither_reincarnated]
+	#What replaces the final phase — the point where the reincarnated Wither stops hovering
+	#out of reach, armours itself against projectiles and starts body-slamming.
+	#  VANILLA   leaves the mod alone.
+	#  NO_MELEE  never lets the phase begin. The Wither keeps its altitude, keeps taking
+	#            projectile damage, and loses the charge attack for the rest of the fight, so
+	#            the ending is fought at range. Raise Health and the skull/laser damage in
+	#            config/witherreincarnated/common.toml to pay for what the melee used to cost.
+	#  EXECUTE   kills it with the hit that would have started the phase. Full death sequence,
+	#            nether star and experience.
+	#  SURRENDER makes it give up: attacks are dropped, it sinks to the ground and waits to be
+	#            finished off.
+	#Allowed Values: VANILLA, NO_MELEE, EXECUTE, SURRENDER
+	finalPhase = "NO_MELEE"
+	#Fraction of maximum health the final phase starts at. A third matches the mod's own
+	#threshold; set it to 0.5 if you have turned on its "Vanilla Phases" option.
+	#Range: 0.0 ~ 1.0
+	finalPhaseHealthFraction = 0.3333333333333333
+	#Radius, in blocks, that the Wither's spawn explosion clears of everything short of
+	#bedrock — obsidian, ancient debris, reinforced deepslate and the rest of the blast-proof
+	#list included. This is what stops the boss being summoned inside a cage and shot at
+	#leisure; the ordinary explosion cannot dent obsidian, so a box of it survives the summon
+	#intact. Blocks nothing can break in survival are left alone, as are fluids, and the
+	#mobGriefing gamerule still has the final say. 0 disables. Every block in the sphere is
+	#tested once, so large radii are a one-off cost at summon time.
+	#Range: 0.0 ~ 12.0
+	spawnBlastRadius = 4.0
+
+#Nether portals. Ported from No Cheating, which was written for a pack that has no Nether
+#and needed the obvious way out closed in a way players would read as a rule rather than a
+#bug: beds explode in the Nether, so portals explode here.
+#No Cheating ships the same behaviour with no setting on it. If both mods are installed
+#this one wins while it is on — it refuses the portal a step earlier, so the other never
+#runs — but switching it off does NOT switch off that mod's copy. Remove its
+#PortalShapeMixin for that.
+[nether_portals]
+	#Refuse to open a nether portal, and detonate the frame instead.
+	#False restores ordinary portals, so a pack that does have a Nether behaves normally.
+	explodeOnLight = true
+	#Blast power at the centre of the frame. 4.0 is TNT; 5.0 is a bed in the Nether, which is
+	#the number No Cheating used and the comparison the whole idea rests on.
+	#0 still refuses the portal but makes no explosion at all, which leaves the player with a
+	#frame that simply will not light and no explanation — deliberate, but worth choosing on
+	#purpose.
+	#Range: 0.0 ~ 20.0
+	explosionPower = 5.0
+	#Let the blast take the frame and the surroundings with it.
+	#This is a block-type explosion, the same class as TNT, so the mobGriefing gamerule does
+	#not apply to it — that one only governs explosions attributed to a mob. What does apply
+	#is blockExplosionDropDecay, which decides whether the debris drops as items.
+	#False leaves the terrain intact and the explosion purely a punishment for the player.
+	explosionBreaksBlocks = true
+	#Leave fires burning where the blast lands, as a bed does.
+	explosionStartsFires = true
+
+#Sleep Rework compatibility. Ignored unless that mod is installed.
+#Its config/sleeprework.json already owns the numbers — how fast tiredness climbs, what
+#counts as tired enough, the maximum, the phantom threshold — so none of that is repeated
+#here. This section is for the things that file cannot express: two faults that stop a
+#player sleeping at a meter reading well over 100%, and two settings that fight the rest
+#of a pack.
+[sleep_rework]
+	#Master switch. When false nothing below applies and Sleep Rework behaves exactly as it
+	#does on its own, bugs included.
+	enabled = true
+	#Let a player who has reached min_sleep_level use a bed whatever the time of day.
+	#  Sleep Rework's own handler only ever refuses; it never tells the game a tired player
+	#  MAY sleep. So vanilla's daytime check still runs and still answers "you can only sleep
+	#  at night". Tiredness fills over about forty real minutes while a vanilla day lasts
+	#  twenty, so the two drift apart unaided; a /time set, doDaylightCycle false or a
+	#  long-day mod separates them permanently and the meter pins at its maximum with no
+	#  night ever available to spend it in.
+	#Note that a bed used in daylight still skips to the next morning, exactly as sleeping at
+	#night does — that is vanilla's night-skip, not something added here.
+	#Untired players are untouched: they keep the mod's refusal and its message.
+	allowDaytimeSleep = true
+	#Carry tiredness across a death or a dimension change.
+	#  The meter lives on the player object, and Sleep Rework never copies it onto the new one
+	#  a respawn builds, so dying silently resets the server's figure to zero. The client's
+	#  copy is a separate static the mod only writes on login, so the HUD goes on showing the
+	#  pre-death number while beds insist the player is not tired.
+	#Set false to have death clear tiredness instead. The client is corrected either way —
+	#that half is not optional, because it is the desync that makes the meter lie.
+	preserveTirednessOnRespawn = true
+	#Which clock the tiredness meter advances on.
+	#  REAL_TIME   the mod's own behaviour: one increment per 1200 server ticks, i.e. per
+	#              real-world minute, with no reference to the world.
+	#  WORLD_TIME  one increment per 1200 ticks of day time, so the meter tracks the sun. In a
+	#              pack with long days a player tires over a day rather than over a wall-clock
+	#              hour. Jumps from /time set are absorbed rather than banked, in either
+	#              direction, and so is the night a bed skips. Be aware that time which does
+	#              not pass tires nobody: with doDaylightCycle off the meter stops entirely,
+	#              and with allowDaytimeSleep false as well, nobody reaches the threshold.
+	#Allowed Values: REAL_TIME, WORLD_TIME
+	tirednessClock = "REAL_TIME"
+	#Keep tiredness climbing when the doInsomnia gamerule is off.
+	#  Sleep Rework wraps its whole tick in that gamerule, so a server that switches phantoms
+	#  off with /gamerule doInsomnia false also stops tiredness dead. Anyone below the sleep
+	#  threshold at that moment can never reach it, and never sleeps again.
+	#Set false to keep the mod's behaviour and let the gamerule freeze the meter.
+	#Has no effect if the mod's own respect_insomnia_game_rule is already false.
+	accrueWhileInsomniaDisabled = true
+	#Swallow the debug print Sleep Rework leaves on every wake. It writes to standard out
+	#rather than through a logger, so log configuration cannot filter it.
+	silenceWakeLogging = true
+	#Still record a spawn point at a bed the player was refused sleep in.
+	#  Vanilla remembers the bed partway through its own checks, after the dimension, range
+	#  and obstruction tests and before the time test. A refusal from the tiredness gate
+	#  returns above all of that, so being untired quietly costs the player their spawn as
+	#  well as their sleep.
+	#The same checks vanilla makes still apply here: nothing is recorded for a bed out of
+	#reach, with a block over it, or in the Nether or the End — that bed is a bomb, which is
+	#exactly why vanilla refuses it before recording anything.
+	setSpawnOnRefusedBed = true
+
+	#What a sleep that begins in daylight does, which only arises because allowDaytimeSleep
+	#makes one possible. Vanilla never had to answer these because it never let you.
+	[sleep_rework.daytime_sleep]
+		#Tiredness required to sleep in daylight, as a multiple of the mod's own min_sleep_level.
+		#1.0 asks exactly what a night sleep asks. 2.0 means a player must be twice as tired to
+		#nap during the day as to turn in at dusk.
+		#Careful above the mod's max_tiredness: a requirement the meter cannot reach makes daytime
+		#sleep impossible, which is the behaviour this section exists to avoid.
+		#Range: 0.0 ~ 5.0
+		tirednessMultiplier = 1.0
+		#How far the clock jumps when a sleep begun in daylight completes.
+		#  VANILLA  to the next dawn, as any sleep does. Because that target is fixed, the cost
+		#           depends entirely on when the player lay down: about 11000 ticks at dusk but
+		#           18000 at noon, so a nap eats most of a day.
+		#  NONE     the clock does not move. The sleep still cures tiredness and pays out its
+		#           wake effects; it simply buys no time.
+		#  FIXED    advance by skipTicks, counted from the moment the sleep completes.
+		#Night sleeps are untouched by this in every mode.
+		#The doDaylightCycle gamerule wins regardless: vanilla only moves the clock inside that
+		#check, so with it off nothing here runs and no time passes. Whether enough players are
+		#asleep for a sleep to complete at all is still playersSleepingPercentage's call.
+		#Allowed Values: VANILLA, NONE, FIXED
+		timeSkip = "VANILLA"
+		#Ticks advanced under FIXED. 24000 is a full day; 6000 is a quarter of one.
+		#Ignored in the other two modes.
+		#Range: 0 ~ 24000
+		skipTicks = 6000
+		#Let a storm survive a daylight sleep.
+		#  Any completed sleep clears the weather. That is reasonable when sleeping means passing
+		#  a whole night and can happen once a day; once a player can go to bed at noon it becomes
+		#  a way to end a thunderstorm on demand, repeatedly.
+		#Off leaves vanilla's behaviour, which is why it is the default. Night sleeps clear the
+		#weather either way, and the doWeatherCycle gamerule still governs the whole business —
+		#this can only suppress a reset that was going to happen, never cause one.
+		keepsWeather = false
+

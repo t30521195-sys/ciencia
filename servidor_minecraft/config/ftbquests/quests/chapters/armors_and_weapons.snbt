@@ -1,0 +1,3034 @@
+{
+	autofocus_id: "5F3A70554B9CFE86"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armors_and_weapons"
+	group: "036BBCCF3C38F186"
+	icon: {
+		Count: 1
+		id: "marbledsarsenal:hazmat_armor_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "536484EB247AF0A0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["44B8BEAED250F09C"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest3919065912454460975.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marbledsarsenal:oak_ghillie_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "366351AEEB30B62F"
+			optional: true
+			rewards: [
+				{
+					id: "0E0E5B027137FA5D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "717BAEF276664094"
+					table_id: 6218319453381243758L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "54038DC7C9313852"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ghillie_helmets"
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest3919065912454460975.task.6053838213329533010.title}"
+					type: "item"
+				}
+				{
+					id: "0D1F2869886911B9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ghillie_chestplates"
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest3919065912454460975.task.945518880496357817.title}"
+					type: "item"
+				}
+				{
+					id: "16E367734EAC3DCD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ghillie_leggings"
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest3919065912454460975.task.1649275633486544333.title}"
+					type: "item"
+				}
+				{
+					id: "71DE48FF84633D72"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ghillie_boots"
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest3919065912454460975.task.8205075833390579058.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest3919065912454460975.title}"
+			x: -1.1071428571428683d
+			y: -0.5357142857142705d
+		}
+		{
+			dependencies: ["143256B6CDAAF841"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest4951917448355967132.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marbledsarsenal:black_plate_carrier_t1"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "44B8BEAED250F09C"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest4951917448355967132.subtitle}"
+			tasks: [{
+				id: "646570E9C7B8DAC1"
+				title: "{ftbquests.chapter.armors_and_weapons.quest4951917448355967132.task.7234312525821041345.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest4951917448355967132.title}"
+			x: -0.3214285714285836d
+			y: -1.6785714285714164d
+		}
+		{
+			dependencies: ["143256B6CDAAF841"]
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest1505046302256847403.description1}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest1505046302256847403.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "spore:living_core"
+			id: "14E2FFA34888DA2B"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "73A9638E940E4B5F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5003B91D3864C14D"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest1505046302256847403.subtitle}"
+			tasks: [
+				{
+					id: "01FCED6773BBC0A5"
+					item: "spore:living_core"
+					type: "item"
+				}
+				{
+					id: "2EDB48A4E02A7A1E"
+					item: "spore:armor_plate"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest1505046302256847403.title}"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["14E2FFA34888DA2B"]
+			hide_until_deps_complete: true
+			icon: "spore:armor_plate"
+			id: "5A897F38AD9545B4"
+			optional: true
+			rewards: [{
+				id: "63E46534C2041E3C"
+				type: "xp"
+				xp: 33
+			}]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest6523885416630011316.subtitle}"
+			tasks: [
+				{
+					id: "23FC8318CD5CC9EE"
+					item: {
+						Count: 1
+						id: "spore:plated_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EDB895C7DE75F9E"
+					item: {
+						Count: 1
+						id: "spore:plated_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36A9A93DE2C99AD7"
+					item: {
+						Count: 1
+						id: "spore:plated_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C565855215EEA95"
+					item: {
+						Count: 1
+						id: "spore:plated_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest6523885416630011316.title}"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5A897F38AD9545B4"
+				"051271A4E8265015"
+			]
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest2317711188104925974.description1}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest2317711188104925974.description2}"
+			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: "spore:outpost_watcher"
+			id: "202A2A0BBAF15316"
+			optional: true
+			rewards: [
+				{
+					id: "28A23092C2BE24E8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55D6C2B272AD3A5E"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest2317711188104925974.subtitle}"
+			tasks: [
+				{
+					id: "1153642076A774DF"
+					item: {
+						Count: 1
+						id: "spore:inf_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "786226945CE7F443"
+					item: {
+						Count: 1
+						id: "spore:inf_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F20634F8EB0DA1B"
+					item: {
+						Count: 1
+						id: "spore:inf_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DE88BC581D70B36"
+					item: {
+						Count: 1
+						id: "spore:inf_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest2317711188104925974.title}"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14E2FFA34888DA2B"]
+			hide_until_deps_complete: true
+			icon: "spore:mutated_heart"
+			id: "051271A4E8265015"
+			optional: true
+			rewards: [{
+				id: "7345B92D8F003EA0"
+				type: "xp"
+				xp: 33
+			}]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest365479472853831701.subtitle}"
+			tasks: [
+				{
+					id: "79EC4A0BE1025614"
+					item: {
+						Count: 1
+						id: "spore:living_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "650C947C0D7847F1"
+					item: {
+						Count: 1
+						id: "spore:living_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E1715E3EA6304C0"
+					item: {
+						Count: 1
+						id: "spore:living_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72FE9F302FA26E57"
+					item: {
+						Count: 1
+						id: "spore:living_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest365479472853831701.title}"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["202A2A0BBAF15316"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest7177664517026496263.description1}"]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: "spore:hive_spawn"
+			id: "639C2FD96E4A3F07"
+			optional: true
+			rewards: [
+				{
+					id: "71685C5CD740C035"
+					type: "xp"
+					xp: 333
+				}
+				{
+					exclude_from_claim_all: true
+					id: "376F14664DF411A5"
+					table_id: 4486004537455507795L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest7177664517026496263.subtitle}"
+			tasks: [
+				{
+					id: "323096F168692083"
+					item: {
+						Count: 1
+						id: "spore:inf_up_helmet"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43CF0805BD31E8FF"
+					item: {
+						Count: 1
+						id: "spore:inf_up_chest"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A04E4933FC54350"
+					item: {
+						Count: 1
+						id: "spore:inf_up_pants"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64B1A8A001E05506"
+					item: {
+						Count: 1
+						id: "spore:inf_up_boots"
+						tag: {
+							Damage: 0
+							agent: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest7177664517026496263.title}"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44B8BEAED250F09C"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest2187037717239254146.description1}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest2187037717239254146.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marbledsarsenal:hazmat_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E59EB37666D4C82"
+			rewards: [
+				{
+					id: "00598165DC9B485D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31363B0917B8A9FC"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39944D40007956A0"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest2187037717239254146.subtitle}"
+			tasks: [
+				{
+					id: "146AA8289B072D87"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:hazmat_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D36981F300765CC"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:hazmat_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15F379FF5BE7E74A"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:hazmat_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62CC6DC5E3542D23"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:hazmat_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "399D0F6029B72B23"
+					item: "backpacked:backpack"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest2187037717239254146.title}"
+			x: -1.8571428571428896d
+			y: 0.4642857142857295d
+		}
+		{
+			dependencies: ["1E59EB37666D4C82"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest4665878401954055943.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marbledsarsenal:helmet_cm8m_gas_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40C087AF89A38707"
+			rewards: [
+				{
+					id: "3BA89D529EB78CF8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A79DE2092DC38F9"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58827B80F6817722"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest4665878401954055943.subtitle}"
+			tasks: [
+				{
+					id: "3E55F5BB7D4428FE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:helmet_gas_mask"
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest4665878401954055943.task.4491766388981246206.title}"
+					type: "item"
+				}
+				{
+					id: "6BE88A4A5A77FF44"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:military_chestplates"
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest4665878401954055943.task.7775616808605187908.title}"
+					type: "item"
+				}
+				{
+					id: "1FD2E48C8DE3389D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:military_leggings"
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest4665878401954055943.task.2293146452612036765.title}"
+					type: "item"
+				}
+				{
+					id: "6490F7F6CDE9CEB7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:military_boots"
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest4665878401954055943.task.7246564439827795639.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest4665878401954055943.title}"
+			x: -2.428571428571459d
+			y: 1.4285714285714448d
+		}
+		{
+			dependencies: ["40C087AF89A38707"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest3402120534053244965.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marbledsarsenal:black_juggernaut_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F36C299BB4E5025"
+			rewards: [
+				{
+					id: "2336D9539694970A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A1EBE4841CB7460"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A7BF1BA48645A68"
+					table_id: 4490392531640542596L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest3402120534053244965.subtitle}"
+			tasks: [
+				{
+					id: "3A7706398796534E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:juggernaut_helmets"
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest3402120534053244965.task.4212842820586066766.title}"
+					type: "item"
+				}
+				{
+					id: "77E69F5A6A2F3322"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:juggernaut_chestplates"
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest3402120534053244965.task.8639768145834226466.title}"
+					type: "item"
+				}
+				{
+					id: "4999854541D8CCAD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:juggernaut_leggings"
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest3402120534053244965.task.5303416568709434541.title}"
+					type: "item"
+				}
+				{
+					id: "7D702D00E0C205BE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:juggernaut_boots"
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest3402120534053244965.task.9038773933926647230.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest3402120534053244965.title}"
+			x: -3.035714285714313d
+			y: 2.428571428571445d
+		}
+		{
+			dependencies: ["14E2FFA34888DA2B"]
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest2934692816306071582.description1}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest2934692816306071582.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "28BA1F9158D0681E"
+			optional: true
+			rewards: [
+				{
+					id: "34B96631DA62B6B4"
+					type: "xp"
+					xp: 34
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F8A03A5DDC39CAF"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest2934692816306071582.subtitle}"
+			tasks: [
+				{
+					id: "716947EC5BDD4B21"
+					item: {
+						Count: 1
+						id: "spore:armads"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0277AA5360D58EC0"
+					item: {
+						Count: 1
+						id: "spore:maul"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BD8A8F88F88DEEE"
+					item: {
+						Count: 1
+						id: "spore:combat_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest2934692816306071582.title}"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["143256B6CDAAF841"]
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest6861920493895483014.description1}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest6861920493895483014.description2}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest6861920493895483014.description3}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest6861920493895483014.description4}"
+			]
+			hide_until_deps_complete: true
+			id: "5F3A70554B9CFE86"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest6861920493895483014.subtitle}"
+			tasks: [{
+				id: "4D7C3090B04C975C"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest6861920493895483014.title}"
+			x: -0.3928571428571459d
+			y: -3.4821428571428505d
+		}
+		{
+			dependencies: ["4B2A5E18A629CA04"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest6775098143765745703.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E05FBDDA190D027"
+			rewards: [
+				{
+					id: "15B8E6D829ADC492"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1765ED93FE0ACF00"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest6775098143765745703.subtitle}"
+			tasks: [
+				{
+					id: "04856AED77F1161A"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CEE8BFCD8B24F1D"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41661E8E31183EE0"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02C1E0D17D4C4318"
+					item: {
+						Count: 1
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest6775098143765745703.title}"
+			x: 3.8d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E05FBDDA190D027"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "68F15CC2DB1032F6"
+			rewards: [
+				{
+					id: "59394CFB3096EF89"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F1C37F1E16DAF48"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02C40AFE1E43A4C7"
+					table_id: 139851417505779397L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1FAA3DFC2DA67934"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00D21E560A240F36"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37B03939BB71039D"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AE9D49CBDE28A1C"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest7561927241300456182.title}"
+			x: 3.8d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68F15CC2DB1032F6"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5FBBDD84E52317FD"
+			rewards: [
+				{
+					id: "51057C6FFDAE3920"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65030C22FACA0F30"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3537667C260DE5AF"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5535E749E9297E1D"
+					table_id: 2569441142384244234L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5F6D533D934A0ABD"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "213016E1B8D3A2B0"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69D816380FBFE634"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CBC921C12904B73"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest6898350817097750525.title}"
+			x: 3.8d
+			y: 2.0d
+		}
+		{
+			dependencies: ["143256B6CDAAF841"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B2A5E18A629CA04"
+			rewards: [
+				{
+					id: "675C1D7DED55566A"
+					type: "xp"
+					xp: 12
+				}
+				{
+					exclude_from_claim_all: true
+					id: "068D2EDFA6099FEA"
+					table_id: 6218319453381243758L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "761322CA89C4EB80"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "670976C202059F74"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60729AC02B0C7AD4"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "734EAE2F3FC73093"
+					item: {
+						Count: 1
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest5416244961826425348.title}"
+			x: 2.8d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B2A5E18A629CA04"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest5816353467804016322.description1}"]
+			hide_until_deps_complete: true
+			id: "50B7D6A9A091DEC2"
+			optional: true
+			rewards: [
+				{
+					id: "5A1D46F2A7BCEB7F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64D8820E2574FEA4"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest5816353467804016322.subtitle}"
+			tasks: [
+				{
+					id: "5C290A6731EBF6D1"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "753D048E7D2C96D0"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "69183CC73F69F1A4"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "473D1035482B76AC"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest5816353467804016322.title}"
+			x: 2.8d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44B8BEAED250F09C"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest3970256895433278358.description1}"]
+			hide_until_deps_complete: true
+			id: "37192F9C6F588396"
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest3970256895433278358.subtitle}"
+			tasks: [{
+				id: "49A84488CB0AECFC"
+				title: "{ftbquests.chapter.armors_and_weapons.quest3970256895433278358.task.5307567515168861436.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest3970256895433278358.title}"
+			x: 0.4642857142857082d
+			y: -0.5357142857142705d
+		}
+		{
+			dependencies: ["37192F9C6F588396"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "lrarmor:armored_chemical_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6FC1D4B509D04F6F"
+			rewards: [{
+				id: "0F166D059BDE4B7B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest8052951482733973359.subtitle}"
+			tasks: [
+				{
+					id: "317EE9467353267D"
+					item: {
+						Count: 1
+						id: "lrarmor:armored_chemical_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29415C1F19A40A49"
+					item: {
+						Count: 1
+						id: "lrarmor:armored_chemical_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3224D55992C07841"
+					item: {
+						Count: 1
+						id: "lrarmor:armored_chemical_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68EA5A8D55A2C0A5"
+					item: {
+						Count: 1
+						id: "lrarmor:armored_chemical_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest8052951482733973359.title}"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37192F9C6F588396"]
+			description: [""]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "lrarmor:chemical_protective_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5FA9A4A5DEFF449C"
+			rewards: [{
+				id: "73ED98C9FE7AE0E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest6893221736985085084.subtitle}"
+			tasks: [
+				{
+					id: "1AD8F84A61DCBCEF"
+					item: {
+						Count: 1
+						id: "lrarmor:chemical_protective_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D6548F7B477935A"
+					item: {
+						Count: 1
+						id: "lrarmor:chemical_protective_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DA53F1E316ED378"
+					item: {
+						Count: 1
+						id: "lrarmor:chemical_protective_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D39E49A97AA0B0D"
+					item: {
+						Count: 1
+						id: "lrarmor:chemical_protective_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest6893221736985085084.title}"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6FC1D4B509D04F6F"
+				"5FA9A4A5DEFF449C"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "lrarmor:medical_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5CF275BF974D2B7E"
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					id: "21DCE80291D97464"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "471FF7D8CE77175F"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest6697545061590969214.subtitle}"
+			tasks: [
+				{
+					id: "62AABC47BB741117"
+					item: {
+						Count: 1
+						id: "lrarmor:medical_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CA0FE0362C67D01"
+					item: {
+						Count: 1
+						id: "lrarmor:medical_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "589C97A2CA632FE6"
+					item: {
+						Count: 1
+						id: "lrarmor:medical_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "167BBC97759445B8"
+					item: {
+						Count: 1
+						id: "lrarmor:medical_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest6697545061590969214.title}"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37192F9C6F588396"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "lrarmor:scout_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0A9E680BDF056E02"
+			rewards: [{
+				id: "727BC54A6853E5DD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest765163386895166978.subtitle}"
+			tasks: [
+				{
+					id: "76A94259E91271AC"
+					item: {
+						Count: 1
+						id: "lrarmor:scout_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72CFE091B6812904"
+					item: {
+						Count: 1
+						id: "lrarmor:scout_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03376949D8B577E2"
+					item: {
+						Count: 1
+						id: "lrarmor:scout_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19B45D88BBE06C38"
+					item: {
+						Count: 1
+						id: "lrarmor:scout_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest765163386895166978.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A9E680BDF056E02"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "lrarmor:sniper_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2698F4C220C5448E"
+			rewards: [
+				{
+					id: "5D8B3631F736FD0D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "481A2A9F2FFF7B01"
+					table_id: 8453280897702031425L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest2781241884511913102.subtitle}"
+			tasks: [
+				{
+					id: "42D232EEA5181F7B"
+					item: {
+						Count: 1
+						id: "lrarmor:sniper_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F065E291E830003"
+					item: {
+						Count: 1
+						id: "lrarmor:sniper_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BA47855BB20AF67"
+					item: {
+						Count: 1
+						id: "lrarmor:sniper_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "647E2833A7D72A83"
+					item: {
+						Count: 1
+						id: "lrarmor:sniper_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest2781241884511913102.title}"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A9E680BDF056E02"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest7464896589316654772.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "lrarmor:defender_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6798A3E5B33E86B4"
+			rewards: [
+				{
+					id: "2629BECDF07B13DE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F55D4B8B4008A4B"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest7464896589316654772.subtitle}"
+			tasks: [
+				{
+					id: "32D3304BD4C3F38C"
+					item: {
+						Count: 1
+						id: "lrarmor:defender_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A6BE8A403A5FECE"
+					item: {
+						Count: 1
+						id: "lrarmor:defender_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DC523585DDAEBB0"
+					item: {
+						Count: 1
+						id: "lrarmor:defender_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73962B81F224DC7F"
+					item: {
+						Count: 1
+						id: "lrarmor:defender_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest7464896589316654772.title}"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A9E680BDF056E02"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "lrarmor:attacker_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "57431A488828E491"
+			rewards: [
+				{
+					id: "12CC87CE661161B2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F27A0E15444D04F"
+					table_id: 3833553154103734842L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest6287898403563693201.subtitle}"
+			tasks: [
+				{
+					id: "1A45CC7548384688"
+					item: {
+						Count: 1
+						id: "lrarmor:attacker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E2D19EBEC29F4C8"
+					item: {
+						Count: 1
+						id: "lrarmor:attacker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51D794A0F2E7FEF2"
+					item: {
+						Count: 1
+						id: "lrarmor:attacker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F134E8CA2945EFB"
+					item: {
+						Count: 1
+						id: "lrarmor:attacker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest6287898403563693201.title}"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37192F9C6F588396"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "lrarmor:joker_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BD7E1C35F5F7C5A"
+			min_required_tasks: 4
+			rewards: [
+				{
+					id: "5EABD70360405344"
+					type: "xp_levels"
+					xp_levels: 0
+				}
+				{
+					id: "2BBA47E2590140CD"
+					type: "xp"
+					xp: 0
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest7770927911286045786.subtitle}"
+			tasks: [
+				{
+					id: "6AED362848E6E8FD"
+					item: {
+						Count: 1
+						id: "lrarmor:joker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "689159C71BE8C9F3"
+					item: {
+						Count: 1
+						id: "lrarmor:joker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A7B83A67899B158"
+					item: {
+						Count: 1
+						id: "lrarmor:joker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50E7B1D8D38950C4"
+					item: {
+						Count: 1
+						id: "lrarmor:joker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42B8AFAD4FB8D1D3"
+					item: {
+						Count: 1
+						id: "lrarmor:joker_armed_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BC26014063968E2"
+					item: {
+						Count: 1
+						id: "lrarmor:joker_armed_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest7770927911286045786.title}"
+			x: 1.4d
+			y: -1.05d
+		}
+		{
+			dependencies: ["37192F9C6F588396"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest1659720473113876311.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "lrarmor:irs_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "170882FA0A655757"
+			rewards: [{
+				id: "5114D20B50DCE882"
+				type: "xp"
+				xp: 120
+			}]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest1659720473113876311.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "4F528D3B43907657"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lrarmor:irs_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:irs_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:irs_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:irs_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:dea_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:dea_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:dea_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:dea_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:dea_armed_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:dea_armed_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:dea_armed_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:atf_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:atf_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:atf_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:atf_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:atf_vest_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:atf_vest_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:atf_vest_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:atf_vest_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:fbi_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:fbi_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:fbi_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:fbi_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:fbi_armed_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:fbi_armed_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:fbi_armed_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "lrarmor:fbi_armed_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.armors_and_weapons.quest1659720473113876311.task.5715786162762708567.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest1659720473113876311.title}"
+			x: 1.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["32D684A9F5FB186F"]
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest6787019935718777804.description1}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest6787019935718777804.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "5E3056AC200323CC"
+			rewards: [
+				{
+					id: "40F3604FB4056E72"
+					type: "xp"
+					xp: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6356E44E16C5D565"
+					table_id: 6830563484017435266L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest6787019935718777804.subtitle}"
+			tasks: [{
+				id: "595AC1B7E8AB4E53"
+				item: {
+					Count: 1
+					id: "archeryexp:wooden_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest6787019935718777804.title}"
+			x: -0.3928571428571317d
+			y: -4.964285714285722d
+		}
+		{
+			dependencies: [
+				"5E3056AC200323CC"
+				"59BF77B982204B54"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.armors_and_weapons.quest4477218281495061208.description1}"]
+			hide_until_deps_complete: true
+			id: "3E22464E4265E2D8"
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					id: "3E558B21AF361E7B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E2A2C9523E1097E"
+					table_id: 6830563484017435266L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest4477218281495061208.subtitle}"
+			tasks: [{
+				id: "6C902AD7B2C828BE"
+				item: {
+					Count: 1
+					id: "archeryexp:gold_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest4477218281495061208.title}"
+			x: -2.8928571428571317d
+			y: -6.964285714285722d
+		}
+		{
+			dependencies: ["5E3056AC200323CC"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest6467019228563131220.description1}"]
+			hide_until_deps_complete: true
+			id: "59BF77B982204B54"
+			rewards: [
+				{
+					id: "33F2B6218259A180"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20785EE321C79BD8"
+					table_id: 40718733491215972L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest6467019228563131220.subtitle}"
+			tasks: [{
+				id: "4EBD1BF6A4B87DAD"
+				item: {
+					Count: 1
+					id: "archeryexp:iron_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest6467019228563131220.title}"
+			x: -1.3928571428571317d
+			y: -6.464285714285722d
+		}
+		{
+			dependencies: ["5E3056AC200323CC"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest2759851885573703304.description1}"]
+			hide_until_deps_complete: true
+			id: "264CF6AAE8500688"
+			rewards: [
+				{
+					id: "390F9DA6BB9187F7"
+					type: "xp"
+					xp: 60
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DBD1250ADD4A87E"
+					table_id: 40718733491215972L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest2759851885573703304.subtitle}"
+			tasks: [{
+				id: "29FCDA8C2A44FD2E"
+				item: {
+					Count: 1
+					id: "archeryexp:diamond_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest2759851885573703304.title}"
+			x: 0.6071428571428683d
+			y: -6.464285714285722d
+		}
+		{
+			dependencies: [
+				"264CF6AAE8500688"
+				"5E3056AC200323CC"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.armors_and_weapons.quest6222492447619530141.description1}"]
+			hide_until_deps_complete: true
+			id: "565ABBE9B5E9BD9D"
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					id: "491D841C6748BD12"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "231DE4734CF68F98"
+					table_id: 2369188665784580454L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest6222492447619530141.subtitle}"
+			tasks: [{
+				id: "4AA1437553ED0186"
+				item: {
+					Count: 1
+					id: "archeryexp:netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest6222492447619530141.title}"
+			x: 2.1071428571428683d
+			y: -6.964285714285722d
+		}
+		{
+			dependencies: ["5E3056AC200323CC"]
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest5087717077534240872.description1}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest5087717077534240872.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:fletching_table"
+			id: "469B33B9E41DF068"
+			rewards: [
+				{
+					id: "5736C4DBC6CE8E2A"
+					type: "xp"
+					xp: 12
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14AC617E1DF6F744"
+					table_id: 40718733491215972L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest5087717077534240872.subtitle}"
+			tasks: [
+				{
+					id: "44F1B20F1BD62F92"
+					item: "minecraft:fletching_table"
+					type: "item"
+				}
+				{
+					id: "69A5A2A7DB958F59"
+					item: "nocubesbetterfletchingtable:arrow_fletching"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest5087717077534240872.title}"
+			x: -0.3928571428571175d
+			y: -6.750000000000014d
+		}
+		{
+			dependencies: ["469B33B9E41DF068"]
+			hide_until_deps_complete: true
+			id: "4B33FEE98AD9CDCF"
+			rewards: [
+				{
+					id: "51BB5F4535FB692A"
+					type: "xp"
+					xp: 8
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51FD5AF26F8038FB"
+					table_id: 6830563484017435266L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "01D96B0C8B9CA6C4"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			x: -2.3928571428571317d
+			y: -7.964285714285722d
+		}
+		{
+			dependencies: ["469B33B9E41DF068"]
+			hide_until_deps_complete: true
+			id: "1F6DBEAD4BC562FA"
+			rewards: [
+				{
+					id: "2ED7FD468F425D97"
+					type: "xp"
+					xp: 16
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D69EB1D76CF214A"
+					table_id: 6830563484017435266L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5148F5ACCEF0470F"
+				item: "archeryexp:gold_arrow"
+				type: "item"
+			}]
+			x: -1.3928571428571317d
+			y: -8.464285714285722d
+		}
+		{
+			dependencies: ["469B33B9E41DF068"]
+			hide_until_deps_complete: true
+			id: "41948A7E87BA6751"
+			rewards: [
+				{
+					id: "00B221376D2590EB"
+					type: "xp"
+					xp: 24
+				}
+				{
+					exclude_from_claim_all: true
+					id: "023FF423FA53FC9E"
+					table_id: 6830563484017435266L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3FA16091A6DF9165"
+				item: "archeryexp:iron_arrow"
+				type: "item"
+			}]
+			x: 1.6071428571428683d
+			y: -7.964285714285722d
+		}
+		{
+			dependencies: ["469B33B9E41DF068"]
+			hide_until_deps_complete: true
+			id: "622AD2CA59191E13"
+			rewards: [
+				{
+					id: "76906122C0714C52"
+					type: "xp"
+					xp: 32
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58783E4779D55B0B"
+					table_id: 40718733491215972L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "262A2D9215231947"
+				item: "archeryexp:diamond_arrow"
+				type: "item"
+			}]
+			x: 0.6071428571428683d
+			y: -8.464285714285722d
+		}
+		{
+			dependencies: ["469B33B9E41DF068"]
+			hide_until_deps_complete: true
+			id: "4BD2878686AFFF73"
+			rewards: [
+				{
+					id: "1ACAA7896C438948"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18C4F9F50080D346"
+					table_id: 2369188665784580454L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0CDBCA4C9B757D34"
+				item: "archeryexp:netherite_arrow"
+				type: "item"
+			}]
+			x: -0.3928571428571317d
+			y: -8.964285714285722d
+		}
+		{
+			dependencies: ["469B33B9E41DF068"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest4731671611577344358.description1}"]
+			hide_until_deps_complete: true
+			id: "41AA4642E1DE2166"
+			rewards: [{
+				id: "2ED2445FDCE8D54D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest4731671611577344358.subtitle}"
+			tasks: [{
+				id: "739B11610450CE00"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "archers_paradox:ender_arrow"
+							}
+							{
+								Count: 1b
+								id: "archers_paradox:slime_arrow"
+							}
+							{
+								Count: 1b
+								id: "archers_paradox:prismarine_arrow"
+							}
+							{
+								Count: 1b
+								id: "archers_paradox:quartz_arrow"
+							}
+							{
+								Count: 1b
+								id: "archers_paradox:spore_arrow"
+							}
+							{
+								Count: 1b
+								id: "archers_paradox:verdant_arrow"
+							}
+							{
+								Count: 1b
+								id: "archers_paradox:lightning_arrow"
+							}
+							{
+								Count: 1b
+								id: "archers_paradox:frost_arrow"
+							}
+							{
+								Count: 1b
+								id: "archers_paradox:blaze_arrow"
+							}
+							{
+								Count: 1b
+								id: "archers_paradox:shulker_arrow"
+							}
+							{
+								Count: 1b
+								id: "archers_paradox:phantasmal_arrow"
+							}
+							{
+								Count: 1b
+								id: "archers_paradox:challenge_arrow"
+							}
+							{
+								Count: 1b
+								id: "archers_paradox:explosive_arrow"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.armors_and_weapons.quest4731671611577344358.task.8330271044133768704.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest4731671611577344358.title}"
+			x: -0.3928571428571317d
+			y: -7.964285714285722d
+		}
+		{
+			dependencies: ["143256B6CDAAF841"]
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest7305566571829407150.description1}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest7305566571829407150.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "iron_repair_kits:netherite_repair_kit"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "656296172CDC2DAE"
+			rewards: [{
+				count: 3
+				id: "7F7AEC139D08A0EB"
+				item: {
+					Count: 1
+					id: "iron_repair_kits:duct_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest7305566571829407150.subtitle}"
+			tasks: [{
+				id: "4C987A62220F4A1A"
+				title: "{ftbquests.chapter.armors_and_weapons.quest7305566571829407150.task.5519295905239353882.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest7305566571829407150.title}"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["656296172CDC2DAE"]
+			hide_until_deps_complete: true
+			id: "268978AFD2412715"
+			rewards: [
+				{
+					id: "68EC5F1418FDCABC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "244A16D983EEF4D4"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2BDA567E6550F03D"
+				item: {
+					Count: 1
+					id: "iron_repair_kits:diamond_repair_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest2776883341792716565.title}"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["143256B6CDAAF841"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest5400769105340831276.description1}"]
+			hide_until_deps_complete: true
+			icon: "minecraft:grindstone"
+			id: "4AF362E305BE962C"
+			rewards: [{
+				id: "4417C12DE13F3A08"
+				type: "xp"
+				xp: 8
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest5400769105340831276.subtitle}"
+			tasks: [{
+				id: "48112FC8FE141230"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest5400769105340831276.title}"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest853456611409015595.description1}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest853456611409015595.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "0BD816442A3E332B"
+			invisible: true
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "140D552EE2AE6038"
+				table_id: 4486004537455507795L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest853456611409015595.subtitle}"
+			tasks: [{
+				id: "45A0F8BFBCD7907D"
+				item: {
+					Count: 1
+					id: "spore:r_elytron"
+					tag: {
+						Damage: 0
+						agent: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest853456611409015595.title}"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44B8BEAED250F09C"]
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest8502988541149878559.description1}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest8502988541149878559.description2}"
+			]
+			icon: "mca:book_blueprint"
+			id: "7600AF070474991F"
+			shape: "diamond"
+			size: 0.85d
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest8502988541149878559.subtitle}"
+			tasks: [{
+				id: "55F059198FF97AF2"
+				title: "{ftbquests.chapter.armors_and_weapons.quest8502988541149878559.task.6192547453958978290.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest8502988541149878559.title}"
+			x: 0.425d
+			y: -2.55d
+		}
+		{
+			dependencies: ["4B2A5E18A629CA04"]
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest536849899555263932.description1}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest536849899555263932.description2}"
+			]
+			icon: "quark:clear_shard"
+			id: "07734623A8B215BC"
+			rewards: [{
+				id: "659C8DA8BA05D15B"
+				type: "xp"
+				xp: 3
+			}]
+			shape: "diamond"
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest536849899555263932.subtitle}"
+			tasks: [{
+				id: "6107ACF05665BA06"
+				title: "{ftbquests.chapter.armors_and_weapons.quest536849899555263932.task.6991747094757620230.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest536849899555263932.title}"
+			x: 2.8d
+			y: -1.0499999999999998d
+		}
+		{
+			dependencies: ["143256B6CDAAF841"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest1636438152841275628.description1}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest1636438152841275628.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "marbledsarsenal:armor_plate"
+			id: "16B5CBD46D0028EC"
+			rewards: [
+				{
+					id: "6625BEBB142CC211"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AE52B4D7EF3E7DE"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest1636438152841275628.subtitle}"
+			tasks: [
+				{
+					id: "50A19757A8DF22B9"
+					item: {
+						Count: 1
+						id: "iron_repair_kits:duct_tape"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0707B772DE177FDB"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:black_plate_carrier_t1"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "074CCD7AAEAC2CC3"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "bulletarmorenchant:bullet_proof"
+								lvl: 1
+							}]
+							display: {
+								Name: "{\"text\":\"Enhancement of light plates\"}"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest1636438152841275628.title}"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B2A5E18A629CA04"]
+			description: [
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest6182636343112224854.description1}"
+			]
+			icon: "quark:abacus"
+			id: "55CD22FF3E9FD056"
+			rewards: [{
+				id: "03A8A5D3DDF12EAA"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest6182636343112224854.subtitle}"
+			tasks: [{
+				id: "2B80C0203020396F"
+				item: "quark:abacus"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.armors_and_weapons.quest6182636343112224854.title}"
+			x: 2.8d
+			y: -2.3d
+		}
+		{
+			dependencies: ["44B8BEAED250F09C"]
+			description: [
+				"{ftbquests.chapter.armors_and_weapons.quest6221816497597205654.description1}"
+				"{ftbquests.chapter.armors_and_weapons.quest6221816497597205654.description2}"
+				""
+				"{ftbquests.chapter.armors_and_weapons.quest6221816497597205654.description3}"
+			]
+			icon: "backpacked:backpack"
+			id: "56585523D4F24C96"
+			rewards: [{
+				id: "1875D20B93058BBD"
+				type: "xp"
+				xp: 8
+			}]
+			shape: "diamond"
+			size: 0.85d
+			subtitle: "{ftbquests.chapter.armors_and_weapons.quest6221816497597205654.subtitle}"
+			tasks: [
+				{
+					id: "74A81763C34A2820"
+					item: "backpacked:backpack"
+					type: "item"
+				}
+				{
+					id: "7BA4F48C6E8F2C74"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "backpacked:oak_backpack_shelf"
+								}
+								{
+									Count: 1b
+									id: "backpacked:spruce_backpack_shelf"
+								}
+								{
+									Count: 1b
+									id: "backpacked:birch_backpack_shelf"
+								}
+								{
+									Count: 1b
+									id: "backpacked:jungle_backpack_shelf"
+								}
+								{
+									Count: 1b
+									id: "backpacked:dark_oak_backpack_shelf"
+								}
+								{
+									Count: 1b
+									id: "backpacked:acacia_backpack_shelf"
+								}
+								{
+									Count: 1b
+									id: "backpacked:crimson_backpack_shelf"
+								}
+								{
+									Count: 1b
+									id: "backpacked:warped_backpack_shelf"
+								}
+								{
+									Count: 1b
+									id: "backpacked:cherry_backpack_shelf"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.armors_and_weapons.quest6221816497597205654.task.8909514846833159284.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest6221816497597205654.title}"
+			x: -1.275d
+			y: -2.55d
+		}
+		{
+			dependencies: ["44B8BEAED250F09C"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest7588950184970766076.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "biohazardchanges:leather_ushanka"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "69515DFC395146FC"
+			rewards: [
+				{
+					id: "14E20695457DB57A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FD716FEFEB80198"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "526049A1C5BFCB3D"
+					table_id: 3340497817625991817L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 0.7d
+			tasks: [
+				{
+					id: "7306273AC619D005"
+					item: {
+						Count: 1
+						id: "biohazardchanges:leather_ushanka"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10300D5906F6A9ED"
+					item: {
+						Count: 1
+						id: "biohazardchanges:leather_jacket"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B2783148D1D7A00"
+					item: {
+						Count: 1
+						id: "biohazardchanges:leather_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "068BE85DA7F0CB28"
+					item: {
+						Count: 1
+						id: "biohazardchanges:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest7588950184970766076.title}"
+			x: -2.1d
+			y: -1.75d
+		}
+		{
+			dependencies: ["69515DFC395146FC"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest312853213400397988.description1}"]
+			icon: {
+				Count: 1
+				id: "butcher:wolffursuit_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "04577A570B91F8A4"
+			rewards: [
+				{
+					id: "0D5E2EFB7866C7AF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D34FFF3BE2E71B5"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [
+				{
+					id: "46A7B999A571C0FC"
+					item: {
+						Count: 1
+						id: "butcher:wolffursuit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EB1FD9C34CDE923"
+					item: {
+						Count: 1
+						id: "butcher:wolffursuit_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12C6403B8ED37D7C"
+					item: {
+						Count: 1
+						id: "butcher:wolffursuit_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63086695AA5C3173"
+					item: {
+						Count: 1
+						id: "butcher:wolffursuit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest312853213400397988.title}"
+			x: -2.8d
+			y: -1.75d
+		}
+		{
+			dependencies: ["44B8BEAED250F09C"]
+			description: ["{ftbquests.chapter.armors_and_weapons.quest962876425035744710.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "biohazardchanges:iron_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D5CD301CCDA85C6"
+			rewards: [
+				{
+					id: "526ECC8AE7FA50BD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E334588CBFF436F"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 0.7d
+			tasks: [
+				{
+					id: "4C341BA54EF9D1B8"
+					item: {
+						Count: 1
+						id: "biohazardchanges:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D46A62D89845CB8"
+					item: {
+						Count: 1
+						id: "biohazardchanges:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "131A513C6CB7E072"
+					item: {
+						Count: 1
+						id: "biohazardchanges:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "625DABECA1B2AF8E"
+					item: {
+						Count: 1
+						id: "biohazardchanges:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.armors_and_weapons.quest962876425035744710.title}"
+			x: -2.4499999999999997d
+			y: -1.05d
+		}
+	]
+	title: "{ftbquests.chapter.armors_and_weapons.title}"
+}

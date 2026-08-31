@@ -1,0 +1,1546 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3"
+	group: "463CB09C632FE18F"
+	icon: "spore:mutated_heart"
+	id: "4A0310F2328B657A"
+	images: [
+		{
+			click: "#7A2337F42EA413D7"
+			dependency: "19E9307C817C0E39"
+			height: 0.6d
+			hover: ["ftbquests.chapter.chapter_3.image.hovertext1"]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.3312074829932214d
+			y: 2.4284863945578437d
+		}
+		{
+			click: "#5338AB36F37EA112"
+			dependency: "1ECF6C42132DD49D"
+			height: 0.5d
+			hover: ["ftbquests.chapter.chapter_3.image.hovertext2"]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.85d
+			y: 3.0d
+		}
+		{
+			click: "#536484EB247AF0A0"
+			dependency: "1ECF6C42132DD49D"
+			height: 0.5d
+			hover: ["ftbquests.chapter.chapter_3.image.hovertext3"]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.85d
+			y: 3.6d
+		}
+		{
+			dependency: "1ECF6C42132DD49D"
+			height: 0.6d
+			hover: ["ftbquests.chapter.chapter_3.image.hovertext4"]
+			image: "fancymenu:textures/warning_20x20.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.5357142857142705d
+			y: 3.1928571428571573d
+		}
+		{
+			click: "#2A847ECBCB3DA249"
+			dependency: "1ECF6C42132DD49D"
+			height: 0.6d
+			hover: ["ftbquests.chapter.chapter_3.image.hovertext5"]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.5d
+			y: 5.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"248917B11CA1DDBA"
+				"068197DA824EC10D"
+			]
+			description: ["{ftbquests.chapter.chapter_3.quest1867076831828250169.description1}"]
+			hide_until_deps_complete: true
+			icon: "dustrial_decor:large_redstone_lantern"
+			id: "19E9307C817C0E39"
+			shape: "none"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.chapter_3.quest1867076831828250169.subtitle}"
+			tasks: [{
+				id: "16FF28AAA9602B23"
+				title: "{ftbquests.chapter.chapter_3.quest1867076831828250169.task.1657087901346835235.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest1867076831828250169.title}"
+			x: -2.0d
+			y: 1.3297619047619023d
+		}
+		{
+			dependencies: ["19E9307C817C0E39"]
+			description: [
+				"{ftbquests.chapter.chapter_3.quest2220112172362355869.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.chapter_3.quest2220112172362355869.description2}"
+				"[\"\",{\"color\":\"blue\",\"underlined\":1,\"italic\":1,\"translate\":\"ftbquests.chapter.chapter_3.quest2220112172362355869.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"70A0E5A9310CEA8A\"}}]"
+				"{ftbquests.chapter.chapter_3.quest2220112172362355869.rich_description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "biohazardchanges:console"
+			id: "1ECF6C42132DD49D"
+			rewards: [
+				{
+					id: "7C51699130752EAD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5BF71783D1BD579A"
+					item: "dyairdrop:flaregun5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.chapter_3.quest2220112172362355869.subtitle}"
+			tasks: [
+				{
+					id: "65F9548B5F6BB6EE"
+					item: "biohazardchanges:antenna"
+					type: "item"
+				}
+				{
+					id: "3DDC74836C9F51CD"
+					item: "biohazardchanges:console"
+					type: "item"
+				}
+				{
+					id: "3659FA9BC9F75796"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_3.quest2220112172362355869.title}"
+			x: -2.0d
+			y: 2.8297619047619023d
+		}
+		{
+			dependencies: ["1ECF6C42132DD49D"]
+			hide_until_deps_complete: true
+			icon: "marbledsarsenal:armor_plate"
+			id: "5DA102E5156D1266"
+			rewards: [
+				{
+					count: 3
+					id: "75B418729518FD8D"
+					item: "cure:vaccine"
+					type: "item"
+				}
+				{
+					id: "33F4479C92515DD7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47881E8DB7403D3D"
+					table_id: 3340497817625991817L
+					type: "random"
+				}
+				{
+					id: "7F33335106632944"
+					item: "dyairdrop:flaregun3"
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [
+				{
+					id: "507CE9B5D9972823"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:military_armor"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_3.quest6746676899707949670.task.5799767387395270691.title}"
+					type: "item"
+				}
+				{
+					id: "3626EC36C2D80E4F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:diamond_shovel"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:diamond_pickaxe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:diamond_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:diamond_hoe"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_3.quest6746676899707949670.task.3902065847104441935.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_3.quest6746676899707949670.title}"
+			x: -3.4702380952380807d
+			y: 3.25d
+		}
+		{
+			dependencies: ["36848116A6207C62"]
+			hide_until_deps_visible: true
+			icon: "spore:organite"
+			id: "74A9801B35BCCA43"
+			rewards: [
+				{
+					id: "0A39C1258595DA8B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D2380FE44DFF805"
+					table_id: 3833553154103734842L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1222D194E40141DB"
+					table_id: 3833553154103734842L
+					type: "random"
+				}
+				{
+					id: "5A38A09E1F8A2316"
+					item: "dyairdrop:flaregun4"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "{ftbquests.chapter.chapter_3.quest8406391033817778755.subtitle}"
+			tasks: [
+				{
+					icon: "spore:organite"
+					id: "6B9299B7E20F9F9F"
+					structure: "spore:biomass_tower"
+					title: "{ftbquests.chapter.chapter_3.quest8406391033817778755.task.7751426923708784543.title}"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "73B46CC438BC7450"
+					item: {
+						Count: 1
+						id: "spore:rooted_biomass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "4593A6BE72FB8021"
+					item: {
+						Count: 1
+						id: "spore:biomass_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "05D779DAD569B153"
+					item: {
+						Count: 1
+						id: "spore:rooted_mycelium"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_3.quest8406391033817778755.title}"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["521A6C5CDE8E0DD2"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "spore:hive_spawn"
+				tag: { }
+			}
+			id: "44DFDFC6E6572855"
+			rewards: [
+				{
+					id: "51178182608F281D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B042CB4790BECF7"
+					table_id: 3833553154103734842L
+					type: "random"
+				}
+			]
+			shape: "none"
+			subtitle: "{ftbquests.chapter.chapter_3.quest4962931359746566229.subtitle}"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "spore:hive_spawn"
+						tag: { }
+					}
+					id: "6D268C83AA97A121"
+					structure: "spore:cathedral"
+					title: "{ftbquests.chapter.chapter_3.quest4962931359746566229.task.7865128296379818273.title}"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					id: "4D1B6EDF1A325C73"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "spore:mutated_heart"
+								}
+								{
+									Count: 1b
+									id: "spore:mutated_fiber"
+								}
+								{
+									Count: 1b
+									id: "spore:armor_fragment"
+								}
+								{
+									Count: 1b
+									id: "spore:claw_fragment"
+								}
+								{
+									Count: 1b
+									id: "spore:cerebrum"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_3.quest4962931359746566229.task.5556156469787909235.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_3.quest4962931359746566229.title}"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["513E4795286DECC8"]
+			hide_until_deps_visible: true
+			icon: "create:peculiar_bell"
+			id: "5D05970723EAE725"
+			rewards: [
+				{
+					id: "27708A2746E531FA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27D4A8670AF1B3EA"
+					table_id: 3833553154103734842L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F878368E6E33D6E"
+					table_id: 5247678636784679629L
+					type: "choice"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				icon: "create:peculiar_bell"
+				id: "6BCD922CA009AB69"
+				structure: "spore:church"
+				title: "{ftbquests.chapter.chapter_3.quest6702929677334013733.task.7768025652645178217.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest6702929677334013733.title}"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63B12BC4D9421D06"]
+			description: [
+				""
+				""
+				"[\"\",{\"color\":\"blue\",\"underlined\":1,\"italic\":1,\"translate\":\"ftbquests.chapter.chapter_3.quest3231078532700510222.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"13A3AE0F877C2A9F\"}}]"
+				""
+				"[\"\",{\"color\":\"blue\",\"underlined\":1,\"italic\":1,\"translate\":\"ftbquests.chapter.chapter_3.quest3231078532700510222.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"49BBBA0262BB4A0F\"}}]"
+			]
+			hide_until_deps_visible: true
+			icon: "moa_decor_science:camahblanca"
+			id: "2CD718CE7701180E"
+			rewards: [
+				{
+					id: "24137E0100FB784E"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "565E6DD003F7344F"
+					table_id: 8685283136233001284L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34DAB273A757D8D6"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+				{
+					id: "321896F840A30D86"
+					item: "dyairdrop:flaregun3"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "{ftbquests.chapter.chapter_3.quest3231078532700510222.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:white_bed"
+					id: "570A077F5F3E8ED3"
+					structure: "spore:hospital"
+					title: "{ftbquests.chapter.chapter_3.quest3231078532700510222.task.6271833674707013331.title}"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "3BE600DC15B642E1"
+					item: "spore:sicken_biomass_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "6764FD3FF50DC785"
+					item: {
+						Count: 1
+						id: "spore:biomass_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "6A64DA4628BB1F69"
+					item: {
+						Count: 1
+						id: "spore:rooted_biomass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "1146F8E2B48EE11E"
+					item: {
+						Count: 1
+						id: "spore:rooted_mycelium"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0A5E536BCC93F080"
+					item: {
+						Count: 1
+						id: "spore:zoaholic"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "39C948E92BC7814C"
+					item: {
+						Count: 1
+						id: "spore:incubator"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "32037ECAD26A5B80"
+					item: "spore:documents"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_3.quest3231078532700510222.title}"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7FCC2C69C9AB9C78"]
+			description: [
+				"[\"\",{\"color\":\"blue\",\"underlined\":1,\"italic\":1,\"translate\":\"ftbquests.chapter.chapter_3.quest781756728075962228.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"350DC25AF6F3F53D\"}}]"
+				""
+				"[\"\",{\"color\":\"blue\",\"underlined\":1,\"italic\":1,\"translate\":\"ftbquests.chapter.chapter_3.quest781756728075962228.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"308216C00AC7E182\"}}]"
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:packed_ice"
+			id: "0AD95B9A2DBD4774"
+			rewards: [
+				{
+					id: "481FD3074A8DF517"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "014DCF8C4D58730C"
+					table_id: 8685283136233001284L
+					type: "random"
+				}
+				{
+					id: "1D2201835317A886"
+					item: "dyairdrop:flaregun1"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "{ftbquests.chapter.chapter_3.quest781756728075962228.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:packed_ice"
+					id: "27EAE4C15FFC797D"
+					structure: "spore:iceberg_mines"
+					title: "{ftbquests.chapter.chapter_3.quest781756728075962228.task.2876362831219685757.title}"
+					type: "structure"
+				}
+				{
+					id: "4F7DE4A559ED04A8"
+					item: {
+						Count: 1
+						id: "spore:cdu"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6BFB8892D4DC9CF2"
+					item: "spore:gas_mask"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "3FE6A87375F1FE12"
+					item: {
+						Count: 1
+						id: "spore:ice_canister"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3347E3A27BFA7852"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2282F34FB23EA67D"
+					item: "minecraft:packed_ice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3B799FFC14C0A6C0"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_3.quest781756728075962228.title}"
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["60764D612B3955D3"]
+			description: ["[\"\",{\"color\":\"blue\",\"underlined\":1,\"italic\":1,\"translate\":\"ftbquests.chapter.chapter_3.quest3918230628067413184.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"75ED246D1F1603AA\"}}]"]
+			hide_until_deps_visible: true
+			icon: "minecraft:mycelium"
+			id: "366059FF1E038CC0"
+			rewards: [
+				{
+					id: "796F73197B5D3103"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F6BFC3CE365221B"
+					table_id: 2169985305494019696L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E12E252BD08AFC5"
+					table_id: 8453280897702031425L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C044BB0B7C1C984"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+				{
+					id: "3890BCD897A7ACD7"
+					item: "dyairdrop:flaregun4"
+					type: "item"
+				}
+			]
+			shape: "none"
+			subtitle: "{ftbquests.chapter.chapter_3.quest3918230628067413184.subtitle}"
+			tasks: [
+				{
+					icon: "spore:growths_big"
+					id: "5E8E600BE7CA71C3"
+					structure: "spore:lab"
+					title: "{ftbquests.chapter.chapter_3.quest3918230628067413184.task.6813488890507850179.title}"
+					type: "structure"
+				}
+				{
+					id: "5BD5DC7BA648E97A"
+					item: {
+						Count: 1
+						id: "spore:container"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "345F30C770C96805"
+					item: {
+						Count: 1
+						id: "minecraft:crimson_fungus"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6C1D6EA924ECECBC"
+					item: {
+						Count: 1
+						id: "minecraft:crimson_stem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "63C9ECE8D40E1CC8"
+					item: {
+						Count: 1
+						id: "minecraft:nether_wart_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "41FC6BBFC1BF4FB9"
+					item: "minecraft:mycelium"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6711414DE4E74535"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3707D5D89928943B"
+					item: "minecraft:sculk_sensor"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_3.quest3918230628067413184.title}"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3C47B7677EA18FA9"]
+			description: [
+				"[\"\",{\"color\":\"blue\",\"underlined\":1,\"italic\":1,\"translate\":\"ftbquests.chapter.chapter_3.quest2471827163322928784.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"350DC25AF6F3F53D\"}}]"
+				""
+				"[\"\",{\"color\":\"blue\",\"underlined\":1,\"italic\":1,\"translate\":\"ftbquests.chapter.chapter_3.quest2471827163322928784.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"405585B71B8FBCCD\"}}]"
+			]
+			hide_until_deps_visible: true
+			icon: "spore:scanner"
+			id: "224DB1B570064E90"
+			rewards: [
+				{
+					id: "501DCDC923FE100D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7924AF38E2B9AE9A"
+					table_id: 2169985305494019696L
+					type: "random"
+				}
+				{
+					id: "01B4A275A41E7C40"
+					item: "dyairdrop:flaregun2"
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "spore:hive_spawn"
+						tag: { }
+					}
+					id: "52E03E8BA3BF237C"
+					structure: "spore:mines"
+					title: "{ftbquests.chapter.chapter_3.quest2471827163322928784.task.5971841875361866620.title}"
+					type: "structure"
+				}
+				{
+					id: "2922B377DB6A50AC"
+					item: {
+						Count: 1
+						id: "spore:cdu"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0B6DB0C109F55D92"
+					item: "spore:scanner"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "58FDE6694A0AAA9F"
+					item: { Count: 4, id: "spore:ice_canister" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_3.quest2471827163322928784.title}"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["678472B82D597CE1"]
+			description: ["{ftbquests.chapter.chapter_3.quest2613406175083980271.description1}"]
+			hide_until_deps_complete: true
+			icon: "refurbished_furniture:computer"
+			id: "2444AF11DFB165EF"
+			min_required_tasks: 1
+			optional: true
+			rewards: [
+				{
+					id: "15C2776F2395A165"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F4974A4D6D7499D"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15B8D67D315A9A0D"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			tasks: [
+				{
+					icon: "minecraft:cactus"
+					id: "1B75C9B011E5B4D5"
+					structure: "jeffs_cursed_walking_structures:collapsed_comunication_tower_desert"
+					title: "{ftbquests.chapter.chapter_3.quest2613406175083980271.task.1978709369350894805.title}"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:oak_sapling"
+					id: "34AE25B07FB95326"
+					structure: "jeffs_cursed_walking_structures:collapsed_comunication_tower_forest"
+					title: "{ftbquests.chapter.chapter_3.quest2613406175083980271.task.3796012975907230502.title}"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:spruce_sapling"
+					id: "799200F3B0358180"
+					structure: "jeffs_cursed_walking_structures:collapsed_comunication_tower_tundra"
+					title: "{ftbquests.chapter.chapter_3.quest2613406175083980271.task.8760065271822385536.title}"
+					type: "structure"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_3.quest2613406175083980271.title}"
+			x: -3.2d
+			y: 5.5d
+		}
+		{
+			dependencies: ["678472B82D597CE1"]
+			description: ["{ftbquests.chapter.chapter_3.quest295634958564329422.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "big_explosives:bunker_buster_designator"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "041A4E6DB06A07CE"
+			min_required_tasks: 1
+			optional: true
+			rewards: [
+				{
+					id: "2185BBB693A9D418"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01E8BBACC21375BF"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "649D72538F6E0178"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "marbledsarsenal:hazmat_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "28BD42FE586F737D"
+					structure: "jeffs_cursed_walking_structures:nuclearbunker"
+					title: "{ftbquests.chapter.chapter_3.quest295634958564329422.task.2935576192288256893.title}"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "marbledsarsenal:black_plate_carrier_t3"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3863181BABDC8F73"
+					structure: "jeffs_cursed_walking_structures:deepslatebunker"
+					title: "{ftbquests.chapter.chapter_3.quest295634958564329422.task.4063117795944861555.title}"
+					type: "structure"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_3.quest295634958564329422.title}"
+			x: -2.728571428571435d
+			y: 4.629166666666663d
+		}
+		{
+			dependencies: ["678472B82D597CE1"]
+			hide_until_deps_complete: true
+			id: "224D711BA8003CC4"
+			optional: true
+			rewards: [
+				{
+					id: "4A932A40DE92F35A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62F3610A125A94E3"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A8999DE25F3ED2E"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+				{
+					id: "15A442C3980E62C3"
+					item: "dyairdrop:flaregun4"
+					type: "item"
+				}
+			]
+			size: 0.8d
+			tasks: [{
+				icon: "createdeco:decal_radioactive"
+				id: "765572D2FBDBCAD0"
+				structure: "jeffs_cursed_walking_structures:nuclearreactor"
+				title: "{ftbquests.chapter.chapter_3.quest2471756134092913860.task.8526847719990086352.title}"
+				type: "structure"
+			}]
+			x: -2.8d
+			y: 6.4d
+		}
+		{
+			dependencies: ["678472B82D597CE1"]
+			hide_until_deps_complete: true
+			id: "413D4C800B9D954D"
+			optional: true
+			rewards: [
+				{
+					id: "4F1DB16177735EF1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B0DA3630FEA3785"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D8B66AC17135523"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			tasks: [{
+				icon: "big_explosives:atom_bomb"
+				id: "7CDEC27C691D73B5"
+				structure: "jeffs_cursed_walking_structures:nuclearsilo"
+				title: "{ftbquests.chapter.chapter_3.quest4700997698879067469.task.8997842945128100789.title}"
+				type: "structure"
+			}]
+			x: -1.2d
+			y: 6.4d
+		}
+		{
+			dependencies: ["678472B82D597CE1"]
+			description: ["{ftbquests.chapter.chapter_3.quest3478385500493978151.description1}"]
+			hide_until_deps_complete: true
+			icon: "createdieselgenerators:oil_scanner"
+			id: "3045B52EF4D01A27"
+			min_required_tasks: 1
+			optional: true
+			rewards: [
+				{
+					id: "768E4A85AEB266D4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F521D0C39EAB1DE"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71AABA98C489DB96"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			tasks: [
+				{
+					icon: "createdieselgenerators:oil_scanner"
+					id: "500999BCC5B1B037"
+					structure: "jeffs_cursed_walking_structures:oil_rig"
+					title: "{ftbquests.chapter.chapter_3.quest3478385500493978151.task.5767309833874288695.title}"
+					type: "structure"
+				}
+				{
+					icon: "createdieselgenerators:crude_oil_bucket"
+					id: "1CA5045642653E37"
+					structure: "jeffs_cursed_walking_structures:oilrigsnow"
+					title: "{ftbquests.chapter.chapter_3.quest3478385500493978151.task.2064060772746870327.title}"
+					type: "structure"
+				}
+				{
+					icon: "createdieselgenerators:oil_barrel"
+					id: "02E5C05279596A10"
+					structure: "jeffs_cursed_walking_structures:oil_rig_submarine_station"
+					title: "{ftbquests.chapter.chapter_3.quest3478385500493978151.task.208784418198350352.title}"
+					type: "structure"
+				}
+			]
+			x: -0.8d
+			y: 5.5d
+		}
+		{
+			dependencies: ["678472B82D597CE1"]
+			description: ["{ftbquests.chapter.chapter_3.quest7991543423574141203.description1}"]
+			hide_until_deps_complete: true
+			icon: "create:mechanical_drill"
+			id: "6EE7AA67193EE913"
+			invisible: true
+			min_required_tasks: 1
+			optional: true
+			rewards: [
+				{
+					id: "422A71C8DC3B9D08"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AE0DEB846B79727"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BA4C6F9558603DB"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+				{
+					id: "454D6BB1D35658C3"
+					item: "dyairdrop:flaregun3"
+					type: "item"
+				}
+			]
+			size: 0.8d
+			tasks: [
+				{
+					icon: "minecraft:cracked_deepslate_bricks"
+					id: "076C8E358CBDAE31"
+					structure: "jeffs_cursed_walking_structures:void_teleporter_lush"
+					title: "{ftbquests.chapter.chapter_3.quest7991543423574141203.task.534958816395898417.title}"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:sculk"
+					id: "3790950A975EDFAA"
+					structure: "jeffs_cursed_walking_structures:void_teleporter_sculk"
+					title: "{ftbquests.chapter.chapter_3.quest7991543423574141203.task.4003863941454159786.title}"
+					type: "structure"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_3.quest7991543423574141203.title}"
+			x: -2.0d
+			y: 6.8d
+		}
+		{
+			dependencies: ["2CCC62567994EC5C"]
+			description: ["{ftbquests.chapter.chapter_3.quest5854195271582215368.description1}"]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "513E4795286DECC8"
+			rewards: [{
+				command: "/biohazard locator @s set spore:church true"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "15DA196D007FD3CB"
+				silent: true
+				title: "{ftbquests.chapter.chapter_3.quest5854195271582215368.reward.1574598975669916619.title}"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "300547BE177E8CF4"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest5854195271582215368.title}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D05970723EAE725"]
+			description: ["{ftbquests.chapter.chapter_3.quest5916160206631210450.description1}"]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "521A6C5CDE8E0DD2"
+			rewards: [{
+				command: "/biohazard locator @s set spore:cathedral true"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "1FFC492EB75ED633"
+				silent: true
+				title: "{ftbquests.chapter.chapter_3.quest5916160206631210450.reward.2304797574300620339.title}"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "19C6653C30C93311"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest5916160206631210450.title}"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CCC62567994EC5C"]
+			description: ["{ftbquests.chapter.chapter_3.quest3928406709250325602.description1}"]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "36848116A6207C62"
+			rewards: [{
+				command: "/biohazard locator @s set spore:biomass_tower true"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "37CE1606AA81CB19"
+				silent: true
+				title: "{ftbquests.chapter.chapter_3.quest3928406709250325602.reward.4021175735174679321.title}"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0E5B6EFE0414E639"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest3928406709250325602.title}"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1ECF6C42132DD49D"]
+			description: ["{ftbquests.chapter.chapter_3.quest7459213018192772321.description1}"]
+			hide_until_deps_complete: true
+			icon: "radioactive:geiger_counter"
+			id: "678472B82D597CE1"
+			optional: true
+			tasks: [{
+				id: "08366E3213E9EA24"
+				title: "{ftbquests.chapter.chapter_3.quest7459213018192772321.task.591781562407316004.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest7459213018192772321.title}"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["44DFDFC6E6572855"]
+			description: ["{ftbquests.chapter.chapter_3.quest9208784170932477048.description1}"]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "7FCC2C69C9AB9C78"
+			rewards: [{
+				command: "/biohazard locator @s set spore:iceberg_mines true"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "5566FBC08626EF7E"
+				silent: true
+				title: "{ftbquests.chapter.chapter_3.quest9208784170932477048.reward.6153882745151352702.title}"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5E65C02D7A093466"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest9208784170932477048.title}"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0AD95B9A2DBD4774"]
+			description: ["{ftbquests.chapter.chapter_3.quest4343642020756164521.description1}"]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "3C47B7677EA18FA9"
+			rewards: [{
+				command: "/biohazard locator @s set spore:mines true"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "4CFD13D6C9EA1CD7"
+				silent: true
+				title: "{ftbquests.chapter.chapter_3.quest4343642020756164521.reward.5547612129221811415.title}"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B80196D1059ACCD"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest4343642020756164521.title}"
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2CD718CE7701180E"]
+			description: ["{ftbquests.chapter.chapter_3.quest6950828154625283539.description1}"]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "60764D612B3955D3"
+			rewards: [{
+				command: "/biohazard locator @s set spore:lab true"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "61E9C536299DF35C"
+				silent: true
+				title: "{ftbquests.chapter.chapter_3.quest6950828154625283539.reward.7055387127669715804.title}"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4C997A316C9210B9"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest6950828154625283539.title}"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74A9801B35BCCA43"]
+			description: ["{ftbquests.chapter.chapter_3.quest7183571005091224838.description1}"]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "63B12BC4D9421D06"
+			rewards: [{
+				command: "/biohazard locator @s set spore:hospital true"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "6D97F1A27A9F010E"
+				silent: true
+				title: "{ftbquests.chapter.chapter_3.quest7183571005091224838.reward.7897046151761690894.title}"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2E6EF82CB6319FB1"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest7183571005091224838.title}"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2BC8F1A00347D49E"]
+			hide_until_deps_complete: true
+			icon: "spore:organoid_soup"
+			id: "2CCC62567994EC5C"
+			rewards: [
+				{
+					id: "6F3061ED47020D7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "120A6D9DE3CE7614"
+					table_id: 3833553154103734842L
+					type: "random"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				icon: "spore:organoid_soup"
+				id: "5164D60298720234"
+				structure: "spore:lodge"
+				title: "{ftbquests.chapter.chapter_3.quest3228063156464315484.task.5865047921379115572.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest3228063156464315484.title}"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1ECF6C42132DD49D"]
+			description: [
+				"{ftbquests.chapter.chapter_3.quest3155037208525132958.description1}"
+				"{ftbquests.chapter.chapter_3.quest3155037208525132958.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "2BC8F1A00347D49E"
+			rewards: [{
+				command: "/biohazard locator @s set spore:lodge true"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "5669358AABC020F1"
+				silent: true
+				title: "{ftbquests.chapter.chapter_3.quest3155037208525132958.reward.6226566829519675633.title}"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "27C178413BD7ED4F"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest3155037208525132958.title}"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74A9801B35BCCA43"]
+			description: ["{ftbquests.chapter.chapter_3.quest9059522669977671628.description1}"]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "7DB9E3DE729E17CC"
+			rewards: [{
+				command: "/biohazard locator @s set spore:prison true"
+				elevate_perms: true
+				icon: "simpleradio:antenna"
+				id: "0179D16EAE801044"
+				silent: true
+				title: "{ftbquests.chapter.chapter_3.quest9059522669977671628.reward.106346339524153412.title}"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.chapter_3.quest9059522669977671628.subtitle}"
+			tasks: [{
+				id: "49B1416195D15560"
+				title: "{ftbquests.chapter.chapter_3.quest9059522669977671628.task.5310097323027682656.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest9059522669977671628.title}"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DB9E3DE729E17CC"]
+			hide_until_deps_visible: true
+			icon: "immersive_weathering:exposed_iron_bars"
+			id: "1DBDA074FAF2409B"
+			rewards: [
+				{
+					id: "7052192F72AF2928"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44C5E7E8F9362536"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50A6A0F2D7A4CC6E"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+				{
+					id: "363E45D22BB2976C"
+					item: "dyairdrop:flaregun1"
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				icon: "minecraft:green_bed"
+				id: "67EDEECE1C53471B"
+				structure: "spore:prison"
+				title: "{ftbquests.chapter.chapter_3.quest2143045421985054875.task.7488904324392896283.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest2143045421985054875.title}"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0AD95B9A2DBD4774"
+				"224DB1B570064E90"
+			]
+			description: [
+				"{ftbquests.chapter.chapter_3.quest1896384611034235615.description1}"
+				"{ftbquests.chapter.chapter_3.quest1896384611034235615.description2}"
+			]
+			id: "1A514FC19A3682DF"
+			invisible: true
+			min_required_tasks: 1
+			optional: true
+			rewards: [
+				{
+					id: "4E270C3240F73136"
+					type: "xp"
+					xp: 99
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EA29E06FBED9A08"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 0.5d
+			tasks: [{
+				id: "56FC89CF1309E384"
+				item: "spore:corrupted_record"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest1896384611034235615.title}"
+			x: 6.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["2CCC62567994EC5C"]
+			description: [
+				"{ftbquests.chapter.chapter_3.quest3477864417713878956.description1}"
+				"{ftbquests.chapter.chapter_3.quest3477864417713878956.description2}"
+			]
+			id: "3043DB42EACE77AC"
+			invisible: true
+			min_required_tasks: 1
+			optional: true
+			rewards: [
+				{
+					id: "346D7DFD66700B79"
+					type: "xp"
+					xp: 99
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D980F7E438688CB"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 0.5d
+			tasks: [{
+				id: "5D6675B36E1585EB"
+				item: "spore:forgotten_record"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest3477864417713878956.title}"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1DBDA074FAF2409B"]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "248E2BDA88B209A6"
+			rewards: [{
+				command: "/biohazard locator @s set spore:military_camp true"
+				elevate_perms: true
+				icon: "simpleradio:antenna"
+				id: "5B37AE24D176CE72"
+				silent: true
+				title: "{ftbquests.chapter.chapter_3.quest2634091049654552998.reward.6572913654326808178.title}"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.chapter_3.quest2634091049654552998.subtitle}"
+			tasks: [{
+				id: "095EEF1614B8B1F1"
+				title: "{ftbquests.chapter.chapter_3.quest2634091049654552998.task.675239872268120561.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest2634091049654552998.title}"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["248E2BDA88B209A6"]
+			hide_until_deps_visible: true
+			icon: "spore:remains"
+			id: "170E2F7D52F6D869"
+			rewards: [
+				{
+					id: "343C452191CF5F36"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26387E4556CAD870"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32FEA4E4256ACBAC"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59E335B634F63FCC"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+				{
+					id: "3F3184B6C5E97AAB"
+					item: "dyairdrop:flaregun3"
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				icon: "spore:biomass_bulb"
+				id: "49C10E87EF930DFD"
+				structure: "spore:military_camp"
+				title: "{ftbquests.chapter.chapter_3.quest1661317527855618153.task.5314545012276661757.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.chapter_3.quest1661317527855618153.title}"
+			x: 3.0d
+			y: 8.5d
+		}
+	]
+	title: "{ftbquests.chapter.chapter_3.title}"
+}

@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "c8e2c53dfa6233c98953ccf8634db7be"
+	name: "RODAS123SFDG#c8e2c53d"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

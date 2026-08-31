@@ -1,0 +1,36 @@
+{
+	icon: "aquaculture:neptunes_bounty"
+	id: "1D135FCBA252D3FA"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{ count: 32, item: "aquaculture:fishing_line", weight: 0.2f }
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "aquaculture:worm"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.2f
+		}
+		{ count: 4, item: "aquaculture:bobber", weight: 0.15f }
+		{ count: 3, item: "aquaculture:gold_hook", weight: 0.15f }
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:diamond_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.05f
+		}
+		{ item: "aquaculture:tackle_box", weight: 0.15f }
+		{ item: "aquaculture:diamond_hook", weight: 0.1f }
+	]
+	title: "{ftbquests.loot_table.2095123579863749626.title}"
+	use_title: true
+}

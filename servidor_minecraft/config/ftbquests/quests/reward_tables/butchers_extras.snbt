@@ -1,0 +1,17 @@
+{
+	icon: "butcher:empty_meat_grinder"
+	id: "4EF205340D9C45E4"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{ count: 6, item: "butcher:sulfur", random_bonus: 6, weight: 0.6f }
+		{ count: 24, item: "butcher:salt", random_bonus: 12, weight: 0.6f }
+		{ count: 16, item: "butcher:animalfat", random_bonus: 8, weight: 0.6f }
+		{ count: 3, item: "butcher:wolffur", random_bonus: 2, weight: 0.6f }
+		{ item: "butcher:guardianspike", weight: 0.2f }
+		{ count: 2, item: "butcher:floorstanding_sign", weight: 0.2f }
+		{ item: "butcher:pestleandmortarblock", weight: 0.2f }
+	]
+	title: "{ftbquests.loot_table.5688615000447141348.title}"
+	use_title: true
+}

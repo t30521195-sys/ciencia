@@ -1,0 +1,23 @@
+{
+	icon: "quark:dark_oak_chest"
+	id: "0090A978ED729E64"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ count: 24, item: "archers_paradox:prismarine_arrow", random_bonus: 24, weight: 0.15f }
+		{ count: 16, item: "archers_paradox:phantasmal_arrow", random_bonus: 16, weight: 0.2f }
+		{ count: 20, item: "archeryexp:diamond_arrow", random_bonus: 12, weight: 0.35f }
+		{
+			item: {
+				Count: 1
+				id: "archeryexp:iron_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.3f
+		}
+	]
+	title: "{ftbquests.loot_table.40718733491215972.title}"
+	use_title: true
+}

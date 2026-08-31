@@ -1,0 +1,36 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "marbledsapi:steel_ingot"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "marbledsapi:steel_block"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "securitycraft:reinforced/glass_panes"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "custom",
+    "group": "lrtactical:misc",
+    "item": {
+      "item": "lrtactical:flash_shield"
+    }
+  }
+}

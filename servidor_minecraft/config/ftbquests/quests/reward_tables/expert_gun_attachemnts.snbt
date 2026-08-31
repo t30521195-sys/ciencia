@@ -1,0 +1,69 @@
+{
+	icon: "dyairdrop:airdropweapon"
+	id: "3E51143766806584"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_mk5hd"
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "emxarms:grip_emx_static"
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sniper_extended_mag_3"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:ammo_mod_fmj"
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:ammo_mod_i"
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:ammo_box"
+				tag: {
+					Level: 2
+				}
+			}
+			weight: 1.5f
+		}
+	]
+	title: "{ftbquests.loot_table.4490392531640542596.title}"
+	use_title: true
+}

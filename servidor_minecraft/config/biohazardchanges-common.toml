@@ -1,0 +1,25 @@
+
+#Xaero's Minimap / World Map compatibility, in two independent parts:
+#whether we talk to Xaero at all, and whether the maps are rationed.
+[xaero]
+	#Master switch for everything BiohazardChanges does with Xaero's mods.
+	#On, the console can export locator results to the minimap as waypoints, and the
+	#console-sync gate below becomes available. Off, Xaero is left entirely alone.
+	enabled = true
+	#Whether the minimap and world map are withheld until the player syncs at a powered
+	#console. On, that gate is enforced and the console's Sync tab appears. Off, the maps
+	#are always available and the Sync tab is hidden — waypoint export carries on working,
+	#which is the whole point of keeping this separate from 'enabled'.
+	#Ignored when 'enabled' is off; the maps are never gated then either way.
+	requireConsoleSync = false
+
+#Remote special-member lists (cosmetic ID card groups).
+#Fetched during mod setup, before any world is loaded, which is why these are not per-world.
+[members]
+	#Fetch the member lists over the network at startup. Disable for offline or air-gapped servers;
+	#every group is then simply empty.
+	fetchEnabled = true
+	#Connect and read timeout for each member-list request, in milliseconds.
+	#Range: 250 ~ 120000
+	fetchTimeoutMs = 5000
+

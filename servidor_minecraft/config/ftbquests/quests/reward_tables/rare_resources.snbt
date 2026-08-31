@@ -1,0 +1,16 @@
+{
+	icon: "dyairdrop:airdropsmall"
+	id: "1E1D562365C9DE70"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 2, item: "undead_revamp2:bostroxingot", weight: 0.5f }
+		{ count: 12, item: "createbigcannons:cast_iron_ingot", random_bonus: 4 }
+		{ count: 8, item: "minecraft:diamond", random_bonus: 4 }
+		{ count: 2, item: "minecraft:netherite_scrap", random_bonus: 1, weight: 0.5f }
+		{ count: 8, item: "createbigcannons:nethersteel_ingot", random_bonus: 4 }
+		{ count: 2, item: "createaddition:electrum_ingot", random_bonus: 1 }
+	]
+	title: "{ftbquests.loot_table.2169985305494019696.title}"
+	use_title: true
+}

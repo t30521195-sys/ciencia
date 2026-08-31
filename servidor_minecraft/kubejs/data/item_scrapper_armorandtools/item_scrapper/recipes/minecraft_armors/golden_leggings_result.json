@@ -1,0 +1,13 @@
+{
+  "minecraft:golden_leggings": [
+    {
+      "explosionPower": 0.0,
+      "requiredHits": 3.0,
+      "explosionChance": 0.0,
+      "useDurabilityMultiplier": true,
+      "lootable": {
+        "lootTable": "biohazard_scrapper:scrapper/vanilla_golden_leggings"
+      }
+    }
+  ]
+}

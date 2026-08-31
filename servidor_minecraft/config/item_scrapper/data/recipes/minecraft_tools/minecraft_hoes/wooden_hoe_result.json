@@ -1,0 +1,19 @@
+{
+  "minecraft:wooden_hoe": [
+    {
+      "explosionPower": 0.0,
+      "requiredHits": 1.0,
+      "explosionChance": 0.0,
+      "useDurabilityMultiplier": true,
+      "lootable": {
+        "amountForMaxReturn": 1,
+        "autoGenerateFromRecipe": true,
+        "recipeId": "minecraft:wooden_hoe",
+        "returnAmount": {
+          "min": 25.0,
+          "max": 35.0
+        }
+      }
+    }
+  ]
+}

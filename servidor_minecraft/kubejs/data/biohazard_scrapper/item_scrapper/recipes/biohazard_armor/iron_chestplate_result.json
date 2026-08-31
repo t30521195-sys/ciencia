@@ -1,0 +1,20 @@
+{
+  "biohazardchanges:iron_chestplate": [
+    {
+      "explosionPower": 0.0,
+      "explosionChance": 0.0,
+      "requiredHits": 4.0,
+      "useDurabilityMultiplier": true,
+      "roundingType": "STANDARD",
+      "lootable": {
+        "amountForMaxReturn": 1,
+        "autoGenerateFromRecipe": true,
+        "recipeId": "crafttweaker:iron_chestplate",
+        "returnAmount": {
+          "min": 25.0,
+          "max": 35.0
+        }
+      }
+    }
+  ]
+}

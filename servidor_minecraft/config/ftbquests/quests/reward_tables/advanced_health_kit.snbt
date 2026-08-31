@@ -1,0 +1,15 @@
+{
+	icon: "dyairdrop:airdropmedical"
+	id: "38706CC67B12E301"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "minecraft:totem_of_undying", weight: 0.16f }
+		{ count: 2, item: "minecraft:enchanted_golden_apple", weight: 0.64f }
+		{ count: 3, item: "canned_goods:hot_hot_hotpot", random_bonus: 2, weight: 1.6f }
+		{ count: 10, item: "cure:vaccine", random_bonus: 6, weight: 1.6f }
+		{ item: "radioactive:radaway_ultimate" }
+	]
+	title: "{ftbquests.loot_table.4066870063239717633.title}"
+	use_title: true
+}

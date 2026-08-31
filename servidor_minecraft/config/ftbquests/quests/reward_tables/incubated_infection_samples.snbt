@@ -1,0 +1,24 @@
+{
+	icon: {
+		Count: 1
+		id: "spore:incubator"
+		tag: { }
+	}
+	id: "3E417D5BE3D37953"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ count: 2, item: "spore:armor_plate", weight: 0.2f }
+		{ count: 2, item: "spore:living_core", weight: 0.2f }
+		{ count: 2, item: "spore:spine", weight: 0.15f }
+		{ count: 2, item: "spore:plated_muscle", weight: 0.15f }
+		{ item: "spore:symbiotic_reagent", weight: 0.05f }
+		{ item: "spore:gastric_reagent", weight: 0.05f }
+		{ item: "spore:cryogenic_reagent", weight: 0.05f }
+		{ item: "spore:serrated_reagent", weight: 0.05f }
+		{ item: "spore:corrosive_reagent", weight: 0.05f }
+		{ item: "spore:voracious_reagent", weight: 0.05f }
+	]
+	title: "{ftbquests.loot_table.4486004537455507795.title}"
+	use_title: true
+}

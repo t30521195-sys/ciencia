@@ -1,0 +1,456 @@
+
+["Radioactive Mod Configuration"]
+
+	#General Settings
+	#Core mod behaviour and limits
+	["Radioactive Mod Configuration".general]
+		#Most rads a player can build up
+		#Range: 0.0 ~ 10000.0
+		maxRadiation = 1200.0
+		#Keep a player's rads when they die
+		#false clears them on death
+		persistRadiationOnDeath = false
+
+	#User Interface Settings
+	#Sound and visual feedback
+	["Radioactive Mod Configuration".interface]
+		#Play geiger counter clicks
+		enableGeigerSounds = true
+		#Volume of geiger counter sounds (0.0 = silent, 1.0 = full)
+		#Range: 0.0 ~ 1.0
+		geigerSoundVolume = 0.4
+		#Show an action bar message on entering or leaving a safe area
+		#A safe area is a Radiation Absorber's sealed pocket
+		enableSafeAreaActionbarMessages = true
+		#Let players feel a hot area without a counter: a sickly vignette closes in
+		#and the screen picks up radiation speckle as the rate climbs
+		#This is the server's decision, not the client's. It is pushed to each
+		#player as they join, so turning it off here turns it off for everyone
+		#connected, whatever their own config says. Clients can still opt out, and
+		#tune the look, under 'radiation_sense' in radioactive-client.toml
+		#Deliberately keyed off the rate that reaches the player rather than the
+		#ambient one, so shielding quiets the screen and this never becomes a
+		#Geiger counter that needs no batteries
+		enableRadiationSense = true
+
+	#Radiation Sources Configuration
+	#Where radiation exposure comes from
+	["Radioactive Mod Configuration".sources]
+		#How far to look for radiation sources in the world (blocks)
+		#Bigger costs more performance but reads more accurately
+		#Range: 0.0 ~ 256.0
+		environmentalScanRadius = 64.0
+		#Add up radiation from overlapping structures
+		#false uses only the strongest one
+		stackStructureRadiation = false
+		#How close you must be to take radiation from a mob (blocks)
+		#Range: 0.0 ~ 50.0
+		mobRadiationRadius = 5.0
+		#How close you must be to take radiation from a dropped item (blocks)
+		#Range: 0.0 ~ 20.0
+		itemEntityRadiationRadius = 5.0
+		#Take radiation from sunlight
+		sunRadiation = false
+		#Extra rads per second at peak sun, on top of the baseline
+		#Fades to 0 at sunrise and sunset
+		#Range: 0.0 ~ 50.0
+		sunRadiationPeakRate = 0.5
+		#Rads per second from radioactive fog
+		#Range: 0.0 ~ 100.0
+		fogRadiationAmount = 5.0
+		#How far from world spawn this starts, in blocks
+		#Set it very high to switch the feature off
+		#Range: 0.0 ~ 100000.0
+		distanceRadiationThreshold = 100000.0
+		#Rads per second for every block past that distance
+		#0.005 gives 5 rads/s at 1000 blocks past it
+		#Range: 0.0 ~ 1.0
+		radiationPerBlockDistance = 0.004999999888241291
+		#Take radiation below a set Y level
+		#Makes the deep underground irradiated
+		heightRadiationEnabled = false
+		#The Y level this starts below
+		#Range: -64 ~ 320
+		heightRadiationSafeAltitude = 64
+		#Rads per second for every block below that Y level
+		#0.01 gives 1 rad/s at 100 blocks below it
+		#Range: 0.0 ~ 10.0
+		heightRadiationPerBlock = 0.01
+		#Radiation from items in the player inventory
+		enableInventoryRadiation = true
+		#Radiation from items in Backpacked backpacks
+		#Does nothing if Backpacked is not installed
+		enableBackpackedRadiation = true
+		#Radiation from blocks in the world
+		enableBlockRadiation = true
+		#Radiation from containers such as chests
+		#false stops containers being indexed as radiation sources
+		enableContainerRadiation = false
+		#Radiation from biomes
+		enableBiomeRadiation = true
+		#Radiation from structures
+		enableStructureRadiation = true
+		#Radiation from dimensions
+		enableDimensionRadiation = true
+		#Radiation from distance, sun and fog
+		enableMiscRadiation = true
+		#Radiation from mobs that give it off
+		enableMobRadiation = true
+		#Radiation from items dropped on the ground
+		enableItemEntityRadiation = true
+		#How much a Backpacked backpack cuts the radiation of its contents
+		#0.0 = no cut, 0.50 = contents give off 50% less
+		#Range: 0.0 ~ 1.0
+		backpackedBaseRadiationReduction = 0.0
+		#Radiation from items in Sophisticated Backpacks
+		#Does nothing if Sophisticated Backpacks is not installed
+		enableSophisticatedBackpacksRadiation = true
+		#How much a Sophisticated backpack cuts the radiation of its contents
+		#0.50 = contents give off 50% less
+		#Range: 0.0 ~ 1.0
+		sophisticatedBackpacksBaseRadiationReduction = 0.5
+		#Let the Radiation Immunity Upgrade work in Sophisticated Backpacks
+		#false leaves the item installable but with no effect
+		enableBackpackRadiationImmunityUpgrade = true
+		#How much one Radiation Immunity Upgrade cuts backpack radiation
+		#1.0 = the backpack gives off nothing, 0.5 = it gives off half
+		#Range: 0.0 ~ 1.0
+		backpackRadiationImmunityUpgradeReduction = 1.0
+		#Radiation from items in Useful Backpacks backpacks
+		#Covers backpacks in the inventory and ones worn in a Curios slot
+		#Does nothing if Useful Backpacks is not installed
+		enableUsefulBackpacksRadiation = true
+		#How much a Useful backpack cuts the radiation of its contents
+		#0.50 = contents give off 50% less
+		#Range: 0.0 ~ 1.0
+		usefulBackpacksBaseRadiationReduction = 0.5
+		#Count what is inside the Useful Backpacks ender chest backpack
+		#Those items sit in the player's ender chest, not on the backpack, so they
+		#are not really being carried. Counted once however many are held
+		usefulBackpacksIncludeEnderChest = false
+		#Radiation from standing in or swimming through radioactive fluids
+		#Values come from the datapack 'fluids/' category. Use fluid TAGS there:
+		#a fluid's still and flowing forms are two fluids but share one tag.
+		enableFluidRadiation = true
+		#Share of a fluid's radiation you take just standing in it
+		#0.35 = wading through costs about a third of the full dose
+		#Range: 0.0 ~ 10.0
+		fluidRadiationContactMultiplier = 0.35
+		#Share of a fluid's radiation you take fully under it
+		#1.0 = full dose. Above 1.0 makes swimming in it worse than standing
+		#next to the same pool.
+		#Range: 0.0 ~ 10.0
+		fluidRadiationSubmergedMultiplier = 1.0
+		#Rads per second under open sky, day or night
+		#0 means sun radiation only builds around peak hours
+		#Range: 0.0 ~ 50.0
+		sunRadiationBaseline = 0.0
+		#Time of day the sun is at its worst, in ticks
+		#0 = sunrise, 6000 = noon, 12000 = sunset, 18000 = midnight
+		#Range: 0 ~ 24000
+		sunRadiationPeakTime = 6000
+		#How many clear blocks must sit above a player to count as under open sky
+		#2 or more stops a single slab counting as shelter
+		#Range: 1 ~ 16
+		sunRadiationMinSkyClearance = 2
+		#Let sun radiation through leaves
+		#true means standing under a tree is no shelter
+		sunRadiationIgnoreLeaves = true
+		#Let sun radiation through glass
+		#true means a glass roof is no shelter
+		sunRadiationIgnoreGlass = true
+		#How wide an area around the player is checked for open sky
+		#0 = straight up only
+		#1 = a 3x3 area, so a thin wall is no shelter
+		#2 = a 5x5 area, harder to shelter from
+		#Range: 0 ~ 3
+		sunRadiationAdjacencyRadius = 1
+		#Weaken the peak sun bonus while it rains
+		#true halves the bonus. The baseline still applies
+		sunRadiationReducedInRain = true
+		#Take radiation the further you get from world spawn
+		#Makes the far map a wasteland
+		distanceRadiationEnabled = true
+		#Take radiation above a set Y level
+		#Makes high altitude dangerous
+		heightRadiationHighEnabled = false
+		#The Y level this starts above
+		#Range: -64 ~ 320
+		heightRadiationHighThreshold = 200
+		#Rads per second for every block above that Y level
+		#0.05 gives 5 rads/s at 100 blocks above it
+		#Range: 0.0 ~ 10.0
+		heightRadiationHighPerBlock = 0.05
+
+	#Radiation Decay & Processing
+	#How a player's rads fall over time
+	["Radioactive Mod Configuration".decay]
+		#Let rads fall on their own over time
+		#false means only medicine clears them
+		enableRadiationDecay = true
+		#How fast rads fall, in rads per second
+		#Range: 0.0 ~ 100.0
+		radiationDecayRate = 0.5
+		#Rad level where decay stops
+		#Stops endless tiny steps. 0 turns it off
+		#Range: 0.0 ~ 10.0
+		minimumDecayThreshold = 0.25
+		#Decay speed multiplier while badly irradiated
+		#Above 1.0 clears severe poisoning faster
+		#Range: 0.1 ~ 5.0
+		highRadiationDecayMultiplier = 1.5
+		#Rad level the fast decay multiplier starts above
+		#Range: 0.0 ~ 1200.0
+		decayBoostThreshold = 600.0
+		#Decay speed multiplier while lightly irradiated
+		#Below 1.0 makes a small dose linger
+		#Range: 0.1 ~ 2.0
+		lowRadiationDecayMultiplier = 0.5
+		#Rad level the slow decay multiplier starts below
+		#Range: 0.0 ~ 200.0
+		decayReductionThreshold = 100.0
+
+	#Radiation Effects
+	#What radiation sickness looks and feels like
+	["Radioactive Mod Configuration".effects]
+		#Speed change while sick with radiation
+		#Below 0 slows the player down
+		#Range: -1.0 ~ 0.0
+		woozySpeedModifier = -0.05
+		#How much radiation sickness makes movement wander
+		#Higher is harder to steer
+		#Range: 0.0 ~ 1.0
+		woozyOffsetMagnitude = 0.08
+		#How hard the camera shakes at severe radiation
+		#0 turns the shake off
+		#Range: 0.0 ~ 50.0
+		woozyCameraWobble = 5.0
+		#Volume of the ringing that plays at deadly radiation
+		#Range: 0.0 ~ 2.0
+		deathRingingVolume = 1.0
+
+	#Protection & Medicine
+	#Armour, enchantments, medicine and tools
+	["Radioactive Mod Configuration".protection]
+		#How several sources of protection add up:
+		#ADDITIVE: 10% and 20% give 30% off
+		#MULTIPLICATIVE: 10% and 20% give 28% off
+		#Allowed Values: ADDITIVE, MULTIPLICATIVE
+		protectionStackingStrategy = "ADDITIVE"
+		#How much worse protection works in radioactive fog
+		#0.1 = 10% less effective
+		#Range: 0.0 ~ 1.0
+		fogRadiationReduction = 0.10000000149011612
+		#Highest level of the Radiation Protection enchantment
+		#Range: 1 ~ 10
+		antiRadMaxLevel = 3
+		#Make Radiation Protection a treasure enchantment
+		#true means an enchanting table can never give it
+		antiRadIsTreasure = true
+		#Protection each level of the enchantment gives
+		#0.2 = 20% per level
+		#Range: 0.0 ~ 1.0
+		antiRadReductionPerLevel = 0.013
+		#Protection from Tier 1 armour
+		#0.12 = 12% of radiation blocked
+		#Range: 0.0 ~ 1.0
+		tier1RadiationReduction = 0.12
+		#Protection from Tier 2 armour
+		#0.16 = 16% of radiation blocked
+		#Range: 0.0 ~ 1.0
+		tier2RadiationReduction = 0.16
+		#Protection from Tier 3 armour
+		#0.20 = 20% of radiation blocked
+		#Range: 0.0 ~ 1.0
+		tier3RadiationReduction = 0.2
+		#Rads cleared per level of the Radiation Flushing effect
+		#Range: 0 ~ 100
+		flushingAmountPerLevel = 10
+		#Highest safe level of the Rad-X resistance effect
+		#Going past it brings side effects
+		#Range: 0 ~ 10
+		radXCapAmount = 1
+		#How much Industrial Tongs cut radiation from your inventory
+		#0.75 = 75% off
+		#Range: 0.0 ~ 1.0
+		tongsInventoryRadiationReduction = 1.0
+		#Wear the tongs out as they shield you
+		#false means they never break
+		tongsHaveDurability = true
+		#How much durability Industrial Tongs have
+		#Range: 1 ~ 1000
+		tongsMaxDamage = 250
+		#Chance each second that the tongs take 1 damage per radioactive stack
+		#0.1 = a 10% chance per second per stack
+		#Range: 0.0 ~ 1.0
+		tongsDamageChance = 0.1
+		#Lowest total resistance allowed, so protection can go negative.
+		#A datapack armour entry with a negative value, or the fog penalty, can drag
+		#total resistance under zero. That multiplies exposure instead of cutting it,
+		#which is how cursed or contaminated gear makes things worse.
+		#-1.0 = exposure can at worst be doubled. 0.0 bans negative resistance.
+		#Range: -100.0 ~ 0.0
+		minRadiationResistance = -1.0
+		#Lowest resistance ONE item may bring, applied before anything is added up.
+		#minRadiationResistance bounds the total; this bounds each piece, so one
+		#extreme datapack entry cannot take over a whole outfit on its own.
+		#Several cursed pieces still stack, and good gear still cancels them out.
+		#-100.0 = no limit on a single piece. -0.5 = no piece may be worse than
+		#half again as much exposure.
+		#Range: -100.0 ~ 0.0
+		minItemRadiationResistance = -100.0
+		#Let Industrial Tongs also cut radiation from backpack contents
+		#Covers every supported backpack mod
+		tongsApplyToBackpackRadiation = false
+		#Extra cut the tongs give on backpack radiation
+		#Added to tongsInventoryRadiationReduction and capped at 100%
+		#Range: 0.0 ~ 1.0
+		tongsBackpackRadiationReduction = 0.0
+
+	#Performance & Technical Settings
+	#Tuning that trades accuracy for speed
+	["Radioactive Mod Configuration".performance]
+		#How often mob radiation is worked out again, in ticks
+		#Higher runs faster but reads staler. 20 ticks = 1 second
+		#Range: 1 ~ 200
+		mobRadiationCacheInterval = 60
+		#Chance each second of checking that radiation sources are still real
+		#0.0 to 1.0. Lower runs faster but lets dead sources linger.
+		#Only worth changing if the server is struggling
+		#Range: 0.0 ~ 1.0
+		stochasticValidationProbability = 0.02
+		#How far around a player to look for radiation sources, in chunks.
+		#Range: 1 ~ 16
+		playerScanRadiusChunks = 4
+		#Sweep for radioactive entities every so often as a backstop.
+		#Only needed if entities are somehow going undetected. Off by default,
+		#since the mod normally spots them as they appear.
+		enableEntityRescanFallback = false
+		#How often containers are checked again for changed contents, in ticks.
+		#Higher runs faster but takes longer to notice a change.
+		#100 ticks = 5 seconds, 200 ticks = 10 seconds.
+		#Range: 20 ~ 600
+		containerRescanIntervalTicks = 100
+		#How many containers may be checked in one tick.
+		#Spreads the work out so the server does not stutter.
+		#Higher gets through them sooner but costs more each tick.
+		#Range: 1 ~ 1000
+		containerScanBudgetPerTick = 50
+		#How far around spawn to look for containers when the server starts, in chunks.
+		#Only reads chunks that are already loaded. It never loads any itself.
+		#0 skips the startup sweep and finds containers as chunks load instead.
+		#Range: 0 ~ 64
+		containerStartupScanRadiusChunks = 4
+		#How close a container must be to a player to be checked often, in chunks.
+		#Nearby containers update sooner so changes feel immediate.
+		#0 treats every container the same.
+		#Range: 0 ~ 16
+		containerNearbyScanRadiusChunks = 1
+		#How often those nearby containers are queued up, in ticks.
+		#Lower updates them sooner but costs more CPU. 20 ticks = 1 second.
+		#Range: 1 ~ 200
+		containerNearbyScanIntervalTicks = 20
+		#How many chunks with players in them are swept for stale sources each cycle.
+		#Higher clears leftovers sooner but costs more.
+		#The sweep runs every 100 ticks, so every 5 seconds.
+		#Range: 1 ~ 16
+		validatorChunksPerCycle = 2
+
+	#Debug Settings
+	#Verbose logging for radiation systems
+	["Radioactive Mod Configuration".debug]
+		#Write detailed radiation debug logs
+		#Can spam the log and slow the game down
+		enableRadiationDebugLogs = false
+		#Failures in a row before a radiation source provider is suspended
+		#A provider that throws, times out or returns NaN or infinity counts as failed
+		#and adds 0. After this many failed scans it stops being called at all, so a
+		#broken provider from another mod cannot spam the log every scan.
+		#Bring it back with '/radiation providers reset <id>'. 0 never suspends.
+		#Range: 0 ~ 1000
+		providerFailureThreshold = 5
+		#How long to wait for an async provider's result before giving up (ms)
+		#The radiation update waits on every async provider, so one that never
+		#finishes would freeze that player's exposure rate. A provider that misses
+		#this deadline adds 0 and counts as failed.
+		#Range: 100 ~ 60000
+		providerAsyncTimeoutMillis = 5000
+		#Warn when a provider spends longer than this on the server thread (ms)
+		#Providers run inside the player tick, so a slow one shows up in a profiler
+		#as 'player tick' rather than as itself. Going over logs the provider id and
+		#the mod to report it to, at most once every 30 seconds per provider.
+		#0 turns the warning off.
+		#Range: 0.0 ~ 1000.0
+		providerSyncBudgetMillis = 5.0
+		#Most rads/s one provider may add per scan
+		#A safety clamp against absurd values. The value is capped, not thrown away,
+		#and it is logged. Raise it if you run a source meant to kill instantly.
+		#Range: 1.0 ~ 1.0E9
+		providerMaxRadsPerSecond = 10000.0
+		#Crash on provider failures instead of isolating them
+		#For addon development only. A failing provider crashes the game with its own
+		#stack trace instead of being logged and skipped.
+		#Never turn this on for a live server.
+		providerStrictMode = false
+
+	#Machines & Radiation Pockets
+	#Machine energy and the Radiation Absorber's sealed rooms
+	["Radioactive Mod Configuration".machines]
+		#Whether machines need energy at all. Covers the Radiation Absorber, the
+		#Decontaminator and anything else that takes power. Set it to false for a
+		#world with no power: machines never check or spend FE, so they can never
+		#stall on an empty buffer and you never have to build a grid.
+		#Buffers are left exactly as they are. Nothing drains them and nothing tops
+		#them up, so turning this back on hands every machine back the charge it was
+		#holding. The screen says 'self powered' instead of reading the buffer, and
+		#Jade says the same under the machine status, since its own FE bar keeps
+		#showing the real buffer.
+		#Pick this over poweredBlockSelfRegenEnabled when you want machines to be
+		#free. That option still bills the machine against a buffer that has to keep up.
+		poweredBlocksRequireEnergy = true
+		#Let every machine make its own energy, with nothing plugged in.
+		#True tops each one up towards full every tick.
+		#Machines still pay to run, so one that draws more than the rate below will
+		#still stall when its buffer empties. poweredBlocksRequireEnergy=false will not.
+		#Ignored while poweredBlocksRequireEnergy is false.
+		poweredBlockSelfRegenEnabled = false
+		#FE each machine makes per tick when the option above is on.
+		#It comes on top of anything cables bring in, and ignores the block's
+		#transfer limit, because the machine makes it rather than receiving it.
+		#20 FE/t = 400 FE/s.
+		#Range: 0 ~ 1000000
+		poweredBlockSelfRegenRate = 20
+		#FE the Radiation Absorber spends per tick for every block of sealed room it
+		#is holding clean. Bigger rooms cost more.
+		#Higher tiers divide that cost down, so they are cheaper to run.
+		#Range: 0.0 ~ 100.0
+		radiationAbsorberEnergyPerCell = 0.05
+		#Biggest sealed room, in blocks, a Tier 1 Radiation Absorber can hold.
+		#Each tier multiplies it, so Tier N gets this times N. A room bigger than
+		#that, or one with a gap in it, gets no protection.
+		#It also caps how far the seal check searches, keeping that cheap.
+		#Range: 64 ~ 262144
+		radiationAbsorberBaseMaxVolume = 4096
+		#Player rads at which the Radiation BioScanner puts out a full redstone
+		#signal of 15. Below that the signal climbs evenly. Above it, it stays at 15.
+		#0 follows maxRadiation, so the scale always covers the whole range a player
+		#can reach.
+		#Range: 0.0 ~ 10000.0
+		bioScannerFullSignalRadiation = 0.0
+		#Let every solid block shield a little, based on its blast resistance, on top
+		#of the shielding tags. True means any solid wall stops some radiation and a
+		#thick heavy wall stops a lot.
+		#False means only tagged blocks shield anything.
+		raycastSolidBaselineEnabled = false
+		#Most one solid block can shield on its own, before tags override it.
+		#0.5 means the heaviest blocks, obsidian for one, stop up to half the
+		#radiation passing through each block.
+		#Shielding tags can still take a block higher than this.
+		#Range: 0.0 ~ 0.95
+		raycastSolidBaselineMax = 0.5
+		#Ignore all radiation from mobs and dropped items while a player stands in a
+		#Radiation Absorber's sealed room. False shields entities the same way the
+		#seal shields blocks, so a radioactive mob shut in the room with you still
+		#irradiates you and only the ones outside are stopped.
+		safeZoneSkipsEntityRadiation = true
+

@@ -1,0 +1,17 @@
+{
+	icon: "spore:container"
+	id: "0F753229E5870AF0"
+	loot_size: 3
+	order_index: 19
+	rewards: [
+		{ count: 3, item: "spore:claw_fragment", random_bonus: 5, weight: 2.0f }
+		{ count: 3, item: "spore:nerves", random_bonus: 5, weight: 2.0f }
+		{ count: 3, item: "spore:mutated_fiber", random_bonus: 5, weight: 2.0f }
+		{ count: 3, item: "spore:armor_fragment", random_bonus: 5 }
+		{ count: 2, item: "spore:spine_fragment", random_bonus: 1 }
+		{ count: 2, item: "spore:mutated_heart", random_bonus: 1 }
+		{ count: 2, item: "spore:tendons", random_bonus: 1 }
+	]
+	title: "{ftbquests.loot_table.1113851638369946352.title}"
+	use_title: true
+}

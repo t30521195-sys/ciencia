@@ -1,0 +1,72 @@
+#  Main header!
+#  Line 2
+
+[songs]
+	[[songs.AbandonedWarehouse]]
+		triggers = [ "structure-underground_bunker", "height-no_sky" ]
+	[[songs.AbandonedWarehouse]]
+		triggers = [ "structure-warehouseofdoom", "height-no_sky" ]
+	[songs.DecayedHumanity]
+		triggers = [ "biome-snowy", "height-above_sea_snowy", "time-day_time" ]
+	[songs.desertambience1]
+		play_once = 2
+		triggers = [ "biome-desert", "height-above_sea_desert", "time-day_time" ]
+
+[triggers]
+	[[triggers.biome]]
+		biome_temperature = 2.0
+		fade_in = 100
+		fade_out = 100
+		identifier = "desert"
+		ticks_between_audio = 100
+	[[triggers.biome]]
+		biome_temperature = 0.05
+		fade_in = 100
+		fade_out = 100
+		identifier = "snowy"
+		temperature_greater_than = false
+	[[triggers.height]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "no_sky"
+		level = 55
+		not = true
+	[[triggers.height]]
+		check_above_level = true
+		check_for_sky = false
+		fade_in = 100
+		fade_out = 50
+		identifier = "above_sea_snowy"
+		level = 58
+	[[triggers.height]]
+		check_above_level = true
+		check_for_sky = false
+		fade_in = 100
+		fade_out = 50
+		identifier = "above_sea_desert"
+		level = 58
+		ticks_between_audio = 100
+	[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "warehouseofdoom"
+		resource_name = [ "jeffs_cursed_walking_structures:warehouseofdoom" ]
+	[[triggers.structure]]
+		fade_in = 100
+		fade_out = 100
+		identifier = "underground_bunker"
+		resource_name = [ "underground_bunkers:underground_bunker" ]
+	[triggers.time]
+		fade_in = 100
+		fade_out = 100
+		identifier = "day_time"
+		time_bundle = "day"
+	[triggers.universal]
+		active_cooldown = "0"
+		fade_in = "0"
+		fade_out = "0"
+		persistence = "0"
+		ticks_before_active = "0"
+		ticks_before_audio = "0"
+		ticks_between_audio = "0"
+

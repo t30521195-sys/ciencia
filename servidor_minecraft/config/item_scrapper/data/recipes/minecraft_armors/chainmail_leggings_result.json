@@ -1,0 +1,19 @@
+{
+  "minecraft:chainmail_leggings": [
+    {
+      "explosionPower": 0.0,
+      "requiredHits": 2.0,
+      "explosionChance": 0.0,
+      "useDurabilityMultiplier": true,
+      "lootable": {
+        "amountForMaxReturn": 1,
+        "autoGenerateFromRecipe": true,
+        "recipeId": "minecraft:iron_ingot_from_nuggets",
+        "returnAmount": {
+          "min": 21.25,
+          "max": 31.25
+        }
+      }
+    }
+  ]
+}

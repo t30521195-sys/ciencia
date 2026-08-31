@@ -1,0 +1,14 @@
+{
+	icon: "dyairdrop:airdroplarge"
+	id: "23A87D1B0316360A"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ count: 6, item: "undead_revamp2:bostroxingot", random_bonus: 3 }
+		{ count: 3, item: "minecraft:netherite_ingot", random_bonus: 1 }
+		{ count: 24, item: "minecraft:diamond", random_bonus: 12 }
+		{ item: "marbledsapi:hardened_steel_ingot", random_bonus: 1 }
+	]
+	title: "{ftbquests.loot_table.2569441142384244234.title}"
+	use_title: true
+}

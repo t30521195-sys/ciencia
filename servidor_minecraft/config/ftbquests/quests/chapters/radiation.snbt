@@ -1,0 +1,527 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "radiation"
+	group: "036BBCCF3C38F186"
+	icon: "createdeco:decal_radioactive"
+	id: "2A847ECBCB3DA249"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A67989CF46C597D"]
+			description: [
+				"{ftbquests.chapter.radiation.quest7242775908975446877.description1}"
+				""
+				"{ftbquests.chapter.radiation.quest7242775908975446877.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "radioactive:radx_basic"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "64838250BA3D0B5D"
+			rewards: [{
+				id: "5A66A1093251D601"
+				item: {
+					Count: 1
+					id: "radioactive:radx_basic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "166ADDDBF88966DA"
+				title: "{ftbquests.chapter.radiation.quest7242775908975446877.task.1615347353203074778.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.radiation.quest7242775908975446877.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64838250BA3D0B5D"]
+			description: ["{ftbquests.chapter.radiation.quest1059774336511431426.description1}"]
+			icon: "radioactive:geiger_counter"
+			id: "0EB51324E5D6D302"
+			rewards: [
+				{
+					id: "6B4DF2FEE0A93005"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4386A81AFB772019"
+					item: {
+						Count: 1
+						id: "radioactive:radx_basic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "54E150EFDC287228"
+				item: "radioactive:geiger_counter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.radiation.quest1059774336511431426.title}"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["64838250BA3D0B5D"]
+			description: [
+				"{ftbquests.chapter.radiation.quest7105039935452982035.description1}"
+				"{ftbquests.chapter.radiation.quest7105039935452982035.description2}"
+			]
+			icon: "radioactive:radaway_advanced"
+			id: "629A2C2D5BA3AB13"
+			rewards: [
+				{
+					id: "7E7519D4AEF7F739"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "4F444A151F49EC1B"
+					item: "radioactive:radaway_basic"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "37A2BCAB39985FBF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "radioactive:radaway_basic"
+								}
+								{
+									Count: 1b
+									id: "radioactive:radaway_advanced"
+								}
+								{
+									Count: 1b
+									id: "radioactive:radaway_ultimate"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.radiation.quest7105039935452982035.task.4008974061904879551.title}"
+					type: "item"
+				}
+				{
+					id: "093ABF661B8F78E6"
+					item: {
+						Count: 1
+						id: "radioactive:radx_basic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.radiation.quest7105039935452982035.title}"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["64838250BA3D0B5D"]
+			description: [
+				"{ftbquests.chapter.radiation.quest6966586808696543295.description1}"
+				""
+				"{ftbquests.chapter.radiation.quest6966586808696543295.description2}"
+				"{ftbquests.chapter.radiation.quest6966586808696543295.description3}"
+			]
+			icon: "radioactive:decontaminator"
+			id: "60AE49CABD47983F"
+			rewards: [
+				{
+					id: "04F2CEEF5A05AFA6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BD7642FF053F8E9"
+					table_id: 5247678636784679629L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "0E4D871C5992BE47"
+					item: "radioactive:decontaminator"
+					type: "item"
+				}
+				{
+					id: "0ABB77B2BBF54088"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "radioactive:radiation_absorber_tier_1"
+								}
+								{
+									Count: 1b
+									id: "radioactive:radiation_absorber_tier_2"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.radiation.quest6966586808696543295.task.773343370565468296.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.radiation.quest6966586808696543295.title}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64838250BA3D0B5D"]
+			description: [
+				"{ftbquests.chapter.radiation.quest6179473834774059222.description1}"
+				"{ftbquests.chapter.radiation.quest6179473834774059222.description2}"
+				""
+				"{ftbquests.chapter.radiation.quest6179473834774059222.description3}"
+			]
+			icon: "radioactive:upgrade_1"
+			id: "55C1E6B6648758D6"
+			rewards: [
+				{
+					id: "408F1717097B9762"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "34A3FDDAEDAFD775"
+					item: "radioactive:radaway_basic"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 0.7d
+			tasks: [
+				{
+					id: "7281E937EDB4379C"
+					item: "radioactive:upgrade_1"
+					type: "item"
+				}
+				{
+					id: "24ACCED04630B4BA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:high_density_ingot"
+						}
+					}
+					title: "{ftbquests.chapter.radiation.quest6179473834774059222.task.2642714475285755066.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.radiation.quest6179473834774059222.title}"
+			x: 1.05d
+			y: -1.05d
+		}
+		{
+			dependencies: ["64838250BA3D0B5D"]
+			description: ["{ftbquests.chapter.radiation.quest8540580920433270482.description1}"]
+			icon: {
+				Count: 1
+				id: "lrarmor:chemical_protective_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "76863D18E1E75ED2"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "4DDF420E88AA84CB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "52713E7E652CE99D"
+					item: {
+						Count: 1
+						id: "radioactive:radx_basic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "37249C9C82C5F850"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "marbledsarsenal:hazmat_armor_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:hazmat_armor_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:hazmat_armor_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:hazmat_armor_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.radiation.quest8540580920433270482.task.3973472967270463568.title}"
+					type: "item"
+				}
+				{
+					id: "03BF399FD51DC03E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "lrarmor:chemical_protective_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:chemical_protective_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:chemical_protective_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:chemical_protective_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.radiation.quest8540580920433270482.task.269997861303599166.title}"
+					type: "item"
+				}
+				{
+					id: "003220E54ECD9DC5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "lrarmor:armored_chemical_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:armored_chemical_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:armored_chemical_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:armored_chemical_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.radiation.quest8540580920433270482.task.14109918077230533.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.radiation.quest8540580920433270482.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55C1E6B6648758D6"]
+			description: [
+				"{ftbquests.chapter.radiation.quest8233982919128210095.description1}"
+				"{ftbquests.chapter.radiation.quest8233982919128210095.description2}"
+				""
+				"{ftbquests.chapter.radiation.quest8233982919128210095.description3}"
+			]
+			icon: "radioactive:upgrade_2"
+			id: "7244FBD6E5455AAF"
+			rewards: [
+				{
+					id: "108D3720AF314FD5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BDF62E3FB9ECC0D"
+					table_id: 5247678636784679629L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 0.9d
+			tasks: [
+				{
+					id: "2D1FFC24EA207642"
+					item: "radioactive:upgrade_2"
+					type: "item"
+				}
+				{
+					id: "28F5E9C7B6F38999"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.radiation.quest8233982919128210095.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7244FBD6E5455AAF"]
+			description: [
+				"{ftbquests.chapter.radiation.quest8256138850301079323.description1}"
+				"{ftbquests.chapter.radiation.quest8256138850301079323.description2}"
+				""
+				"{ftbquests.chapter.radiation.quest8256138850301079323.description3}"
+			]
+			icon: "radioactive:upgrade_3"
+			id: "7293B28A9C7F6F1B"
+			rewards: [
+				{
+					id: "01704A85CFB695F1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32405810352EBAE6"
+					table_id: 5247678636784679629L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.1d
+			tasks: [
+				{
+					id: "4FE92671C7CC3750"
+					item: "radioactive:upgrade_3"
+					type: "item"
+				}
+				{
+					id: "6B89377BF4CAC26D"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.radiation.quest8256138850301079323.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["55C1E6B6648758D6"]
+			description: ["{ftbquests.chapter.radiation.quest5196595140341694762.description1}"]
+			id: "481E03BF5596812A"
+			rewards: [
+				{
+					id: "04D992999DBCF2A1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "7A9F441FFC2E28A8"
+					item: "radioactive:radaway_basic"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D77F6166DA4FFC6"
+				item: {
+					Count: 1
+					id: "radioactive:industrial_tongs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.radiation.quest5196595140341694762.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "{ftbquests.chapter.radiation.title}"
+}

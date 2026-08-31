@@ -1,0 +1,17 @@
+{
+	id: "c8e2c53d-fa62-33c9-8953-ccf8634db7be"
+	type: "player"
+	player_name: "RODAS123SFDG"
+	ranks: {
+		c8e2c53d-fa62-33c9-8953-ccf8634db7be: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "RODAS123SFDG"
+		"ftbteams:description": ""
+		"ftbteams:color": "#DAFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

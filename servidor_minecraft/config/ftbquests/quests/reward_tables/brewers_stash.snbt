@@ -1,0 +1,15 @@
+{
+	icon: "drinkbeer:beer_barrel"
+	id: "0C4CAA8A2891A68F"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 2, item: "drinkbeer:beer_mug_night_howl_kvass" }
+		{ count: 4, item: "drinkbeer:beer_mug_blaze_stout" }
+		{ count: 4, item: "drinkbeer:beer_mug_frothy_pink_eggnog" }
+		{ count: 4, item: "drinkbeer:beer_mug" }
+		{ count: 8, item: "drinkbeer:beer_mug_apple_lambic" }
+	]
+	title: "{ftbquests.loot_table.886270737047987855.title}"
+	use_title: true
+}

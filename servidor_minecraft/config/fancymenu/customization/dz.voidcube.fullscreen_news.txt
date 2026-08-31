@@ -1,0 +1,272 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = dz.voidcube.fullscreen_news
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1766564275059
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:8cf1a17d-b0ad-4bb2-92d8-57e15b1f5979-1766564174959] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 4.0
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/news_fullscreen_loading.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
+  element_type = image
+  instance_identifier = dcbd3d93-51b7-4067-b93a-b648c9b56b4c-1750469293010
+  custom_element_layer_name = LOADING...
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -240
+  y = -135
+  width = 480
+  height = 270
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 854c385a-705f-47f5-8d9b-1a18baa58f99-1750469293010
+  [loading_requirement_container_meta:854c385a-705f-47f5-8d9b-1a18baa58f99-1750469293010] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  source = [source:web]https://raw.githubusercontent.com/YeraX7/menu-announcements/refs/heads/main/en_us/news_fullscreen.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
+  element_type = image
+  instance_identifier = 584a6ff6-9c29-466d-98ef-8c8cbd0a704e-1750298581261
+  custom_element_layer_name = IINGLES
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -240
+  y = -135
+  width = 480
+  height = 270
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5d16e7fd-df4d-49bd-a543-6e71dcbb92eb-1750298581261
+  [loading_requirement_container_meta:5d16e7fd-df4d-49bd-a543-6e71dcbb92eb-1750298581261] = [groups:group_1766564216578;][instances:]
+  [loading_requirement_group:group_1766564216578] = [group_mode:and]
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:group_1766564216578][req_id:b49f1d7f-eb77-40e8-b972-27b0b11d7089-1766564233435] = es_mx
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if_not][group:group_1766564216578][req_id:35721cbb-f3d6-4216-bb2e-ccbbbe6c908a-1766564242062] = es_es
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  source = [source:web]https://raw.githubusercontent.com/YeraX7/menu-announcements/refs/heads/main/es_es%20y%20mx/news_fullscreen.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
+  element_type = image
+  instance_identifier = 313a0665-65d1-457d-8851-377cc4d24c32-1750299517373
+  custom_element_layer_name = ESPAÑOL MEXICO
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -240
+  y = -135
+  width = 480
+  height = 270
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5d16e7fd-df4d-49bd-a543-6e71dcbb92eb-1750298581261
+  [loading_requirement_container_meta:5d16e7fd-df4d-49bd-a543-6e71dcbb92eb-1750298581261] = [groups:][instances:3bb08852-bf8e-4e43-9985-20e0d8180dd4-1750299530872;]
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:3bb08852-bf8e-4e43-9985-20e0d8180dd4-1750299530872] = es_mx
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  source = [source:web]https://raw.githubusercontent.com/YeraX7/menu-announcements/refs/heads/main/es_es%20y%20mx/news_fullscreen.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
+  element_type = image
+  instance_identifier = b7c63e73-41a8-42c1-a2f0-12e9a2586e9c-1750299747178
+  custom_element_layer_name = ESPAÑOL ESPAÑA
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -240
+  y = -135
+  width = 480
+  height = 270
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5d16e7fd-df4d-49bd-a543-6e71dcbb92eb-1750298581261
+  [loading_requirement_container_meta:5d16e7fd-df4d-49bd-a543-6e71dcbb92eb-1750298581261] = [groups:][instances:3bb08852-bf8e-4e43-9985-20e0d8180dd4-1750299530872;]
+  [loading_requirement:fancymenu_loading_requirement_is_language][requirement_mode:if][req_id:3bb08852-bf8e-4e43-9985-20e0d8180dd4-1750299530872] = es_es
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = 9536b82d-1f0d-408f-9c45-89d720b3c0b9-1749583360300
+  [executable_action_instance:da3c4e40-189f-4580-8fc2-09ed5963329e-1749583440260][action_type:closegui] = 
+  [executable_block:9536b82d-1f0d-408f-9c45-89d720b3c0b9-1749583360300][type:generic] = [executables:da3c4e40-189f-4580-8fc2-09ed5963329e-1749583440260;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/fullscreen_news_exit.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/fullscreen_news_exit_hovered.png
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/hover-selection.wav
+  clicksound = [source:local]/config/fancymenu/assets/click.wav
+  label = 
+  navigatable = true
+  widget_active_state_requirement_container_identifier = d9647afd-3f24-47c9-a527-a45d4255a615-1749583360300
+  [loading_requirement_container_meta:d9647afd-3f24-47c9-a527-a45d4255a615-1749583360300] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = 3814fd47-7b8f-443f-819d-c1803be56fea-1749583360300
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = top-right
+  x = -28
+  y = 4
+  width = 24
+  height = 24
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e54c0ef6-0367-48b5-b895-11e6ac29dc7b-1749583360300
+  [loading_requirement_container_meta:e54c0ef6-0367-48b5-b895-11e6ac29dc7b-1749583360300] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+

@@ -1,0 +1,25 @@
+{
+	icon: "create:brown_postbox"
+	id: "255177EEDFA0E41C"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ count: 5, item: "create:sturdy_sheet", random_bonus: 5, weight: 15.0f }
+		{ count: 4, item: "createaddition:diamond_grit", random_bonus: 6, weight: 15.0f }
+		{ count: 6, item: "create:brass_ingot", random_bonus: 4, weight: 15.0f }
+		{ count: 4, item: "create:elevator_pulley", random_bonus: 4, weight: 4.0f }
+		{ count: 2, item: "create:rotation_speed_controller", random_bonus: 4, weight: 5.0f }
+		{ count: 12, item: "create_connected:charged_kinetic_battery", random_bonus: 8, weight: 5.0f }
+		{ count: 2, item: "create_connected:empty_fan_catalyst", random_bonus: 1, weight: 4.0f }
+		{ count: 2, item: "createaddition:tesla_coil", random_bonus: 1, weight: 2.0f }
+		{ count: 8, item: "create:mechanical_crafter", random_bonus: 8, weight: 5.0f }
+		{ count: 8, item: "create:brass_funnel", random_bonus: 8, weight: 5.0f }
+		{ count: 2, item: "create:sequenced_gearshift", random_bonus: 4, weight: 5.0f }
+		{ count: 2, item: "create_connected:kinetic_bridge", random_bonus: 1, weight: 5.0f }
+		{ count: 2, item: "create_connected:inventory_bridge", random_bonus: 4, weight: 5.0f }
+		{ count: 2, item: "create:mechanical_arm", random_bonus: 1, weight: 5.0f }
+		{ count: 4, item: "create:smart_chute", random_bonus: 4, weight: 5.0f }
+	]
+	title: "{ftbquests.loot_table.2689062320354681884.title}"
+	use_title: true
+}

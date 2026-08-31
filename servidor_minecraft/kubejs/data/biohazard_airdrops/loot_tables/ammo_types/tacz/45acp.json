@@ -1,0 +1,137 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"suffuse:webley1913\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"cib:usp\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"tacz:p320\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"tacz:m1911\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"tacz:vector45\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"AUTO\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"suffuse:ump45\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"AUTO\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"tacz:ump45\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"AUTO\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AmmoId:\"tacz:45acp\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        }
+                    ],
+                    "name": "tacz:ammo"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "minecraft:netherite_leggings": [
+    {
+      "explosionPower": 0.0,
+      "requiredHits": 8.0,
+      "explosionChance": 0.0,
+      "useDurabilityMultiplier": true,
+      "lootable": {
+        "amountForMaxReturn": 1,
+        "autoGenerateFromRecipe": true,
+        "recipeIds": [
+          "minecraft:diamond_leggings",
+          "minecraft:netherite_ingot"
+        ],
+        "returnAmount": {
+          "min": 25.0,
+          "max": 35.0
+        }
+      }
+    }
+  ]
+}

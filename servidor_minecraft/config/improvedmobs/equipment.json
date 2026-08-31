@@ -1,0 +1,495 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "marbledsarsenal:barbed_baseball_bat": [
+      1029,
+      3.826627
+    ],
+    "marbledsarsenal:baseball_bat": [
+      1667,
+      3.826627
+    ],
+    "marbledsarsenal:bone_saw": [
+      1729,
+      3.826627
+    ],
+    "marbledsarsenal:crowbar": [
+      1629,
+      3.826627
+    ],
+    "marbledsarsenal:fire_axe": [
+      575,
+      3.826627
+    ],
+    "marbledsarsenal:katana": [
+      450,
+      3.826627
+    ],
+    "marbledsarsenal:machete": [
+      1575,
+      3.826627
+    ],
+    "marbledsarsenal:modern_axe": [
+      617,
+      3.826627
+    ],
+    "marbledsarsenal:pipe_wrench": [
+      1550,
+      3.826627
+    ],
+    "marbledsarsenal:police_baton": [
+      1700,
+      3.826627
+    ],
+    "marbledsarsenal:sledgehammer": [
+      566,
+      2.2989588
+    ],
+    "marbledsarsenal:steel_baseball_bat": [
+      550,
+      3.826627
+    ],
+    "marbledsarsenal:stop_sign": [
+      1055,
+      3.826627
+    ],
+    "marbledsarsenal:tanto": [
+      1054,
+      3.826627
+    ],
+    "marbledsarsenal:tomahawk": [
+      1029,
+      4.376631
+    ],
+    "minecraft:bow": [
+      1976,
+      3.508568
+    ],
+    "minecraft:crossbow": [
+      2270,
+      3.826627
+    ],
+    "minecraft:diamond_axe": [
+      1739,
+      2.022479
+    ],
+    "minecraft:diamond_sword": [
+      1801,
+      1.889481
+    ],
+    "minecraft:golden_axe": [
+      2400,
+      0.014399999
+    ],
+    "minecraft:golden_sword": [
+      2463,
+      0.0081
+    ],
+    "minecraft:iron_axe": [
+      2667,
+      0.51635593
+    ],
+    "minecraft:iron_sword": [
+      2554,
+      0.049
+    ],
+    "minecraft:stone_axe": [
+      3170,
+      0.0374
+    ],
+    "minecraft:stone_sword": [
+      3278,
+      0.026599998
+    ],
+    "minecraft:trident": [
+      2044,
+      2.357304
+    ],
+    "minecraft:wooden_axe": [
+      3354,
+      0.019
+    ],
+    "minecraft:wooden_sword": [
+      3417,
+      0.0127
+    ]
+  },
+  "OFFHAND": {},
+  "FEET": {
+    "dustrial_decor:cardboard_boots": [
+      5765,
+      0.0084
+    ],
+    "marbledsarsenal:black_juggernaut_armor_boots": [
+      514,
+      4.9030676
+    ],
+    "marbledsarsenal:desert_military_armor_boots": [
+      2341,
+      3.7373507
+    ],
+    "marbledsarsenal:hazmat_armor_boots": [
+      5009,
+      3.8764658
+    ],
+    "marbledsarsenal:olive_juggernaut_armor_boots": [
+      514,
+      4.9030676
+    ],
+    "marbledsarsenal:riot_armor_boots": [
+      2341,
+      4.737351
+    ],
+    "marbledsarsenal:swat_armor_boots": [
+      3341,
+      4.737351
+    ],
+    "marbledsarsenal:winter_military_armor_boots": [
+      3341,
+      4.737351
+    ],
+    "minecraft:chainmail_boots": [
+      4257,
+      0.540316
+    ],
+    "minecraft:diamond_boots": [
+      4341,
+      0.7373508
+    ],
+    "minecraft:golden_boots": [
+      3323,
+      0.4136078
+    ],
+    "minecraft:iron_boots": [
+      4009,
+      1.0764657
+    ],
+    "minecraft:leather_boots": [
+      5605,
+      0.0244
+    ]
+  },
+  "LEGS": {
+    "dustrial_decor:cardboard_leggings": [
+      514,
+      0.009899999
+    ],
+    "marbledsarsenal:black_juggernaut_armor_leggings": [
+      514,
+      3.9030676
+    ],
+    "marbledsarsenal:desert_military_armor_leggings": [
+      2344,
+      3.7373507
+    ],
+    "marbledsarsenal:hazmat_armor_leggings": [
+      2012,
+      3.8764658
+    ],
+    "marbledsarsenal:olive_juggernaut_armor_leggings": [
+      317,
+      4.0030675
+    ],
+    "marbledsarsenal:riot_armor_leggings": [
+      2344,
+      3.7373507
+    ],
+    "marbledsarsenal:swat_armor_leggings": [
+      2344,
+      3.7373507
+    ],
+    "marbledsarsenal:winter_military_armor_leggings": [
+      2344,
+      3.7373507
+    ],
+    "minecraft:chainmail_leggings": [
+      5260,
+      0.540316
+    ],
+    "minecraft:diamond_leggings": [
+      4344,
+      1.7373508
+    ],
+    "minecraft:golden_leggings": [
+      5326,
+      0.4136078
+    ],
+    "minecraft:iron_leggings": [
+      5012,
+      0.8764657
+    ],
+    "minecraft:leather_leggings": [
+      5608,
+      0.0244
+    ]
+  },
+  "CHEST": {
+    "dustrial_decor:cardboard_chestplate": [
+      6287,
+      0.009
+    ],
+    "marbledsapi:test_armor": [
+      22,
+      12.451789
+    ],
+    "marbledsarsenal:black_juggernaut_armor_chestplate": [
+      514,
+      4.9030676
+    ],
+    "marbledsarsenal:black_plate_carrier_t1": [
+      3537,
+      3.4764657
+    ],
+    "marbledsarsenal:black_plate_carrier_t2": [
+      3069,
+      3.9373507
+    ],
+    "marbledsarsenal:black_plate_carrier_t3": [
+      2642,
+      4.0030675
+    ],
+    "marbledsarsenal:desert_military_armor_chestplate": [
+      2869,
+      3.7373507
+    ],
+    "marbledsarsenal:hazmat_armor_chestplate": [
+      3537,
+      2.8764658
+    ],
+    "marbledsarsenal:olive_juggernaut_armor_chestplate": [
+      342,
+      4.0030675
+    ],
+    "marbledsarsenal:olive_plate_carrier_t1": [
+      3537,
+      3.8764658
+    ],
+    "marbledsarsenal:olive_plate_carrier_t2": [
+      3069,
+      3.537351
+    ],
+    "marbledsarsenal:olive_plate_carrier_t3": [
+      2742,
+      3.2030678
+    ],
+    "marbledsarsenal:riot_armor_chestplate": [
+      2869,
+      3.7373507
+    ],
+    "marbledsarsenal:swat_armor_chestplate": [
+      2869,
+      3.4373507
+    ],
+    "marbledsarsenal:winter_military_armor_chestplate": [
+      2869,
+      3.7373507
+    ],
+    "minecraft:chainmail_chestplate": [
+      4785,
+      0.540316
+    ],
+    "minecraft:diamond_chestplate": [
+      1869,
+      2.7373507
+    ],
+    "minecraft:golden_chestplate": [
+      3851,
+      0.4136078
+    ],
+    "minecraft:iron_chestplate": [
+      3537,
+      1.8764657
+    ],
+    "minecraft:leather_chestplate": [
+      6133,
+      0.0244
+    ]
+  },
+  "HEAD": {
+    "dustrial_decor:cardboard_helmet": [
+      5747,
+      0.0106999995
+    ],
+    "marbledsarsenal:black_gp5_gas_mask": [
+      3514,
+      2.8764658
+    ],
+    "marbledsarsenal:black_juggernaut_armor_helmet": [
+      519,
+      4.5030675
+    ],
+    "marbledsarsenal:black_military_beret": [
+      3610,
+      3.0244
+    ],
+    "marbledsarsenal:cm6m_gas_mask": [
+      3014,
+      3.4764657
+    ],
+    "marbledsarsenal:cm7m_gas_mask": [
+      3014,
+      3.6764657
+    ],
+    "marbledsarsenal:cm8m_gas_mask": [
+      3014,
+      3.9764657
+    ],
+    "marbledsarsenal:combat_helmet": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:desert_military_armor_helmet": [
+      2346,
+      3.037351
+    ],
+    "marbledsarsenal:hazmat_armor_helmet": [
+      3014,
+      3.0764656
+    ],
+    "marbledsarsenal:helmet_cm6m_gas_mask": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:helmet_cm7m_gas_mask": [
+      3046,
+      3.037351
+    ],
+    "marbledsarsenal:helmet_cm8m_gas_mask": [
+      2746,
+      3.037351
+    ],
+    "marbledsarsenal:medical_combat_helmet": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:medical_helmet_cm6m_gas_mask": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:medical_helmet_cm7m_gas_mask": [
+      3346,
+      3.6373508
+    ],
+    "marbledsarsenal:medical_helmet_cm8m_gas_mask": [
+      3346,
+      3.8373508
+    ],
+    "marbledsarsenal:medical_olive_combat_helmet": [
+      3346,
+      3.4373507
+    ],
+    "marbledsarsenal:medical_olive_helmet_cm6m_gas_mask": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:medical_olive_helmet_cm7m_gas_mask": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:medical_olive_helmet_cm8m_gas_mask": [
+      3346,
+      3.4373507
+    ],
+    "marbledsarsenal:medical_un_combat_helmet": [
+      3346,
+      3.4373507
+    ],
+    "marbledsarsenal:medical_un_helmet_cm6m_gas_mask": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:medical_un_helmet_cm7m_gas_mask": [
+      3346,
+      3.0073507
+    ],
+    "marbledsarsenal:medical_un_helmet_cm8m_gas_mask": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:olive_combat_helmet": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:olive_helmet_cm6m_gas_mask": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:olive_helmet_cm7m_gas_mask": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:olive_helmet_cm8m_gas_mask": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:olive_juggernaut_armor_helmet": [
+      619,
+      4.9030676
+    ],
+    "marbledsarsenal:red_military_beret": [
+      5610,
+      2.0244
+    ],
+    "marbledsarsenal:riot_armor_helmet": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:swat_armor_helmet": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:un_combat_helmet": [
+      3346,
+      2.7373507
+    ],
+    "marbledsarsenal:un_helmet_cm6m_gas_mask": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:un_helmet_cm7m_gas_mask": [
+      3346,
+      3.037351
+    ],
+    "marbledsarsenal:un_helmet_cm8m_gas_mask": [
+      3346,
+      3.3373508
+    ],
+    "marbledsarsenal:un_military_beret": [
+      3610,
+      3.0244
+    ],
+    "marbledsarsenal:white_gp5_gas_mask": [
+      5014,
+      1.2764657
+    ],
+    "marbledsarsenal:winter_military_armor_helmet": [
+      3346,
+      3.037351
+    ],
+    "minecraft:chainmail_helmet": [
+      5262,
+      1.540316
+    ],
+    "minecraft:diamond_helmet": [
+      4346,
+      2.7373507
+    ],
+    "minecraft:golden_helmet": [
+      5328,
+      1.4136078
+    ],
+    "minecraft:iron_helmet": [
+      5014,
+      1.8764657
+    ],
+    "minecraft:leather_helmet": [
+      5610,
+      1.0244
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+	icon: "create:orange_toolbox"
+	id: "48D37FEAB0F4FACD"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "radioactive:anti_radiation"
+						lvl: 2s
+					}]
+				}
+			}
+			title: "Enhancement of Radprotection II"
+			weight: 0.4f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "radioactive:anti_radiation"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Enhancement of Radprotection I"
+			weight: 0.4f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "radioactive:radx_basic"
+				tag: {
+					Damage: 0
+				}
+			}
+			random_bonus: 2
+			weight: 2.5f
+		}
+		{ count: 2, item: "radioactive:upgrade_1", weight: 2.0f }
+		{ count: 2, item: "radioactive:radaway_advanced", random_bonus: 1, weight: 2.5f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "radioactive:anti_radiation"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Enhancement of Radprotection III"
+			weight: 0.2f
+		}
+		{ item: "radioactive:upgrade_2", weight: 2.0f }
+	]
+	title: "{ftbquests.loot_table.5247678636784679629.title}"
+	use_title: true
+}

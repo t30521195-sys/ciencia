@@ -1,0 +1,15 @@
+{
+	icon: "refurbished_furniture:light_gray_kitchen_storage_cabinet"
+	id: "7BAB05EC292FE923"
+	loot_size: 2
+	order_index: 3
+	rewards: [
+		{ count: 5, item: "cure:vaccine", random_bonus: 2, weight: 2.0f }
+		{ count: 2, item: "minecraft:golden_apple", random_bonus: 1, weight: 0.4f }
+		{ count: 3, item: "canned_goods:soda", random_bonus: 2, weight: 0.6f }
+		{ count: 8, item: "majruszsdifficulty:bandage", random_bonus: 8 }
+		{ count: 3, item: "radioactive:radaway_basic", random_bonus: 2 }
+	]
+	title: "{ftbquests.loot_table.8911222799544084771.title}"
+	use_title: true
+}

@@ -1,0 +1,73 @@
+{
+	icon: "chipped:boxed_mangrove_planks"
+	id: "4002195D9322D2D8"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ count: 2, item: "refinedstorage:4k_storage_part", weight: 2.0f }
+		{ item: "refinedstorage:16k_storage_part" }
+		{
+			item: {
+				Count: 1
+				id: "refinedstorage:64k_storage_disk"
+				tag: {
+					Id: [I;
+						-1790699627
+						1944798875
+						-1531184838
+						1061921077
+					]
+				}
+			}
+			weight: 0.05f
+		}
+		{ count: 2, item: "refinedstorage:speed_upgrade", random_bonus: 1 }
+		{
+			item: {
+				Count: 1
+				id: "refinedstorage:filter"
+				tag: {
+					Icon: {
+						Count: -1b
+						id: "minecraft:air"
+						tag: {
+							Charged: 0b
+							Damage: 0
+							Potion: "minecraft:water_breathing"
+							glide: 0b
+							struck: 0b
+						}
+					}
+				}
+			}
+		}
+		{ count: 8, item: "refinedstorage:importer", weight: 1.5f }
+		{ count: 8, item: "refinedstorage:exporter", weight: 1.5f }
+		{ item: "refinedstorage:crafter_manager" }
+		{ item: "refinedstorage:wireless_crafting_monitor", weight: 0.8f }
+		{
+			item: {
+				Count: 1
+				id: "refinedstorage:portable_grid"
+				tag: {
+					FluidStorageTrackerId: [I;
+						798917893
+						781598919
+						-1925053394
+						-1106285697
+					]
+					Inventory_4: [ ]
+					ItemStorageTrackerId: [I;
+						-2095315240
+						-779074747
+						-1810753103
+						207926126
+					]
+				}
+			}
+			weight: 0.15f
+		}
+	]
+	title: "{ftbquests.loot_table.4612276858071995096.title}"
+	use_title: true
+}

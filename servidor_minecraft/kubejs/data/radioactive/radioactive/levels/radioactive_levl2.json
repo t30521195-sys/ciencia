@@ -1,0 +1,37 @@
+{
+  "radiationThreshold": 200,
+  "tickRate": 40,
+  "stackEffectsFromLowerLevels": false,
+  "executeCommands": [],
+  "radiationDamage": 0.0,
+  "radiationAttributeModification": [],
+  "radiationEffects": [
+    {
+      "name": "minecraft:nausea",
+      "amplifier": 0,
+      "duration": 100,
+      "is_ambient": true,
+      "show_particles": false,
+      "apply_once": true,
+      "chance": 0.3
+    },
+    {
+      "name": "minecraft:hunger",
+      "amplifier": 0,
+      "duration": 200,
+      "is_ambient": false,
+      "show_particles": false,
+      "apply_once": true,
+      "chance": 1.0
+    },
+    {
+      "name": "radioactive:radiation_poisoning",
+      "amplifier": 1,
+      "duration": 200,
+      "is_ambient": true,
+      "show_particles": false,
+      "apply_once": true,
+      "chance": 1.0
+    }
+  ]
+}

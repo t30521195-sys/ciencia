@@ -1,0 +1,298 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "tacz:ammo_box",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Level:1}"
+                        }
+                    ],
+                    "name": "tacz:ammo_box",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Level:2}"
+                        }
+                    ],
+                    "name": "tacz:ammo_box",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:baseball_bat",
+                    "weight": 6
+                },
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:police_baton",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:pipe_wrench",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:barbed_baseball_bat",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:crowbar",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:tanto",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{MeleeWeaponId:\"lrtactical:dagger\"}"
+                        }
+                    ],
+                    "name": "lrtactical:melee",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:tomahawk",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:fire_axe",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:steel_baseball_bat",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:machete",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:katana",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:modern_axe",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "marbledsarsenal:sledgehammer",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/cib/8x22"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/cib/32acp"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/cib/58x21"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/cib/65x50"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/cib/127x108"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/cib/545x39"
+                },
+
+
+
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/suffuse/.408ct"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/suffuse/6x35mm"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/suffuse/12.7x55"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/suffuse/23mm"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/suffuse/7.65x20mm"
+                },
+                
+
+
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/9mm"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/45acp"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/50ae"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/357mag"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/762x25"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/30_06"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/50bmg"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/58x42"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/308"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/338"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/556x45"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/762x39"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/762x54"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "biohazard_airdrops:ammo_types/tacz/12g"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "uniform",
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ThrowableId:\"lrtactical:molotov\"}"
+                        }
+                    ],
+                    "name": "lrtactical:throwable"
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ThrowableId:\"gwg:mills_no3\"}"
+                        }
+                    ],
+                    "name": "lrtactical:throwable"
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ThrowableId:\"gwg:shg_m17\"}"
+                        }
+                    ],
+                    "name": "lrtactical:throwable"
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ThrowableId:\"gwg:shg_m15\"}"
+                        }
+                    ],
+                    "name": "lrtactical:throwable"
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ThrowableId:\"lrtactical:m67\"}"
+                        }
+                    ],
+                    "name": "lrtactical:throwable"
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ThrowableId:\"lrtactical:rgn\"}"
+                        }
+                    ],
+                    "name": "lrtactical:throwable"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "create:industrial_iron_block"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "createaddition:iron_rod"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "custom",
+    "group": "lrtactical:melee",
+    "item": {
+      "item": "lrtactical:melee",
+      "nbt": {
+        "MeleeWeaponId": "lrtactical:baseball_bat"
+      }
+    }
+  }
+}

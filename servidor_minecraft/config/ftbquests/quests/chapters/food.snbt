@@ -1,0 +1,2342 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food"
+	group: "036BBCCF3C38F186"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"undermod:capability_item_life_leech": {
+				power: 1
+			}
+		}
+		id: "butcher:butchers_knife"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "06BFACFC334A53DB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1CE8072D97CC5F1B"]
+			description: ["{ftbquests.chapter.food.quest2967016828973683171.description1}"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:rabbit_stew"
+			id: "292CF616059511E3"
+			shape: "pentagon"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.food.quest2967016828973683171.subtitle}"
+			tasks: [{
+				id: "65DD35A63882B2D3"
+				title: "{ftbquests.chapter.food.quest2967016828973683171.task.7340081955712709331.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.food.quest2967016828973683171.title}"
+			x: -9.114553571428559d
+			y: 4.443537414965988d
+		}
+		{
+			dependencies: ["292CF616059511E3"]
+			description: ["{ftbquests.chapter.food.quest6874902751879350592.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "aquaculture:iron_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F688FA0C71FC940"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.food.quest6874902751879350592.subtitle}"
+			tasks: [{
+				id: "62B9292CCF4BDAFC"
+				title: "{ftbquests.chapter.food.quest6874902751879350592.task.7113762358841563900.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.food.quest6874902751879350592.title}"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["292CF616059511E3"]
+			description: ["{ftbquests.chapter.food.quest1542459306200007148.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "butcher:bonebutchersknife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1567EA91128C01EC"
+			rewards: [{
+				id: "1C0B6699FD9FBE4A"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "butcher:butcherenchantment"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "136FA1F01D0C90B5"
+				title: "{ftbquests.chapter.food.quest1542459306200007148.task.1400516061787099317.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.food.quest1542459306200007148.title}"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["292CF616059511E3"]
+			description: [
+				"{ftbquests.chapter.food.quest1740848053696652382.description1}"
+				""
+				"{ftbquests.chapter.food.quest1740848053696652382.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "canned_goods:canned_mushrooms"
+			id: "1828BC14D884E45E"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.food.quest1740848053696652382.subtitle}"
+			tasks: [{
+				id: "6B93CE83BDC91D6C"
+				title: "{ftbquests.chapter.food.quest1740848053696652382.task.7751766448854867308.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.food.quest1740848053696652382.title}"
+			x: -6.0389285714285705d
+			y: 6.223214285714278d
+		}
+		{
+			dependencies: ["292CF616059511E3"]
+			description: ["{ftbquests.chapter.food.quest5105343554681483646.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "farmersdelight:wild_beetroots"
+			id: "46D9D2E9E91EB17E"
+			rewards: [
+				{
+					id: "450BA69536845FB2"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63E80BD25AD2663B"
+					table_id: 5829609498269571547L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.food.quest5105343554681483646.subtitle}"
+			tasks: [{
+				id: "4358F488E96556B2"
+				title: "{ftbquests.chapter.food.quest5105343554681483646.task.4852897467360171698.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.food.quest5105343554681483646.title}"
+			x: -6.003214285714286d
+			y: 1.1874999999999893d
+		}
+		{
+			dependencies: ["1567EA91128C01EC"]
+			description: [
+				"{ftbquests.chapter.food.quest4163921095587781894.description1}"
+				"{ftbquests.chapter.food.quest4163921095587781894.description2}"
+				""
+				"{ftbquests.chapter.food.quest4163921095587781894.description3}"
+				"{ftbquests.chapter.food.quest4163921095587781894.description4}"
+				""
+				"{ftbquests.chapter.food.quest4163921095587781894.description5}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "butcher:butchersapron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "39C9382CCF43DD06"
+			rewards: [
+				{
+					id: "59A9C6C0F68F319D"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "butcher:butchers_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "425233E6AB705968"
+					item: "butcher:butcherspapers"
+					type: "item"
+				}
+				{
+					id: "7A64F0980E5A3507"
+					item: "butcher:rag"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "05F759BA097513F3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.food.quest4163921095587781894.subtitle}"
+			tasks: [
+				{
+					id: "1877F34CF47C9AB3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "butcher:skinning_knife"
+						}
+					}
+					title: "{ftbquests.chapter.food.quest4163921095587781894.task.1763145290983709363.title}"
+					type: "item"
+				}
+				{
+					id: "23F66D03F1F750BA"
+					item: "butcher:bloodgratetank"
+					type: "item"
+				}
+				{
+					id: "2A5E0DDE6342CA52"
+					item: "butcher:hook"
+					type: "item"
+				}
+				{
+					id: "724218077D46CDF2"
+					item: "minecraft:chain"
+					type: "item"
+				}
+				{
+					id: "168DE45208B6B395"
+					item: "butcher:butcherstable"
+					type: "item"
+				}
+				{
+					id: "50CB51EB3865415B"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "53FE62C4F23C5952"
+					item: {
+						Count: 1
+						id: "butcher:butchers_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest4163921095587781894.title}"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39C9382CCF43DD06"]
+			description: [
+				"{ftbquests.chapter.food.quest3137058494605319500.description1}"
+				"{ftbquests.chapter.food.quest3137058494605319500.description2}"
+				"{ftbquests.chapter.food.quest3137058494605319500.description3}"
+				""
+				"{ftbquests.chapter.food.quest3137058494605319500.description4}"
+			]
+			id: "2B8912147A925D4C"
+			rewards: [
+				{
+					count: 2
+					id: "00D9870151564A4D"
+					item: "butcher:salt"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "42FF0CAC9FA8BDBD"
+					item: "butcher:butchersstatue"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DCF573774B3A748"
+					table_id: 5688615000447141348L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quest3137058494605319500.subtitle}"
+			tasks: [{
+				id: "12DBF7E237744864"
+				item: "butcher:emptyskinrack"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.food.quest3137058494605319500.title}"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F688FA0C71FC940"]
+			description: ["{ftbquests.chapter.food.quest2146334083499693069.description1}"]
+			hide_until_deps_complete: true
+			icon: "aquaculture:atlantic_cod"
+			id: "1DC94F7A2850140D"
+			rewards: [
+				{
+					id: "22F4E514EDC56B36"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "15594B0342EB2B97"
+					item: "aquaculture:oak_fish_mount"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "086E67BE0405A7BF"
+					table_id: 2463318728583418389L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.food.quest2146334083499693069.subtitle}"
+			tasks: [
+				{
+					id: "6B90BA8D400E9DA9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/fishing_rods"
+						}
+					}
+					title: "{ftbquests.chapter.food.quest2146334083499693069.task.7750900074532478377.title}"
+					type: "item"
+				}
+				{
+					id: "2B3375D3F9CD6BEB"
+					item: {
+						Count: 1
+						id: "aquaculture:iron_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "205C0E85159E93B0"
+					item: "aquaculture:worm_farm"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest2146334083499693069.title}"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DC94F7A2850140D"]
+			description: [
+				"{ftbquests.chapter.food.quest8207506063165746221.description1}"
+				""
+				"{ftbquests.chapter.food.quest8207506063165746221.description2}"
+			]
+			icon: "aquaculture:tackle_box"
+			id: "71E6EB477ADBEC2D"
+			rewards: [
+				{
+					id: "534F668368260D2C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "255BED31CC4A3E02"
+					table_id: 2095123579863749626L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.food.quest8207506063165746221.subtitle}"
+			tasks: [
+				{
+					id: "6EC0E1EECDD4ABEE"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+				{
+					id: "138D8BD07E32EE33"
+					item: {
+						Count: 1
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "050D64A9193B403D"
+					item: "aquaculture:iron_hook"
+					type: "item"
+				}
+				{
+					id: "2AD5182809F50145"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					id: "08F74BE8870FFC0C"
+					item: "aquaculture:double_hook"
+					type: "item"
+				}
+				{
+					id: "359C930D1A585744"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest8207506063165746221.title}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39C9382CCF43DD06"]
+			description: ["{ftbquests.chapter.food.quest3070937992508686800.description1}"]
+			icon: "butcher:villager_head"
+			id: "2A9E29D56ABB41D0"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "3D560C279CB930F4"
+					item: "cannibal:skull_lamp"
+					title: "{ftbquests.chapter.food.quest3070937992508686800.reward.4419733448583360756.title}"
+					type: "item"
+				}
+				{
+					id: "756069A5DC19BDCB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24C5D2D6F3D95B79"
+					table_id: 5688615000447141348L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.food.quest3070937992508686800.subtitle}"
+			tasks: [
+				{
+					id: "0FFE4BF4A726AB76"
+					item: "butcher:villager_meat"
+					type: "item"
+				}
+				{
+					id: "742213FFA33F9656"
+					item: "butcher:cooked_villager_meat"
+					type: "item"
+				}
+				{
+					id: "6FC868F868523939"
+					item: "butcher:villager_corpse_item"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest3070937992508686800.title}"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1828BC14D884E45E"]
+			description: [
+				"{ftbquests.chapter.food.quest131958952479380983.description1}"
+				""
+				"{ftbquests.chapter.food.quest131958952479380983.description2}"
+				"{ftbquests.chapter.food.quest131958952479380983.description3}"
+				""
+				"{ftbquests.chapter.food.quest131958952479380983.description4}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:iron_ingot"
+			id: "01D4CFF7D77755F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "315DCDFB0CE0DCF5"
+				table_id: 6218319453381243758L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.food.quest131958952479380983.subtitle}"
+			tasks: [
+				{
+					id: "39BAA9E6A49A0FD8"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "36956CCBA57B7302"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "36EDC42FFB303EBF"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest131958952479380983.title}"
+			x: -4.5389285714285705d
+			y: 6.223214285714278d
+		}
+		{
+			dependencies: ["01D4CFF7D77755F7"]
+			id: "7F95FF83044C42BF"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "18806FEBD9363F67"
+					item: {
+						Count: 1
+						id: "canned_goods:mysterious_beanie_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6DC91FA08690CFA4"
+					item: "canned_goods:mini_fizz"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "704500D41DD9A8E6"
+					type: "xp"
+					xp: 30
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "35AD181D0857BA9B"
+				item: "canned_goods:canned_golem_item"
+				type: "item"
+			}]
+			x: -3.5389285714285705d
+			y: 6.223214285714278d
+		}
+		{
+			dependencies: ["46D9D2E9E91EB17E"]
+			description: ["{ftbquests.chapter.food.quest5701720736541720055.description1}"]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:rich_soil_farmland"
+			id: "4F2094CD060C3DF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FCD21ECE991DE4A"
+				table_id: 5829609498269571547L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.food.quest5701720736541720055.subtitle}"
+			tasks: [
+				{
+					id: "5B9A8BB8860FD1CA"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "3A1D1FAD62D58C4D"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest5701720736541720055.title}"
+			x: -4.953348214285697d
+			y: 0.5185374149659836d
+		}
+		{
+			dependencies: ["01D4CFF7D77755F7"]
+			description: [
+				"{ftbquests.chapter.food.quest3700240210815027954.description1}"
+				""
+				"{ftbquests.chapter.food.quest3700240210815027954.description2}"
+			]
+			id: "3359E4DDF53F0AF2"
+			rewards: [
+				{
+					id: "31E2F24F745E49A0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0E3350D077EDD370"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quest3700240210815027954.subtitle}"
+			tasks: [
+				{
+					id: "264E75C6AD1F06E2"
+					item: "canned_goods:soda"
+					type: "item"
+				}
+				{
+					id: "0B9522B07BF05441"
+					item: "canned_goods:oculemonade"
+					type: "item"
+				}
+				{
+					id: "6E665115008C8BBA"
+					item: "canned_goods:reef_cola"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest3700240210815027954.title}"
+			x: -2.5389285714285705d
+			y: 6.223214285714278d
+		}
+		{
+			dependencies: ["4F2094CD060C3DF7"]
+			description: ["{ftbquests.chapter.food.quest7057136106131571632.description1}"]
+			icon: "minecraft:brown_mushroom"
+			id: "61EFFBE5F18E43B0"
+			rewards: [{
+				id: "7399A5A78316F65A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.food.quest7057136106131571632.subtitle}"
+			tasks: [{
+				id: "20A123FCDE4C4563"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:mushroom_colony"
+					}
+				}
+				title: "{ftbquests.chapter.food.quest7057136106131571632.task.2351200049432380771.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.food.quest7057136106131571632.title}"
+			x: -4.524776785714266d
+			y: -0.08146258503400716d
+		}
+		{
+			dependencies: ["46D9D2E9E91EB17E"]
+			description: [
+				"{ftbquests.chapter.food.quest3004486925040582200.description1}"
+				""
+				"{ftbquests.chapter.food.quest3004486925040582200.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:cutting_board"
+			id: "29B214F09B597E38"
+			rewards: [
+				{
+					id: "7BE8475A8B94454D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "01DF8A78312BD115"
+					item: "unusual_delight:gnawed_skewer"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.food.quest3004486925040582200.subtitle}"
+			tasks: [
+				{
+					id: "1C496D1838571EB0"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BFE3D94EF19DD73"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest3004486925040582200.title}"
+			x: -4.953348214285697d
+			y: 1.8042517006802683d
+		}
+		{
+			dependencies: [
+				"29B214F09B597E38"
+				"4F2094CD060C3DF7"
+			]
+			description: [
+				"{ftbquests.chapter.food.quest576098192133423595.description1}"
+				""
+				"{ftbquests.chapter.food.quest576098192133423595.description2}"
+			]
+			icon: "farmersdelight:stove"
+			id: "07FEB640E1DB81EB"
+			rewards: [
+				{
+					id: "33EFBB00E4E1D7A5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72A6343EE4E926BF"
+					table_id: 6218319453381243758L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.food.quest576098192133423595.subtitle}"
+			tasks: [
+				{
+					id: "01426DA7BB93A8D7"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "7486ABFBE3ECDD9A"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "7F89F0C28527E038"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest576098192133423595.title}"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46D9D2E9E91EB17E"]
+			description: ["{ftbquests.chapter.food.quest7486827217063526891.description1}"]
+			hide_until_deps_complete: true
+			id: "67E68DAFDFCC41EB"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "264B1D47CE9ADD06"
+				table_id: 2286452181159821413L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.food.quest7486827217063526891.subtitle}"
+			tasks: [{
+				id: "673559EA7D7DC564"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.food.quest7486827217063526891.title}"
+			x: -4.467499999999994d
+			y: 1.1517857142857082d
+		}
+		{
+			dependencies: ["3A60E5C23EA3632A"]
+			description: [
+				"{ftbquests.chapter.food.quest6037857136365693033.description1}"
+				"{ftbquests.chapter.food.quest6037857136365693033.description2}"
+				"{ftbquests.chapter.food.quest6037857136365693033.description3}"
+				"{ftbquests.chapter.food.quest6037857136365693033.description4}"
+				"{ftbquests.chapter.food.quest6037857136365693033.description5}"
+			]
+			hide_until_deps_complete: true
+			icon: "butcher:butchersstatue"
+			id: "53CAC71359A26869"
+			optional: true
+			rewards: [
+				{
+					id: "0885855939633194"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "65C0E2E4F713B647"
+					item: "butcher:dragonscale"
+					type: "item"
+				}
+				{
+					id: "52DAF6D571C65ED8"
+					item: {
+						Count: 1
+						id: "butcher:pillagerdisguise_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AF2FCE25557B9EF"
+					item: {
+						Count: 1
+						id: "butcher:pillagerdisguise_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50AB8B3074685DA3"
+					item: {
+						Count: 1
+						id: "butcher:pillagerdisguise_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C58A03F85F92E84"
+					item: {
+						Count: 1
+						id: "butcher:pillagerdisguise_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/effect give @p minecraft:bad_omen 999 4"
+					icon: "spore:gastgaber_spawnegg"
+					id: "2C8B08411748E6E6"
+					title: "{ftbquests.chapter.food.quest6037857136365693033.reward.3209668235088160486.title}"
+					type: "command"
+				}
+				{
+					id: "09C97660B5C12585"
+					item: "butcher:bonebarrel"
+					type: "item"
+				}
+				{
+					id: "3A798524C426F636"
+					item: {
+						Count: 1
+						id: "butcher:netherite_butchers_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D3F0338B11A8EE"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.33d
+			subtitle: "{ftbquests.chapter.food.quest6037857136365693033.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "505376460A586D8F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "butcher:cod"
+								}
+								{
+									Count: 1b
+									id: "butcher:salmon"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.food.quest6037857136365693033.task.5788099989294574991.title}"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "238F863329A8DA15"
+					item: "butcher:puffercorpse"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "25159C7468F0F87E"
+					item: "butcher:chicken_corpse_item"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6A7F367B1ABE09D2"
+					item: "butcher:rabbit_corpse_item"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0C3AA47F1903DC8F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "butcher:snowyfoxcarcassitem"
+								}
+								{
+									Count: 1b
+									id: "butcher:foxcorpseitem"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.food.quest6037857136365693033.task.881197542891838607.title}"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "651447E473C1F22B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "butcher:bat_corpse_item"
+								}
+								{
+									Count: 1b
+									id: "butcher:phantomcarcass"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.food.quest6037857136365693033.task.7283525543885140523.title}"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "63E9802ED0A70EEC"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "butcher:orange_frog"
+								}
+								{
+									Count: 1b
+									id: "butcher:gray_frog"
+								}
+								{
+									Count: 1b
+									id: "butcher:frog"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.food.quest6037857136365693033.task.7199426417885908716.title}"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "18CDBC8AF65B976F"
+					item: {
+						Count: 1
+						id: "butcher:turtle_corpse_item"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6510465F4D9D351B"
+					item: {
+						Count: 1
+						id: "butcher:colored_squid"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "01AE25368ECD5058"
+					item: {
+						Count: 1
+						id: "butcher:goat_corpse_item"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6EDCB12B609C5B13"
+					item: {
+						Count: 1
+						id: "butcher:sheep_corpse_item"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "04F6D4228A906766"
+					item: "butcher:pig_corpse_item"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2DC5F44FB330BC81"
+					item: "butcher:cowcorpseitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3DA5A12FA4400C2D"
+					item: "butcher:brown_llama"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0C5295112A76202E"
+					item: "butcher:dolphincorpseitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "33EAD0F3671C1C0C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "butcher:panda"
+								}
+								{
+									Count: 1b
+									id: "butcher:polarbear_corpse_item"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.food.quest6037857136365693033.task.3741032184310144012.title}"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1E921AD1E5348868"
+					item: "butcher:camelcarcassitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "33DFE594F98E582B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "butcher:zombiecorpse"
+								}
+								{
+									Count: 1b
+									id: "butcher:huskcorpse"
+								}
+								{
+									Count: 1b
+									id: "butcher:drownedcorpse"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.food.quest6037857136365693033.task.3737958643745577003.title}"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3BCAA9EB825384F6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "butcher:spidercarcass"
+								}
+								{
+									Count: 1b
+									id: "butcher:cavespider"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.food.quest6037857136365693033.task.4308442822502221046.title}"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6DD3556C1DD10112"
+					item: "butcher:clothed_pillager_corpse"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "10B354B2847F16B5"
+					item: "butcher:villager_corpse_item"
+					type: "item"
+				}
+				{
+					id: "238C7D03CC99B993"
+					item: "butcher:endermancarcass"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest6037857136365693033.title}"
+			x: -1.8428571428571274d
+			y: 3.017857142857146d
+		}
+		{
+			dependencies: ["39C9382CCF43DD06"]
+			icon: "butcher:half_cowitem"
+			id: "3A60E5C23EA3632A"
+			rewards: [
+				{
+					id: "5871DDA403E39F87"
+					item: "butcher:dragonsmithingtemplate"
+					type: "item"
+				}
+				{
+					id: "0FB248E79FEBBB4A"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06BFC2727070AB3B"
+					table_id: 3340497817625991817L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.food.quest4206614674401354538.subtitle}"
+			tasks: [
+				{
+					id: "3FE3A73F61DDB2C7"
+					item: {
+						Count: 1
+						id: "butcher:elderguardianeye_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E562D499D076E97"
+					item: "butcher:witheredheart"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest4206614674401354538.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["292CF616059511E3"]
+			description: ["{ftbquests.chapter.food.quest7815207680141837767.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6C7531FA74C245C7"
+			optional: true
+			rewards: [
+				{
+					id: "4410B7B25A01D3CB"
+					type: "xp"
+					xp: 8
+				}
+				{
+					exclude_from_claim_all: true
+					id: "258A26BCB01EC021"
+					table_id: 6218319453381243758L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quest7815207680141837767.subtitle}"
+			tasks: [{
+				id: "3282A1F7B1483F47"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Open: 0b
+							SelectedSlot: 0b
+							Size: 6
+						}
+					}
+					id: "supplementaries:lunch_basket"
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.food.quest7815207680141837767.title}"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F688FA0C71FC940"]
+			hide_until_deps_complete: true
+			id: "7AA9427B5DA9E05B"
+			rewards: [
+				{
+					id: "0760C11655666F24"
+					type: "xp"
+					xp: 12
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FFAEF718D511781"
+					table_id: 2463318728583418389L
+					type: "random"
+				}
+			]
+			size: 0.9d
+			subtitle: "{ftbquests.chapter.food.quest8838668841311133787.subtitle}"
+			tasks: [{
+				id: "69B89AE42FCED544"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.food.quest8838668841311133787.title}"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7AA9427B5DA9E05B"]
+			description: ["{ftbquests.chapter.food.quest8521034924732650764.description1}"]
+			id: "7640CC1E1F63150C"
+			rewards: [
+				{
+					id: "26DA39B34A93328D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36D0AACC9880D61F"
+					table_id: 2463318728583418389L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quest8521034924732650764.subtitle}"
+			tasks: [{
+				id: "3452363B5423F191"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.food.quest8521034924732650764.title}"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7640CC1E1F63150C"]
+			description: ["{ftbquests.chapter.food.quest879698013876065847.description1}"]
+			id: "0C3550AECAB31637"
+			rewards: [
+				{
+					id: "4DAC35D91CE5EE7A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "013E6491B41CF9C9"
+					table_id: 2095123579863749626L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.food.quest879698013876065847.subtitle}"
+			tasks: [{
+				id: "04D758439470BE0C"
+				item: {
+					Count: 1
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.food.quest879698013876065847.title}"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"71E6EB477ADBEC2D"
+				"0C3550AECAB31637"
+			]
+			description: [
+				"{ftbquests.chapter.food.quest675202751811941878.description1}"
+				""
+				"{ftbquests.chapter.food.quest675202751811941878.description2}"
+				""
+				"{ftbquests.chapter.food.quest675202751811941878.description3}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:luck_of_the_sea"
+						lvl: 3s
+					}]
+				}
+			}
+			id: "095ECD534D1DF5F6"
+			optional: true
+			rewards: [
+				{
+					id: "298E61EF220639BC"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:luck_of_the_sea"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "452E6BB87153D290"
+					item: "minecraft:conduit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3A104F3483F32AD3"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "47670D459E140CA8"
+					item: "minecraft:prismarine_crystals"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "484588FC7C2194D1"
+					item: "aquaculturedelight:halaszle"
+					type: "item"
+				}
+				{
+					id: "70F140AD0BD28351"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D5E89569ABBD3BE"
+					item: "aquaculture:neptunium_fillet_knife"
+					type: "item"
+				}
+				{
+					id: "5DF29C35DC4D18B7"
+					item: {
+						Count: 1
+						id: "aquaculturedelight:neptunium_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "003376F4D9AF0C3C"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+				{
+					id: "0006FDD94665E1EB"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.33d
+			subtitle: "{ftbquests.chapter.food.quest675202751811941878.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "47204CDDF3E97054"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "22E26F0FBED976E8"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "768D6A22B4723B4C"
+					item: "aquaculture:atlantic_cod"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "031999E27F7C4B01"
+					item: "aquaculture:blackfish"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "70296C021DFE601A"
+					item: "aquaculture:pacific_halibut"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4AC4F9C977283213"
+					item: {
+						Count: 1
+						id: "aquaculture:atlantic_herring"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2AE29E22349C0ACD"
+					item: {
+						Count: 1
+						id: "aquaculture:atlantic_halibut"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5204459E12CCADDF"
+					item: "aquaculture:pink_salmon"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "60B7054B4E0E51BC"
+					item: "aquaculture:rainbow_trout"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6F3D50A8BF926C34"
+					item: "aquaculture:bayad"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7CBD863A449F6BD2"
+					item: "aquaculture:boulti"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5630C2F8637E920F"
+					item: {
+						Count: 1
+						id: "aquaculture:minnow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "434BA9A1FB30353D"
+					item: "aquaculture:capitaine"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1BFE478E7C054263"
+					item: "aquaculture:muskellunge"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "33B89D1261A82570"
+					item: "aquaculture:synodontis"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3A9C8DFC57F951D9"
+					item: "aquaculture:perch"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "56F4A3EA5D5C5ED0"
+					item: "aquaculture:smallmouth_bass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "483D0A18996384D6"
+					item: "aquaculture:arapaima"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1CB8F3D2FF4B47D4"
+					item: "aquaculture:bluegill"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4F2D8B28437139B7"
+					item: "aquaculture:brown_trout"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2EAB46C14CBD1DD9"
+					item: "aquaculture:catfish"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "06E3C821661068D9"
+					item: "aquaculture:carp"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5FC5DD86E06CCA9E"
+					item: "aquaculture:gar"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2C3878BABAF80459"
+					item: "aquaculture:piranha"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2A3CC7C970F9CAF4"
+					item: "aquaculture:tambaqui"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "136B9178DDE64D96"
+					item: "aquaculture:tuna"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6ED706B5372E8331"
+					item: {
+						Count: 1
+						id: "aquaculture:pollock"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "014505A9A0631E06"
+					item: "aquaculture:red_grouper"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "08848E8EC58102D3"
+					item: "aquaculture:goldfish"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "01B6A64838FA399B"
+					item: "aquaculture:red_shrooma"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "323793F11ADD6AFB"
+					item: "aquaculture:brown_shrooma"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7E7D6029E3BF3AF6"
+					item: "minecraft:tropical_fish"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6DE4F1B756DC6849"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0502972629227CB7"
+					item: "aquaculture:box_turtle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3F5F17139EBADB8D"
+					item: "aquaculture:arrau_turtle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2FBA13B067840E9E"
+					item: "aquaculture:jellyfish"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0AFEC91A19F86EEE"
+					item: {
+						Count: 1
+						id: "minecraft:nautilus_shell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest675202751811941878.title}"
+			x: -1.8428571428571274d
+			y: 4.517857142857146d
+		}
+		{
+			dependencies: ["1DC94F7A2850140D"]
+			description: ["{ftbquests.chapter.food.quest240832914854397737.description1}"]
+			id: "03579C42941E4729"
+			rewards: [
+				{
+					id: "70EED66571D7A6C1"
+					item: "chipped:fish_barrel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "65E37AA75BCC47FB"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49B7CDB6B97E129A"
+					table_id: 2463318728583418389L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quest240832914854397737.subtitle}"
+			tasks: [{
+				id: "0B0BE188C64A7818"
+				item: "fishermens_trap:fishtrap"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.food.quest240832914854397737.title}"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07FEB640E1DB81EB"]
+			description: [
+				"{ftbquests.chapter.food.quest2236100221285554810.description1}"
+				""
+				"{ftbquests.chapter.food.quest2236100221285554810.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:brown_mushroom_colony"
+			id: "1F08394DCBE5DA7A"
+			optional: true
+			rewards: [
+				{
+					id: "0ECBF6ED6B368F39"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "farmersdelight:backstabbing"
+								lvl: 10s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "211379030ECFC7FC"
+					item: {
+						Count: 1
+						id: "unusual_delight:enchanted_golden_apple_juice"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5878045FC1DD52B9"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "0D9BE16B780FAB87"
+					item: {
+						Count: 1
+						id: "farmersdelight:netherite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C4D1E73FC289192"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.33d
+			subtitle: "{ftbquests.chapter.food.quest2236100221285554810.subtitle}"
+			tasks: [
+				{
+					id: "236A21B4ED46BD37"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "2666AE9ADB84A371"
+					item: {
+						Count: 1
+						id: "minecraft:pumpkin_seeds"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "145384D4D20B5468"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+				{
+					id: "427CB56CE0E5B9BD"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+				{
+					id: "494E0E08B5A156E1"
+					item: "supplementaries:flax_seeds"
+					type: "item"
+				}
+				{
+					id: "421A317D037C850F"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					id: "181E1E3D67FCDE64"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "642AA90D925E48C1"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+				{
+					id: "23AD811096E2D2F4"
+					item: "miners_delight:cave_carrot"
+					type: "item"
+				}
+				{
+					id: "595888D2D857A619"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "42BBD6ABD6D41031"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "76D7D4DFCE13384F"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					id: "59E05C37AF63D7A3"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					id: "1F5A1B1188BD233C"
+					item: {
+						Count: 1
+						id: "minecraft:sweet_berries"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "43B2F303B1CF6241"
+					item: "harmfulsmoke:tobacco_seeds"
+					type: "item"
+				}
+				{
+					id: "393CA65741D0DE33"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "250A78C7AED1D900"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "3EE15746ED0051F9"
+					item: "minecraft:crimson_fungus"
+					type: "item"
+				}
+				{
+					id: "1D1F5DA5EA63C4B0"
+					item: "minecraft:warped_fungus"
+					type: "item"
+				}
+				{
+					id: "49173F79492EFA1A"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest2236100221285554810.title}"
+			x: -1.860357142857147d
+			y: 0.25892857142857295d
+		}
+		{
+			dependencies: ["07FEB640E1DB81EB"]
+			description: [
+				"{ftbquests.chapter.food.quest2553564452613488978.description1}"
+				""
+				"{ftbquests.chapter.food.quest2553564452613488978.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:spruce_sapling"
+			id: "237015571D178152"
+			optional: true
+			rewards: [
+				{
+					command: "/give @p minecraft:totem_of_undying 3"
+					icon: "minecraft:totem_of_undying"
+					id: "382DF6157C7C1ACB"
+					title: "{ftbquests.chapter.food.quest2553564452613488978.reward.4048162212219198155.title}"
+					type: "command"
+				}
+				{
+					command: "/effect give @p minecraft:hero_of_the_village 300 4"
+					icon: "minecraft:emerald"
+					id: "7CB731415897F85D"
+					title: "{ftbquests.chapter.food.quest2553564452613488978.reward.8986705738170103901.title}"
+					type: "command"
+				}
+				{
+					count: 12
+					id: "5BFCDDEE83879826"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "051ECA2A9D171BE7"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72EC8EA2B38EB81C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.33d
+			subtitle: "{ftbquests.chapter.food.quest2553564452613488978.subtitle}"
+			tasks: [
+				{
+					id: "5269C158099EE9D4"
+					item: "minecraft:bamboo"
+					type: "item"
+				}
+				{
+					id: "30E9FBBAD6F4CC7A"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "1BEC4A0021DDA31A"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					id: "66E7E205A560F547"
+					item: "minecraft:flowering_azalea"
+					type: "item"
+				}
+				{
+					id: "12970CF49DBF78CD"
+					item: "ecologics:coconut_seedling"
+					type: "item"
+				}
+				{
+					id: "4E07C3407D348FAA"
+					item: "minecraft:mangrove_propagule"
+					type: "item"
+				}
+				{
+					id: "3717FA18353B9788"
+					item: "biomesoplenty:mahogany_sapling"
+					type: "item"
+				}
+				{
+					id: "096E4759120501A5"
+					item: "biomesoplenty:redwood_sapling"
+					type: "item"
+				}
+				{
+					id: "199B1A78E4A96F15"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "5260AD9ACF4FB96B"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "0E769E343233892E"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					id: "03B0DE02475C4D0B"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "647770115C285C49"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "1FCC2B2D7E75DBA4"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "0ADEDB7002290CC4"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "5F34A97C4095DCD4"
+					item: "biomesoplenty:umbran_sapling"
+					type: "item"
+				}
+				{
+					id: "16680D0BE51C0958"
+					item: "biomesoplenty:fir_sapling"
+					type: "item"
+				}
+				{
+					id: "54810A3D92666313"
+					item: "biomesoplenty:maple_sapling"
+					type: "item"
+				}
+				{
+					id: "57E21D92CF1A6F2E"
+					item: "biomesoplenty:orange_autumn_sapling"
+					type: "item"
+				}
+				{
+					id: "6641A3948B56CBA7"
+					item: "biomesoplenty:snowblossom_sapling"
+					type: "item"
+				}
+				{
+					id: "202AECB1662499C0"
+					item: "biomesoplenty:yellow_autumn_sapling"
+					type: "item"
+				}
+				{
+					id: "6EE977DE721AB6AF"
+					item: "biomesoplenty:flowering_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "7FD149081A49AC06"
+					item: "ecologics:walnut_sapling"
+					type: "item"
+				}
+				{
+					id: "64B04CC56BABDCE0"
+					item: "biomesoplenty:jacaranda_sapling"
+					type: "item"
+				}
+				{
+					id: "0C1CA2B6153E8B53"
+					item: "biomesoplenty:palm_sapling"
+					type: "item"
+				}
+				{
+					id: "18D58F820477F497"
+					item: "biomesoplenty:dead_sapling"
+					type: "item"
+				}
+				{
+					id: "324649ED58010073"
+					item: "biomesoplenty:willow_sapling"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest2553564452613488978.title}"
+			x: -1.860357142857147d
+			y: 1.616071428571427d
+		}
+		{
+			dependencies: ["292CF616059511E3"]
+			description: [
+				"{ftbquests.chapter.food.quest6728281494977871279.description1}"
+				""
+				"{ftbquests.chapter.food.quest6728281494977871279.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "drinkbeer:beer_mug"
+			id: "5D5FA85F28FD7DAF"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.food.quest6728281494977871279.subtitle}"
+			tasks: [{
+				id: "55844AF28EB14F57"
+				title: "{ftbquests.chapter.food.quest6728281494977871279.task.6162132595786207063.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.food.quest6728281494977871279.title}"
+			x: -6.0d
+			y: 7.8d
+		}
+		{
+			dependencies: ["4F2094CD060C3DF7"]
+			description: ["{ftbquests.chapter.food.quest8201823533495931291.description1}"]
+			id: "71D2BB0C7076D19B"
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.food.quest8201823533495931291.subtitle}"
+			tasks: [{
+				id: "1229B7DF67C608F2"
+				item: "astikorcarts:plow"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.food.quest8201823533495931291.title}"
+			x: -5.4104910714285595d
+			y: -0.11003401360543918d
+		}
+		{
+			dependencies: ["5D5FA85F28FD7DAF"]
+			description: [
+				"{ftbquests.chapter.food.quest3180152784205027696.description1}"
+				""
+				"{ftbquests.chapter.food.quest3180152784205027696.description2}"
+				""
+				"{ftbquests.chapter.food.quest3180152784205027696.description3}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "drinkbeer:beer_barrel"
+				tag: { }
+			}
+			id: "2C222C1BAA029970"
+			rewards: [
+				{
+					id: "6684807CDB7F72CE"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47E67C4F47EC7BEA"
+					table_id: 886270737047987855L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quest3180152784205027696.subtitle}"
+			tasks: [
+				{
+					id: "6618EF64645E3E5B"
+					item: {
+						Count: 64
+						id: "drinkbeer:beer_barrel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1FF8A6BCB19A3440"
+					item: "drinkbeer:recipe_board_package"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4D79AB752254140D"
+					item: "drinkbeer:empty_beer_mug"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.food.quest3180152784205027696.title}"
+			x: -4.922678571428563d
+			y: 7.7087159863945445d
+		}
+		{
+			dependencies: ["52507AF704D6CA86"]
+			description: [
+				"{ftbquests.chapter.food.quest6982481365639786138.description1}"
+				""
+				"{ftbquests.chapter.food.quest6982481365639786138.description2}"
+				""
+				"{ftbquests.chapter.food.quest6982481365639786138.description3}"
+			]
+			id: "60E6C1CEA9BE6E9A"
+			rewards: [
+				{
+					id: "0C8243281D78EC2A"
+					item: "drinkbeer:golden_call_bell"
+					type: "item"
+				}
+				{
+					id: "1102EE36612CA87E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "35966EB4929498D3"
+					item: "drinkbeer:spice_frozen_persimmon"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EA20CC571B314A6"
+					table_id: 886270737047987855L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quest6982481365639786138.subtitle}"
+			tasks: [{
+				id: "660E9899523FB513"
+				item: "drinkbeer:bartending_table_normal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.food.quest6982481365639786138.title}"
+			x: -3.029821428571424d
+			y: 7.7087159863945445d
+		}
+		{
+			dependencies: ["2C222C1BAA029970"]
+			description: [
+				"{ftbquests.chapter.food.quest5931375910603639430.description1}"
+				""
+				"{ftbquests.chapter.food.quest5931375910603639430.description2}"
+				""
+				"{ftbquests.chapter.food.quest5931375910603639430.description3}"
+			]
+			id: "52507AF704D6CA86"
+			rewards: [
+				{
+					id: "7A21F66B39979C83"
+					item: "drinkbeer:iron_call_bell"
+					type: "item"
+				}
+				{
+					id: "4F4B3D0283B19A30"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "6DDA2D0F4008C3D6"
+					item: "drinkbeer:spice_dried_eglia_bud"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.food.quest5931375910603639430.subtitle}"
+			tasks: [{
+				id: "0A2519C849356149"
+				item: {
+					Count: 1
+					id: "drinkbeer:trade_box_normal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.food.quest5931375910603639430.title}"
+			x: -3.994107142857132d
+			y: 7.7087159863945445d
+		}
+		{
+			dependencies: ["2B8912147A925D4C"]
+			dependency_requirement: "one_started"
+			description: ["{ftbquests.chapter.food.quest19794516806065579.description1}"]
+			id: "0046530216B9DDAB"
+			rewards: [
+				{
+					id: "4D505AA01535FBA2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07A6FC8A3D985E6F"
+					table_id: 5688615000447141348L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.food.quest19794516806065579.subtitle}"
+			tasks: [{
+				id: "72325540E6A46205"
+				item: "butcher:basin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.food.quest19794516806065579.title}"
+			x: -3.4962053571428484d
+			y: 2.3721088435374114d
+		}
+	]
+	title: "{ftbquests.chapter.food.title}"
+}

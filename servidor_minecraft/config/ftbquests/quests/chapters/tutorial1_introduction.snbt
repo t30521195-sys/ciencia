@@ -1,0 +1,389 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial1_introduction"
+	group: "3F9C023240F7E22E"
+	icon: "mca:book_supporters"
+	id: "0A67989CF46C597D"
+	images: [
+		{
+			click: "#43CC2D08C8360E71"
+			dependency: "7C2704FCDDE148D1"
+			height: 0.7d
+			hover: ["ftbquests.chapter.tutorial1_introduction.image.hovertext1"]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.7d
+			x: -1.25d
+			y: -5.5d
+		}
+		{
+			click: "https://discord.gg/voidcube"
+			height: 1.0d
+			image: "supplementaries:textures/gui/book/icon/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			click: "https://www.bisecthosting.com/voidcube"
+			height: 1.0d
+			hover: ["ftbquests.chapter.tutorial1_introduction.image.hovertext2"]
+			image: "bhmenu:textures/gui/serverlistbanner/icon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			height: 0.5d
+			image: "ftblibrary:icons/down"
+			rotation: 54.0d
+			width: 0.5d
+			x: -2.214285714285687d
+			y: -6.714285714285715d
+		}
+		{
+			height: 0.5d
+			image: "ftblibrary:icons/down"
+			rotation: -54.0d
+			width: 0.5d
+			x: 3.2142857142857295d
+			y: -6.714285714285715d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest8946124668895578321.description1}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest8946124668895578321.description2}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest8946124668895578321.description3}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest8946124668895578321.description4}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest8946124668895578321.description5}"
+			]
+			icon: "mca:book_supporters"
+			id: "7C2704FCDDE148D1"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest8946124668895578321.subtitle}"
+			tasks: [{
+				id: "16D845D07908E0F3"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest8946124668895578321.task.1646142425490055411.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest8946124668895578321.title}"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7C2704FCDDE148D1"]
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest7848855421767580470.description1}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest7848855421767580470.description2}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest7848855421767580470.description3}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest7848855421767580470.description4}"
+				"{ftbquests.chapter.tutorial1_introduction.quest7848855421767580470.description5}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "6CECBC6BCBDAFB36"
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest7848855421767580470.subtitle}"
+			tasks: [{
+				id: "40AF4E85EC496C44"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest7848855421767580470.task.4661030476453604420.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest7848855421767580470.title}"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C2704FCDDE148D1"]
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest3004666476107100731.description1}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest3004666476107100731.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:map"
+			id: "29B2B83D98E3723B"
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest3004666476107100731.subtitle}"
+			tasks: [{
+				id: "12F3C7F8E4EAA3AE"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest3004666476107100731.task.1365654983829791662.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest3004666476107100731.title}"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C2704FCDDE148D1"]
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest8908245395249814386.description1}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest8908245395249814386.description2}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest8908245395249814386.description3}"
+			]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "7BA071FD33DFDB72"
+			rewards: [{
+				id: "64A8088A8A34A4BA"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest8908245395249814386.subtitle}"
+			tasks: [{
+				id: "2AB05CA5C9023F98"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest8908245395249814386.task.3076060412605775768.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest8908245395249814386.title}"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C2704FCDDE148D1"]
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest7700414029169030973.description1}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest7700414029169030973.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:campfire"
+			id: "6ADD5DC2D00DF73D"
+			optional: true
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest7700414029169030973.subtitle}"
+			tasks: [{
+				id: "7BCC79C3A978E696"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest7700414029169030973.task.8920638843182966422.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest7700414029169030973.title}"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6ADD5DC2D00DF73D"]
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest1692950753814004985.description1}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest1692950753814004985.description2}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest1692950753814004985.description3}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "simpleradio:walkie_talkie"
+				tag: {
+					frequency: "473.38"
+					modulation: "FM"
+				}
+			}
+			id: "177E91BDAF5044F9"
+			optional: true
+			rewards: [{
+				id: "08A4A274FB3143CC"
+				item: "simpleradio:antenna"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest1692950753814004985.subtitle}"
+			tasks: [{
+				id: "4097ADB9C0A8AC43"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest1692950753814004985.task.4654379753223531587.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest1692950753814004985.title}"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6ADD5DC2D00DF73D"]
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest7083772992907307051.description1}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest7083772992907307051.description2}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest7083772992907307051.description3}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest7083772992907307051.description4}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest7083772992907307051.description5}"
+			]
+			hide_until_deps_complete: true
+			icon: "supplementaries:speaker_block"
+			id: "624E9E016FBEE82B"
+			optional: true
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest7083772992907307051.subtitle}"
+			tasks: [{
+				id: "43685D5B0C86378F"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest7083772992907307051.task.4857234843752609679.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest7083772992907307051.title}"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C2704FCDDE148D1"]
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest4885329211532119665.description1}"
+				"{ftbquests.chapter.tutorial1_introduction.quest4885329211532119665.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "43CC2D08C8360E71"
+			optional: true
+			size: 0.01d
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest4885329211532119665.subtitle}"
+			tasks: [{
+				id: "4DD9CE79C2DADCD4"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest4885329211532119665.task.5609741833222151380.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest4885329211532119665.title}"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7E8D18B5F927FD89"]
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest242283860251438381.description1}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest242283860251438381.description2}"
+			]
+			icon: "refurbished_furniture:oak_chair"
+			id: "035CC3E32118ED2D"
+			optional: true
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest242283860251438381.subtitle}"
+			tasks: [{
+				id: "7FF9146B7B0C497D"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest242283860251438381.task.9221424163876260221.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest242283860251438381.title}"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BA071FD33DFDB72"]
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest3745560432383991433.description1}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest3745560432383991433.description2}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest3745560432383991433.description3}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest3745560432383991433.description4}"
+			]
+			icon: "mca:blueprint"
+			id: "33FAE75E51019E89"
+			optional: true
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest3745560432383991433.subtitle}"
+			tasks: [{
+				id: "3B96D004F57A1C59"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest3745560432383991433.task.4293848014461213785.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest3745560432383991433.title}"
+			x: 2.107142857142854d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6ADD5DC2D00DF73D"]
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest9118971990343417225.description1}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest9118971990343417225.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:jukebox"
+			id: "7E8D18B5F927FD89"
+			optional: true
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest9118971990343417225.subtitle}"
+			tasks: [{
+				id: "1C9C6DF16632B318"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest9118971990343417225.task.2061643612997989144.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest9118971990343417225.title}"
+			x: 0.5d
+			y: -1.2714285714285793d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest5380969638962366287.description1}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest5380969638962366287.description2}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest5380969638962366287.description3}"
+				"{ftbquests.chapter.tutorial1_introduction.quest5380969638962366287.description4}"
+				"{ftbquests.chapter.tutorial1_introduction.quest5380969638962366287.description5}"
+				"{ftbquests.chapter.tutorial1_introduction.quest5380969638962366287.description6}"
+				"{ftbquests.chapter.tutorial1_introduction.quest5380969638962366287.description7}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest5380969638962366287.description8}"
+			]
+			hide_dependency_lines: true
+			icon: "securitycraft:username_logger"
+			id: "4AAD0B608583874F"
+			optional: true
+			shape: "heart"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest5380969638962366287.subtitle}"
+			tasks: [{
+				id: "265CEB3A93797E87"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest5380969638962366287.task.2764342908113485447.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest5380969638962366287.title}"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.tutorial1_introduction.quest885085076463811650.description1}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest885085076463811650.description2}"
+				"{ftbquests.chapter.tutorial1_introduction.quest885085076463811650.description3}"
+				"{ftbquests.chapter.tutorial1_introduction.quest885085076463811650.description4}"
+				""
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest885085076463811650.description5}"
+				""
+				"{ftbquests.chapter.tutorial1_introduction.quest885085076463811650.description6}"
+			]
+			hide_dependency_lines: true
+			icon: "amendments:dragon_charge"
+			id: "0C4874300A9FFC42"
+			optional: true
+			shape: "heart"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.tutorial1_introduction.quest885085076463811650.subtitle}"
+			tasks: [{
+				id: "38EB93FA08EA04B7"
+				title: "{ftbquests.chapter.tutorial1_introduction.quest885085076463811650.task.4101534587751630007.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tutorial1_introduction.quest885085076463811650.title}"
+			x: 2.5d
+			y: -7.0d
+		}
+	]
+	title: "{ftbquests.chapter.tutorial1_introduction.title}"
+}

@@ -1,0 +1,193 @@
+
+["Radioactive Client Configuration"]
+
+	#Geiger Counter Overlay Settings
+	#Look and position of the old analog Geiger counter HUD
+	["Radioactive Client Configuration".geiger_overlay]
+		#Show the old analog Geiger counter HUD while one is equipped
+		enabled = true
+		#Show only one geiger HUD at a time
+		#True picks the advanced one first, then the old one, then the shoddy one.
+		#A counter in the geiger Curios slot always wins instead
+		bestOnly = true
+		#Show stored radiation as a percentage in the middle of the radiation bar,
+		#or on the readout line when the bar is off
+		#Coloured to match how full the bar is
+		showPercentage = true
+		#Unused. The percentage now shares the readout line, so the 'gauge' section's
+		#textBackground covers it. Kept so updating does not delete the key.
+		percentageBackground = false
+		#Size of the old Geiger HUD (1.0 = normal)
+		#Range: 0.5 ~ 2.0
+		scale = 1.0
+
+		#Gauge Position
+		["Radioactive Client Configuration".geiger_overlay.gauge]
+			#Screen corner the gauge sits in
+			#This moves the whole old HUD: dial, radiation bar and readout line
+			#Options: BOTTOM_LEFT, BOTTOM_RIGHT, TOP_LEFT, TOP_RIGHT
+			#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+			anchor = "BOTTOM_LEFT"
+			#Horizontal offset from the anchor position (positive = right)
+			#Range: -500 ~ 500
+			offsetX = 10
+			#Vertical offset from the anchor position (positive = down)
+			#Range: -500 ~ 500
+			offsetY = -10
+			#Show the effective and exposure Rad/s figures on the readout line
+			#Each is coloured by how bad it is
+			showText = true
+			#Show a dark background behind the readout line and the bar's percentage,
+			#so they stay readable
+			textBackground = true
+
+		#Radiation Bar
+		["Radioactive Client Configuration".geiger_overlay.bar]
+			#Show the stored radiation bar under the dial
+			#The dial reads the rate right now. The bar fills left to right as stored
+			#radiation climbs towards maxRadiation
+			#With fading on, the bar also wakes on its own while the stored dose moves,
+			#so a drain shows without bringing the whole dial back
+			#The bar has no position of its own. It rides in the stack the 'gauge'
+			#section places, and the dial keeps its slot even when only the bar shows,
+			#so nothing slides around
+			enabled = true
+
+	#Advanced Digital Geiger Overlay Settings
+	#Look and position of the modern digital HUD
+	["Radioactive Client Configuration".advanced_geiger_overlay]
+		#Show the advanced digital Geiger HUD while one is equipped
+		enabled = true
+		#Screen corner the digital display sits in
+		#Options: BOTTOM_LEFT, BOTTOM_RIGHT, TOP_LEFT, TOP_RIGHT
+		#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+		anchor = "BOTTOM_LEFT"
+		#Horizontal offset from the anchor position (positive = right)
+		#Range: -500 ~ 500
+		offsetX = 10
+		#Vertical offset from the anchor position (positive = down)
+		#Range: -500 ~ 500
+		offsetY = -10
+		#Size of the digital HUD (1.0 = normal)
+		#Range: 0.5 ~ 2.0
+		scale = 1.0
+		#Show a dark panel behind the digital text
+		textBackground = true
+
+	#Geiger HUD Fading
+	#Both Geiger HUDs fade in when the counter picks something up and fade out
+	#again once it goes quiet, rather than sitting on screen forever
+	["Radioactive Client Configuration".overlay_fade]
+		#Fade the Geiger HUDs in and out
+		#False keeps them on screen the whole time a counter is equipped
+		enabled = true
+		#Unused. Holding a counter now always pins its HUD on screen, so the wake
+		#level below can never hide the reading from someone looking right at the
+		#device. Kept so updating does not delete the key.
+		visibleWhenHeld = true
+		#Reading in rads/s that wakes the HUD. 0 wakes on anything above background
+		#Under that the HUD stays down, so faint readings do not keep flashing it up.
+		#The ticking sound carries on either way. Once a reading passes the level the
+		#HUD stays up until the counter falls quiet for good, and dipping back under
+		#part way through does not drop it.
+		#Holding a counter always shows its HUD whatever this is set to
+		#Range: 0.0 ~ 1000.0
+		wakeThresholdRadsPerSecond = 0.0
+		#Seconds to fade the HUD in. 0 snaps it on
+		#Range: 0.0 ~ 10.0
+		fadeInSeconds = 0.35
+		#Seconds to fade the HUD out. 0 snaps it off
+		#Range: 0.0 ~ 10.0
+		fadeOutSeconds = 1.0
+		#How long the HUD holds after the last reading before it starts to fade
+		#Raise it to keep the reading up long enough to watch it fall once you are
+		#out of a hot zone. The wait restarts on every reading, and while you hold
+		#the counter.
+		#Range: 0.0 ~ 120.0
+		lingerSeconds = 6.0
+
+	#Vacuum Tube Overlay Settings
+	#Look and position of the shoddy Geiger counter's vacuum tube HUD
+	["Radioactive Client Configuration".vacuum_tube_overlay]
+		#Show the vacuum tube while a shoddy Geiger counter is in your hand or hotbar
+		enabled = true
+		#Screen corner the vacuum tube sits in
+		#Set to match the 'gauge' section, so swapping a shoddy counter for a real one
+		#leaves the HUD in the same corner
+		#Options: BOTTOM_LEFT, BOTTOM_RIGHT, TOP_LEFT, TOP_RIGHT
+		#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+		anchor = "BOTTOM_LEFT"
+		#Horizontal offset from the anchor position (positive = right)
+		#Range: -500 ~ 500
+		offsetX = 10
+		#Vertical offset from the anchor position (positive = down)
+		#Range: -500 ~ 500
+		offsetY = -10
+		#Size of the vacuum tube HUD (1.0 = normal)
+		#Range: 0.5 ~ 2.0
+		scale = 1.0
+		#How slowly the tube's filament lights up, in seconds
+		#The glow eases towards the reading instead of jumping to it, so a spike in
+		#radiation brings the tube up over a moment rather than in one frame
+		#0 makes the glow follow the reading exactly, with no lag
+		#Range: 0.0 ~ 10.0
+		glowRiseSeconds = 0.6
+		#The same, for cooling back down. Slower than the rise by default, the way a
+		#real filament takes longer to go dark than it does to light
+		#Range: 0.0 ~ 10.0
+		glowFallSeconds = 2.0
+		#Show the radiation level as a word under the tube
+		#The shoddy counter only gives words: None, Low, Medium, High, Extreme.
+		#A real Geiger counter gives you numbers
+		showText = true
+		#Show a dark background behind the word, so it stays readable
+		textBackground = true
+		#Shatter the tube when it blows, instead of swapping straight to the broken one
+		#The glass bursts into shards that spin away, the filament's glow whips from
+		#blue to a dying red and fades out, and the broken tube eases in underneath
+		#Off makes the broken tube appear in a single frame
+		breakEffect = true
+		#How long the shatter runs, in seconds
+		#Range: 0.1 ~ 5.0
+		breakSeconds = 1.0
+		#How long the filament's heat lasts on a blown tube, in seconds
+		#Once the shatter is over the wreck keeps a warm red glow that reddens and
+		#cools to nothing over this time. It does not hold the HUD open: a dead
+		#counter reads nothing, so unless you are holding it or standing in radiation
+		#the HUD fades on its usual timer and takes the glow with it
+		#0 leaves the tube dark the moment it stops shattering
+		#Range: 0.0 ~ 600.0
+		emberSeconds = 120.0
+
+	#Radiation Sense
+	#Feeling a hot area without a counter: a sickly vignette closes in and the
+	#screen picks up radiation speckle as the rate climbs
+	#The server decides whether any of this runs at all - see enableRadiationSense
+	#in radioactive-common.toml. Nothing here can switch it on if the server has it
+	#off; these only control how it looks once the server has allowed it
+	["Radioactive Client Configuration".radiation_sense]
+		#Show the effect at all
+		#False opts you out on a server that has it enabled
+		enabled = true
+		#Strength of the vignette closing in from the edges. 0 disables just the
+		#vignette and leaves the speckle
+		#Range: 0.0 ~ 1.0
+		vignetteIntensity = 1.0
+		#Strength of the speckle. 0 disables just the speckle and leaves the vignette
+		#Turn this down first if the effect is uncomfortable to look at - the speckle
+		#is the part that moves
+		#Range: 0.0 ~ 1.0
+		grainIntensity = 1.0
+		#Rate in rads/s at which the effect starts, faintly
+		#Below this the screen is clean and a Geiger counter is the only way to know.
+		#The default sits at the bottom of the MODERATE band, so trace and low readings
+		#stay the counter's job
+		#Range: 0.0 ~ 1000.0
+		startRads = 5.0
+		#Rate in rads/s at which the effect reaches full strength and stops growing
+		#The default is the bottom of the EXTREME band. Anything above it looks the
+		#same, so a truly lethal area does not white the screen out entirely
+		#Must be above startRads
+		#Range: 0.0 ~ 1000.0
+		fullRads = 40.0
+

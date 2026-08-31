@@ -1,0 +1,36 @@
+
+#Console and terminal screen appearance.
+[ui]
+	#Draw the CRT scanline overlay on console panels.
+	scanlines = true
+	#Rows between successive scanlines. Larger is subtler.
+	#Range: 2 ~ 32
+	scanlinePeriod = 3
+	#Milliseconds per row of downward scanline drift. 0 freezes the pattern.
+	#Range: 0 ~ 10000
+	scanlineDriftMs = 110
+	#Draw the grime/noise speckle over panel interiors.
+	grime = true
+
+#Console audio.
+[sound]
+	#Distance at which the locator hum becomes silent.
+	#Range: 1.0 ~ 128.0
+	terminalMaxAudibleDistance = 32.0
+	#Distance at which the locator hum starts fading out. Should be below the max.
+	#Range: 0.0 ~ 128.0
+	terminalFadeStartDistance = 18.0
+	#Volume of the locator hum at full strength.
+	#Range: 0.0 ~ 1.0
+	terminalLoopVolume = 0.8
+
+#Particle effects.
+[vfx]
+	#Show sparks and smoke when a shield deflects a bullet.
+	deflectionParticles = true
+	#Scale on the number of particles spawned by deflections. 0 spawns none.
+	#Blast door dust is spawned by the server and broadcast, so it is not controllable here —
+	#see blast_doors.spawnParticles in the common config.
+	#Range: 0.0 ~ 4.0
+	particleDensity = 1.0
+

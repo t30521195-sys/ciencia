@@ -1,0 +1,24 @@
+{
+	icon: "dustrial_decor:cardboard_box"
+	id: "1FBB1C2505F2C065"
+	loot_size: 2
+	order_index: 9
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "minecraft:gunpowder"
+				tag: { }
+			}
+			random_bonus: 8
+		}
+		{ count: 36, item: "minecraft:copper_ingot", random_bonus: 12 }
+		{ count: 3, item: "minecraft:amethyst_shard", random_bonus: 3 }
+		{ count: 4, item: "create:zinc_ingot", random_bonus: 2 }
+		{ count: 16, item: "minecraft:iron_ingot", random_bonus: 4 }
+		{ count: 4, item: "createdeco:industrial_iron_ingot", random_bonus: 2 }
+	]
+	title: "{ftbquests.loot_table.2286452181159821413.title}"
+	use_title: true
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "forge:condition": {
+    "type": "simpleradio:items_enabled",
+    "item": "speaker_module"
+  },
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "simpleradio:items_enabled",
+      "item": "speaker_module"
+    }
+  ],
+  "pattern": [
+    "R",
+    "C",
+    "N"
+  ],
+  "result": {
+    "item": "simpleradio:speaker_module"
+  },
+  "show_notification": true
+}

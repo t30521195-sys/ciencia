@@ -1,0 +1,16 @@
+{
+  "radiationThreshold": 1000,
+  "tickRate": 20,
+  "stackEffectsFromLowerLevels": true,
+  "radiationEffects": [
+    {
+      "name": "radioactive:impending_death",
+      "amplifier": 0,
+      "duration": 200,
+      "apply_once": true,
+      "chance": 1.0,
+      "show_particles": false
+    }
+  ]
+}
+

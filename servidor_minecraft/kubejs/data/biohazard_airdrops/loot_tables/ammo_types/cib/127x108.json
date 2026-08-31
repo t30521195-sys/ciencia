@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"cib:m99\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AmmoId:\"cib:127x108\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 8
+                        }
+                    ],
+                    "name": "tacz:ammo"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+	icon: "refurbished_furniture:spruce_drawer"
+	id: "01F0DA1F8DC44EC5"
+	loot_size: 2
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_acro_pistol"
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:light_extended_mag_3"
+				}
+			}
+			only_one: true
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:extended_mag_2"
+				}
+			}
+			only_one: true
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silencer_ptilopsis"
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_carbon_bone_c5"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:ammo_box"
+				tag: {
+					Level: 0
+				}
+			}
+			only_one: true
+			weight: 2.0f
+		}
+	]
+	title: "{ftbquests.loot_table.139851417505779397.title}"
+	use_title: true
+}

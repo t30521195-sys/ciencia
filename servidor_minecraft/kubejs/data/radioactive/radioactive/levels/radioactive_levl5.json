@@ -1,0 +1,75 @@
+{
+  "radiationThreshold": 800,
+  "tickRate": 40,
+  "stackEffectsFromLowerLevels": false,
+  "executeCommands": [],
+  "radiationDamage": {
+  "base": 0.1,               
+  "scaling_per_tick": 0.02,
+  "max_damage": 0.25          
+	},
+  "radiationAttributeModification": [
+    {
+      "name": "minecraft:generic.movement_speed",
+      "operation": "multiply_total",
+      "value": -0.25,
+      "persistent": true
+    }
+  ],
+  "radiationEffects": [
+    {
+      "name": "minecraft:hunger",
+      "amplifier": 1,
+      "duration": 200,
+      "is_ambient": false,
+      "show_particles": false,
+      "apply_once": true,
+      "chance": 1.00
+    },
+    {
+      "name": "minecraft:weakness",
+      "amplifier": 1,
+      "duration": 200,
+      "is_ambient": false,
+      "show_particles": false,
+      "apply_once": true,
+      "chance": 1.00
+    },
+    {
+      "name": "minecraft:darkness",
+      "amplifier": 0,
+      "duration": 80,
+      "is_ambient": true,
+      "show_particles": false,
+      "apply_once": true,
+      "chance": 0.15
+    },
+    {
+      "name": "radioactive:woozy",
+      "amplifier": 1,
+      "duration": 140,
+      "is_ambient": true,
+      "show_particles": false,
+      "apply_once": true,
+      "chance": 1.0
+    },
+    {
+      "name": "radioactive:radiation_poisoning",
+      "amplifier": 4,
+      "duration": 200,
+      "is_ambient": true,
+      "show_particles": false,
+      "apply_once": true,
+      "chance": 1.0
+    },
+    {
+      "name": "minecraft:mining_fatigue",
+      "amplifier": 1,
+      "duration": 200,
+      "is_ambient": true,
+      "show_particles": false,
+      "apply_once": true,
+      "chance": 1.0
+    }
+  ]
+}

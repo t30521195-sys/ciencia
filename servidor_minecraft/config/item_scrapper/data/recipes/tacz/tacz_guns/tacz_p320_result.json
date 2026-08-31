@@ -1,0 +1,21 @@
+{
+  "tacz:modern_kinetic_gun": [
+    {
+      "explosionPower": 0.0,
+      "requiredNbt": "{GunId:\"tacz:p320\"}",
+      "roundingType": "STANDARD",
+      "requiredHits": 2.4,
+      "explosionChance": 0.0,
+      "useDurabilityMultiplier": true,
+      "lootable": {
+        "amountForMaxReturn": 1,
+        "autoGenerateFromRecipe": true,
+        "recipeId": "tacz:p320",
+        "returnAmount": {
+          "min": 25.0,
+          "max": 35.0
+        }
+      }
+    }
+  ]
+}

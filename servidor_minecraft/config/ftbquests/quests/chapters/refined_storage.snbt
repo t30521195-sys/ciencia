@@ -1,0 +1,503 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "7644CAC7FDF62246"
+	icon: {
+		Count: 1
+		id: "refinedstorage:creative_portable_grid"
+		tag: { }
+	}
+	id: "42E5A3165C08EEBE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B7CBFCA41017135"]
+			description: [
+				"{ftbquests.chapter.refined_storage.quest7756892278631097607.description1}"
+				"{ftbquests.chapter.refined_storage.quest7756892278631097607.description2}"
+				""
+				"{ftbquests.chapter.refined_storage.quest7756892278631097607.description3}"
+				""
+				"{ftbquests.chapter.refined_storage.quest7756892278631097607.description4}"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "refinedstorage:64k_storage_part"
+			id: "6BA6046DFCC6E507"
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.refined_storage.quest7756892278631097607.subtitle}"
+			tasks: [{
+				id: "6C773CB9DC668D57"
+				title: "{ftbquests.chapter.refined_storage.quest7756892278631097607.task.7815782447289109847.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.refined_storage.quest7756892278631097607.title}"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6BA6046DFCC6E507"]
+			description: ["{ftbquests.chapter.refined_storage.quest1270164758105997538.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "refinedstorage:1k_storage_part"
+			id: "11A0881E2D20C0E2"
+			rewards: [
+				{
+					id: "5510B0548E799433"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7ACBE6E0D5A81451"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.refined_storage.quest1270164758105997538.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					id: "19CB03B96D7D7B17"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0451F8E465345670"
+					item: "refinedstorage:silicon"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6F910DF71F729982"
+					item: "refinedstorage:construction_core"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5578478EB475DBBB"
+					item: "refinedstorage:destruction_core"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6FAC27117694930B"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7CF32AB4A97040E6"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.refined_storage.quest1270164758105997538.title}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["140E92EA4FBD57B5"]
+			description: ["{ftbquests.chapter.refined_storage.quest7067856884261589346.description1}"]
+			hide_until_deps_visible: true
+			id: "621612639DB61162"
+			rewards: [{
+				id: "1E4A110A5F3038AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.refined_storage.quest7067856884261589346.subtitle}"
+			tasks: [{
+				id: "63F19FE2E29C0E40"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.refined_storage.quest7067856884261589346.title}"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11A0881E2D20C0E2"]
+			description: [
+				"{ftbquests.chapter.refined_storage.quest2752608586007812827.description1}"
+				""
+				"{ftbquests.chapter.refined_storage.quest2752608586007812827.description2}"
+			]
+			icon: "createaddition:alternator"
+			id: "26333AECCEAF9ADB"
+			rewards: [
+				{
+					id: "74F57F371707F125"
+					type: "xp"
+					xp: 12
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EB5ED1F67A4EC40"
+					table_id: 4612276858071995096L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.refined_storage.quest2752608586007812827.subtitle}"
+			tasks: [
+				{
+					id: "772F5213CD162163"
+					item: "refinedstorage:controller"
+					type: "item"
+				}
+				{
+					id: "069FB5BD45B90E4E"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.refined_storage.quest2752608586007812827.title}"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["26333AECCEAF9ADB"]
+			description: ["{ftbquests.chapter.refined_storage.quest1445254065490319285.description1}"]
+			id: "140E92EA4FBD57B5"
+			rewards: [{
+				id: "3AF361C2DE32641C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.refined_storage.quest1445254065490319285.subtitle}"
+			tasks: [{
+				id: "19BCA483B1D6AAF4"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.refined_storage.quest1445254065490319285.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["140E92EA4FBD57B5"]
+			description: ["{ftbquests.chapter.refined_storage.quest7342342275936889433.description1}"]
+			id: "65E53D66088D2A59"
+			rewards: [
+				{
+					id: "17421945FA878498"
+					type: "xp"
+					xp: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36952F401D04CBBD"
+					table_id: 4612276858071995096L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.refined_storage.quest7342342275936889433.subtitle}"
+			tasks: [{
+				id: "3EC1FDDE641CC8BE"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.refined_storage.quest7342342275936889433.title}"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["65E53D66088D2A59"]
+			description: ["{ftbquests.chapter.refined_storage.quest6583991085007133615.description1}"]
+			hide_until_deps_complete: true
+			id: "5B5F090222305BAF"
+			rewards: [
+				{
+					id: "69BCDCC4F8522247"
+					type: "xp"
+					xp: 4
+				}
+				{
+					exclude_from_claim_all: true
+					id: "657B68646581502F"
+					table_id: 4612276858071995096L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.refined_storage.quest6583991085007133615.subtitle}"
+			tasks: [{
+				id: "45868B3EC254AB48"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.refined_storage.quest6583991085007133615.title}"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B5F090222305BAF"]
+			description: ["{ftbquests.chapter.refined_storage.quest413954848125038637.description1}"]
+			hide_until_deps_complete: true
+			id: "05BEA9BDBB8B302D"
+			rewards: [
+				{
+					id: "30E1425D04031601"
+					type: "xp"
+					xp: 16
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0541E9B3AE4BAD8F"
+					table_id: 4612276858071995096L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.refined_storage.quest413954848125038637.subtitle}"
+			tasks: [{
+				id: "71337678ECF680BE"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.refined_storage.quest413954848125038637.title}"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["05BEA9BDBB8B302D"]
+			description: ["{ftbquests.chapter.refined_storage.quest5060548736468790183.description1}"]
+			hide_until_deps_complete: true
+			id: "463AAE438DC62BA7"
+			rewards: [
+				{
+					id: "73D6D1B4D6E70B4C"
+					type: "xp"
+					xp: 64
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32ABBA180CC83311"
+					table_id: 4612276858071995096L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.refined_storage.quest5060548736468790183.subtitle}"
+			tasks: [{
+				id: "14C5B32C111CCD69"
+				item: "refinedstorage:64k_storage_disk"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.refined_storage.quest5060548736468790183.title}"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["621612639DB61162"]
+			description: ["{ftbquests.chapter.refined_storage.quest1910749457054597337.description1}"]
+			hide_until_deps_complete: true
+			id: "1A845881F28280D9"
+			rewards: [
+				{
+					id: "404553769D2FE5D3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C65DEC410E1F6E3"
+					table_id: 4612276858071995096L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.refined_storage.quest1910749457054597337.subtitle}"
+			tasks: [{
+				id: "2DE6014DA543E4EB"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.refined_storage.quest1910749457054597337.title}"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["432A74E7950B90FD"]
+			description: [
+				"{ftbquests.chapter.refined_storage.quest5471514071197727016.description1}"
+				"{ftbquests.chapter.refined_storage.quest5471514071197727016.description2}"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "toms_storage:ts.wireless_terminal"
+			id: "4BEEB90EF54AB928"
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				id: "184B93A1EB816A4D"
+				title: "{ftbquests.chapter.refined_storage.quest5471514071197727016.task.1750655203813714509.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.refined_storage.quest5471514071197727016.title}"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4BEEB90EF54AB928"]
+			description: [
+				"{ftbquests.chapter.refined_storage.quest1872253533952539703.description1}"
+				""
+				"{ftbquests.chapter.refined_storage.quest1872253533952539703.description2}"
+				""
+				"{ftbquests.chapter.refined_storage.quest1872253533952539703.description3}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "toms_storage:ts.storage_terminal"
+			id: "19FB94AB64B5FC37"
+			rewards: [
+				{
+					id: "0C0ED77340C79C76"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D46ED8DF24BA353"
+					table_id: 6890526161011730323L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3C9E825D1F3F8990"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "7999BB80B88E73DE"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					id: "51C4211AB284F8A7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chests"
+						}
+					}
+					title: "{ftbquests.chapter.refined_storage.quest1872253533952539703.task.5891870611055376551.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.refined_storage.quest1872253533952539703.title}"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["19FB94AB64B5FC37"]
+			description: [
+				"{ftbquests.chapter.refined_storage.quest7636300368429982700.description1}"
+				"{ftbquests.chapter.refined_storage.quest7636300368429982700.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "toms_storage:ts.crafting_terminal"
+			id: "69F996B9EA7423EC"
+			rewards: [
+				{
+					id: "2D7427D5CF0F4C8B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B32288E3D939B53"
+					table_id: 6890526161011730323L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "217E64B0248A5F6F"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "63126EFBB3E90849"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+				{
+					id: "647B6C8A5A9AE0E1"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.refined_storage.quest7636300368429982700.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19FB94AB64B5FC37"]
+			description: ["{ftbquests.chapter.refined_storage.quest4639454115851833230.description1}"]
+			id: "4062A6EFFF128F8E"
+			optional: true
+			rewards: [
+				{
+					id: "696A4735495A3628"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CDE3D0FA7312ADC"
+					table_id: 6890526161011730323L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "46411348D585CBCC"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69F996B9EA7423EC"]
+			description: [
+				"{ftbquests.chapter.refined_storage.quest8382570991676820939.description1}"
+				""
+				"{ftbquests.chapter.refined_storage.quest8382570991676820939.description2}"
+			]
+			id: "7454DFE777640DCB"
+			optional: true
+			rewards: [
+				{
+					id: "744CAB90423C6B5D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "309E964995A11BC1"
+					table_id: 6890526161011730323L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CDF0AFD0FB0D714"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0A090696889B3C42"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+	]
+	title: "{ftbquests.chapter.refined_storage.title}"
+}

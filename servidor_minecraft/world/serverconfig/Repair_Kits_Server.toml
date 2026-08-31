@@ -1,0 +1,56 @@
+
+[golden_kit]
+	#Slowness/Fatigue
+	"Golden Kit Debuffs" = true
+	#Adjust How Strong Mining Fatigue Will Be 
+	"Golden Kit Mining Fatigue" = 1.0
+	"Golden Kit Durability" = 930.0
+
+[diamond_kit]
+	#Slowness/Fatigue
+	"Diamond Kit Debuffs" = true
+	#Adjust How Strong Mining Fatigue Will Be 
+	"Diamond Kit Mining Fatigue" = 1.0
+	#Adjust How Strong Slowness Will Be 
+	"Diamond Kit Slowness" = 1.0
+	"Diamond Kit Durability" = 1950.0
+
+[amethyst_kit]
+	#Slowness/Fatigue
+	"Amethyst Kit Debuffs" = true
+	#Adjust How Strong Mining Fatigue Will Be 
+	"Amethyst Kit Mining Fatigue" = 2.0
+	#Adjust How Strong Slowness Will Be 
+	"Amethyst Kit Slowness" = 1.0
+	"Amethyst Kit Durability" = 2150.0
+
+[netherite_kit]
+	#Slowness/Fatigue
+	"Netherite Kit Debuffs" = true
+	#Adjust How Strong Mining Fatigue Will Be 
+	"Netherite Kit Mining Fatigue" = 3.0
+	#Adjust How Strong Slowness Will Be 
+	"Netherite Kit Slowness" = 3.0
+	"Netherite Kit Durability" = 5000.0
+
+[kit_disabling]
+	"Copper Kit Disabled" = false
+	"Iron Kit Disabled" = false
+	"Golden Kit Disabled" = false
+	"Diamond Kit Disabled" = false
+	"Amethyst Kit Disabled" = false
+	"Netherite Kit Disabled" = false
+	"Tape Disabled" = false
+
+[copper_kit]
+	"Copper Kit Durability" = 300.0
+
+[iron_kit]
+	"Iron Kit Durability" = 780.0
+
+[duct_tape]
+	"Duct Tape Durability" = 190.0
+
+[blacklist]
+	"Item Black List" = []
+

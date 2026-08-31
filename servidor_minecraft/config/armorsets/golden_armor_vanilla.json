@@ -1,0 +1,46 @@
+{
+  "armorSetName": "goldenvanillaarmor",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "biohazardchanges:rusted_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "biohazardchanges:rusted_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "biohazardchanges:rusted_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "biohazardchanges:rusted_boots",
+    "mustBeEmpty": false
+  },
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "By getting the full copper set,",
+    "you become more energetic and faster,",
+    "as well as resistant to lightning."
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cofh_core:lightning_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 240,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:haste",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 240,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_6"
+	group: "463CB09C632FE18F"
+	icon: "minecraft:wither_rose"
+	id: "4C9C5B812C944394"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["20209DE5F5993C0F"]
+		hide_until_deps_complete: true
+		icon: "minecraft:wither_rose"
+		id: "50E5EA73C3CE523E"
+		subtitle: "{ftbquests.chapter.chapter_6.quest5829323075628192318.subtitle}"
+		tasks: [{
+			id: "37923559AFADFD14"
+			title: "{ftbquests.chapter.chapter_6.quest5829323075628192318.task.4004321678001569044.title}"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "{ftbquests.chapter.chapter_6.title}"
+}

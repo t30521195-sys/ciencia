@@ -1,0 +1,23 @@
+{
+	icon: "quark:spruce_chest"
+	id: "5ECB094C809D2282"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ count: 4, item: "archers_paradox:ender_arrow", random_bonus: 4, weight: 0.1f }
+		{ count: 32, item: "archeryexp:iron_arrow", random_bonus: 32, weight: 0.35f }
+		{ count: 48, item: "minecraft:arrow", random_bonus: 16, weight: 0.45f }
+		{
+			item: {
+				Count: 1
+				id: "archeryexp:iron_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+	]
+	title: "{ftbquests.loot_table.6830563484017435266.title}"
+	use_title: true
+}

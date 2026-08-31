@@ -1,0 +1,35 @@
+{
+	icon: "create:brown_toolbox"
+	id: "7863A8E63D2DFACD"
+	loot_size: 3
+	order_index: 21
+	rewards: [
+		{ count: 16, item: "create:cogwheel", random_bonus: 16, weight: 10.0f }
+		{ count: 16, item: "create:large_cogwheel", random_bonus: 16, weight: 10.0f }
+		{ count: 24, item: "create:shaft", random_bonus: 24, weight: 10.0f }
+		{ count: 12, item: "create:encased_chain_drive", random_bonus: 12, weight: 10.0f }
+		{ count: 8, item: "create:belt_connector", random_bonus: 8, weight: 10.0f }
+		{ count: 6, item: "create:gearbox", random_bonus: 6, weight: 5.0f }
+		{ count: 12, item: "create:fluid_pipe", random_bonus: 12, weight: 4.0f }
+		{ count: 4, item: "create:depot", random_bonus: 4, weight: 5.0f }
+		{ count: 6, item: "create:chute", random_bonus: 6, weight: 5.0f }
+		{ count: 4, item: "create:andesite_funnel", random_bonus: 4, weight: 4.0f }
+		{ count: 6, item: "create:fluid_tank", random_bonus: 6, weight: 4.0f }
+		{ count: 8, item: "create:item_vault", random_bonus: 4, weight: 6.0f }
+		{ count: 4, item: "create:polished_rose_quartz", random_bonus: 4, weight: 3.0f }
+		{ count: 32, item: "create:andesite_alloy", random_bonus: 16, weight: 10.0f }
+		{ item: "createaddition:alternator" }
+		{
+			item: {
+				Count: 1
+				id: "create:super_glue"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+	]
+	title: "{ftbquests.loot_table.8674963014068075213.title}"
+	use_title: true
+}

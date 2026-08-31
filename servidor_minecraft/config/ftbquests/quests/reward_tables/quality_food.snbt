@@ -1,0 +1,18 @@
+{
+	icon: "refurbished_furniture:light_fridge"
+	id: "2E5BD51100909A89"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ count: 2, item: "farmersdelight:apple_cider", random_bonus: 6 }
+		{ count: 2, item: "farmersdelight:melon_juice", random_bonus: 6 }
+		{ count: 6, item: "farmersdelight:apple_pie_slice", random_bonus: 10 }
+		{ count: 2, item: "farmersdelight:shepherds_pie", random_bonus: 6 }
+		{ count: 2, item: "farmersdelight:roasted_mutton_chops", random_bonus: 6 }
+		{ count: 2, item: "farmersdelight:roast_chicken", random_bonus: 6 }
+		{ count: 2, item: "farmersdelight:honey_glazed_ham", random_bonus: 6 }
+		{ count: 2, item: "farmersdelight:grilled_salmon", random_bonus: 6 }
+	]
+	title: "{ftbquests.loot_table.3340497817625991817.title}"
+	use_title: true
+}

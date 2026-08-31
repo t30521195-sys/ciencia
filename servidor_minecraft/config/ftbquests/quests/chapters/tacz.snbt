@@ -1,0 +1,2931 @@
+{
+	autofocus_id: "682DF984B41397BE"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tacz"
+	group: "036BBCCF3C38F186"
+	icon: {
+		Count: 1
+		id: "tacz:modern_kinetic_gun"
+		tag: {
+			GunCurrentAmmoCount: 7
+			GunFireMode: "SEMI"
+			GunId: "tacz:deagle"
+			HasBulletInBarrel: 1b
+		}
+	}
+	id: "5338AB36F37EA112"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["457110F50A907BF8"]
+			description: [
+				"{ftbquests.chapter.tacz.quest8828343881321810745.description1}"
+				"{ftbquests.chapter.tacz.quest8828343881321810745.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "7A8493FC492E0B39"
+			rewards: [
+				{
+					id: "01AA65C98986C12A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CA06BE4B0B9129F"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tacz.quest8828343881321810745.subtitle}"
+			tasks: [{
+				id: "65CD21655C03D490"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tacz.quest8828343881321810745.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A35E9AB36150502"]
+			description: ["{ftbquests.chapter.tacz.quest5003799305615604728.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo_box"
+				tag: {
+					Creative: 1b
+				}
+			}
+			id: "457110F50A907BF8"
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.tacz.quest5003799305615604728.subtitle}"
+			tasks: [{
+				id: "2C43F6F94423C000"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tacz.quest5003799305615604728.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65CD21655C03D490"]
+			description: ["{ftbquests.chapter.tacz.quest1139378964474202861.description1}"]
+			hide_until_deps_complete: true
+			icon: "tacz:target"
+			id: "0FCFE321AA098AED"
+			rewards: [
+				{
+					count: 8
+					id: "5FFA5B9A13514EBC"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2371B01FD1EE7D86"
+					item: "minecraft:powered_rail"
+					type: "item"
+				}
+				{
+					id: "42F85AFCCCF02DB0"
+					item: "minecraft:detector_rail"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tacz.quest1139378964474202861.subtitle}"
+			tasks: [
+				{
+					id: "0B6A6D48E3771E08"
+					item: "tacz:target"
+					type: "item"
+				}
+				{
+					id: "111348E1C078CA13"
+					item: "tacz:target_minecart"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest1139378964474202861.title}"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A8493FC492E0B39"]
+			description: ["{ftbquests.chapter.tacz.quest8659034649078511587.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "782B1222C41FB7E3"
+			subtitle: "{ftbquests.chapter.tacz.quest8659034649078511587.subtitle}"
+			tasks: [{
+				id: "1CE99DC003F8A509"
+				item: "tacz:statue"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tacz.quest8659034649078511587.title}"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A8493FC492E0B39"]
+			description: ["{ftbquests.chapter.tacz.quest2671169119409740652.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 0
+					GunFireMode: "SEMI"
+					GunId: "tacz:glock_17"
+					HasBulletInBarrel: 0b
+				}
+			}
+			id: "2511E62961691B6C"
+			min_required_tasks: 1
+			rewards: [{
+				id: "488E1827C089815B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest2671169119409740652.subtitle}"
+			tasks: [
+				{
+					id: "2ADB6BAB409CA4FA"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 16
+							GunFireMode: "AUTO"
+							GunId: "tacz:cz75"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5C099D52EF106210"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 10
+							GunFireMode: "SEMI"
+							GunId: "cib:g19"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "45A6E7B7602882BB"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "AUTO"
+							GunId: "cib:g18c"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6C6D459210D9BB3E"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 10
+							GunFireMode: "SEMI"
+							GunId: "cib:usp"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "61A35D615C4A39FA"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 7
+							GunFireMode: "SEMI"
+							GunId: "cib:type14"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "18972440C1E16A6F"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 9
+							GunFireMode: "SEMI"
+							GunId: "suffuse:usp45"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0A30D1CEAB212D6A"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "suffuse:lifecard"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6312AE1CA161511B"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "cib:ppk"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest2671169119409740652.title}"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2511E62961691B6C"]
+			description: ["{ftbquests.chapter.tacz.quest1530942310595709302.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 12
+					GunFireMode: "SEMI"
+					GunId: "tacz:p320"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "153EFFEB92AC4976"
+			min_required_tasks: 1
+			optional: true
+			rewards: [{
+				id: "07B2818C0AD3D0E1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 0.6d
+			subtitle: "{ftbquests.chapter.tacz.quest1530942310595709302.subtitle}"
+			tasks: [{
+				id: "314B52F6CFB05068"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 12
+						GunFireMode: "SEMI"
+						GunId: "tacz:p320"
+						HasBulletInBarrel: 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tacz.quest1530942310595709302.title}"
+			x: 2.4d
+			y: -0.8999999999999999d
+		}
+		{
+			dependencies: ["7A8493FC492E0B39"]
+			description: ["{ftbquests.chapter.tacz.quest6524129151814553205.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "tacz:hk_mp5a5"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "5A8A5CE5B2AD4E75"
+			min_required_tasks: 1
+			rewards: [{
+				id: "1F9B6B04E958D102"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest6524129151814553205.subtitle}"
+			tasks: [
+				{
+					id: "0E52021C6D02DE7B"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:hk_mp5a5"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "592136EB1A56E2ED"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 25
+							GunFireMode: "AUTO"
+							GunId: "tacz:ump45"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1A58AB82186B678F"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "AUTO"
+							GunId: "tacz:uzi"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "70820616A83D81AC"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 19
+							GunFireMode: "AUTO"
+							GunId: "tacz:vector45"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "75036073D19252F4"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 32
+							GunFireMode: "AUTO"
+							GunId: "suffuse:mas38"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C9EDDDC0406E563"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "AUTO"
+							GunId: "suffuse:ump45"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "17B7242F2F47960A"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 40
+							GunFireMode: "AUTO"
+							GunId: "suffuse:gepardpdw"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0CE9B3B66DA23529"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 25
+							GunFireMode: "AUTO"
+							GunId: "cib:pm9"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0D41894C04B1E4CF"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 50
+							GunFireMode: "AUTO"
+							GunId: "cib:pp19"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7F1BD88170CE0720"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "AUTO"
+							GunId: "cib:ppsh41"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest6524129151814553205.title}"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A8493FC492E0B39"]
+			description: ["{ftbquests.chapter.tacz.quest7155062497978067847.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "tacz:scar_l"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "634BE36EC9B3AB87"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "74BFE7ABE6BB0708"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01AA0358F9C699C0"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tacz.quest7155062497978067847.subtitle}"
+			tasks: [
+				{
+					id: "666637F8305F4AFB"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 10
+							GunFireMode: "SEMI"
+							GunId: "tacz:sks_tactical"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "12EF805BBAD13FAF"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:ak47"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3AD46BDB2419D04C"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:hk416d"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4DE5D39FBD87752A"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:m4a1"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0312E402C4CEB5A0"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "AUTO"
+							GunId: "tacz:m16a1"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7167CB4D57DA5BCD"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "SEMI"
+							GunId: "tacz:hk_g3"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "16C1CD3826503B97"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "BURST"
+							GunId: "tacz:m16a4"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0840964EF77F3A6C"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:scar_l"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0D5EC0D08887CA6F"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:aug"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest7155062497978067847.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A8493FC492E0B39"]
+			description: ["{ftbquests.chapter.tacz.quest2833657942716199515.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 5
+					GunFireMode: "SEMI"
+					GunId: "tacz:m95"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "27532CE2B290325B"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "714C014F1A34E46E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FB3FA2A239F1695"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B03D60483F32E82"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tacz.quest2833657942716199515.subtitle}"
+			tasks: [
+				{
+					id: "0AFC1969D9F6E257"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "SEMI"
+							GunId: "tacz:ai_awp"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "71F7AC2A50049946"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "SEMI"
+							GunId: "tacz:m95"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "67EF172C682674FC"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 3
+							GunFireMode: "SEMI"
+							GunId: "suffuse:gm6"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "22EED491694EED0B"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 2
+							GunFireMode: "SEMI"
+							GunId: "cib:ssg08"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "032C62A1759A5E52"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "cib:qbu88"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest2833657942716199515.title}"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A8493FC492E0B39"]
+			description: ["{ftbquests.chapter.tacz.quest74151491219365364.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 2
+					GunFireMode: "BURST"
+					GunId: "tacz:db_short"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "010770636DB21DF4"
+			min_required_tasks: 1
+			rewards: [{
+				id: "117CD111F4B890AB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest74151491219365364.subtitle}"
+			tasks: [
+				{
+					id: "566777DA968F07AA"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 2
+							GunFireMode: "BURST"
+							GunId: "tacz:db_short"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "71248B04658F8118"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 2
+							GunFireMode: "SEMI"
+							GunId: "tacz:db_long"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "332FBB15F409A0A7"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "SEMI"
+							GunId: "tacz:m870"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7F19F3A9E351DF16"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 3
+							GunFireMode: "SEMI"
+							GunId: "suffuse:ks23m"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7FDFB3FE2BD8DF6B"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 2
+							GunFireMode: "SEMI"
+							GunId: "cib:686"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4513E4F1C94C7B04"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 13
+							GunFireMode: "SEMI"
+							GunId: "zeta:sg8"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1D3C6EA89B8E4964"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 2
+							GunFireMode: "SEMI"
+							GunId: "emxarms:emx_scgraves"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest74151491219365364.title}"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72CAA795609B55E2"]
+			description: ["{ftbquests.chapter.tacz.quest2679827157153658979.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 1
+					GunFireMode: "SEMI"
+					GunId: "tacz:rpg7"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "2530A899E196B863"
+			min_required_tasks: 1
+			rewards: [
+				{
+					count: 6
+					id: "28B1BC5F85A54DB6"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:rpg_rocket"
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 8
+					id: "26D7C671BAA799C5"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:40mm"
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "37EEB822AB3B32DE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C9943DA278A8486"
+					table_id: 4490392531640542596L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tacz.quest2679827157153658979.subtitle}"
+			tasks: [
+				{
+					id: "7304920AB972CFF1"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "tacz:rpg7"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0FD4B5A6E326FB03"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "tacz:m320"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "02FC821A66D9C690"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "suffuse:aiyasinrpg"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4F3D5BAC3C2F7B52"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "suffuse:m79"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3DE83380C942691D"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "suffuse:m203"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest2679827157153658979.title}"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A8493FC492E0B39"]
+			description: ["{ftbquests.chapter.tacz.quest8271607925632095714.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 75
+					GunFireMode: "AUTO"
+					GunId: "tacz:m249"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "72CAA795609B55E2"
+			min_required_tasks: 1
+			rewards: [{
+				id: "43B0C66A606CB96C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest8271607925632095714.subtitle}"
+			tasks: [
+				{
+					id: "72767F198BF8E8D8"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 75
+							GunFireMode: "AUTO"
+							GunId: "tacz:m249"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "39B723F8AEC29D8F"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 65
+							GunFireMode: "AUTO"
+							GunId: "cib:negev"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "752E71E7AA6AB6FF"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 69
+							GunFireMode: "AUTO"
+							GunId: "tacz:fn_evolys"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5BD49AD67A8CC525"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 120
+							GunFireMode: "AUTO"
+							GunId: "suffuse:pkp"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0F3E048FBDDBCC59"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "cib:type73"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3CF742507E7D93B9"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "cib:type11"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest8271607925632095714.title}"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: ["{ftbquests.chapter.tacz.quest683171746669983467.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:grip_magpul_afg_2"
+				}
+			}
+			id: "097B1D1580D8F6EB"
+			min_required_tasks: 1
+			rewards: [{
+				id: "25047AFAEF0BA265"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest683171746669983467.subtitle}"
+			tasks: [
+				{
+					id: "651AF364CFA9F358"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:grip_vertical_talon"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "724ACA74C7C68571"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:grip_vertical_military"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "502435CF59094AC6"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:grip_vertical_ranger"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6CC26D6A25B3AB1F"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:grip_magpul_afg_2"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest683171746669983467.title}"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: [
+				"{ftbquests.chapter.tacz.quest9010890954726368411.description1}"
+				"{ftbquests.chapter.tacz.quest9010890954726368411.description2}"
+				"{ftbquests.chapter.tacz.quest9010890954726368411.description3}"
+				"{ftbquests.chapter.tacz.quest9010890954726368411.description4}"
+				"{ftbquests.chapter.tacz.quest9010890954726368411.description5}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7D0D1D94E23EE49B"
+			min_required_tasks: 1
+			rewards: [{
+				id: "4B8DF1D6E2201492"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest9010890954726368411.subtitle}"
+			tasks: [
+				{
+					id: "6A93BE2C4B0E2070"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:ammo_mod_hp"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7616E4581FAB80B9"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:ammo_mod_i"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4D11C729D0289FB0"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:ammo_mod_he"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0D1C64C4C572606B"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:ammo_mod_fmj"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest9010890954726368411.title}"
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: ["{ftbquests.chapter.tacz.quest7902990607708950124.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:stock_militech_b5"
+				}
+			}
+			id: "6DAD1015FBBD8E6C"
+			min_required_tasks: 1
+			rewards: [{
+				id: "4CB1B69A3CBEE7CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest7902990607708950124.subtitle}"
+			tasks: [
+				{
+					id: "726CDD003428F01D"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:stock_tactical_ar"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "28827C26AE92F82F"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:stock_carbon_bone_c5"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5B6097D94B5D0D20"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:stock_militech_b5"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest7902990607708950124.title}"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: ["{ftbquests.chapter.tacz.quest4456001207297901832.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:oem_stock_light"
+				}
+			}
+			id: "3DD6E57D37B40508"
+			min_required_tasks: 1
+			rewards: [{
+				id: "130D09CDFA9F9A70"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest4456001207297901832.subtitle}"
+			tasks: [
+				{
+					id: "707761361EABB1BB"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:oem_stock_tactical"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6B51B39E4DA91683"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:oem_stock_light"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "279CD10E5F974708"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:oem_stock_heavy"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest4456001207297901832.title}"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: [
+				"{ftbquests.chapter.tacz.quest2835611738822968232.description1}"
+				"{ftbquests.chapter.tacz.quest2835611738822968232.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_silencer_mirage"
+				}
+			}
+			id: "275A1DDA4D7883A8"
+			min_required_tasks: 1
+			rewards: [{
+				id: "4B46B89AFEFC7A68"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest2835611738822968232.subtitle}"
+			tasks: [
+				{
+					id: "0D23CA7232BCE57F"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:muzzle_silencer_mirage"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "039A913BD4345983"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:muzzle_silencer_phantom_s1"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "25374A2DAF51EA29"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:muzzle_silencer_ptilopsis"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "143E25929E51F854"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:muzzle_silencer_knight_qd"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "72F744EBBAD13022"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:muzzle_silencer_ursus"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest2835611738822968232.title}"
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["153EFFEB92AC4976"]
+			description: ["{ftbquests.chapter.tacz.quest6603779494458340141.description1}"]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 9
+					GunFireMode: "SEMI"
+					GunId: "tacz:deagle_golden"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "5BA556763E32B32D"
+			rewards: [
+				{
+					id: "086FD3E6E2069C38"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A716E4C3B4995E1"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tacz.quest6603779494458340141.subtitle}"
+			tasks: [
+				{
+					id: "2C5D8EE9C0D60AE0"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 9
+							GunFireMode: "SEMI"
+							GunId: "tacz:deagle_golden"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "33130132142833AA"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:deagle_golden_long_barrel"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3B4FC5B211DCF00F"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:sight_t1"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest6603779494458340141.title}"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: ["{ftbquests.chapter.tacz.quest4756732413783259157.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:muzzle_brake_cthulhu"
+				}
+			}
+			id: "42034EED97233815"
+			min_required_tasks: 1
+			rewards: [{
+				id: "76591A0384AE4D10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest4756732413783259157.subtitle}"
+			tasks: [
+				{
+					id: "7A711CD9CDE0E2D5"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:muzzle_brake_trex"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6D3D509A72871AB5"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:muzzle_brake_cyclone_d2"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "016DE73B1A5C8CD0"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:muzzle_brake_pioneer"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "156680D267A65EF4"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:muzzle_brake_cthulhu"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest4756732413783259157.title}"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: ["{ftbquests.chapter.tacz.quest3782513823660566679.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "347E3048314AE897"
+			rewards: [{
+				id: "79C0083417735825"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest3782513823660566679.subtitle}"
+			tasks: [{
+				id: "0678D570BA850B3A"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:muzzle_compensator_trident"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tacz.quest3782513823660566679.title}"
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: ["{ftbquests.chapter.tacz.quest6772032225017175704.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:bayonet_6h3"
+				}
+			}
+			id: "5DFB176DCBA59E98"
+			min_required_tasks: 1
+			rewards: [{
+				id: "53116D77D8EAC132"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest6772032225017175704.subtitle}"
+			tasks: [
+				{
+					id: "73BE3CE674832F28"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:bayonet_6h3"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "02F20097EC6ABC70"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:bayonet_m9"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest6772032225017175704.title}"
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: ["{ftbquests.chapter.tacz.quest2557613023892235829.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_sro_dot"
+				}
+			}
+			id: "237E777E92026635"
+			min_required_tasks: 1
+			rewards: [{
+				id: "48B1F21AD37EF309"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest2557613023892235829.subtitle}"
+			tasks: [
+				{
+					id: "4C2629BACFB49B55"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:sight_rmr_dot"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "76F11C320D07EEE3"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:sight_sro_dot"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest2557613023892235829.title}"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: ["{ftbquests.chapter.tacz.quest61724752111095422.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:sight_coyote"
+				}
+			}
+			id: "00DB4A55C36E4E7E"
+			min_required_tasks: 1
+			rewards: [{
+				id: "322198F5AF1D5D43"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest61724752111095422.subtitle}"
+			tasks: [
+				{
+					id: "792AB943AED70262"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:sight_552"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "04CA4C110E783EE4"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:sight_coyote"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "18FFB2B3D4B32441"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:sight_uh1"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1B228DFBAC3111F6"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:sight_t2"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5C16398F6A58CCE0"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:sight_exp3"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest61724752111095422.title}"
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: [
+				"{ftbquests.chapter.tacz.quest1358583576570676787.description1}"
+				""
+				"{ftbquests.chapter.tacz.quest1358583576570676787.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:scope_retro_2x"
+				}
+			}
+			id: "12DAA890972CC633"
+			min_required_tasks: 1
+			rewards: [{
+				id: "568259604A997CBE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest1358583576570676787.subtitle}"
+			tasks: [
+				{
+					id: "2E2974C9F4855344"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:scope_acog_ta31"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7673D1B22706AB84"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:scope_lpvo_1_6"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6BBC00487702DBDE"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:scope_elcan_4x"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "10D39FC76B4A7CB0"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:scope_standard_8x"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2ACF054D91BC5885"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:scope_retro_2x"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest1358583576570676787.title}"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7A8493FC492E0B39"]
+			description: ["{ftbquests.chapter.tacz.quest7506930502248667070.description1}"]
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:30_06"
+				}
+			}
+			id: "682DF984B41397BE"
+			min_required_tasks: 2
+			rewards: [{
+				id: "0199DD19FC93D54E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.tacz.quest7506930502248667070.subtitle}"
+			tasks: [
+				{
+					id: "47F0E3DDC5988E35"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:50ae"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "558960CB15510081"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:12g"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "657C31E7EEABE035"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:762x39"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "38812D4727ABA415"
+					item: {
+						Count: 1
+						id: "tacz:workbench_a"
+						tag: {
+							BlockId: "tacz:ammo_workbench"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest7506930502248667070.title}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: ["{ftbquests.chapter.tacz.quest639925682773472186.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:light_extended_mag_1"
+				}
+			}
+			id: "08E179049C5CB3BA"
+			min_required_tasks: 1
+			rewards: [{
+				id: "01513B4E811473B5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest639925682773472186.subtitle}"
+			tasks: [
+				{
+					id: "10BCD2CFD97DD9C2"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:sniper_extended_mag_1"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0717FFA793200F97"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:extended_mag_1"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6ECDF6BCDE19B37F"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:light_extended_mag_1"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest639925682773472186.title}"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["08E179049C5CB3BA"]
+			description: ["{ftbquests.chapter.tacz.quest1802319647347318113.description1}"]
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:light_extended_mag_2"
+				}
+			}
+			id: "1903202B8FD81D61"
+			min_required_tasks: 1
+			rewards: [{
+				id: "573EFCBD30C70E90"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest1802319647347318113.subtitle}"
+			tasks: [
+				{
+					id: "4B8920AE24033745"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:sniper_extended_mag_2"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3C5DF8D511BC81B2"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:extended_mag_2"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0F6054E73AA7983A"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:light_extended_mag_2"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest1802319647347318113.title}"
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1903202B8FD81D61"]
+			description: ["{ftbquests.chapter.tacz.quest4232674804620750499.description1}"]
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "tacz:extended_mag_3"
+				}
+			}
+			id: "3ABD7B4F232A6EA3"
+			min_required_tasks: 1
+			rewards: [{
+				id: "7AD35A4140D8616E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest4232674804620750499.subtitle}"
+			tasks: [
+				{
+					id: "439BA934FE6E0804"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:light_extended_mag_3"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "34F78A40B86397D8"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:sniper_extended_mag_3"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7AA71F90ADE384D7"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:extended_mag_3"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest4232674804620750499.title}"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.tacz.quest2311296519043096156.description1}"
+				"{ftbquests.chapter.tacz.quest2311296519043096156.description2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "20135FF034291E5C"
+			invisible: true
+			rewards: [
+				{
+					id: "168D422FF77E1535"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "398AEA2B4D9C9881"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.tacz.quest2311296519043096156.subtitle}"
+			tasks: [{
+				id: "4C653D3F7D0BB375"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 100
+			}]
+			title: "{ftbquests.chapter.tacz.quest2311296519043096156.title}"
+			x: -4.2602040816326365d
+			y: -0.0051020408163253705d
+		}
+		{
+			dependencies: ["20135FF034291E5C"]
+			description: [
+				"{ftbquests.chapter.tacz.quest2524771272853581188.description1}"
+				"{ftbquests.chapter.tacz.quest2524771272853581188.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "marbledsarsenal:white_gp5_gas_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2309CA18898C6D84"
+			invisible: true
+			rewards: [
+				{
+					id: "1BA4A658DB794C36"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "458D4E6C1750A44C"
+					table_id: 3340497817625991817L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77E43B29F8325B09"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.tacz.quest2524771272853581188.subtitle}"
+			tasks: [{
+				id: "7FAEF08E9FF4965A"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 500
+			}]
+			title: "{ftbquests.chapter.tacz.quest2524771272853581188.title}"
+			x: -3.7499999999999787d
+			y: 0.5051020408163254d
+		}
+		{
+			dependencies: ["2309CA18898C6D84"]
+			description: [
+				"{ftbquests.chapter.tacz.quest4261340154136469049.description1}"
+				"{ftbquests.chapter.tacz.quest4261340154136469049.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "marbledsarsenal:fire_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3B23524AEA699E39"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "212C437B34713DFA"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "594C9AF8EC3EAF68"
+					table_id: 886270737047987855L
+					type: "random"
+				}
+				{
+					id: "5F26BEB1CB94218D"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.tacz.quest4261340154136469049.subtitle}"
+			tasks: [{
+				id: "1B303CB143A4FA70"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1000
+			}]
+			title: "{ftbquests.chapter.tacz.quest4261340154136469049.title}"
+			x: -4.260204081632658d
+			y: 1.0153061224489761d
+		}
+		{
+			dependencies: ["3B23524AEA699E39"]
+			description: [
+				"{ftbquests.chapter.tacz.quest2113169967749522881.description1}"
+				"{ftbquests.chapter.tacz.quest2113169967749522881.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lrarmor:sniper_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1D537CE3BDBBE5C1"
+			invisible: true
+			rewards: [
+				{
+					id: "4D6932B90F6DAE2C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2976FAD0015CC8D2"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.tacz.quest2113169967749522881.subtitle}"
+			tasks: [{
+				id: "5774CD887496CCE9"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 5000
+			}]
+			title: "{ftbquests.chapter.tacz.quest2113169967749522881.title}"
+			x: -3.75d
+			y: 1.525510204081634d
+		}
+		{
+			dependencies: ["1D537CE3BDBBE5C1"]
+			description: [
+				"{ftbquests.chapter.tacz.quest4580607928786937818.description1}"
+				"{ftbquests.chapter.tacz.quest4580607928786937818.description2}"
+			]
+			icon: "immersive_weathering:fire"
+			id: "3F9196A462AEE7DA"
+			invisible: true
+			rewards: [
+				{
+					id: "4BA7E38B5B958F9B"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64424662A0918CF4"
+					table_id: 4490392531640542596L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "204649AED8815A01"
+					table_id: 3340497817625991817L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66588074A14D2340"
+					table_id: 2569441142384244234L
+					type: "random"
+				}
+				{
+					id: "1F8185827D09B925"
+					item: "createbigcannons:traffic_cone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.tacz.quest4580607928786937818.subtitle}"
+			tasks: [{
+				id: "355A67750B9C2283"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 10000
+			}]
+			title: "{ftbquests.chapter.tacz.quest4580607928786937818.title}"
+			x: -4.260204081632658d
+			y: 2.0357142857142847d
+		}
+		{
+			dependencies: ["7A8493FC492E0B39"]
+			description: [
+				"{ftbquests.chapter.tacz.quest1615612092741939309.description1}"
+				"{ftbquests.chapter.tacz.quest1615612092741939309.description2}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 20
+					GunFireMode: "SEMI"
+					GunId: "tacz:scar_h"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "166BCEA372B5706D"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "5331A9C7496A74E0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E524E84D91864F6"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tacz.quest1615612092741939309.subtitle}"
+			tasks: [
+				{
+					id: "0E769127D264C548"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 6
+							GunFireMode: "SEMI"
+							GunId: "tacz:mk14"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2451013A42645AC5"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 20
+							GunFireMode: "SEMI"
+							GunId: "tacz:scar_h"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0F3BA21636826B29"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:spr15hb"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0EA329F1B01C18FB"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 2
+							GunFireMode: "SEMI"
+							GunId: "suffuse:m1895"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest1615612092741939309.title}"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["010770636DB21DF4"]
+			description: ["{ftbquests.chapter.tacz.quest1897535241443850984.description1}"]
+			hide_until_deps_complete: true
+			id: "1A55663F9F0BBAE8"
+			rewards: [
+				{
+					id: "2DC9405C8BD0596E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3773D2166D8101CC"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tacz.quest1897535241443850984.subtitle}"
+			tasks: [{
+				id: "3A58D1EF677821EE"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 8
+						GunFireMode: "SEMI"
+						GunId: "tacz:aa12"
+						HasBulletInBarrel: 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tacz.quest1897535241443850984.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["634BE36EC9B3AB87"]
+			description: ["{ftbquests.chapter.tacz.quest8404514535739904804.description1}"]
+			hide_until_deps_complete: true
+			id: "74A2D570F4625324"
+			rewards: [{
+				id: "33789F32AE217A1F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.tacz.quest8404514535739904804.subtitle}"
+			tasks: [{
+				id: "12643AEE5AE636DF"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 13
+						GunFireMode: "AUTO"
+						GunId: "tacz:rpk"
+						HasBulletInBarrel: 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tacz.quest8404514535739904804.title}"
+			x: 0.0d
+			y: 3.85d
+		}
+		{
+			dependencies: ["457110F50A907BF8"]
+			description: [
+				"{ftbquests.chapter.tacz.quest3970104842687641506.description1}"
+				"{ftbquests.chapter.tacz.quest3970104842687641506.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:ammo_box"
+				tag: {
+					AllTypeCreative: 1b
+				}
+			}
+			id: "3718A551E57477A2"
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.tacz.quest3970104842687641506.subtitle}"
+			tasks: [{
+				id: "1232E3B0FE62E2A8"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tacz.quest3970104842687641506.title}"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3718A551E57477A2"]
+			description: ["{ftbquests.chapter.tacz.quest742220051936198822.description1}"]
+			hide_until_deps_complete: true
+			id: "0A4CE5346CD440A6"
+			rewards: [{
+				id: "62B8B335AAB3FC12"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.tacz.quest742220051936198822.subtitle}"
+			tasks: [{
+				id: "35F9F1BA70FF15E2"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tacz.quest742220051936198822.title}"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0A4CE5346CD440A6"]
+			description: ["{ftbquests.chapter.tacz.quest4377355833670926032.description1}"]
+			id: "3CBF7DF041707ED0"
+			rewards: [
+				{
+					id: "2548298836E1236B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "131BDBB776B446CF"
+					table_id: 139851417505779397L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tacz.quest4377355833670926032.subtitle}"
+			tasks: [{
+				id: "7BA7F104DE25FCA7"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tacz.quest4377355833670926032.title}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3CBF7DF041707ED0"]
+			description: ["{ftbquests.chapter.tacz.quest2903445928658630612.description1}"]
+			id: "284B1CB0624077D4"
+			rewards: [
+				{
+					id: "3EA1E1BE5462287F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "759BB4E7CD18A699"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tacz.quest2903445928658630612.subtitle}"
+			tasks: [{
+				id: "2512EA04999CA332"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 2
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tacz.quest2903445928658630612.title}"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["457110F50A907BF8"]
+			description: [
+				"{ftbquests.chapter.tacz.quest825210990715408066.description1}"
+				"{ftbquests.chapter.tacz.quest825210990715408066.description2}"
+			]
+			icon: "minecraft:oak_door"
+			id: "0B73BD061E570EC2"
+			subtitle: "{ftbquests.chapter.tacz.quest825210990715408066.subtitle}"
+			tasks: [{
+				id: "2D934C8FDF4CAB0A"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tacz.quest825210990715408066.title}"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["457110F50A907BF8"]
+			id: "56F8830C65C50D0A"
+			tasks: [{
+				id: "6D2BEF759AAE7FEC"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A8493FC492E0B39"]
+			description: [
+				"{ftbquests.chapter.tacz.quest7609484739430289798.description1}"
+				""
+				""
+			]
+			hide_until_deps_complete: true
+			id: "699A520DC17F9186"
+			rewards: [
+				{
+					id: "634C2634DAF27F94"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2713F2D70C872E95"
+					table_id: 3340497817625991817L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45478AF3184263CE"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22EC373178450E81"
+					table_id: 5742857155502503669L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "{ftbquests.chapter.tacz.quest7609484739430289798.subtitle}"
+			tasks: [
+				{
+					id: "424DFD6879DF6A2D"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "cib:cib_printer_parts"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F910460D51382CF"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "cib:cib_printer"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C95D756CCB6A839"
+					item: {
+						Count: 1
+						id: "tacz:workbench_a"
+						tag: {
+							BlockId: "cib:cib_printer_bullet"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ED75891208BFFE7"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "lrtactical:smith_table"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4593EC5503F76E55"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "cibs:cib_printer_skin"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D3F0691ECB3061F"
+					item: {
+						Count: 1
+						id: "tacz:workbench_a"
+						tag: {
+							BlockId: "emxarms:sky_workbench"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5510F58470216DE5"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "emxarms:emx_workbench"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C6D5A247B60385E"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "zeta:terminal"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E5329AEA93EA503"
+					item: {
+						Count: 1
+						id: "tacz:workbench_b"
+						tag: {
+							BlockId: "suffuse:workbench"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tacz.quest7609484739430289798.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.tacz.title}"
+}

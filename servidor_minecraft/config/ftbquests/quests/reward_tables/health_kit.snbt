@@ -1,0 +1,15 @@
+{
+	icon: "moa_decor_science:botiquindepared"
+	id: "58F4E22C5E837523"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 7, item: "cure:vaccine", random_bonus: 3, weight: 1.8f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.4f }
+		{ count: 2, item: "canned_goods:hot_hot_hotpot", random_bonus: 1, weight: 0.6f }
+		{ count: 6, item: "majruszsdifficulty:golden_bandage", random_bonus: 6, weight: 1.2f }
+		{ count: 2, item: "radioactive:radaway_advanced", random_bonus: 2 }
+	]
+	title: "{ftbquests.loot_table.6409996849847170339.title}"
+	use_title: true
+}

@@ -1,0 +1,244 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = dz.voidcube.start_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1750647073827
+  is_enabled = false
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:604f1731-e758-464b-8c8a-1807f0858bdc-1766562960060] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/mainbg_blurred.png
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity = 0.02
+  invert_parallax = false
+  restart_animated_on_menu_load = false
+  instance_identifier = 8761b3c6-cf25-4d7d-acd9-b9316c7dfe1d-1764905539367
+  background_type = image
+}
+
+customization {
+  action = setcloseaudio
+  path = [source:local]/config/fancymenu/assets/press-start.wav
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/biohazard_start_screen_logo.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  element_type = image
+  instance_identifier = 7f78d1f0-2b8e-4772-b256-5f66719bf7d6-1747033839301
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = every_time
+  fade_in_speed = 0.6
+  fade_out = every_time
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -158
+  y = -120
+  width = 318
+  height = 202
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = d1061182-d4c7-45de-b153-0647fe2d84ae-1747033839301
+  [loading_requirement_container_meta:d1061182-d4c7-45de-b153-0647fe2d84ae-1747033839301] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+}
+
+element {
+  interactable = true
+  source = ^^^%n%%#DBDBDB%{"placeholder":"local","values":{"key":"biohazard.startscreen.presstostart"}}%#%%n%^^^
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 37d7decd-10d0-4418-b4cf-b533c9f226de-1747033895362
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = every_time
+  fade_in_speed = 0.4
+  fade_out = every_time
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -139
+  y = 52
+  width = 279
+  height = 14
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 6b317fe5-0117-4953-994e-526155147bb6-1747033895362
+  [loading_requirement_container_meta:6b317fe5-0117-4953-994e-526155147bb6-1747033895362] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+}
+
+element {
+  interactable = true
+  source = ^^^%n%%#DBDBDB%{"placeholder":"local","values":{"key":"biohazard.startscreen.credits"}}%#%%n%^^^
+  source_mode = direct
+  shadow = true
+  scale = 0.6
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = ba0322a2-2169-470d-8024-3da92af60903-1747033981474
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = every_time
+  fade_in_speed = 0.4
+  fade_out = every_time
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = bottom-centered
+  x = -109
+  y = -12
+  width = 218
+  height = 9
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 6b317fe5-0117-4953-994e-526155147bb6-1747033895362
+  [loading_requirement_container_meta:6b317fe5-0117-4953-994e-526155147bb6-1747033895362] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+}
+
+element {
+  is_async = false
+  tick_delay = 0
+  tick_mode = normal
+  ticker_element_executable_block_identifier = 6abe0dd1-0a81-42c6-a702-2d5684b42c4a-1750642415119
+  [executable_action_instance:e5633c77-4f2b-4ff5-b020-1dc3555c7c74-1750642440212][action_type:closegui] = 
+  [executable_block:6b502aa1-359b-4268-828a-0c618688249b-1750642439286][type:if] = [executables:e5633c77-4f2b-4ff5-b020-1dc3555c7c74-1750642440212;]
+  [if_executable_block_body:6b502aa1-359b-4268-828a-0c618688249b-1750642439286] = 2eab989d-a9a4-484f-95e4-33e0c837cb33-1750642427268
+  [loading_requirement_container_meta:2eab989d-a9a4-484f-95e4-33e0c837cb33-1750642427268] = [groups:][instances:fa97fdfb-84e0-4164-88a3-275af3008307-1750642428020;]
+  [loading_requirement:is_key_pressed][requirement_mode:if][req_id:fa97fdfb-84e0-4164-88a3-275af3008307-1750642428020] = 257
+  [executable_block:6abe0dd1-0a81-42c6-a702-2d5684b42c4a-1750642415119][type:generic] = [executables:6b502aa1-359b-4268-828a-0c618688249b-1750642439286;]
+  element_type = fancymenu_customization_item_ticker
+  instance_identifier = 970f020c-79f5-4ed3-89f7-75a92ced6878-1750642415119
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -214
+  y = -94
+  width = 39
+  height = 13
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 5b26a20c-2f8b-4c5c-bb58-d07e33acd80a-1750642415119
+  [loading_requirement_container_meta:5b26a20c-2f8b-4c5c-bb58-d07e33acd80a-1750642415119] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+}
+

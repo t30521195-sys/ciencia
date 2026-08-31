@@ -1,0 +1,90 @@
+{
+	icon: "quark:nether_brick_chest"
+	id: "20E10C89FDF8B966"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					RepairCost: 1
+					StoredEnchantments: [
+						{
+							id: "archeryexp:baby_face"
+							lvl: 2s
+						}
+						{
+							id: "archeryexp:scouting"
+							lvl: 3s
+						}
+					]
+					display: {
+						Name: "{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"Steady archer Boots Enhancement\"}"
+					}
+				}
+			}
+			weight: 0.15f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					RepairCost: 1
+					StoredEnchantments: [
+						{
+							id: "archeryexp:shattering"
+							lvl: 5s
+						}
+						{
+							id: "archeryexp:headshot"
+							lvl: 5s
+						}
+					]
+					display: {
+						Name: "{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"text\":\"Dead eye Bow Enhancement\"}"
+					}
+				}
+			}
+			weight: 0.15f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					RepairCost: 1
+					StoredEnchantments: [
+						{
+							id: "archeryexp:follow_through"
+							lvl: 2s
+						}
+						{
+							id: "archeryexp:grit"
+							lvl: 2s
+						}
+					]
+					display: {
+						Name: "{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"Sturdy shooter Chestplate Enhancement\"}"
+					}
+				}
+			}
+			weight: 0.15f
+		}
+		{ count: 24, item: "archeryexp:netherite_arrow", random_bonus: 12, weight: 0.35f }
+		{
+			item: {
+				Count: 1
+				id: "archeryexp:diamond_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.2f
+		}
+	]
+	title: "{ftbquests.loot_table.2369188665784580454.title}"
+	use_title: true
+}

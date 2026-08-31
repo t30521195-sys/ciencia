@@ -1,0 +1,36 @@
+{
+	"message.hordes.EventStart":"Escuchas los aullidos de una horda cercana",
+	"message.hordes.EventEnd":"El aire está tranquilo, la horda se ha detenido",
+	"message.hordes.TrySleep":"Una sensación de temor inminente te impide dormir",
+	"message.hordes.title":"Las Hordas",
+	
+	"hordes.subtitle.hordeHowls":"Aullidos de Zombis",
+	"hordes.subtitle.infected": "Jugador Infectado",
+	"hordes.subtitle.immune": "Infección Bloqueada al Jugador",
+
+	"entity.hordes.ZombiePlayer.chat":"Zombi de %1$s",
+	"entity.hordes.DrownedPlayer.chat":"Ahogado de %1$s",
+	"entity.hordes.HuskPlayer.chat":"Momia de %1$s",
+	
+	"entity.hordes.ZombiePlayer.name":"Zombi Jugador",
+	"entity.hordes.DrownedPlayer.name":"Ahogado Jugador",
+	"entity.hordes.HuskPlayer.name":"Momia Jugador",
+	
+	"entity.hordes.ZombifiedPiglinBrute.name":"Bruto Piglin Zombificado",
+	"entity.hordes.ZombieWanderingTrader.name":"Comerciante Errante Zombi",
+	"entity.hordes.ZombiePillager.name":"Saqueador Zombi",
+	"entity.hordes.ZombieVindicator.name":"Vindicador Zombi",
+	"entity.hordes.ZombieEvoker.name":"Invocador Zombi",
+	"entity.hordes.ZombieIllusioner.name":"Ilusionista Zombi",
+	"entity.hordes.ZombieWitch.name":"Bruja Zombi",
+
+	"effect.hordes.infected":"Infección",
+	"effect.hordes.immunity":"Inmunidad a la Infección",
+	"death.attack.infection":"%1$s sucumbió a la infección.",
+	"death.attack.infection.zombified":"%1$s fue zombificado.",
+
+	"tooltip.hordes.cure": "Cura la infección",
+	"tooltip.hordes.wearableProtection": "%1$s de protección contra la infección",
+
+	"jei.category.hordes.InfectionCures":"Curaciones de Infección"
+}

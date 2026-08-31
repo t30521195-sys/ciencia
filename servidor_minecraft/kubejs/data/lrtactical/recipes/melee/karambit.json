@@ -1,0 +1,33 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "createdeco:industrial_iron_ingot"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:tripwire_hook"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "custom",
+    "group": "lrtactical:melee",
+    "item": {
+      "item": "lrtactical:melee",
+      "nbt": {
+        "MeleeWeaponId": "lrtactical:karambit"
+      }
+    }
+  }
+}

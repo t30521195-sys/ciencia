@@ -1,0 +1,5 @@
+#Maximum range (squared) for two players to be able to trade (64 = 8 blocks)
+"Max range (squared)" = 64.0
+#Number of seconds before a pending trade offer expires
+"Number of seconds" = 30
+

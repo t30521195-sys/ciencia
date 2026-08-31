@@ -1,0 +1,1725 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_5"
+	group: "463CB09C632FE18F"
+	icon: {
+		Count: 1
+		id: "marbledsarsenal:swat_armor_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "20209DE5F5993C0F"
+	images: [{
+		dependency: "797E179F284E8A30"
+		height: 0.6d
+		hover: ["ftbquests.chapter.chapter_5.image.hovertext1"]
+		image: "fancymenu:textures/warning_20x20.png"
+		rotation: 0.0d
+		width: 0.7d
+		x: 0.25d
+		y: -1.0892857142857153d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["080857C6C6380BF4"]
+			description: ["{ftbquests.chapter.chapter_5.quest3775907436418327570.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:workbench_b"
+				tag: {
+					BlockId: "emxarms:emx_workbench"
+				}
+			}
+			id: "3466B7CECC786412"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "3149292A6F851929"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20210D459961E978"
+					table_id: 2169985305494019696L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "150F0ABD80694FC3"
+					table_id: 3340497817625991817L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_5.quest3775907436418327570.subtitle}"
+			tasks: [
+				{
+					id: "6EF1DCCA12512A59"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "emxarms:emx_mg57"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5FDF36BD4DAA67B1"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "emxarms:emx_pmg90"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "15C7360AC2831C79"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "emxarms:emx_mg90"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6EB9340DF100041B"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "emxarms:emx_mk88"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "579F498663D819DA"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "emxarms:emx_mk951lmg"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "178079D3D9428784"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "cib:mg3"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1FAE6A9DCEB2B509"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "cib:pkp"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7FCE17896BD660BC"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "cib:mini"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7142192E3CFEBAD2"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "cib:m99"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest3775907436418327570.title}"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37D97291FD121AD1"]
+			description: ["{ftbquests.chapter.chapter_5.quest5017411186845987919.description1}"]
+			id: "45A16CE41C06B44F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DD9D3B369C1FAB6"
+				table_id: 5742857155502503669L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4CFF73E6809B873A"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest5017411186845987919.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6F4BACD538ADB47E"
+				"367F10696E5C0291"
+				"153FE6C4AF4567F8"
+				"71AD03194C61627F"
+				"6DC90A1D92B04F35"
+				"462731084587B79F"
+			]
+			description: [
+				"{ftbquests.chapter.chapter_5.quest8754460697998297648.description1}"
+				""
+				"{ftbquests.chapter.chapter_5.quest8754460697998297648.description2}"
+			]
+			hide_dependent_lines: true
+			icon: "createdeco:decal_warning"
+			id: "797E179F284E8A30"
+			shape: "none"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.chapter_5.quest8754460697998297648.subtitle}"
+			tasks: [{
+				id: "0FBF4FF88B235D96"
+				title: "{ftbquests.chapter.chapter_5.quest8754460697998297648.task.1134713560025488790.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest8754460697998297648.title}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["080857C6C6380BF4"]
+			hide_until_deps_complete: true
+			icon: "philipsruins:broken_bone"
+			id: "625C446FABF17622"
+			min_required_tasks: 1
+			optional: true
+			rewards: [
+				{
+					id: "17521DE2318077B0"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40B4070AD9659926"
+					table_id: 5451538142075143870L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_5.quest7087615159991105058.subtitle}"
+			tasks: [
+				{
+					id: "6428ACE27BFEA060"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "gwg:shovel"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "08D4495F390B853F"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "gwg:spiked_club"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6EAAAA068C1D3E3D"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "gwg:m189805a"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1FDD43678D5D7520"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "gwg:gear_club"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest7087615159991105058.title}"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45A16CE41C06B44F"]
+			description: ["{ftbquests.chapter.chapter_5.quest6459865146152166282.description1}"]
+			hide_until_deps_complete: true
+			id: "59A60D1FE553A38A"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06DA8D98E0107D70"
+				table_id: 2169985305494019696L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "4AA46127242071EE"
+				item: "marbledsapi:hardened_steel_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest6459865146152166282.title}"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["080857C6C6380BF4"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"undermod:capability_item_life_leech": {
+						power: 1
+					}
+				}
+				id: "aquaculturedelight:neptunium_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3B5524708664A442"
+			min_required_tasks: 1
+			optional: true
+			rewards: [{
+				id: "576F24D265043850"
+				item: {
+					Count: 1
+					id: "mutantmonsters:mutant_skeleton_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.chapter_5.quest4275363486967833666.subtitle}"
+			tasks: [
+				{
+					id: "6A153B9045169CC2"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "cs2_wt:stiletto"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0572BB086602AA6A"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "cs2_wt:push"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3F9C9E660F7E50DA"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "cs2_wt:karambit"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "15A0DB878389BBC9"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "cs2_wt:tactical"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "30C317291A303C52"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "cs2_wt:talon"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4737979BA5A9BB94"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "cs2_wt:butterfly"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3900D2ED52588FD7"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "cs2_wt:m9"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "716590BCEF9E9376"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "cs2_wt:bayonet"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "55F4981A4FE4C288"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "cs2_wt:skeleton"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "32ED9688193B16E2"
+					item: {
+						Count: 1
+						id: "lrtactical:melee"
+						tag: {
+							MeleeWeaponId: "cs2_wt:css"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest4275363486967833666.title}"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["797E179F284E8A30"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "spore:proto_spawnegg"
+			id: "6B9758ECBC71772D"
+			rewards: [{
+				id: "081E73498F2963EB"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				advancement: "spore:proto"
+				criterion: ""
+				id: "5AEA5D5149B7DBDD"
+				title: "{ftbquests.chapter.chapter_5.quest7752763057338677037.task.6551151211674328029.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest7752763057338677037.title}"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["797E179F284E8A30"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6D276C3F9BB09AC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63E867D0E4E242F1"
+				table_id: 8911222799544084771L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.chapter_5.quest7865374294676642498.subtitle}"
+			tasks: [{
+				advancement: "spore:inf_human"
+				criterion: ""
+				id: "7A9DFB4633BBEF46"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest7865374294676642498.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["797E179F284E8A30"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0B1E939803917905"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E753EA786148437"
+				table_id: 8911222799544084771L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.chapter_5.quest801240064822704389.subtitle}"
+			tasks: [{
+				advancement: "spore:inf_pillager"
+				criterion: ""
+				id: "22D4A7C695F83C0D"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest801240064822704389.title}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B966EB61B73315F"]
+			description: ["{ftbquests.chapter.chapter_5.quest8285162654361383602.description1}"]
+			hide_until_deps_complete: true
+			icon: "spore:shield_fragment"
+			id: "72FACF89978AF2B2"
+			optional: true
+			rewards: [
+				{
+					id: "38E01A1A49228118"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12EA55F1D7D9EA7A"
+					table_id: 4486004537455507795L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_5.quest8285162654361383602.subtitle}"
+			tasks: [
+				{
+					advancement: "spore:protector"
+					criterion: ""
+					id: "6F260FD19B4705F2"
+					title: "{ftbquests.chapter.chapter_5.quest8285162654361383602.task.8009106380252710386.title}"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					id: "21F01AA4A8686A0B"
+					item: "spore:shield_fragment"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest8285162654361383602.title}"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["797E179F284E8A30"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7B966EB61B73315F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62ECA98E3B44A3E0"
+				table_id: 8911222799544084771L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.chapter_5.quest8905427041595371871.subtitle}"
+			tasks: [{
+				advancement: "spore:inf_player"
+				criterion: ""
+				id: "5A2474243E508F79"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest8905427041595371871.title}"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B9758ECBC71772D"]
+			description: ["{ftbquests.chapter.chapter_5.quest7004323997917017876.description1}"]
+			hide_until_deps_complete: true
+			id: "61345B90CB967714"
+			optional: true
+			rewards: [
+				{
+					id: "217A15675B69B6C5"
+					type: "xp"
+					xp: 45
+				}
+				{
+					exclude_from_claim_all: true
+					id: "663E9EEABC7A6741"
+					table_id: 4490392531640542596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "spore:reconstructor"
+				criterion: ""
+				id: "29A589F7AD3C1075"
+				title: "{ftbquests.chapter.chapter_5.quest7004323997917017876.task.3000956423568625781.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest7004323997917017876.title}"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61345B90CB967714"]
+			description: ["{ftbquests.chapter.chapter_5.quest609092455082211332.description1}"]
+			hide_until_deps_complete: true
+			icon: "spore:reforged_biomass_a"
+			id: "0873EE5C5C8BB804"
+			optional: true
+			rewards: [
+				{
+					id: "62D16E08FD861869"
+					item: "spore:reforged_biomass_a"
+					type: "item"
+				}
+				{
+					id: "4942816315993BD3"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3143E52DCCE45C6B"
+					table_id: 2569441142384244234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6529453CA714B3FE"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.chapter_5.quest609092455082211332.subtitle}"
+			tasks: [
+				{
+					advancement: "spore:hindenburg"
+					criterion: ""
+					id: "766E4C663E72AD26"
+					title: "{ftbquests.chapter.chapter_5.quest609092455082211332.task.8533842345931746598.title}"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					id: "276B63EBD23700DB"
+					item: "spore:reforged_biomass_a"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest609092455082211332.title}"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["61345B90CB967714"]
+			description: ["{ftbquests.chapter.chapter_5.quest8653221932247142483.description1}"]
+			hide_until_deps_complete: true
+			icon: "spore:reforged_biomass_w"
+			id: "78166B802A35D053"
+			optional: true
+			rewards: [
+				{
+					id: "7301F226A3A18801"
+					item: "spore:reforged_biomass_w"
+					type: "item"
+				}
+				{
+					id: "30A97CAB43F54C31"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78D4998073F1064E"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A8C0FDD52F14194"
+					table_id: 1113851638369946352L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.chapter_5.quest8653221932247142483.subtitle}"
+			tasks: [
+				{
+					advancement: "spore:gazen"
+					criterion: ""
+					id: "2AE12E0C02571C76"
+					title: "{ftbquests.chapter.chapter_5.quest8653221932247142483.task.3089801448466619510.title}"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					id: "183C2A8F5377BEE1"
+					item: "spore:reforged_biomass_w"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest8653221932247142483.title}"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C1071A43B681479"]
+			icon: "spore:sieger_spawnegg"
+			id: "67DCB216D8EEF5FF"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "211E90CCEDC4BED1"
+				table_id: 1113851638369946352L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.chapter_5.quest7484052491981485567.subtitle}"
+			tasks: [{
+				advancement: "spore:sieger"
+				criterion: ""
+				id: "7DA59336A9AE8D83"
+				title: "{ftbquests.chapter.chapter_5.quest7484052491981485567.task.9053804488882556291.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest7484052491981485567.title}"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C1071A43B681479"]
+			icon: "spore:howitzer_spawnegg"
+			id: "2BA289187D593F1D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DE58AB8B88D79C1"
+				table_id: 1113851638369946352L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.chapter_5.quest3144226228133248797.subtitle}"
+			tasks: [{
+				advancement: "spore:howitzer"
+				criterion: ""
+				id: "50A65C532F101947"
+				title: "{ftbquests.chapter.chapter_5.quest3144226228133248797.task.5811433881509828935.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest3144226228133248797.title}"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C1071A43B681479"]
+			icon: "spore:hohlfresser_spawnegg"
+			id: "50F1136B97D4A637"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71E7C8AA88F4DC1B"
+				table_id: 1113851638369946352L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.chapter_5.quest5832464345251227191.subtitle}"
+			tasks: [{
+				advancement: "spore:hohlfresser"
+				criterion: ""
+				id: "70CB0F975F6AA278"
+				title: "{ftbquests.chapter.chapter_5.quest5832464345251227191.task.8127607095335494264.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest5832464345251227191.title}"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["61345B90CB967714"]
+			hide_until_deps_complete: true
+			id: "6C1071A43B681479"
+			optional: true
+			tasks: [{
+				id: "389DFABA66168A3C"
+				title: "{ftbquests.chapter.chapter_5.quest7786848705908839545.task.4079692515951151676.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest7786848705908839545.title}"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2BA289187D593F1D"
+				"50F1136B97D4A637"
+				"67DCB216D8EEF5FF"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.chapter_5.quest5613394575321895532.description1}"]
+			id: "4DE6C8A00E2A926C"
+			optional: true
+			rewards: [
+				{
+					id: "5DA2D48A7E1FB051"
+					item: "spore:reforged_biomass_t"
+					type: "item"
+				}
+				{
+					id: "0C1DD88527902E29"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					exclude_from_claim_all: true
+					id: "044552A584EE3E86"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.chapter_5.quest5613394575321895532.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "3A844556DCC54F32"
+				item: "spore:reforged_biomass_t"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest5613394575321895532.title}"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0B1E939803917905"]
+			description: ["{ftbquests.chapter.chapter_5.quest1435143031663055212.description1}"]
+			hide_until_deps_complete: true
+			icon: "spore:corrosive_sack"
+			id: "13EAA6FBCC27516C"
+			min_required_tasks: 2
+			optional: true
+			rewards: [
+				{
+					id: "0DE5F1946D3ED13E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03669B14F7FE52AC"
+					table_id: 4486004537455507795L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_5.quest1435143031663055212.subtitle}"
+			tasks: [
+				{
+					entity: "spore:spitter"
+					icon: "spore:spitter_spawnegg"
+					id: "37D43196E52ADC27"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "spore:usurper"
+					icon: "spore:usurper_spawnegg"
+					id: "35418D5D1E2FB27E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: true
+					id: "14162B204D80A911"
+					item: "spore:corrosive_sack"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest1435143031663055212.title}"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B9758ECBC71772D"]
+			description: [
+				"{ftbquests.chapter.chapter_5.quest4760343736645819196.description1}"
+				""
+				"{ftbquests.chapter.chapter_5.quest4760343736645819196.description2}"
+			]
+			id: "4210236837879B3C"
+			optional: true
+			rewards: [{
+				id: "7065A30A6D068765"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.chapter_5.quest4760343736645819196.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "679A473A8E49C996"
+				item: "spore:brain_remnants"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest4760343736645819196.title}"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B9758ECBC71772D"]
+			description: ["{ftbquests.chapter.chapter_5.quest2989975688684712466.description1}"]
+			icon: {
+				Count: 1
+				id: "spore:vigil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "297E870C1B1B3212"
+			optional: true
+			rewards: [{
+				id: "1DDA099EDF4986C8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.chapter_5.quest2989975688684712466.subtitle}"
+			tasks: [
+				{
+					entity: "spore:vigil"
+					id: "56756CA0CB9D790B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: true
+					id: "42113378E7C55BDA"
+					item: {
+						Count: 1
+						id: "spore:vigil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest2989975688684712466.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D77013A2D91FE27"]
+			description: ["{ftbquests.chapter.chapter_5.quest8969460146690316955.description1}"]
+			hide_until_deps_complete: true
+			icon: "spore:spike"
+			id: "7C79EC7B2E7FDA9B"
+			optional: true
+			rewards: [
+				{
+					id: "793C90A42EF590BB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46008C7B26432D2C"
+					table_id: 4486004537455507795L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_5.quest8969460146690316955.subtitle}"
+			tasks: [
+				{
+					entity: "spore:thorn"
+					icon: "spore:thorn_spawnegg"
+					id: "1DAD2A59056BD95B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: true
+					id: "0A8D800AB1C89625"
+					item: "spore:spike"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest8969460146690316955.title}"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B1E939803917905"]
+			description: ["{ftbquests.chapter.chapter_5.quest7618456043580567577.description1}"]
+			hide_until_deps_complete: true
+			icon: "spore:sickle_fragment"
+			id: "69BA3168468C3019"
+			optional: true
+			rewards: [
+				{
+					id: "60E5E05FDE3FB6F7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39F8CDE272DEFA54"
+					table_id: 4486004537455507795L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_5.quest7618456043580567577.subtitle}"
+			tasks: [
+				{
+					entity: "spore:slasher"
+					icon: "spore:slasher_spawnegg"
+					id: "00637DDB1D6AB6D2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: true
+					id: "41F5B4CC21AAB1F8"
+					item: "spore:sickle_fragment"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest7618456043580567577.title}"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7D77013A2D91FE27"
+				"6D276C3F9BB09AC2"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.chapter_5.quest2617135002608100951.description1}"]
+			hide_until_deps_complete: true
+			icon: "spore:wing_membrane"
+			id: "2451EE6B2FB26657"
+			optional: true
+			rewards: [
+				{
+					id: "78325777BD8831D8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C1C77C125981698"
+					table_id: 4486004537455507795L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_5.quest2617135002608100951.subtitle}"
+			tasks: [
+				{
+					entity: "spore:busser"
+					icon: "spore:busser_spawnegg"
+					id: "70D66846E7FB54EA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "spore:scavenger"
+					icon: "spore:scavenger_spawnegg"
+					id: "6687AC5A2BB9B4F2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: true
+					id: "33DB89D2CE09912B"
+					item: "spore:wing_membrane"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest2617135002608100951.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["797E179F284E8A30"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7D77013A2D91FE27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F41BA7AD9F9E55F"
+				table_id: 8911222799544084771L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.chapter_5.quest9040696126353833511.subtitle}"
+			tasks: [{
+				advancement: "spore:inf_husk"
+				criterion: ""
+				id: "7AB9DFF863938D13"
+				title: "{ftbquests.chapter.chapter_5.quest9040696126353833511.task.8843345601234177299.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest9040696126353833511.title}"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["797E179F284E8A30"]
+			description: ["{ftbquests.chapter.chapter_5.quest4024373713373895377.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "37D97291FD121AD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55CF34B484D60ABE"
+				table_id: 2286452181159821413L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1A04DDBEF55D9983"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest4024373713373895377.title}"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["797E179F284E8A30"]
+			description: ["{ftbquests.chapter.chapter_5.quest578809063357811700.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "dyairdrop:airdropweapon"
+			id: "080857C6C6380BF4"
+			tasks: [{
+				id: "19CC2D8B639D8CEB"
+				title: "{ftbquests.chapter.chapter_5.quest578809063357811700.task.1858910822892145899.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest578809063357811700.title}"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["59A60D1FE553A38A"]
+			description: ["{ftbquests.chapter.chapter_5.quest5174208643855488072.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marbledsarsenal:black_juggernaut_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "47CE7B58F2C31448"
+			optional: true
+			rewards: [
+				{
+					id: "1CE29DFEFEC744E3"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5ED8486555C671B4"
+					table_id: 4490392531640542596L
+					type: "random"
+				}
+				{
+					id: "015DFAB2AD2F4D93"
+					item: "dyairdrop:flaregun5"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "268F958631153666"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "marbledsarsenal:olive_juggernaut_armor_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:black_juggernaut_armor_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_5.quest5174208643855488072.task.2778603898692515430.title}"
+					type: "item"
+				}
+				{
+					id: "331D58077D3431A0"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "marbledsarsenal:olive_juggernaut_armor_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:black_juggernaut_armor_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_5.quest5174208643855488072.task.3683196859447521696.title}"
+					type: "item"
+				}
+				{
+					id: "302EC72C14818AD3"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "marbledsarsenal:olive_juggernaut_armor_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:black_juggernaut_armor_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_5.quest5174208643855488072.task.3471931354885753555.title}"
+					type: "item"
+				}
+				{
+					id: "422E12DD201E6CF8"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "marbledsarsenal:olive_juggernaut_armor_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:black_juggernaut_armor_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_5.quest5174208643855488072.task.4768769796367871224.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest5174208643855488072.title}"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37D97291FD121AD1"]
+			id: "2A68977BC13F7956"
+			optional: true
+			tasks: [{
+				id: "76D7C2BDB45BD1AD"
+				item: "createbigcannons:nethersteel_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest3055858904949815638.title}"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3466B7CECC786412"]
+			description: ["{ftbquests.chapter.chapter_5.quest7130206909991838689.description1}"]
+			icon: {
+				Count: 1
+				id: "tacz:workbench_b"
+				tag: {
+					BlockId: "zeta:terminal"
+				}
+			}
+			id: "62F395683D1963E1"
+			min_required_tasks: 1
+			optional: true
+			rewards: [
+				{
+					id: "3975503CA3F84C55"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C059E5E95D66D10"
+					table_id: 8685283136233001284L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C1AE20DA23DEC09"
+					table_id: 886270737047987855L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_5.quest7130206909991838689.subtitle}"
+			tasks: [
+				{
+					id: "61DC89CC9D70F9B0"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "emxarms:emx_sf7b"
+							HasBulletInBarrel: 1b
+							HeatAmount: 0.0f
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "25C22B157786207E"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "cib:origin12db"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "31132C8FD95B3714"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "zeta:rl77"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "028C989B08C9A034"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "zeta:railgun"
+							HasBulletInBarrel: 1b
+							HeatAmount: 0.0f
+							OverHeated: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "534F0D51699E7EDC"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "zeta:gr8"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5ECCC628088E3D62"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "zeta:m206"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1063939D02F665CF"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "zeta:ultimatum"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "321287CAA55E8C15"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "zeta:gl21"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1688107AEA62D638"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "zeta:apw1"
+							HasBulletInBarrel: 0b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7D9A00A33F47A249"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "zeta:ac7"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5AB999BC73758140"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "AUTO"
+							GunId: "zeta:plas_1"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest7130206909991838689.title}"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["797E179F284E8A30"]
+			description: ["{ftbquests.chapter.chapter_5.quest6068630139890685147.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "54381AF59169D4DB"
+			optional: true
+			rewards: [
+				{
+					id: "6611A01CAED79C44"
+					type: "xp"
+					xp: 199
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B90E4453CD94A05"
+					table_id: 2169985305494019696L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B615BFD258BBEE4"
+					table_id: 8453280897702031425L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35FE122A255AB06D"
+					table_id: 3340497817625991817L
+					type: "random"
+				}
+				{
+					id: "31B6DA679EE21847"
+					item: "dyairdrop:flaregun2"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.2d
+			tasks: [
+				{
+					icon: "chipped:giant_sponge"
+					id: "3802755B83F6C652"
+					structure: "#betteroceanmonuments:better_ocean_monuments"
+					title: "{ftbquests.chapter.chapter_5.quest6068630139890685147.task.4035917251993847378.title}"
+					type: "structure"
+				}
+				{
+					id: "47E561E072A142B8"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "minecraft:elder_guardian"
+					id: "1EE62A2023721176"
+					type: "kill"
+					value: 3L
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "4467FD2C0E24CD47"
+					item: "butcher:raweldermeat"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6AEB73F6D3CC047D"
+					item: "butcher:elder_spike"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_5.quest6068630139890685147.title}"
+			x: 1.2d
+			y: -1.2d
+		}
+		{
+			dependencies: ["797E179F284E8A30"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mutantmonsters:endersoul_hand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4BC81EBFFEF6372C"
+			optional: true
+			rewards: [
+				{
+					id: "7F4A09B540EDFC40"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49A2D24F44E3D7EA"
+					table_id: 4066870063239717633L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75F188A4679B8E6D"
+					table_id: 8453280897702031425L
+					type: "random"
+				}
+				{
+					id: "5371B168D5AB6DF2"
+					item: "dyairdrop:flaregun3"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 1.2d
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: "mutantmonsters:mutant_enderman_spawn_egg"
+				id: "0F1E72C4420BFA9B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.chapter_5.quest5460648358151862060.title}"
+			x: -2.4d
+			y: -1.2d
+		}
+	]
+	title: "{ftbquests.chapter.chapter_5.title}"
+}

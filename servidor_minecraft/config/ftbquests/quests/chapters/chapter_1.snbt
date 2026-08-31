@@ -1,0 +1,1027 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: "463CB09C632FE18F"
+	icon: "minecraft:clock"
+	id: "70A6DC09C30552F0"
+	images: [
+		{
+			click: "#7CB6C41B4BBD0094"
+			dependency: "68FB898BEFE568FA"
+			height: 0.7d
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.7d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			click: "#6B53E11EF0D8D9F2"
+			dependency: "68FB898BEFE568FA"
+			height: 0.7d
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.7d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			click: "#4C44DB3B79BD698A"
+			dependency: "35D2E9AFE2F3B99D"
+			height: 0.7d
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 0.7d
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A67989CF46C597D"]
+			description: ["{ftbquests.chapter.chapter_1.quest3878419170755590557.description1}"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "simpleradio:radio"
+				tag: { }
+			}
+			id: "35D2E9AFE2F3B99D"
+			rewards: [{
+				id: "1D6F53FFAD656B39"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Central"
+						pages: [
+							"{\"translate\":\"book.pg_edition.page1\"}"
+							"{\"translate\":\"book.pg_edition.page2\"}"
+							"{\"translate\":\"book.pg_edition.page3\"}"
+							"{\"translate\":\"book.pg_edition.page4\"}"
+							"{\"translate\":\"book.pg_edition.page5\"}"
+							"{\"translate\":\"book.pg_edition.page6\"}"
+							"{\"translate\":\"book.pg_edition.page7\"}"
+						]
+						resolved: 1b
+						title: "PG 7ª edición"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.chapter_1.quest3878419170755590557.subtitle}"
+			tasks: [{
+				id: "2297BE429811EA96"
+				title: "{ftbquests.chapter.chapter_1.quest3878419170755590557.task.2492670112001288854.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_1.quest3878419170755590557.title}"
+			x: 0.0d
+			y: -0.65d
+		}
+		{
+			dependencies: ["68FB898BEFE568FA"]
+			description: ["{ftbquests.chapter.chapter_1.quest1455320972728662081.description1}"]
+			hide_until_deps_complete: true
+			icon: "minecraft:raw_copper"
+			id: "143256B6CDAAF841"
+			min_required_tasks: 2
+			rewards: [{
+				id: "16B8BAFF84E9A0C4"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.chapter_1.quest1455320972728662081.subtitle}"
+			tasks: [
+				{
+					count: 16L
+					id: "3D871796F9C9A7AA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "quark:stone_tool_materials"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_1.quest1455320972728662081.task.4433538295372818346.title}"
+					type: "item"
+				}
+				{
+					id: "3D2FFBE0D8E54C5B"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 138
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12F89F9BD67239C1"
+					item: "farmersdelight:rope"
+					type: "item"
+				}
+				{
+					id: "1FE8FB4CDD7C9C2D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ghillie_helmets"
+						}
+					}
+					title: "Any #forge:ghillie_helmets"
+					type: "item"
+				}
+				{
+					id: "012DDC6559AB8213"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ghillie_chestplates"
+						}
+					}
+					title: "Any #forge:ghillie_chestplates"
+					type: "item"
+				}
+				{
+					id: "43079B22BD1B9805"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ghillie_leggings"
+						}
+					}
+					title: "Any #forge:ghillie_leggings"
+					type: "item"
+				}
+				{
+					id: "57696EB9B5E23E55"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ghillie_boots"
+						}
+					}
+					title: "Any #forge:ghillie_boots"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_1.quest1455320972728662081.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1CE8072D97CC5F1B"]
+			description: ["{ftbquests.chapter.chapter_1.quest5541590042519600147.description1}"]
+			icon: "bunker_down:underroot"
+			id: "4CE7AEC87738FC13"
+			min_required_tasks: 1
+			rewards: [{
+				id: "75AEB8C9692976A9"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.chapter_1.quest5541590042519600147.subtitle}"
+			tasks: [
+				{
+					advancement: "bunker_down:plant_underroot"
+					criterion: ""
+					id: "4C23E5AFF9803BBA"
+					title: "{ftbquests.chapter.chapter_1.quest5541590042519600147.task.5486481315035364282.title}"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:husbandry/plant_seed"
+					criterion: ""
+					icon: "minecraft:wheat_seeds"
+					id: "19D5A573424AC1DE"
+					title: "{ftbquests.chapter.chapter_1.quest5541590042519600147.task.1861575935439585758.title}"
+					type: "advancement"
+				}
+				{
+					id: "4D1EAA52FCD4C92C"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_1.quest5541590042519600147.title}"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["143256B6CDAAF841"]
+			description: ["{ftbquests.chapter.chapter_1.quest2082922720060530459.description1}"]
+			icon: "minecraft:farmland"
+			id: "1CE8072D97CC5F1B"
+			min_required_tasks: 2
+			rewards: [{
+				id: "590EFBF0A3D001DD"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.chapter_1.quest2082922720060530459.subtitle}"
+			tasks: [
+				{
+					icon: "minecraft:farmland"
+					id: "55CD8ECC09F1C334"
+					observe_type: 0
+					timer: 0L
+					title: "{ftbquests.chapter.chapter_1.quest2082922720060530459.task.6182754870440870708.title}"
+					to_observe: "minecraft:farmland"
+					type: "observation"
+				}
+				{
+					icon: "minecraft:campfire"
+					id: "794B1E1495FF3BB1"
+					observe_type: 0
+					timer: 0L
+					title: "{ftbquests.chapter.chapter_1.quest2082922720060530459.task.8740112575607290801.title}"
+					to_observe: "minecraft:campfire"
+					type: "observation"
+				}
+				{
+					icon: "minecraft:furnace"
+					id: "43E9C27491BA54FB"
+					observe_type: 0
+					timer: 0L
+					title: "{ftbquests.chapter.chapter_1.quest2082922720060530459.task.4893656276031657211.title}"
+					to_observe: "minecraft:furnace"
+					type: "observation"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_1.quest2082922720060530459.title}"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CE7AEC87738FC13"]
+			description: ["{ftbquests.chapter.chapter_1.quest7155680729508167501.description1}"]
+			hide_until_deps_complete: true
+			icon: "create:wheat_flour"
+			id: "634E15B608713F4D"
+			optional: true
+			rewards: [{
+				id: "616C435388CE9809"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.chapter_1.quest7155680729508167501.subtitle}"
+			tasks: [
+				{
+					id: "2C53A35B2C2EA182"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "6ABF385DD4FE3938"
+					item: "create:wheat_flour"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_1.quest7155680729508167501.title}"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["634E15B608713F4D"]
+			description: ["{ftbquests.chapter.chapter_1.quest2596479289034915782.description1}"]
+			icon: "minecraft:bread"
+			id: "24088C281995BFC6"
+			optional: true
+			rewards: [
+				{
+					id: "5064FE961484FFBF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C991F6097D72FB3"
+					table_id: 6218319453381243758L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.chapter_1.quest2596479289034915782.subtitle}"
+			tasks: [
+				{
+					id: "75FD9BCEDC7B8FA1"
+					item: "createdieselgenerators:basin_lid"
+					type: "item"
+				}
+				{
+					id: "3EA8AD62B393337A"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "19C0B2F468DF979D"
+					item: "create:dough"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_1.quest2596479289034915782.title}"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3266B0AD72D9A6B6"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:raw_iron"
+			id: "432A74E7950B90FD"
+			min_required_tasks: 2
+			rewards: [
+				{
+					id: "5077834A48407EF0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "114100A27CE2634D"
+					table_id: 3833553154103734842L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.chapter_1.quest4839809287549849853.subtitle}"
+			tasks: [
+				{
+					id: "454A78D61A4F84D5"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "78283E4F4B0E2817"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:iron_tool_quest"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_1.quest4839809287549849853.task.8658238793902336023.title}"
+					type: "item"
+				}
+				{
+					id: "03618B2C3426AD17"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "biohazardchanges:iron_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:hazmat_armor_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:chemical_protective_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:armored_chemical_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "biohazardchanges:iron_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:hazmat_armor_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:chemical_protective_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:armored_chemical_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "biohazardchanges:iron_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:hazmat_armor_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:chemical_protective_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:armored_chemical_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "biohazardchanges:iron_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "marbledsarsenal:hazmat_armor_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:chemical_protective_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "lrarmor:armored_chemical_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.chapter_1.quest4839809287549849853.task.243628876824489239.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_1.quest4839809287549849853.title}"
+			x: 0.0357142857142847d
+			y: 5.696428571428566d
+		}
+		{
+			dependencies: ["143256B6CDAAF841"]
+			description: [
+				"{ftbquests.chapter.chapter_1.quest8986585727978242196.description1}"
+				""
+				"{ftbquests.chapter.chapter_1.quest8986585727978242196.description2}"
+				""
+				"{ftbquests.chapter.chapter_1.quest8986585727978242196.description3}"
+				""
+				"{ftbquests.chapter.chapter_1.quest8986585727978242196.description4}"
+				""
+				"{ftbquests.chapter.chapter_1.quest8986585727978242196.description5}"
+			]
+			icon: "minecraft:feather"
+			id: "7CB6C41B4BBD0094"
+			optional: true
+			rewards: [{
+				id: "24B5F95FCDA0F1CE"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "parcool:parcool_guide"
+					}
+				}
+				type: "item"
+			}]
+			size: 0.01d
+			tasks: [{
+				id: "39F82B881F4F3473"
+				title: "{ftbquests.chapter.chapter_1.quest8986585727978242196.task.4177136518026966131.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_1.quest8986585727978242196.title}"
+			x: -0.75d
+			y: 1.1d
+		}
+		{
+			dependencies: ["1CE8072D97CC5F1B"]
+			description: ["{ftbquests.chapter.chapter_1.quest6617463105778834353.description1}"]
+			id: "5BD5F3A246335BB1"
+			optional: true
+			rewards: [{
+				id: "3709E73765ADB2DF"
+				item: "moa_decor_science:botiquindepared"
+				type: "item"
+			}]
+			size: 0.01d
+			tasks: [{
+				id: "6B53E11EF0D8D9F2"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_1.quest6617463105778834353.title}"
+			x: -0.75d
+			y: 2.1d
+		}
+		{
+			dependencies: ["143256B6CDAAF841"]
+			description: [
+				"{ftbquests.chapter.chapter_1.quest3663261212423690351.description1}"
+				""
+				"{ftbquests.chapter.chapter_1.quest3663261212423690351.description2}"
+				""
+				"{ftbquests.chapter.chapter_1.quest3663261212423690351.description3}"
+				""
+				"{ftbquests.chapter.chapter_1.quest3663261212423690351.description4}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "archeryexp:wooden_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "32D684A9F5FB186F"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40FA887ECD91E7B1"
+				table_id: 3536612379674731304L
+				title: "{ftbquests.chapter.chapter_1.quest3663261212423690351.reward.4682204840801200049.title}"
+				type: "all_table"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50B0190FB6718E65"
+				title: "{ftbquests.chapter.chapter_1.quest3663261212423690351.task.5814174674211409509.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_1.quest3663261212423690351.title}"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			description: ["{ftbquests.chapter.chapter_1.quest8391268656927285295.description1}"]
+			icon: "ribbits:giant_lilypad"
+			id: "7473C6627705202F"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "1242D00852576076"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "461CBF0F9C9A2D4C"
+					table_id: 3833553154103734842L
+					title: "{ftbquests.chapter.chapter_1.quest8391268656927285295.reward.5052122955775618380.title}"
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74ED52C04F9C7535"
+					table_id: 2286452181159821413L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.chapter_1.quest8391268656927285295.subtitle}"
+			tasks: [{
+				icon: "ribbits:mossy_oak_door"
+				id: "7DFE9403BAB05C29"
+				structure: "ribbits:ribbit_village"
+				title: "{ftbquests.chapter.chapter_1.quest8391268656927285295.task.9078856642563431465.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.chapter_1.quest8391268656927285295.title}"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["432A74E7950B90FD"]
+			description: [
+				"{ftbquests.chapter.chapter_1.quest6455942215636389871.description1}"
+				""
+				"{ftbquests.chapter.chapter_1.quest6455942215636389871.description2}"
+				""
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:lead"
+			id: "59981D3D75748FEF"
+			optional: true
+			rewards: [{
+				id: "611C0D5A0452B3BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.chapter_1.quest6455942215636389871.subtitle}"
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/tame_an_animal"
+					criterion: ""
+					id: "41F88B7B730B9DEF"
+					type: "advancement"
+				}
+				{
+					id: "0D4B25EDE815A6B5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chests"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_1.quest6455942215636389871.task.957901049477572277.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_1.quest6455942215636389871.title}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35D2E9AFE2F3B99D"]
+			description: ["{ftbquests.chapter.chapter_1.quest5495758493790857610.description1}"]
+			hide_until_deps_complete: true
+			id: "4C44DB3B79BD698A"
+			size: 0.01d
+			tasks: [{
+				id: "6A124D8DF9CF5E44"
+				title: "{ftbquests.chapter.chapter_1.quest5495758493790857610.task.7643256789777997380.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.chapter_1.quest5495758493790857610.title}"
+			x: 0.85d
+			y: 0.75d
+		}
+		{
+			dependencies: ["4CE7AEC87738FC13"]
+			id: "3266B0AD72D9A6B6"
+			rewards: [{
+				id: "205AA0303ADB0DA8"
+				type: "xp"
+				xp: 12
+			}]
+			subtitle: "{ftbquests.chapter.chapter_1.quest3631784408523581110.subtitle}"
+			tasks: [{
+				id: "120C59C8F68FBF17"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "createdieselgenerators:wire_cutters"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "createdieselgenerators:hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.chapter_1.quest3631784408523581110.task.1300513112068177687.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.chapter_1.quest3631784408523581110.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35D2E9AFE2F3B99D"]
+			description: ["{ftbquests.chapter.chapter_1.quest7564791233217128698.description1}"]
+			icon: "projectvibrantjourneys:twigs"
+			id: "68FB898BEFE568FA"
+			rewards: [{
+				id: "55689DB98BCD0671"
+				item: "farmersdelight:straw"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 4L
+					id: "783F97594C9678BD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_1.quest7564791233217128698.task.8664810617876936893.title}"
+					type: "item"
+				}
+				{
+					id: "3E1B3A887970794B"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_1.quest7564791233217128698.title}"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["143256B6CDAAF841"]
+			description: ["{ftbquests.chapter.chapter_1.quest8974368518860852946.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "biohazardchanges:leather_ushanka"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7C8B5C9EA2264ED2"
+			optional: true
+			rewards: [
+				{
+					id: "0DB0DF472AAB17DA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "039FF6A1F8431B5E"
+					table_id: 8911222799544084771L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E8D40FB4826E563"
+					table_id: 3340497817625991817L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 0.7d
+			tasks: [
+				{
+					id: "2CFC3CC8D69B0477"
+					item: {
+						Count: 1
+						id: "biohazardchanges:leather_ushanka"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EFE9BBFFB6AA491"
+					item: {
+						Count: 1
+						id: "biohazardchanges:leather_jacket"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FA7A29E07220907"
+					item: {
+						Count: 1
+						id: "biohazardchanges:leather_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "337F204012B74A5B"
+					item: {
+						Count: 1
+						id: "biohazardchanges:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_1.quest8974368518860852946.title}"
+			x: -1.75d
+			y: 1.4d
+		}
+		{
+			dependencies: ["432A74E7950B90FD"]
+			description: ["{ftbquests.chapter.chapter_1.quest3177618727054270462.description1}"]
+			icon: {
+				Count: 1
+				id: "butcher:wolffursuit_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C192B6581B2DFFE"
+			optional: true
+			rewards: [
+				{
+					id: "4877EFBABC9CB3E6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "388C31CCF01C01DA"
+					table_id: 6409996849847170339L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [
+				{
+					id: "53D2375340958480"
+					item: {
+						Count: 1
+						id: "butcher:wolffursuit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A0CA8F9825DE332"
+					item: {
+						Count: 1
+						id: "butcher:wolffursuit_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "358C0F20DC788CE0"
+					item: {
+						Count: 1
+						id: "butcher:wolffursuit_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28ABB0EAA6297BB6"
+					item: {
+						Count: 1
+						id: "butcher:wolffursuit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_1.quest3177618727054270462.title}"
+			x: 0.03d
+			y: 6.6499999999999995d
+		}
+		{
+			dependencies: ["143256B6CDAAF841"]
+			description: ["{ftbquests.chapter.chapter_1.quest1116053727155952998.description1}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "biohazardchanges:rusted_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0F7D04F3A5619D66"
+			optional: true
+			rewards: [
+				{
+					id: "018C4BD91DF40A4A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CA794015DEEA378"
+					table_id: 3833553154103734842L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 0.7d
+			tasks: [
+				{
+					id: "1983AC9C95CE0273"
+					item: {
+						Count: 1
+						id: "biohazardchanges:rusted_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0024F1934126B8B3"
+					item: {
+						Count: 1
+						id: "biohazardchanges:rusted_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EBF74F3CEC2F394"
+					item: {
+						Count: 1
+						id: "biohazardchanges:rusted_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "109D1E16A9E2DFC1"
+					item: {
+						Count: 1
+						id: "biohazardchanges:rusted_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_1.quest1116053727155952998.title}"
+			x: 1.75d
+			y: 1.4d
+		}
+	]
+	title: "{ftbquests.chapter.chapter_1.title}"
+}

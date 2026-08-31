@@ -1,0 +1,11 @@
+{
+  "tacz:modern_kinetic_gun": [
+    {
+      "xLocation": 0.0,
+      "requiredNbt": "{GunId:\"tacz:vector45\"}",
+      "zLocation": -0.4,
+      "layingRotation": 90.0,
+      "yLocation": 0.0
+    }
+  ]
+}

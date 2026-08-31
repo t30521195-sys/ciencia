@@ -1,0 +1,40 @@
+{
+	icon: {
+		Count: 1
+		id: "archeryexp:gold_bow"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "31149238B6C2E328"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "archeryexp:wooden_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 24, item: "archers_paradox:training_arrow" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						SelectedSlot: 0
+						Size: 6
+					}
+				}
+				id: "supplementaries:quiver"
+				tag: { }
+			}
+		}
+	]
+	title: "{ftbquests.loot_table.3536612379674731304.title}"
+	use_title: true
+}

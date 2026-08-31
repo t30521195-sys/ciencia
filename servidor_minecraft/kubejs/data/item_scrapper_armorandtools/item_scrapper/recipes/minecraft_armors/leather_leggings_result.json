@@ -1,0 +1,13 @@
+{
+  "minecraft:leather_leggings": [
+    {
+      "explosionPower": 0.0,
+      "requiredHits": 1.2,
+      "explosionChance": 0.0,
+      "useDurabilityMultiplier": true,
+      "lootable": {
+        "lootTable": "biohazard_scrapper:scrapper/vanilla_leather_leggings"
+      }
+    }
+  ]
+}

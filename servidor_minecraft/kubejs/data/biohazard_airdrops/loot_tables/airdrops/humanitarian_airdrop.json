@@ -1,0 +1,148 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cure:vaccine"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "radioactive:radx_basic"
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "majruszsdifficulty:bandage",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "type": "uniform",
+                                "min": 4,
+                                "max": 7
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "majruszsdifficulty:golden_bandage"
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "radioactive:radaway_basic",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "radioactive:radaway_advanced",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "radioactive:radaway_ultimate",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "canned_goods:canned_apples",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "type": "uniform",
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "canned_goods:canned_fish",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "type": "uniform",
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "canned_goods:canned_baked_potato",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "type": "uniform",
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

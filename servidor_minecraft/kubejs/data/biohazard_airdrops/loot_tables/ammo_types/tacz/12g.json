@@ -1,0 +1,152 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"tacz:db_long\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"tacz:db_short\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"suffuse:spas12\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"tacz:m870\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"cib:686\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"cib:nova\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"tacz:m1014\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunId:\"tacz:spas_12\"}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GunFireMode:\"SEMI\"}"
+                        }
+                    ],
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AmmoId:\"tacz:12g\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ],
+                    "name": "tacz:ammo"
+                }
+            ]
+        }
+    ]
+}

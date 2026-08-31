@@ -1,0 +1,55 @@
+{
+  "armorSetName": "hide_butcher_armor",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "butcher:wolffursuit_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "butcher:wolffursuit_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "butcher:wolffursuit_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "butcher:wolffursuit_boots",
+    "mustBeEmpty": false
+  },
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+  "Wrapped in furs and pelts,",
+  "you are resistant to the cold,",
+  "and also very comfortable, regenerating faster."
+],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cofh_core:cold_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 80,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "farmersdelight:comfort",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 80,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "majruszsdifficulty:bleeding_immunity",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 80,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ]
+}

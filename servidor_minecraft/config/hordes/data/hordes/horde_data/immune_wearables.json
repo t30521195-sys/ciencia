@@ -1,0 +1,590 @@
+[
+    {
+        "item": "marbledsarsenal:acacia_ghillie_boots",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:acacia_ghillie_chestplate",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:acacia_ghillie_helmet",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:acacia_ghillie_leggings",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:azalea_ghillie_boots",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:azalea_ghillie_chestplate",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:azalea_ghillie_helmet",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:azalea_ghillie_leggings",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:birch_ghillie_boots",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:birch_ghillie_chestplate",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:birch_ghillie_helmet",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:birch_ghillie_leggings",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:cherry_ghillie_boots",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:cherry_ghillie_chestplate",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:cherry_ghillie_helmet",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:cherry_ghillie_leggings",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:dark_oak_ghillie_boots",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:dark_oak_ghillie_chestplate",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:dark_oak_ghillie_helmet",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:dark_oak_ghillie_leggings",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:jungle_ghillie_boots",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:jungle_ghillie_chestplate",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:jungle_ghillie_helmet",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:jungle_ghillie_leggings",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:mangrove_ghillie_boots",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:mangrove_ghillie_chestplate",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:mangrove_ghillie_helmet",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:mangrove_ghillie_leggings",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:oak_ghillie_boots",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:oak_ghillie_chestplate",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:oak_ghillie_helmet",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:oak_ghillie_leggings",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:spruce_ghillie_boots",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:spruce_ghillie_chestplate",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:spruce_ghillie_helmet",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:spruce_ghillie_leggings",
+        "multiplier": 0.78
+    },
+    {
+        "item": "marbledsarsenal:hazmat_armor_boots",
+        "multiplier": 0.77
+    },
+    {
+        "item": "marbledsarsenal:hazmat_armor_chestplate",
+        "multiplier": 0.74
+    },
+    {
+        "item": "marbledsarsenal:hazmat_armor_helmet",
+        "multiplier": 0.67
+    },
+    {
+        "item": "marbledsarsenal:hazmat_armor_leggings",
+        "multiplier": 0.76
+    },
+    {
+        "item": "marbledsarsenal:swat_armor_boots",
+        "multiplier": 0.71
+    },
+    {
+        "item": "marbledsarsenal:swat_armor_chestplate",
+        "multiplier": 0.7
+    },
+    {
+        "item": "marbledsarsenal:swat_armor_helmet",
+        "multiplier": 0.67
+    },
+    {
+        "item": "marbledsarsenal:swat_armor_leggings",
+        "multiplier": 0.7
+    },
+    {
+        "item": "marbledsarsenal:riot_armor_boots",
+        "multiplier": 0.71
+    },
+    {
+        "item": "marbledsarsenal:riot_armor_chestplate",
+        "multiplier": 0.7
+    },
+    {
+        "item": "marbledsarsenal:riot_armor_helmet",
+        "multiplier": 0.65
+    },
+    {
+        "item": "marbledsarsenal:riot_armor_leggings",
+        "multiplier": 0.7
+    },
+    {
+        "item": "marbledsarsenal:winter_military_armor_boots",
+        "multiplier": 0.71
+    },
+    {
+        "item": "marbledsarsenal:winter_military_armor_chestplate",
+        "multiplier": 0.7
+    },
+    {
+        "item": "marbledsarsenal:winter_military_armor_helmet",
+        "multiplier": 0.71
+    },
+    {
+        "item": "marbledsarsenal:winter_military_armor_leggings",
+        "multiplier": 0.7
+    },
+    {
+        "item": "marbledsarsenal:olive_juggernaut_armor_boots",
+        "multiplier": 0.38
+    },
+    {
+        "item": "marbledsarsenal:olive_juggernaut_armor_chestplate",
+        "multiplier": 0.24
+    },
+    {
+        "item": "marbledsarsenal:olive_juggernaut_armor_helmet",
+        "multiplier": 0.37
+    },
+    {
+        "item": "marbledsarsenal:olive_juggernaut_armor_leggings",
+        "multiplier": 0.26
+    },
+    {
+        "item": "marbledsarsenal:black_juggernaut_armor_boots",
+        "multiplier": 0.38
+    },
+    {
+        "item": "marbledsarsenal:black_juggernaut_armor_chestplate",
+        "multiplier": 0.24
+    },
+    {
+        "item": "marbledsarsenal:black_juggernaut_armor_helmet",
+        "multiplier": 0.37
+    },
+    {
+        "item": "marbledsarsenal:black_juggernaut_armor_leggings",
+        "multiplier": 0.26
+    },
+    {
+        "item": "marbledsarsenal:black_gp5_gas_mask",
+        "multiplier": 0.68
+    },
+    {
+        "item": "marbledsarsenal:white_gp5_gas_mask",
+        "multiplier": 0.68
+    },
+    {
+        "item": "marbledsarsenal:cm6m_gas_mask",
+        "multiplier": 0.7
+    },
+    {
+        "item": "marbledsarsenal:helmet_cm6m_gas_mask",
+        "multiplier": 0.7
+    },
+    {
+        "item": "marbledsarsenal:un_helmet_cm6m_gas_mask",
+        "multiplier": 0.68
+    },
+    {
+        "item": "marbledsarsenal:olive_helmet_cm6m_gas_mask",
+        "multiplier": 0.68
+    },
+    {
+        "item": "marbledsarsenal:medical_helmet_cm6m_gas_mask",
+        "multiplier": 0.68
+    },
+    {
+        "item": "marbledsarsenal:medical_un_helmet_cm6m_gas_mask",
+        "multiplier": 0.68
+    },
+    {
+        "item": "marbledsarsenal:medical_olive_helmet_cm6m_gas_mask",
+        "multiplier": 0.68
+    },
+    {
+        "item": "marbledsarsenal:cm7m_gas_mask",
+        "multiplier": 0.64
+    },
+    {
+        "item": "marbledsarsenal:helmet_cm7m_gas_mask",
+        "multiplier": 0.64
+    },
+    {
+        "item": "marbledsarsenal:un_helmet_cm7m_gas_mask",
+        "multiplier": 0.64
+    },
+    {
+        "item": "marbledsarsenal:olive_helmet_cm7m_gas_mask",
+        "multiplier": 0.64
+    },
+    {
+        "item": "marbledsarsenal:medical_helmet_cm7m_gas_mask",
+        "multiplier": 0.64
+    },
+    {
+        "item": "marbledsarsenal:medical_un_helmet_cm7m_gas_mask",
+        "multiplier": 0.64
+    },
+    {
+        "item": "marbledsarsenal:medical_olive_helmet_cm7m_gas_mask",
+        "multiplier": 0.64
+    },
+    {
+        "item": "marbledsarsenal:cm8m_gas_mask",
+        "multiplier": 0.6
+    },
+    {
+        "item": "marbledsarsenal:helmet_cm8m_gas_mask",
+        "multiplier": 0.6
+    },
+    {
+        "item": "marbledsarsenal:un_helmet_cm8m_gas_mask",
+        "multiplier": 0.6
+    },
+    {
+        "item": "marbledsarsenal:olive_helmet_cm8m_gas_mask",
+        "multiplier": 0.6
+    },
+    {
+        "item": "marbledsarsenal:medical_helmet_cm8m_gas_mask",
+        "multiplier": 0.6
+    },
+    {
+        "item": "marbledsarsenal:medical_un_helmet_cm8m_gas_mask",
+        "multiplier": 0.6
+    },
+    {
+        "item": "marbledsarsenal:medical_olive_helmet_cm8m_gas_mask",
+        "multiplier": 0.6
+    },
+    {
+        "item": "marbledsarsenal:combat_helmet",
+        "multiplier": 0.76
+    },
+    {
+        "item": "marbledsarsenal:un_combat_helmet",
+        "multiplier": 0.76
+    },
+    {
+        "item": "marbledsarsenal:olive_combat_helmet",
+        "multiplier": 0.76
+    },
+    {
+        "item": "marbledsarsenal:medical_combat_helmet",
+        "multiplier": 0.76
+    },
+    {
+        "item": "marbledsarsenal:medical_un_combat_helmet",
+        "multiplier": 0.76
+    },
+    {
+        "item": "marbledsarsenal:medical_olive_combat_helmet",
+        "multiplier": 0.76
+    },
+    {
+        "item": "marbledsarsenal:desert_military_armor_boots",
+        "multiplier": 0.71
+    },
+    {
+        "item": "marbledsarsenal:desert_military_armor_leggings",
+        "multiplier": 0.7
+    },
+    {
+        "item": "marbledsarsenal:desert_military_armor_chestplate",
+        "multiplier": 0.7
+    },
+    {
+        "item": "marbledsarsenal:desert_military_armor_helmet",
+        "multiplier": 0.71
+    },
+    {
+        "item": "marbledsarsenal:black_plate_carrier_t1",
+        "multiplier": 0.68
+    },
+    {
+        "item": "marbledsarsenal:black_plate_carrier_t2",
+        "multiplier": 0.64
+    },
+    {
+        "item": "marbledsarsenal:black_plate_carrier_t3",
+        "multiplier": 0.6
+    },
+    {
+        "item": "marbledsarsenal:olive_plate_carrier_t1",
+        "multiplier": 0.68
+    },
+    {
+        "item": "marbledsarsenal:olive_plate_carrier_t2",
+        "multiplier": 0.64
+    },
+    {
+        "item": "marbledsarsenal:olive_plate_carrier_t3",
+        "multiplier": 0.6
+    },
+    {
+        "item": "spore:inf_helmet",
+        "multiplier": 0.5
+    },
+    {
+        "item": "spore:inf_chest",
+        "multiplier": 0.68
+    },
+    {
+        "item": "spore:inf_pants",
+        "multiplier": 0.57
+    },
+    {
+        "item": "spore:inf_boots",
+        "multiplier": 0.57
+    },
+    {
+        "item": "spore:inf_up_helmet",
+        "multiplier": 0.4
+    },
+    {
+        "item": "spore:inf_up_chest",
+        "multiplier": 0.58
+    },
+    {
+        "item": "spore:inf_up_pants",
+        "multiplier": 0.47
+    },
+    {
+        "item": "spore:inf_up_boots",
+        "multiplier": 0.47
+    },
+    {
+        "item": "lrarmor:medical_helmet",
+        "multiplier": 0.45
+    },
+    {
+        "item": "lrarmor:medical_chestplate",
+        "multiplier": 0.45
+    },
+    {
+        "item": "lrarmor:medical_leggings",
+        "multiplier": 0.65
+    },
+    {
+        "item": "lrarmor:medical_boots",
+        "multiplier": 0.7
+    },
+    {
+        "item": "lrarmor:defender_helmet",
+        "multiplier": 0.65
+    },
+    {
+        "item": "lrarmor:defender_chestplate",
+        "multiplier": 0.61
+    },
+    {
+        "item": "lrarmor:defender_leggings",
+        "multiplier": 0.68
+    },
+    {
+        "item": "lrarmor:defender_boots",
+        "multiplier": 0.78
+    },
+    {
+        "item": "lrarmor:chemical_protective_helmet",
+        "multiplier": 0.62
+    },
+    {
+        "item": "lrarmor:chemical_protective_chestplate",
+        "multiplier": 0.68
+    },
+    {
+        "item": "lrarmor:chemical_protective_leggings",
+        "multiplier": 0.7
+    },
+    {
+        "item": "lrarmor:chemical_protective_boots",
+        "multiplier": 0.77
+    },
+    {
+        "item": "lrarmor:armored_chemical_helmet",
+        "multiplier": 0.66
+    },
+    {
+        "item": "lrarmor:armored_chemical_chestplate",
+        "multiplier": 0.68
+    },
+    {
+        "item": "lrarmor:armored_chemical_leggings",
+        "multiplier": 0.7
+    },
+    {
+        "item": "lrarmor:armored_chemical_boots",
+        "multiplier": 0.77
+    },
+    {
+        "item": "lrarmor:attacker_helmet",
+        "multiplier": 0.76
+    },
+    {
+        "item": "lrarmor:attacker_chestplate",
+        "multiplier": 0.67
+    },
+    {
+        "item": "lrarmor:attacker_leggings",
+        "multiplier": 0.69
+    },
+    {
+        "item": "lrarmor:attacker_boots",
+        "multiplier": 0.77
+    },
+    {
+        "item": "lrarmor:sniper_helmet",
+        "multiplier": 0.67
+    },
+    {
+        "item": "lrarmor:sniper_chestplate",
+        "multiplier": 0.69
+    },
+    {
+        "item": "lrarmor:sniper_leggings",
+        "multiplier": 0.79
+    },
+    {
+        "item": "lrarmor:sniper_boots",
+        "multiplier": 0.79
+    },
+    {
+        "item": "lrarmor:scout_helmet",
+        "multiplier": 0.8
+    },
+    {
+        "item": "lrarmor:scout_chestplate",
+        "multiplier": 0.7
+    },
+    {
+        "item": "lrarmor:scout_leggings",
+        "multiplier": 0.79
+    },
+    {
+        "item": "lrarmor:scout_boots",
+        "multiplier": 0.79
+    },
+    {
+        "item": "biohazardchanges:leather_ushanka",
+        "multiplier": 0.77
+    },
+    {
+        "item": "biohazardchanges:leather_jacket",
+        "multiplier": 0.74
+    },
+    {
+        "item": "biohazardchanges:leather_pants",
+        "multiplier": 0.74
+    },
+    {
+        "item": "biohazardchanges:leather_boots",
+        "multiplier": 0.77
+    },
+    {
+        "item": "biohazardchanges:rusted_helmet",
+        "multiplier": 0.85
+    },
+    {
+        "item": "biohazardchanges:rusted_chestplate",
+        "multiplier": 0.95
+    },
+    {
+        "item": "biohazardchanges:rusted_leggings",
+        "multiplier": 0.9
+    },
+    {
+        "item": "biohazardchanges:rusted_boots",
+        "multiplier": 0.85
+    },
+    {
+        "item": "biohazardchanges:iron_helmet",
+        "multiplier": 0.8
+    },
+    {
+        "item": "biohazardchanges:iron_chestplate",
+        "multiplier": 0.9
+    },
+    {
+        "item": "biohazardchanges:iron_leggings",
+        "multiplier": 0.8
+    },
+    {
+        "item": "biohazardchanges:iron_boots",
+        "multiplier": 0.8
+    }
+]

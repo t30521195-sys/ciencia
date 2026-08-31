@@ -1,0 +1,9 @@
+{
+  "rainLookupMinTickRange": 120,
+  "rainLookupMaxTickRange": 1200,
+  "requirePrecipitationBiome": true,
+  "detectionMode": "RAYCAST",
+  "skyLightThreshold": 15,
+  "requiredOpenNeighboursToExtinguish": 3,
+  "neighbourCheckRadius": 1
+}

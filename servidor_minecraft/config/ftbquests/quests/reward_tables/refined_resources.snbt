@@ -1,0 +1,17 @@
+{
+	icon: "minecraft:chest"
+	id: "4FB2BA27ED8976F5"
+	loot_size: 2
+	order_index: 10
+	rewards: [
+		{ count: 4, item: "minecraft:blaze_rod", random_bonus: 2 }
+		{ count: 24, item: "minecraft:gold_ingot", random_bonus: 8, weight: 1.5f }
+		{ count: 12, item: "minecraft:quartz", random_bonus: 6, weight: 1.5f }
+		{ count: 3, item: "create:brass_ingot", random_bonus: 1 }
+		{ count: 12, item: "marbledsapi:steel_ingot", random_bonus: 4, weight: 1.5f }
+		{ count: 4, item: "create:sturdy_sheet", random_bonus: 2, weight: 0.5f }
+		{ count: 2, item: "skys_overworld_netherite:large_ancient_shard", random_bonus: 2 }
+	]
+	title: "{ftbquests.loot_table.5742857155502503669.title}"
+	use_title: true
+}
